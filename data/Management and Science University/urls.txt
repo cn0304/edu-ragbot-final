@@ -1,0 +1,98 @@
+         <div class="tab-content">
+                <div class="tab-pane container active" id="postgraduate2">
+                    <div class="row">
+<div class='col-md-6'>
+				<!-- Basic tabs -->
+
+
+
+							<div class="card-body">
+								<ul class="nav nav-tabs">
+									<li class="nav-item"><a href="#basic-tab1" class="nav-link active" data-toggle="tab">
+										A</a></li>
+
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="basic-tab1">
+										<a href='https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-accountancy.php' style='color: #2c3e50' >Accountancy - Bachelor (Honours)</a><br/><a href='https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-accounting.php' style='color: #2c3e50' >Accounting - Diploma</a><br/><a href='https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-in-accounting-and-finance' style='color: #2c3e50' >Accounting and Finance - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-aircraft-maintenance-technology.php' style='color: #2c3e50' >Aircraft Maintenance Technology - Diploma </a><br/><a href='https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-airline-services-management' style='color: #2c3e50' >Airline Services Management - Bachelor</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-science-aviation-management-piloting.php' style='color: #2c3e50' >Aviation Management and Piloting - Bachelor (Hons) </a><br/>
+
+									</div>
+
+
+								</div>
+							</div>
+
+				<!-- /basic tabs -->
+
+</div><div class='col-md-6'>
+				<!-- Basic tabs -->
+
+
+
+							<div class="card-body">
+								<ul class="nav nav-tabs">
+									<li class="nav-item"><a href="#basic-tab1" class="nav-link active" data-toggle="tab">
+										B</a></li>
+
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="basic-tab1">
+										<a href='https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-beauty-hair-management.php' style='color: #2c3e50' >Beauty and Hair Management -Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/school-hospitality-creative-arts/diploma-beauty-management.php' style='color: #2c3e50' >Beauty Management - Diploma</a><br/><a href='https://www.msu.edu.my/faculty-health-life-sciences/bachelor-bioinformatics.php' style='color: #2c3e50' >Bioinformatics - Bachelor (Honours)</a><br/><a href='https://www.msu.edu.my/faculty-health-life-sciences/bachelor-biomedical-science.php' style='color: #2c3e50' >Biomedical Science - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-health-life-sciences/bachelor-biomedical-science-odl' style='color: #2c3e50' >Biomedical Science - Bachelor (Hons) - ODL</a><br/><a href='https://www.msu.edu.my/school-education-social-sciences/bachelor-broadcasting ' style='color: #2c3e50' >Broadcasting - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-business-computing.php' style='color: #2c3e50' >Business Computing - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-business-management-professional-studies/foundation-business.php' style='color: #2c3e50' >Business Foundation</a><br/>
+
+									</div>
+
+
+								</div>
+							</div>
+
+				<!-- /basic tabs -->
+
+</div><div class='col-md-6'>
+				<!-- Basic tabs -->
+
+
+
+							<div class="card-body">
+								<ul class="nav nav-tabs">
+									<li class="nav-item"><a href="#basic-tab1" class="nav-link active" data-toggle="tab">
+										C</a></li>
+
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="basic-tab1">
+										<a href='https://www.msu.edu.my/faculty-health-life-sciences/bachelor-cardiovascular-technology.php' style='color: #2c3e50' >Cardiovascular Technology - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-computer-engineering.php' style='color: #2c3e50' >Computer Engineering - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-computer-engineering.php' style='color: #2c3e50' >Computer Engineering - Diploma</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-computer-forensic.php' style='color: #2c3e50' >Computer Forensic - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-computer-forensic.php' style='color: #2c3e50' >Computer Forensic - Diploma </a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-computer-science.php' style='color: #2c3e50' >Computer Science - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-information-technology-mobile-wireless.php' style='color: #2c3e50' >Computer Science - Diploma</a><br/><a href='https://www.msu.edu.my/school-education-social-sciences/bachelor-counselling-guidance.php' style='color: #2c3e50' >Counselling and Guidance - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/school-education-social-sciences/diploma-counselling-guidance.php' style='color: #2c3e50' >Counselling and Guidance - Diploma</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-creative-multimedia.php' style='color: #2c3e50' >Creative Mutimedia - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-creative-video-photography.php' style='color: #2c3e50' >Creative Video and Photography - Bachelor (Hons)</a><br/><a href='https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-creative-visual.php' style='color: #2c3e50' >Creative Visual - Diploma</a><br/><a href='https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-culinary-arts.php' style='color: #2c3e50' >Culinary Arts - Bachelor (Honours)</a><br/><a href='https://www.msu.edu.my/school-hospitality-creative-arts/diploma-culinary-arts.php' style='color: #2c3e50' >Culinary Arts - Diploma</a><br/><a href='https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-culinary-management' style='color: #2c3e50' >Culinary Management - Bachelor (Honours)</a><br/>
+
+									</div>
+
+
+								</div>
+							</div>
+
+				<!-- /basic tabs -->
+
+</div><div class='col-md-6'>
+				<!-- Basic tabs -->
+
+
+
+							<div class="card-body">
+								<ul class="nav nav-tabs">
+									<li class="nav-item"><a href="#basic-tab1" class="nav-link active" data-toggle="tab">
+										D</a></li>
+
+								</ul>
+
+								<div class="tab-content">
+									<div class="tab-pane fade show active" id="basic-tab1">
+										<a href='https://www.msu.edu.my/school-of-dentistry/bachelor-in-dental-surgery' style='color: #2c3e50' >Dental Surgery - Bachelor</a><br/>
+
+									</div>
+
+
+								</div>
+							</div>
+
+				<!-- /basic tabs -->

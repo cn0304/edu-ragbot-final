@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+venv/
+.DS_Store
+vector_db/
+.metrics/
+metrics/benchmark.json
+.env
+chroma

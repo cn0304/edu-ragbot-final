@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAG Monitoring Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body { 
+      font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+      background: #f8fafc; 
+      color: #0f172a; 
+      line-height: 1.6;
+    }
+
+    header { 
+      padding: 20px 32px; 
+      background: white; 
+      border-bottom: 2px solid #e2e8f0; 
+      display: flex; 
+      align-items: center; 
+      justify-content: space-between;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    h1 { 
+      font-size: 24px; 
+      font-weight: 700; 
+      color: #1e293b;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    h1::before {
+      content: "📊";
+      font-size: 28px;
+    }
+
+    .header-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      background: #f0fdf4;
+      border: 1px solid #86efac;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #15803d;
+    }
+
+    .status-badge::before {
+      content: "●";
+      font-size: 12px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    .timestamp { 
+      color: #64748b; 
+      font-size: 13px;
+    }
+
+    .container { 
+      padding: 32px; 
+      max-width: 1600px; 
+      margin: 0 auto; 
+    }
+
+    .grid { 
+      display: grid; 
+      grid-template-columns: repeat(12, 1fr); 
+      gap: 24px; 
+    }
+
+    .card { 
+      background: white; 
+      border: 1px solid #e2e8f0; 
+      border-radius: 12px; 
+      padding: 24px; 
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    }
+
+    .card h3 { 
+      font-size: 16px; 
+      font-weight: 600; 
+      color: #1e293b; 
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .col-3 { grid-column: span 3; }
+    .col-4 { grid-column: span 4; }
+    .col-5 { grid-column: span 5; }
+    .col-6 { grid-column: span 6; }
+    .col-7 { grid-column: span 7; }
+    .col-8 { grid-column: span 8; }
+    .col-9 { grid-column: span 9; }
+    .col-12 { grid-column: span 12; }
+
+    /* Vector DB Stats */
+    .stat-box {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 24px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-size: 48px;
+      font-weight: 700;
+      margin: 8px 0;
+    }
+
+    .stat-label {
+      font-size: 14px;
+      opacity: 0.9;
+      font-weight: 500;
+    }
+
+    /* Table Styles */
+    .table-container {
+      overflow-x: auto;
+      margin: -8px;
+      padding: 8px;
+    }
+
+    table { 
+      width: 100%; 
+      border-collapse: collapse; 
+      font-size: 14px;
+    }
+
+    th, td { 
+      padding: 12px 16px; 
+      text-align: left; 
+      border-bottom: 1px solid #f1f5f9;
+    }
+
+    th { 
+      background: #f8fafc;
+      color: #475569; 
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background: #f8fafc;
+    }
+
+    .good { 
+      color: #16a34a; 
+      font-weight: 600;
+    }
+
+    .bad { 
+      color: #dc2626; 
+      font-weight: 600;
+    }
+
+    /* Chart Container with Fixed Height */
+    .chart-container {
+      position: relative;
+      height: 400px;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    .chart-wrapper {
+      min-height: 400px;
+      padding-right: 8px;
+    }
+
+    /* Scrollbar Styling */
+    .chart-container::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .chart-container::-webkit-scrollbar-track {
+      background: #f1f5f9;
+      border-radius: 4px;
+    }
+
+    .chart-container::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+
+    .chart-container::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+
+    /* Scalability Stats Grid */
+    .scalability-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .stat-item {
+      background: #f8fafc;
+      padding: 16px;
+      border-radius: 8px;
+      border-left: 4px solid #3b82f6;
+    }
+
+    .stat-item-label {
+      font-size: 12px;
+      color: #64748b;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .stat-item-value {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    /* Chart Canvas */
+    canvas {
+      max-width: 100%;
+    }
+
+    /* Loading State */
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    .loading::before {
+      content: "⏳";
+      margin-right: 8px;
+      font-size: 20px;
+    }
+
+    /* Empty State */
+    .empty-state {
+      text-align: center;
+      padding: 40px;
+      color: #94a3b8;
+    }
+
+    .empty-state-icon {
+      font-size: 48px;
+      margin-bottom: 12px;
+    }
+
+    /* Responsive */
+    @media (max-width: 1200px) {
+      .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 { 
+        grid-column: span 12; 
+      }
+
+      .scalability-stats {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 16px;
+      }
+
+      header {
+        padding: 16px;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .header-meta {
+        align-items: flex-start;
+      }
+
+      .scalability-stats {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RAG Monitoring Dashboard</h1>
+    <div class="header-meta">
+      <div class="status-badge">System Online</div>
+      <div id="meta" class="timestamp">Loading...</div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+      <!-- Vector DB Stats -->
+      <div class="card col-3">
+        <h3>🗄️ Vector Database</h3>
+        <div id="vector-db" class="loading">Loading...</div>
+      </div>
+
+      <!-- Data Sources Table -->
+      <div class="card col-9">
+        <h3>🏫 Data Sources Status</h3>
+        <div class="table-container">
+          <table id="sources-table">
+            <thead>
+              <tr>
+                <th>College</th>
+                <th>Input Files</th>
+                <th>Output Documents</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td colspan="3" class="loading">Loading...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Per-Query Accuracy -->
+      <div class="card col-6">
+        <h3>🎯 Per-Query Accuracy</h3>
+        <div class="chart-container">
+          <div class="chart-wrapper">
+            <canvas id="accuracyChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Per-Query Latency -->
+      <div class="card col-6">
+        <h3>⚡ Per-Query Latency</h3>
+        <div class="chart-container">
+          <div class="chart-wrapper">
+            <canvas id="latencyChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scalability - Full Width -->
+      <div class="card col-12">
+        <h3>📈 Scalability (Concurrency vs Latency)</h3>
+        <div class="scalability-stats" id="scalability-stats">
+          <div class="loading">Loading...</div>
+        </div>
+        <div style="height: 300px;">
+          <canvas id="scalabilityChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    // Chart.js default colors for white theme
+    Chart.defaults.color = '#64748b';
+    Chart.defaults.borderColor = '#e2e8f0';
+
+    async function fetchMetrics() {
+      const res = await fetch('/api/metrics');
+      return res.json();
+    }
+
+    function boolBadge(v) { 
+      return v 
+        ? '<span class="good">✓</span>' 
+        : '<span class="bad">✗</span>'; 
+    }
+
+    function renderSystem(system) {
+      const ts = new Date(system.timestamp * 1000).toLocaleString();
+      document.getElementById('meta').textContent = `Last updated: ${ts}`;
+      
+      const docCount = system.vector_db?.documents || 0;
+      document.getElementById('vector-db').innerHTML = `
+        <div class="stat-box">
+          <div class="stat-label">Total Documents</div>
+          <div class="stat-number">${docCount.toLocaleString()}</div>
+        </div>
+      `;
+
+      const tbody = document.querySelector('#sources-table tbody');
+      tbody.innerHTML = '';
+      
+      const sources = system.data_sources || [];
+      if (sources.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="3" class="empty-state"><div class="empty-state-icon">📭</div><div>No data sources found</div></td></tr>';
+        return;
+      }
+
+      for (const c of sources) {
+        const inputs = c.inputs || {};
+        const outputs = c.outputs || {};
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td><strong>${c.name}</strong></td>
+          <td>
+            <span style="margin-right: 12px;">input.txt ${boolBadge(inputs['input.txt'])}</span>
+            <span>pdfs/ ${boolBadge(inputs['pdfs_dir'])}</span>
+          </td>
+          <td>
+            <span style="margin-right: 8px;">Courses.md ${boolBadge(outputs['Courses.md'])}</span>
+            <span style="margin-right: 8px;">Scholarship.md ${boolBadge(outputs['Scholarship.md'])}</span>
+            <span style="margin-right: 8px;">How to apply.md ${boolBadge(outputs['How to apply.md'])}</span>
+            <span>Our Campus.md ${boolBadge(outputs['Our Campus.md'])}</span>
+          </td>
+        `;
+        tbody.appendChild(row);
+      }
+    }
+
+    function renderBenchmark(benchmark) {
+      const per = benchmark.per_query || [];
+      
+      if (per.length === 0) {
+        document.querySelector('.chart-container').innerHTML = '<div class="empty-state"><div class="empty-state-icon">📊</div><div>No benchmark data available</div></div>';
+        return;
+      }
+
+      const labels = per.map(p => p.query.length > 40 ? p.query.substring(0, 40) + '...' : p.query);
+      const acc = per.map(p => p.accuracy);
+      const lat = per.map(p => Number(p.latency_sec.toFixed(3)));
+
+      // Calculate dynamic height based on number of queries
+      const barHeight = 40; // pixels per bar
+      const minHeight = 400;
+      const dynamicHeight = Math.max(minHeight, per.length * barHeight);
+
+      // Set canvas height dynamically
+      const accCanvas = document.getElementById('accuracyChart');
+      accCanvas.style.height = `${dynamicHeight}px`;
+      
+      const latCanvas = document.getElementById('latencyChart');
+      latCanvas.style.height = `${dynamicHeight}px`;
+
+      // Accuracy Chart (Horizontal Bar)
+      new Chart(accCanvas, {
+        type: 'bar',
+        data: { 
+          labels, 
+          datasets: [{ 
+            label: 'Accuracy', 
+            data: acc, 
+            backgroundColor: '#10b981',
+            borderRadius: 6,
+            barThickness: 24
+          }] 
+        },
+        options: { 
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: '#1e293b',
+              padding: 12,
+              titleColor: '#f1f5f9',
+              bodyColor: '#f1f5f9',
+              borderColor: '#334155',
+              borderWidth: 1
+            }
+          },
+          scales: { 
+            x: { 
+              min: 0, 
+              max: 1,
+              grid: { color: '#f1f5f9' },
+              ticks: { color: '#64748b' }
+            },
+            y: {
+              grid: { display: false },
+              ticks: { color: '#475569', font: { size: 11 } }
+            }
+          }
+        }
+      });
+
+      // Latency Chart (Horizontal Bar)
+      new Chart(latCanvas, {
+        type: 'bar',
+        data: { 
+          labels, 
+          datasets: [{ 
+            label: 'Latency (s)', 
+            data: lat, 
+            backgroundColor: '#3b82f6',
+            borderRadius: 6,
+            barThickness: 24
+          }] 
+        },
+        options: { 
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: '#1e293b',
+              padding: 12,
+              titleColor: '#f1f5f9',
+              bodyColor: '#f1f5f9',
+              borderColor: '#334155',
+              borderWidth: 1
+            }
+          },
+          scales: {
+            x: {
+              beginAtZero: true,
+              grid: { color: '#f1f5f9' },
+              ticks: { color: '#64748b' }
+            },
+            y: {
+              grid: { display: false },
+              ticks: { color: '#475569', font: { size: 11 } }
+            }
+          }
+        }
+      });
+
+      // Scalability Stats and Chart
+      const scal = benchmark.scalability || {};
+      const statsContainer = document.getElementById('scalability-stats');
+      statsContainer.innerHTML = `
+        <div class="stat-item">
+          <div class="stat-item-label">Concurrency</div>
+          <div class="stat-item-value">${scal.concurrency || '-'}</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item-label">Avg Latency</div>
+          <div class="stat-item-value">${Number((scal.avg_latency_sec || 0).toFixed(3))}s</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item-label">P95 Latency</div>
+          <div class="stat-item-value">${Number((scal.p95_latency_sec || 0).toFixed(3))}s</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item-label">Min / Max</div>
+          <div class="stat-item-value">${Number((scal.min_latency_sec || 0).toFixed(3))}s / ${Number((scal.max_latency_sec || 0).toFixed(3))}s</div>
+        </div>
+      `;
+
+      // Scalability Chart (Vertical Bar for better width utilization)
+      const scalCtx = document.getElementById('scalabilityChart');
+      new Chart(scalCtx, {
+        type: 'bar',
+        data: {
+          labels: ['Average', 'P95', 'Minimum', 'Maximum'],
+          datasets: [{ 
+            label: 'Latency (seconds)', 
+            data: [
+              scal.avg_latency_sec || 0, 
+              scal.p95_latency_sec || 0, 
+              scal.min_latency_sec || 0, 
+              scal.max_latency_sec || 0
+            ], 
+            backgroundColor: ['#3b82f6', '#f59e0b', '#10b981', '#ef4444'],
+            borderRadius: 8,
+            barThickness: 60
+          }]
+        },
+        options: { 
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              backgroundColor: '#1e293b',
+              padding: 12,
+              titleColor: '#f1f5f9',
+              bodyColor: '#f1f5f9',
+              borderColor: '#334155',
+              borderWidth: 1
+            }
+          },
+          scales: { 
+            y: { 
+              beginAtZero: true,
+              grid: { color: '#f1f5f9' },
+              ticks: { color: '#64748b' },
+              title: {
+                display: true,
+                text: 'Latency (seconds)',
+                color: '#475569',
+                font: { size: 12, weight: '600' }
+              }
+            },
+            x: {
+              grid: { display: false },
+              ticks: { color: '#475569', font: { size: 12, weight: '500' } }
+            }
+          }
+        }
+      });
+    }
+
+    async function init() {
+      try {
+        const data = await fetchMetrics();
+        renderSystem(data.system || {});
+        renderBenchmark(data.benchmark || {});
+      } catch (e) {
+        console.error('Failed to load metrics:', e);
+        document.querySelector('.container').innerHTML = `
+          <div class="card col-12">
+            <div class="empty-state">
+              <div class="empty-state-icon">⚠️</div>
+              <h3>Failed to Load Metrics</h3>
+              <p style="color: #64748b; margin-top: 8px;">Ensure the server is running and try again.</p>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    // Initialize dashboard
+    init();
+
+    // Auto-refresh every 30 seconds
+    setInterval(init, 60000);
+  </script>
+</body>
+</html>

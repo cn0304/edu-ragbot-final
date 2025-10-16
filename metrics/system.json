@@ -1,0 +1,190 @@
+{
+  "timestamp": 1760430844,
+  "vector_db": {
+    "documents": 2722
+  },
+  "data_sources": [
+    {
+      "name": "Advance Tertiary College",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "INTI International College",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "Management and Science University",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "Methodist College Kuala Lumpur",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "Penang International Dental College",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": false,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "Penang Skills Development Centre",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "Peninsula College",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": false,
+        "pdfs_dir": true
+      }
+    },
+    {
+      "name": "Royal College",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": false,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "Sentral College",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "The One Academy",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "Tunku Abdul Rahman University",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "UNITAR College",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "University of Wollongong",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    },
+    {
+      "name": "Vertitas College",
+      "outputs": {
+        "Courses.md": true,
+        "Scholarship.md": true,
+        "How to apply.md": true,
+        "Our Campus.md": true
+      },
+      "inputs": {
+        "input.txt": true,
+        "pdfs_dir": false
+      }
+    }
+  ]
+}

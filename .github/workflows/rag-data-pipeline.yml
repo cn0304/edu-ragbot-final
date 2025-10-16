@@ -1,0 +1,53 @@
+name: RAG Data Pipeline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *' # nightly
+  push:
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'backend/app/**'
+
+jobs:
+  scrape:
+    name: Run data scrapers and generate Courses.md
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies (if requirements.txt exists)
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run all data scrapers
+        run: |
+          python scripts/run_all_scrapers.py
+
+      - name: Upload data artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-outputs
+          path: |
+            data/**/Courses.md
+            data/**/Scholarship.md
+            data/**/How to apply.md
+            data/**/Our Campus.md
+      
+      - name: Rebuild vector database (ingestion)
+        shell: bash
+        run: |
+          python scripts/ingest.py
+    
+      - name: Update system.json checking (metrics)
+        shell: bash
+        run: |
+          python scripts/update_metrics.py

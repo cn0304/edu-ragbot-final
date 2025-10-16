@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>University Chatbot - Ask Anything</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* Header */
+    header {
+      background: white;
+      border-bottom: 2px solid #e2e8f0;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      flex-shrink: 0;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1e293b;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    h1::before {
+      content: "🤖";
+      font-size: 24px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 12px;
+    }
+
+    .nav-link {
+      padding: 8px 16px;
+      background: #f1f5f9;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #475569;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .nav-link:hover {
+      background: #e2e8f0;
+      color: #1e293b;
+    }
+
+    /* University Filter */
+    .university-filter {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .filter-label {
+      font-size: 14px;
+      color: #64748b;
+      font-weight: 500;
+    }
+
+    select {
+      padding: 8px 32px 8px 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      font-size: 14px;
+      color: #1e293b;
+      background: white;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      transition: border-color 0.2s;
+    }
+
+    select:hover {
+      border-color: #cbd5e1;
+    }
+
+    select:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+
+    /* Chat Container */
+    .chat-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px;
+      overflow: hidden;
+    }
+
+    /* Messages Area */
+    .messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .messages::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .messages::-webkit-scrollbar-track {
+      background: #f1f5f9;
+      border-radius: 4px;
+    }
+
+    .messages::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+
+    /* Message Bubbles */
+    .message {
+      display: flex;
+      gap: 12px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .message.user {
+      flex-direction: row-reverse;
+    }
+
+    .message-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    .message.user .message-avatar {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .message.assistant .message-avatar {
+      background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    }
+
+    .message-content {
+      max-width: 85%;
+      padding: 16px 20px;
+      border-radius: 16px;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .message.user .message-content {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border-bottom-right-radius: 4px;
+    }
+
+    .message.assistant .message-content {
+      background: white;
+      color: #1e293b;
+      border: 1px solid #e2e8f0;
+      border-bottom-left-radius: 4px;
+    }
+
+    /* Message formatting */
+    .message-content ul {
+      margin: 8px 0;
+      padding-left: 20px;
+    }
+
+    /* Prevent long URLs/words from overflowing bubbles */
+    .message-content {
+      overflow-wrap: anywhere;   /* modern */
+      word-wrap: break-word;     /* legacy fallback */
+      word-break: break-word;    /* extra safety */
+    }
+
+    .message-content a {
+      word-break: break-all;     /* anchors can be especially stubborn */
+    }
+
+
+    .message-content li {
+      margin: 4px 0;
+    }
+
+    .message-content strong {
+      font-weight: 600;
+    }
+
+    /* Loading Animation */
+    .loading {
+      display: flex;
+      gap: 6px;
+      padding: 4px 0;
+    }
+
+    .loading-dot {
+      width: 8px;
+      height: 8px;
+      background: #94a3b8;
+      border-radius: 50%;
+      animation: bounce 1.4s infinite ease-in-out;
+    }
+
+    .loading-dot:nth-child(1) {
+      animation-delay: -0.32s;
+    }
+
+    .loading-dot:nth-child(2) {
+      animation-delay: -0.16s;
+    }
+
+    @keyframes bounce {
+      0%, 80%, 100% {
+        transform: scale(0);
+        opacity: 0.5;
+      }
+      40% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* Sources */
+    .sources {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #e2e8f0;
+      font-size: 13px;
+    }
+
+    .sources-title {
+      font-weight: 600;
+      color: #64748b;
+      margin-bottom: 8px;
+    }
+
+    .source-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin: 4px 0;
+      color: #64748b;
+    }
+
+    .source-item::before {
+      content: "📄";
+      font-size: 12px;
+    }
+
+    /* Input Area */
+    .input-area {
+      padding: 16px;
+      background: white;
+      border-top: 1px solid #e2e8f0;
+      flex-shrink: 0;
+    }
+
+    .input-container {
+      display: flex;
+      gap: 12px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    #queryInput {
+      flex: 1;
+      padding: 14px 20px;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      font-size: 15px;
+      font-family: 'Inter', sans-serif;
+      transition: all 0.2s;
+      resize: none;
+      max-height: 120px;
+    }
+
+    #queryInput:focus {
+      outline: none;
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+
+    #sendButton {
+      padding: 14px 24px;
+      background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+      font-family: 'Inter', sans-serif;
+    }
+
+    #sendButton:hover:not(:disabled) {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    }
+
+    #sendButton:active:not(:disabled) {
+      transform: translateY(0);
+    }
+
+    #sendButton:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    /* Welcome Message */
+    .welcome {
+      text-align: center;
+      padding: 60px 20px;
+      color: #64748b;
+    }
+
+    .welcome h2 {
+      font-size: 32px;
+      margin-bottom: 12px;
+      color: #1e293b;
+    }
+
+    .welcome p {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+
+    .suggestions {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 12px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .suggestion-card {
+      padding: 16px;
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: left;
+    }
+
+    .suggestion-card:hover {
+      border-color: #3b82f6;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .suggestion-icon {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .suggestion-text {
+      font-size: 14px;
+      color: #475569;
+      font-weight: 500;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .chat-container {
+        padding: 16px;
+      }
+
+      .message-content {
+        max-width: 85%;
+      }
+
+      .header-left {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+
+      .suggestions {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <h1>University Assistant</h1>
+      <div class="nav-links">
+        <a href="/" class="nav-link">📊 Dashboard</a>
+      </div>
+    </div>
+    <div class="university-filter">
+      <span class="filter-label">University List:</span>
+      <select id="universityFilter">
+        <option value="">All Universities</option>
+      </select>
+    </div>
+  </header>
+
+  <div class="chat-container">
+    <div class="messages" id="messages">
+      <div class="welcome">
+        <h2>👋 Hello! How can I help you today?</h2>
+        <p>Ask me anything about Malaysian universities, courses, applications, and more!</p>
+        
+        <div class="suggestions">
+          <div class="suggestion-card" onclick="sendSuggestion('How do I apply to INTI?')">
+            <div class="suggestion-icon">📝</div>
+            <div class="suggestion-text">How do I apply to INTI?</div>
+          </div>
+          <div class="suggestion-card" onclick="sendSuggestion('What scholarships does UOW offer?')">
+            <div class="suggestion-icon">💰</div>
+            <div class="suggestion-text">What scholarships does UOW offer?</div>
+          </div>
+          <div class="suggestion-card" onclick="sendSuggestion('Tell me about business programs at ATC')">
+            <div class="suggestion-icon">📚</div>
+            <div class="suggestion-text">Tell me about business programs</div>
+          </div>
+          <div class="suggestion-card" onclick="sendSuggestion('Where is INTI located?')">
+            <div class="suggestion-icon">🏫</div>
+            <div class="suggestion-text">Campus locations</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <div class="input-container">
+        <textarea
+          id="queryInput"
+          placeholder="🧠Ask about courses, applications, scholarships..."
+          rows="1"
+        ></textarea>
+        <button id="sendButton" onclick="sendMessage()">
+          Send
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let isLoading = false;
+
+    if (window.marked && marked.setOptions) {
+      marked.setOptions({ breaks: true });
+    }
+
+    // Convert Markdown -> sanitized HTML
+    function renderMD(md) {
+      const html = (window.marked && marked.parse) ? marked.parse(md || '') : (md || '');
+      const safe = (window.DOMPurify && DOMPurify.sanitize) ? DOMPurify.sanitize(html) : html;
+      return safe;
+    }
+
+    // (Optional) promote lines that are exactly **Title** to "## Title"
+    function promoteBoldLinesToH2(md) {
+      return (md || '').replace(/^\s*\*\*(.+?)\*\*\s*$/gm, '## $1');
+    }
+
+    // Load universities
+    async function loadUniversities() {
+      try {
+        const res = await fetch('/api/chat/universities');
+        const data = await res.json();
+        const select = document.getElementById('universityFilter');
+        
+        data.universities.forEach(uni => {
+          const option = document.createElement('option');
+          option.value = uni.code;
+          option.textContent = uni.name;
+          select.appendChild(option);
+        });
+      } catch (e) {
+        console.error('Failed to load universities:', e);
+      }
+    }
+
+    // Auto-resize textarea
+    const textarea = document.getElementById('queryInput');
+    textarea.addEventListener('input', function() {
+      this.style.height = 'auto';
+      this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+    });
+
+    // Send on Enter (Shift+Enter for new line)
+    textarea.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+
+    function sendSuggestion(text) {
+      document.getElementById('queryInput').value = text;
+      sendMessage();
+    }
+
+    function addMessage(role, content, sources = []) {
+      const messagesDiv = document.getElementById('messages');
+      const welcome = messagesDiv.querySelector('.welcome');
+      if (welcome) {
+        welcome.remove();
+      }
+
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `message ${role}`;
+      
+      const avatar = document.createElement('div');
+      avatar.className = 'message-avatar';
+      avatar.textContent = role === 'user' ? '👤' : '🤖';
+      
+      const contentDiv = document.createElement('div');
+      contentDiv.className = 'message-content';
+      
+      // OPTIONAL heading promotion:
+      const maybeH2 = promoteBoldLinesToH2(content);
+      // Render Markdown
+      contentDiv.innerHTML = renderMD(maybeH2);
+
+      // Add sources if available
+      if (sources && sources.length > 0) {
+        const sourcesDiv = document.createElement('div');
+        sourcesDiv.className = 'sources';
+        sourcesDiv.innerHTML = '<div class="sources-title">Sources:</div>';
+        
+        sources.forEach(source => {
+          const label = `${source.university} - ${source.document}` + (source.course ? ` - ${source.course}` : '');
+
+        if (source.url) {
+          const a = document.createElement('a');
+          a.className = 'source-item';
+          a.href = source.url;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          a.textContent = label;
+          sourcesDiv.appendChild(a);
+        } else {
+          const div = document.createElement('div');
+          div.className = 'source-item';
+          div.textContent = label;
+          sourcesDiv.appendChild(div);
+        }
+        });
+        
+        contentDiv.appendChild(sourcesDiv);
+      }
+      
+      messageDiv.appendChild(avatar);
+      messageDiv.appendChild(contentDiv);
+      messagesDiv.appendChild(messageDiv);
+      
+      // Scroll to bottom
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+      
+      return messageDiv;
+    }
+
+    function addLoadingMessage() {
+      const messagesDiv = document.getElementById('messages');
+      const messageDiv = document.createElement('div');
+      messageDiv.className = 'message assistant';
+      messageDiv.id = 'loading-message';
+      
+      const avatar = document.createElement('div');
+      avatar.className = 'message-avatar';
+      avatar.textContent = '🤖';
+      
+      const contentDiv = document.createElement('div');
+      contentDiv.className = 'message-content';
+      contentDiv.innerHTML = '<div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>';
+      
+      messageDiv.appendChild(avatar);
+      messageDiv.appendChild(contentDiv);
+      messagesDiv.appendChild(messageDiv);
+      
+      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+      
+      return messageDiv;
+    }
+
+    async function sendMessage() {
+      if (isLoading) return;
+      
+      const input = document.getElementById('queryInput');
+      const query = input.value.trim();
+      
+      if (!query) return;
+      
+      // Get university filter
+      const universityFilter = document.getElementById('universityFilter').value || null;
+      
+      // Clear input
+      input.value = '';
+      input.style.height = 'auto';
+      
+      // Add user message
+      addMessage('user', query);
+      
+      // Show loading
+      isLoading = true;
+      document.getElementById('sendButton').disabled = true;
+      const loadingMsg = addLoadingMessage();
+      
+      try {
+        // Stream response
+        const response = await fetch('/api/chat/query', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            query: query,
+            university_filter: universityFilter,
+            stream: true
+          })
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to get response');
+        }
+
+        // Remove loading message
+        loadingMsg.remove();
+        
+        // Create assistant message
+        let fullResponse = '';
+        const assistantMsg = addMessage('assistant', '');
+        const contentDiv = assistantMsg.querySelector('.message-content');
+        
+        // Read stream
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          
+          const chunk = decoder.decode(value);
+          const lines = chunk.split('\n');
+          
+          for (const line of lines) {
+            if (line.startsWith('data: ')) {
+              const data = JSON.parse(line.substring(6));
+              
+              if (data.error) {
+                throw new Error(data.error);
+              }
+              
+              if (data.chunk) {
+                fullResponse += data.chunk;
+                
+                // OPTIONAL heading promotion:
+                const maybeH2 = promoteBoldLinesToH2(fullResponse);
+                contentDiv.innerHTML = renderMD(maybeH2);
+                
+                // Auto scroll
+                const messagesDiv = document.getElementById('messages');
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+              }
+              
+              if (data.done) {
+                // Fetch sources
+                const sourcesRes = await fetch('/api/chat/sources', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({
+                    query: query,
+                    university_filter: universityFilter
+                  })
+                });
+                
+                const sourcesData = await sourcesRes.json();
+                
+                // Add sources
+                if (sourcesData.sources && sourcesData.sources.length > 0) {
+                  const sourcesDiv = document.createElement('div');
+                  sourcesDiv.className = 'sources';
+                  sourcesDiv.innerHTML = '<div class="sources-title">Sources:</div>';
+                  
+                  sourcesData.sources.forEach(source => {
+                  const label = `${source.university} - ${source.document}` + (source.course ? ` - ${source.course}` : '');
+                  if (source.url) {
+                    const a = document.createElement('a');
+                    a.className = 'source-item';
+                    a.href = source.url;
+                    a.target = '_blank';
+                    a.rel = 'noopener noreferrer';
+                    a.textContent = label;
+                    sourcesDiv.appendChild(a);
+                  } else {
+                    const div = document.createElement('div');
+                    div.className = 'source-item';
+                    div.textContent = label;
+                    sourcesDiv.appendChild(div);
+                  }
+                });
+                  
+                  contentDiv.appendChild(sourcesDiv);
+                }
+                
+                break;
+              }
+            }
+          }
+        }
+        
+      } catch (error) {
+        console.error('Error:', error);
+        if (loadingMsg.parentNode) {
+          loadingMsg.remove();
+        }
+        addMessage('assistant', `Sorry, I encountered an error: ${error.message}`);
+      } finally {
+        isLoading = false;
+        document.getElementById('sendButton').disabled = false;
+      }
+    }
+
+    // Initialize
+    loadUniversities();
+  </script>
+</body>
+</html>

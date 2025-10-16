@@ -1,0 +1,8 @@
+# Exclude unnecessary files from Docker build context
+.git/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+node_modules/

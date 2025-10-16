@@ -1,0 +1,31 @@
+# Foundation
+https://cpus.tarc.edu.my/programmes/foundation-in-business
+https://sites.google.com/tarc.edu.my/cpus/programmes/foundation-in-computing
+
+# Diploma
+https://fafb.tarc.edu.my/programmes/diploma/accounting
+https://fafb.tarc.edu.my/programmes/diploma/banking-and-finance
+https://fafb.tarc.edu.my/programmes/diploma/business-administration
+https://fafb.tarc.edu.my/programmes/diploma/e-marketing
+https://fafb.tarc.edu.my/programmes/diploma/finance-and-investment
+https://fafb.tarc.edu.my/programmes/diploma/international-business
+https://fafb.tarc.edu.my/programmes/diploma/human-resource-management
+https://focs.tarc.edu.my/programmes/diploma/diploma-in-computer-science-dcs
+https://focs.tarc.edu.my/programmes/diploma/diploma-in-information-technology-dft
+https://fcci.tarc.edu.my/programmes/diploma/diploma-in-broadcast-communication
+https://fcci.tarc.edu.my/programmes/diploma/diploma-in-public-relations
+https://fobe.tarc.edu.my/programmes/diploma/diploma-in-building
+https://fobe.tarc.edu.my/programmes/diploma/diploma-in-quantity-surveying
+https://foet.tarc.edu.my/programmes/diploma/diploma-of-electronic-engineering
+
+# Degree
+https://fafb.tarc.edu.my/programmes/bachelors-degree/accounting-and-finance
+https://fafb.tarc.edu.my/programmes/bachelors-degree/business-administration
+https://fafb.tarc.edu.my/programmes/bachelors-degree/international-business-management
+https://fafb.tarc.edu.my/programmes/bachelors-degree/finance-and-investment
+https://fafb.tarc.edu.my/programmes/bachelors-degree/applied-business-analytics
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-in-data-science-honours-rds
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-software-engineering-honours-rsw
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-technology-honours-in-software-systems-deve-rsd
+https://fcci.tarc.edu.my/programmes/bachelor-degree/public-relations
+https://foet.tarc.edu.my/programmes/bachelor-degree/bachelor-of-electronics-engineering-technology-honours

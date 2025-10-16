@@ -1,0 +1,56 @@
+
+																								<ul class="undergrat-title">
+												
+
+
+														<li>
+															<a class="prog-pg-subject-title"><p>- </p><p>Diploma in Business Management (ODL)</p></a>
+
+															<div class="prog-pg-subject-campus">
+																																		<a href="https://www.uow.edu.my/programme/diploma-in-business-management-odl/">
+																			<div class="prog-pg-campus-icon" style="background-color:#0c2340">
+																				U																			</div>
+																		</a>
+																																</div>
+
+														</li>
+																											
+
+
+														<li>
+															<a class="prog-pg-subject-title"><p>- </p><p>Diploma in Business Administration</p></a>
+
+															<div class="prog-pg-subject-campus">
+																																		<a href="https://www.uow.edu.my/programme/diploma-in-business-administration/">
+																			<div class="prog-pg-campus-icon" style="background-color:#0c2340">
+																				U																			</div>
+																		</a>
+																																</div>
+
+														</li>
+																											
+
+
+														<li>
+															<a class="prog-pg-subject-title"><p>- </p><p>Diploma in Business</p></a>
+
+															<div class="prog-pg-subject-campus">
+																																		<a href="https://www.uow.edu.my/programme/diploma-in-business/">
+																			<div class="prog-pg-campus-icon" style="background-color:#0000ff">
+																				BK																			</div>
+																		</a>
+																																</div>
+
+														</li>
+																											
+
+
+														<li>
+															<a class="prog-pg-subject-title"><p>- </p><p>Certificate in Business Communication</p></a>
+
+															<div class="prog-pg-subject-campus">
+																																		<a href="https://www.uow.edu.my/programme/certificate-of-business-communication/">
+																			<div class="prog-pg-campus-icon" style="background-color:#ff1e2c">
+																				C																			</div>
+																		</a>
+																																</div>
