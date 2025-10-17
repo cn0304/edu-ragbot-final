@@ -317,16 +317,35 @@
         grid-template-columns: 1fr;
       }
     }
+
+    .header-left { display: flex; align-items: center; gap: 12px; }
+    .nav-link {
+      padding: 8px 16px;
+      background: #f1f5f9;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #475569;
+      font-size: 14px;
+      font-weight: 500;
+      transition: background-color .2s, color .2s;
+    }
+    .nav-link:hover { background: #e2e8f0; color: #1e293b; }
+
   </style>
 </head>
 <body>
   <header>
+  <div class="header-left">
     <h1>RAG Monitoring Dashboard</h1>
-    <div class="header-meta">
-      <div class="status-badge">System Online</div>
-      <div id="meta" class="timestamp">Loading...</div>
-    </div>
-  </header>
+    <a href="/chat" class="nav-link">💬 Chat</a>
+  </div>
+
+  <div class="header-meta">
+    <div class="status-badge">System Online</div>
+    <div id="meta" class="timestamp">Loading...</div>
+  </div>
+</header>
+
 
   <div class="container">
     <div class="grid">
@@ -650,6 +669,7 @@
         `;
       }
     }
+
 
     // Initialize dashboard
     init();
