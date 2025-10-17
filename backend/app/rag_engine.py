@@ -15,30 +15,30 @@ except ImportError:
 
 class SmartRAGEngine:
     """ RAG engine - by searching category """
-    
-    def __init__(self, 
+
+    def __init__(self,
                  db_path: str = "./vector_db",
                  ollama_url: str = "http://localhost:11434",
                  model_name: str = "llama3.2",
                  use_reranker: bool = True,
                  reranker_strategy: str = "cross-encoder",
                  reranker_model: Optional[str] = None):
-        
+
         # Initialize ChromaDB
         self.client = chromadb.PersistentClient(
             path=db_path,
             settings=Settings(anonymized_telemetry=False)
         )
         self.collection = self.client.get_collection(name="university_docs")
-        
+
         # Ollama settings
         self.ollama_url = ollama_url
         self.model_name = model_name
-        
+
         # Initialize Reranker
         self.use_reranker = use_reranker and RERANKER_AVAILABLE
         self.reranker: Optional[BaseReranker] = None
-        
+
         if self.use_reranker:
             try:
                 self.reranker = create_reranker(
@@ -54,11 +54,11 @@ class SmartRAGEngine:
         print(f"  - Model: {model_name}")
         print(f"  - Documents: {self.collection.count()}")
         print(f"  - Reranker: {'Enabled' if self.use_reranker else 'Disabled'}")
-    
+
     def detect_query_type(self, query: str) -> Dict:
         """
         检测查询类型和意图
-        
+
         Returns:
             {
                 'university': 'INTI' | 'ATC' | 'UOW' | None,
@@ -70,9 +70,9 @@ class SmartRAGEngine:
                 'degree_subtype': 'doctor' | 'master' | 'bachelor' | None
             }
         """
-        
+
         query_lower = query.lower()
-        
+
         result = {
             'university': None,
             'doc_type': None,
@@ -81,7 +81,7 @@ class SmartRAGEngine:
             'list_query': False,
             'course_type_filter': None
         }
-        
+
         # Detect university
         if 'inti' in query_lower or 'init' in query_lower:
             result['university'] = 'INTI'
@@ -109,7 +109,7 @@ class SmartRAGEngine:
             result['university'] = 'VERTITAS'
         elif 'taru' in query_lower or 'tunku abdul rahman university' in query_lower:
             result['university'] = 'TARU'
-        
+
         # Detect document type
         if any(word in query_lower for word in ['apply', 'application', 'admission', 'register', 'enrol']):
             result['doc_type'] = 'how_to_apply'
@@ -128,7 +128,7 @@ class SmartRAGEngine:
         ]):
             result['doc_type'] = 'courses'
             result['course_query'] = True
-        
+
         # Detect section (for course queries)
         if result['course_query']:
             # list-only intent (no details)
@@ -175,7 +175,7 @@ class SmartRAGEngine:
             result['course_query'] = True
             # Default to Campus Intakes to align with data sections
             result['section'] = 'Campus Intakes'
-        
+
         return result
 
     def retrieve_context(self, query: str, query_info: Dict, n_results: int = 3) -> List[Dict]:
@@ -440,28 +440,28 @@ class SmartRAGEngine:
             return unique_titles
         except Exception:
             return []
-    
+
     def build_prompt(self, query: str, context_chunks: List[Dict], query_info: Dict) -> str:
         """构建针对性的 prompt"""
-        
+
         # Build context
         context_text = ""
         for i, chunk in enumerate(context_chunks, 1):
             meta = chunk['metadata']
-            
+
             context_text += f"\n{'='*60}\n"
             context_text += f"[Source {i}: {meta['university_short']} - {meta['document_type']}"
-            
+
             if 'course_id' in meta:
                 context_text += f" - {meta.get('course_title', meta['course_id'])}"
                 if meta.get('section'):
                     context_text += f" - {meta['section']}"
-            
+
             context_text += "]\n"
             context_text += f"{'='*60}\n\n"
             context_text += chunk['content']
             context_text += "\n\n"
-        
+
         # Determine answer style based on query type
         if query_info['doc_type'] == 'courses' and query_info['section']:
             # Specific course section query
@@ -487,7 +487,7 @@ Present the answer in a clear, organized format:
 Present the answer in a clear, organized bullet-point format.
 Include all relevant information from the sources.
 """
-        
+
         # Build prompt
         prompt = f"""You are a helpful university admission assistant for Malaysian universities.
 
@@ -505,17 +505,17 @@ INSTRUCTIONS:
 6. If comparing multiple universities, organize by university
 
 YOUR ANSWER:"""
-        
+
         return prompt
-    
-    async def generate_response(self, 
+
+    async def generate_response(self,
                                query: str,
                                university_filter: Optional[str] = None,
                                stream: bool = True) -> AsyncGenerator[str, None]:
         """
         生成响应
         """
-        
+
         # Step 1: Detect query type
         query_info = self.detect_query_type(query)
         # External university filter override
@@ -536,7 +536,7 @@ YOUR ANSWER:"""
                 )
                 yield msg
                 return
-        
+
         print(f"\n🔍 Query Analysis:")
         print(f"   University: {query_info['university'] or 'All'}")
         print(f"   Doc Type: {query_info['doc_type'] or 'Any'}")
@@ -629,9 +629,9 @@ YOUR ANSWER:"""
             n_results = 1
         else:
             n_results = 6
-        
+
         context_chunks = self.retrieve_context(query, query_info, n_results=n_results)
-        
+
         # Thresholding: be lenient for simple docs and course section queries
         # Rationale: full documents like how_to_apply/campus/scholarship should be used even with low similarity
         min_threshold = 0.3 if query_info['doc_type'] in ['how_to_apply', 'campus', 'scholarship'] else 0.02
@@ -674,10 +674,10 @@ YOUR ANSWER:"""
 
         print(f"   Retrieved: {len(context_chunks)} chunks")
         print(f"   Top relevance: {context_chunks[0]['relevance_score']:.1%}")
-        
+
         # Step 3: Build prompt
         prompt = self.build_prompt(query, context_chunks, query_info)
-        
+
         # Step 4: Generate with Ollama
         try:
             if stream:
@@ -686,7 +686,7 @@ YOUR ANSWER:"""
                     messages=[{'role': 'user', 'content': prompt}],
                     stream=True
                 )
-                
+
                 for chunk in response:
                     if 'message' in chunk and 'content' in chunk['message']:
                         yield chunk['message']['content']

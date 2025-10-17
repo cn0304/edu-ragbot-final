@@ -526,7 +526,7 @@
       }
     }
 
-    /* === Dark theme ==== */
+/* === Dark theme ==== */
 :root[data-theme="dark"] body {
   background: #0b1220;
   color: #e5e7eb;
@@ -579,11 +579,50 @@
 :root[data-theme="dark"] .suggestion-card:hover { box-shadow:0 4px 12px rgba(0,0,0,.35); border-color:#3b82f6; }
 :root[data-theme="dark"] .welcome { color:#94a3b8; }
 
+/* === Background image (light + dark) === */
+body.has-bg{
+  /* change this path to your image */
+  --bg-img: url("/static/img/chat_background.jpg");
+  background:
+    /* light overlay to keep text readable */
+    linear-gradient(to bottom right, rgba(248,250,252,.70), rgba(248,250,252,.70)),
+    var(--bg-img) center / cover no-repeat fixed;
+}
+
+/* Dark theme overlay version */
+html[data-theme="dark"] body.has-bg{
+  background:
+    linear-gradient(to bottom right, rgba(2,6,23,.35), rgba(2,6,23,.35)),
+    var(--bg-img) center / cover no-repeat fixed;
+}
+
+/* Optional: glass cards over the photo */
+.card{
+  background: rgba(255,255,255,.78);
+  border-color: rgba(226,232,240,.6);
+  backdrop-filter: blur(8px);
+}
+html[data-theme="dark"] .card{
+  background: rgba(15,23,42,.62);
+  border-color: rgba(31,41,55,.7);
+}
+
+/* Optional: make header slightly glassy so image peeks through */
+header{
+  background: rgba(255,255,255,.80);
+  backdrop-filter: blur(10px);
+  border-bottom-color: rgba(226,232,240,.6);
+}
+html[data-theme="dark"] header{
+  background: rgba(15,23,42,.70);
+  border-bottom-color: rgba(31,41,55,.7);
+}
+
   </style>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
 </head>
-<body>
+<body class="has-bg">
   <header>
     <div class="header-left">
       <h1>University Assistant</h1>
@@ -1123,6 +1162,7 @@ function toggleTheme() {
     if (btn) btn.addEventListener('click', toggleTheme);
   });
 })();
+
 
   </script>
 
