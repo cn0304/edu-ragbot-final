@@ -1,6 +1,52 @@
-<li class="post-57 product type-product status-publish product_cat-american-university-program campus-inti-international-college-penang campus-inti-international-college-subang certifications-degree product cp instock purchasable product-type-simple"class="product cp product type-product post-57 status-publish instock product_cat-american-university-program purchasable product-type-simple">
-	<a href="https://newinti.edu.my/programme/actuarial-science-american-university/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="inti_custom_product_loop_title"><h2 class="woocommerce-loop-product__title">Actuarial Science Program (American University Program)</h2></div>  <!-- /inti_custom_product_loop_title --> <div class="inti_custom_product_loop_short_description"><p>Understand the use of mathematics, statistics, and financial theory to measure the financial consequences of risk. Actuaries work in all sectors of the economy, like insurance companies, banks, and the government sector.</p></div>  <!-- /inti_custom_product_loop_short_description --> <div class="product-labels-loop"><div class="clearfix product-labels-loop-inner"><span class="custom-product-label-loop"><i class="icon-books"></i> American University Program</span><span class="custom-product-label-loop"><i class="icon-graduation-cap"></i> Degree</span><span class="custom-product-label-loop"><i class="icon-clock"></i> 1+3 or 1.5+2.5 or 2+2 Years</span><span class="custom-product-label-loop"><i class="icon-money"></i> From RM 46,012</span></div></div><div class="product-compare-loop"><div class="clearfix product-compare-inner"></div></div><a class="button loop_new_link" href="https://newinti.edu.my/programme/actuarial-science-american-university/">Read more <i class="icon-arrow-right"></i></a><div class="woocommerce product compare-button"><a href="https://newinti.edu.my?action=yith-woocompare-add-product&id=57" class="compare  button" data-product_id="57" rel="nofollow" target="_self">Compare</a></div></a></li>
-<li class="post-95 product type-product status-publish has-post-thumbnail product_cat-business campus-inti-international-university certifications-degree accreditations-malaysian-qualifications-agency product cp  instock purchasable product-type-simple"class="product cp product type-product post-95 status-publish last instock product_cat-business has-post-thumbnail purchasable product-type-simple">
-	<a href="https://newinti.edu.my/programme/australian-degree-transfer-programme-commerce/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="inti_custom_product_loop_title"><h2 class="woocommerce-loop-product__title">Australian Degree Transfer Programme (Commerce)</h2></div>  <!-- /inti_custom_product_loop_title --> <div class="inti_custom_product_loop_short_description"><p><span style="font-weight: 400;">Broaden your horizons and study at Australia's leading universities, renowned for academic excellence.</span></p></div>  <!-- /inti_custom_product_loop_short_description --> <div class="product-labels-loop"><div class="clearfix product-labels-loop-inner"><span class="custom-product-label-loop"><i class="icon-books"></i> Business</span><span class="custom-product-label-loop"><i class="icon-graduation-cap"></i> Degree</span><span class="custom-product-label-loop"><i class="icon-clock"></i> 1-2 Years</span><span class="custom-product-label-loop"><i class="icon-money"></i> From RM 53,262</span></div></div><div class="product-compare-loop"><div class="clearfix product-compare-inner"></div></div><a class="button loop_new_link" href="https://newinti.edu.my/programme/australian-degree-transfer-programme-commerce/">Read more <i class="icon-arrow-right"></i></a><div class="woocommerce product compare-button"><a href="https://newinti.edu.my?action=yith-woocompare-add-product&id=95" class="compare  button" data-product_id="95" rel="nofollow" target="_self">Compare</a></div></a></li>
-<li class="post-70 product type-product status-publish product_cat-biotechnology-life-sciences campus-inti-international-university certifications-degree accreditations-malaysian-qualifications-agency product cp instock purchasable product-type-simple"class="product cp product type-product post-70 status-publish instock product_cat-biotechnology-life-sciences purchasable product-type-simple">
-	<a href="https://newinti.edu.my/programme/australian-degree-transfer-programme-science/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><div class="inti_custom_product_loop_title"><h2 class="woocommerce-loop-product__title">Australian Degree Transfer Programme (Science)</h2></div>  <!-- /inti_custom_product_loop_title --> <div class="inti_custom_product_loop_short_description"><p><span style="font-weight: 400;">Join a programme that is well established and recognised for its academic excellence by major universities in Australia and New Zealand. Pursue Biotechnology, Life Sciences, Molecular Biosciences or Biomedical Sciences.</span></p></div>  <!-- /inti_custom_product_loop_short_description --> <div class="product-labels-loop"><div class="clearfix product-labels-loop-inner"><span class="custom-product-label-loop"><i class="icon-books"></i> Biotechnology &amp; Life Sciences</span><span class="custom-product-label-loop"><i class="icon-graduation-cap"></i> Degree</span><span class="custom-product-label-loop"><i class="icon-clock"></i> 6 Semesters</span><span class="custom-product-label-loop"><i class="icon-money"></i> From RM 57,182</span></div></div><div class="product-compare-loop"><div class="clearfix product-compare-inner"></div></div><a class="button loop_new_link" href="https://newinti.edu.my/programme/australian-degree-transfer-programme-science/">Read more <i class="icon-arrow-right"></i></a><div class="woocommerce product compare-button"><a href="https://newinti.edu.my?action=yith-woocompare-add-product&id=70" class="compare  button" data-product_id="70" rel="nofollow" target="_self">Compare</a></div></a></li>
+#Certificate
+https://newinti.edu.my/programme/certificate-in-business-studies-cbs/
+https://newinti.edu.my/programme/certificate-in-information-technology/
+
+#Foundation
+https://newinti.edu.my/programme/cambridge-a-level-cal/
+https://newinti.edu.my/programme/foundationinbusiness2/
+https://newinti.edu.my/programme/foundation-in-information-technology/
+https://newinti.edu.my/programme/foundation-in-science/
+
+Diploma
+https://newinti.edu.my/programme/diploma-in-business/
+https://newinti.edu.my/programme/diploma-in-business-management-flexible-learning/
+
+https://newinti.edu.my/programme/diploma-in-computer-science/
+https://newinti.edu.my/programme/diploma-in-culinary-arts/
+https://newinti.edu.my/programme/diploma-in-digital-media/
+
+https://newinti.edu.my/programme/diploma-in-e-commerce/
+https://newinti.edu.my/programme/diploma-in-electrical-electronic-engineering/
+
+https://newinti.edu.my/programme/diploma-in-finance/
+https://newinti.edu.my/programme/diploma-in-hotel-management/
+https://newinti.edu.my/programme/diploma-in-information-communicationstechnology/
+
+https://newinti.edu.my/programme/diploma-in-marketing/
+https://newinti.edu.my/programme/diploma-in-mass-communication/
+https://newinti.edu.my/programme/diploma-in-mechanical-engineering/
+
+Degree
+https://newinti.edu.my/programme/actuarial-science-american-university/
+https://newinti.edu.my/programme/ba-hons-accounting-and-finance-3-0-hertfordshire-uk/
+https://newinti.edu.my/programme/ba-hons-business-administration-3-0-in-university-of-hertfordshire-uk/
+https://newinti.edu.my/programme/3-0-ba-hons-mass-communications-collaboration-university-hertfordshire-uk/
+
+https://newinti.edu.my/programme/4-0-bachelor-arts-psychology-collaboration-southern-new-hampshire-university-usa/
+https://newinti.edu.my/programme/bachelor-of-business-30-in-collaboration-with-swinburne-university-of-technology-australia/
+https://newinti.edu.my/programme/bachelor-of-media-and-communication-30-in-collaboration-with-swinburne-university-of-technology-australia/
+https://newinti.edu.my/programme/3-0-bachelor-of-science-hons-in-computer-science-in-collaboration-with-coventry-uk/
+
+https://newinti.edu.my/programme/biosciences-american-university/ 
+https://newinti.edu.my/programme/business-american-university/
+
+https://newinti.edu.my/programme/computer-science-american-university/
+https://newinti.edu.my/programme/engineering-american-university/
+https://newinti.edu.my/programme/health-applied-sciences-american-university/
+
+https://newinti.edu.my/programme/mass-communication-american-university/
+https://newinti.edu.my/programme/master-of-engineering-in-electrical-and-electronic-engineering-40-in-collaboration-with-coventry-university-uk/
+
+https://newinti.edu.my/programme/master-of-engineering-in-mechanical-engineering-40-in-collaboration-with-coventry-university-uk/
+https://newinti.edu.my/programme/psychology-american-university/

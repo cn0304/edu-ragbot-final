@@ -138,6 +138,13 @@ def format_markdown(courses_by_type):
         for course in sorted(courses_by_type[ptype], key=lambda x: x["slug"]):
             lines.append(f"## {course['slug']}")
             lines.append("")
+
+            # ✅ Add URL section
+            lines.append("### URL")
+            lines.append("")
+            lines.append(course["url"])
+            lines.append("")
+
             for section_title in [
                 "Programme Structure",
                 "Fee",
@@ -186,7 +193,11 @@ def main():
         info = extract_course_info(url)
         if info and info["sections"]:
             ptype, slug = get_program_type_and_name(url)
-            courses_by_type[ptype].append({"slug": slug, "sections": info["sections"]})
+            courses_by_type[ptype].append({
+                "slug": slug,
+                "url": info["url"],   # ✅ Add URL
+                "sections": info["sections"]
+            })
             success += 1
         else:
             fail += 1

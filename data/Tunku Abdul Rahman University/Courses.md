@@ -2,6 +2,10 @@
 
 ## foundation-in-business
 
+### URL
+
+https://cpus.tarc.edu.my/programmes/foundation-in-business
+
 ### Programme Structure
 
 English Language
@@ -57,6 +61,10 @@ Kuala Lumpur
 
 ## foundation-in-computing
 
+### URL
+
+https://sites.google.com/tarc.edu.my/cpus/programmes/foundation-in-computing
+
 ### Programme Structure
 
 English Language
@@ -109,6 +117,10 @@ MQA/FA 9215
 # Diploma
 
 ## accounting
+
+### URL
+
+https://fafb.tarc.edu.my/programmes/diploma/accounting
 
 ### Programme Structure
 
@@ -182,6 +194,10 @@ Quantitative Studies
 ---
 
 ## banking-and-finance
+
+### URL
+
+https://fafb.tarc.edu.my/programmes/diploma/banking-and-finance
 
 ### Programme Structure
 
@@ -257,6 +273,10 @@ Principles of Accounting
 
 ## business-administration
 
+### URL
+
+https://fafb.tarc.edu.my/programmes/diploma/business-administration
+
 ### Programme Structure
 
 Principles of Accounting
@@ -324,6 +344,10 @@ Quantitative Studies
 ---
 
 ## diploma-in-broadcast-communication
+
+### URL
+
+https://fcci.tarc.edu.my/programmes/diploma/diploma-in-broadcast-communication
 
 ### Programme Structure
 
@@ -399,6 +423,10 @@ Bachelor of Communication (Honours) in Broadcasting
 
 ## diploma-in-building
 
+### URL
+
+https://fobe.tarc.edu.my/programmes/diploma/diploma-in-building
+
 ### Programme Structure
 
 Building Materials
@@ -454,6 +482,10 @@ Building Materials
 ---
 
 ## diploma-in-computer-science-dcs
+
+### URL
+
+https://focs.tarc.edu.my/programmes/diploma/diploma-in-computer-science-dcs
 
 ### Programme Structure
 
@@ -526,6 +558,10 @@ Please refer to the Minimum Entry Requirement document on the course page
 
 ## diploma-in-information-technology-dft
 
+### URL
+
+https://focs.tarc.edu.my/programmes/diploma/diploma-in-information-technology-dft
+
 ### Programme Structure
 
 Problem Solving and Programming
@@ -592,6 +628,10 @@ Please refer to the Minimum Entry Requirement document on the course page
 ---
 
 ## diploma-in-public-relations
+
+### URL
+
+https://fcci.tarc.edu.my/programmes/diploma/diploma-in-public-relations
 
 ### Programme Structure
 
@@ -671,6 +711,10 @@ Career Prospects
 
 ## diploma-in-quantity-surveying
 
+### URL
+
+https://fobe.tarc.edu.my/programmes/diploma/diploma-in-quantity-surveying
+
 ### Programme Structure
 
 Building Materials
@@ -735,6 +779,10 @@ Building Materials
 
 ## diploma-of-electronic-engineering
 
+### URL
+
+https://foet.tarc.edu.my/programmes/diploma/diploma-of-electronic-engineering
+
 ### Programme Structure
 
 Credit: 93
@@ -783,7 +831,7 @@ Optical Fiber Technician
 
 Estimated Total Fees:
 (RM) 21,000 (Malaysian Students),
-(RM) 39,700 (International Students)
+(RM) 47,500 (International Students)
 * The estimated total fees may vary by 10%
 
 ### Duration
@@ -805,6 +853,10 @@ Subject List:
 ---
 
 ## e-marketing
+
+### URL
+
+https://fafb.tarc.edu.my/programmes/diploma/e-marketing
 
 ### Programme Structure
 
@@ -874,6 +926,10 @@ Economics
 ---
 
 ## finance-and-investment
+
+### URL
+
+https://fafb.tarc.edu.my/programmes/diploma/finance-and-investment
 
 ### Programme Structure
 
@@ -949,6 +1005,10 @@ Principles of Accounting
 
 ## human-resource-management
 
+### URL
+
+https://fafb.tarc.edu.my/programmes/diploma/human-resource-management
+
 ### Programme Structure
 
 Principles of Accounting
@@ -1016,6 +1076,10 @@ Principles of Accounting
 ---
 
 ## international-business
+
+### URL
+
+https://fafb.tarc.edu.my/programmes/diploma/international-business
 
 ### Programme Structure
 
@@ -1088,6 +1152,10 @@ Principles of Accounting
 # Degree
 
 ## accounting-and-finance
+
+### URL
+
+https://fafb.tarc.edu.my/programmes/bachelors-degree/accounting-and-finance
 
 ### Programme Structure
 
@@ -1176,6 +1244,10 @@ Business Communication
 
 ## applied-business-analytics
 
+### URL
+
+https://fafb.tarc.edu.my/programmes/bachelors-degree/applied-business-analytics
+
 ### Programme Structure
 
 IT Fundamentals and Applications
@@ -1254,6 +1326,10 @@ Business Intelligence Analyst
 
 ## bachelor-in-data-science-honours-rds
 
+### URL
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-in-data-science-honours-rds
+
 ### Programme Structure
 
 Artificial Intelligence, Machine Learning, Data Science, Data Visualisation, Data Engineering, Data Warehouse Technology and Statistics for Data Science are some of the specialisation courses covered in this programme in addition to the core computing courses such as Programming, Database Management and Computer Networks.
@@ -1298,6 +1374,10 @@ Please refer to the Minimum Entry Requirement document on the course page
 
 ## bachelor-of-electronics-engineering-technology-honours
 
+### URL
+
+https://foet.tarc.edu.my/programmes/bachelor-degree/bachelor-of-electronics-engineering-technology-honours
+
 ### Programme Structure
 
 Engineering Programming
@@ -1337,7 +1417,7 @@ Microelectronics
 
 Estimated Total Fees:
 (RM) 44,200 (Malaysian Students),
-(RM) 76,700 (International Students)
+(RM) 85,900 (International Students)
 *The estimated total fees may vary by 10%
 
 ### Duration
@@ -1359,6 +1439,10 @@ Engineering Programmes
 ---
 
 ## bachelor-of-information-technology-honours-in-software-systems-deve-rsd
+
+### URL
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-information-technology-honours-in-software-systems-deve-rsd
 
 ### Programme Structure
 
@@ -1438,6 +1522,10 @@ Please refer to the Minimum Entry Requirement document on the course page
 ---
 
 ## bachelor-of-software-engineering-honours-rsw
+
+### URL
+
+https://focs.tarc.edu.my/programmes/bachelor-degree/bachelor-of-software-engineering-honours-rsw
 
 ### Programme Structure
 
@@ -1523,6 +1611,10 @@ Please refer to the Minimum Entry Requirement document on the course page
 
 ## business-administration
 
+### URL
+
+https://fafb.tarc.edu.my/programmes/bachelors-degree/business-administration
+
 ### Programme Structure
 
 IT Fundamentals and Applications
@@ -1605,6 +1697,10 @@ IT Fundamentals and Applications
 ---
 
 ## finance-and-investment
+
+### URL
+
+https://fafb.tarc.edu.my/programmes/bachelors-degree/finance-and-investment
 
 ### Programme Structure
 
@@ -1689,6 +1785,10 @@ Programme Outline:
 ---
 
 ## international-business-management
+
+### URL
+
+https://fafb.tarc.edu.my/programmes/bachelors-degree/international-business-management
 
 ### Programme Structure
 
@@ -1777,6 +1877,10 @@ Quantitative Methods
 ---
 
 ## public-relations
+
+### URL
+
+https://fcci.tarc.edu.my/programmes/bachelor-degree/public-relations
 
 ### Programme Structure
 

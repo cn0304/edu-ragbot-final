@@ -420,6 +420,11 @@ def format_markdown(courses_by_type):
             markdown_lines.append(f"## {course['slug']}")
             markdown_lines.append("")
             
+            markdown_lines.append("### URL")
+            markdown_lines.append("")
+            markdown_lines.append(course['url'])
+            markdown_lines.append("")
+            
             section_order = [
                 'Programme Structure',
                 'Entry Requirements',
@@ -487,6 +492,7 @@ def main():
             
             courses_by_type[program_type].append({
                 'slug': slug,
+                'url': course_data['url'],
                 'sections': course_data['sections']
             })
             successful += 1

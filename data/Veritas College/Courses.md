@@ -2,6 +2,12 @@
 
 ## foundation-in-arts-odl
 
+
+### URL
+
+https://www.veritas.edu.my/courses/foundation-in-arts-odl/
+
+
 ### Duration
 
 1 year
@@ -36,6 +42,12 @@ result not found in online
 # Diploma
 
 ## diploma-in-early-childhood-education-conventional
+
+
+### URL
+
+https://www.veritas.edu.my/veritas/diploma-in-early-childhood-education-conventional/
+
 
 ### Duration
 
@@ -114,6 +126,12 @@ Resource Fee: RM1,000
 
 ## diploma-in-early-childhood-education-odl
 
+
+### URL
+
+https://www.veritas.edu.my/veritas/diploma-in-early-childhood-education-odl/
+
+
 ### Duration
 
 result not found in online
@@ -172,6 +190,12 @@ Resource Fee: RM1,000 per year
 # Degree
 
 ## ba-hons-accounting-finance-conventional
+
+
+### URL
+
+https://www.veritas.edu.my/veritas/ba-hons-accounting-finance-conventional/
+
 
 ### Duration
 
@@ -239,6 +263,12 @@ Resource Fee: RM1,000 per year
 ---
 
 ## ba-hons-accounting-finance-odl
+
+
+### URL
+
+https://www.veritas.edu.my/veritas/ba-hons-accounting-finance-odl/
+
 
 ### Duration
 
@@ -366,6 +396,12 @@ Resource Fee: RM1,000 per year EMGS Fee: RM450
 
 ## ba-hons-business-administration-odl
 
+
+### URL
+
+https://www.veritas.edu.my/veritas/ba-hons-business-administration-odl/
+
+
 ### Duration
 
 result not found in online
@@ -416,6 +452,12 @@ Resource Fee: RM1000 per year EMGS Fee: RM450
 ---
 
 ## bachelor-of-communication-hons-branding-digital-marketing-conventional
+
+
+### URL
+
+https://www.veritas.edu.my/veritas/bachelor-of-communication-hons-branding-digital-marketing-conventional/
+
 
 ### Duration
 
@@ -481,6 +523,12 @@ Resource Fee: RM1,000 per year
 
 ## bachelor-of-communication-hons-branding-digital-marketing-odl
 
+
+### URL
+
+https://www.veritas.edu.my/veritas/bachelor-of-communication-hons-branding-digital-marketing-odl/
+
+
 ### Duration
 
 result not found in online
@@ -545,6 +593,12 @@ Resource Fee: RM1000 per year EMGS Fee: RM450
 
 ## bachelor-of-education-hons-early-childhood-education-conventional
 
+
+### URL
+
+https://www.veritas.edu.my/veritas/bachelor-of-education-hons-early-childhood-education-conventional/
+
+
 ### Duration
 
 result not found in online
@@ -587,6 +641,12 @@ Resource Fee: RM1,000 per year
 ---
 
 ## bsc-hons-psychology-odl
+
+
+### URL
+
+https://www.veritas.edu.my/veritas/bsc-hons-psychology-odl/
+
 
 ### Duration
 
@@ -635,6 +695,12 @@ Resource Fee: RM1000 per year EMGS Fee: RM450
 # Master
 
 ## llm
+
+
+### URL
+
+https://www.veritas.edu.my/courses/llm/
+
 
 ### Duration
 
@@ -690,6 +756,12 @@ January, May & September
 
 ## master-of-corporate-law-governance-odl
 
+
+### URL
+
+https://www.veritas.edu.my/veritas/master-of-corporate-law-governance-odl/
+
+
 ### Duration
 
 result not found in online
@@ -726,6 +798,12 @@ RM16,900Resource Fee: RM1,000
 
 ## master-of-education-odl
 
+
+### URL
+
+https://www.veritas.edu.my/veritas/master-of-education-odl/
+
+
 ### Duration
 
 result not found in online
@@ -761,6 +839,12 @@ RM15,900Resource Fee: RM1,000
 ---
 
 ## mba
+
+
+### URL
+
+https://www.veritas.edu.my/courses/mba/
+
 
 ### Duration
 
@@ -825,6 +909,12 @@ January, May & September
 
 ## mba-conventional
 
+
+### URL
+
+https://www.veritas.edu.my/veritas/mba-conventional/
+
+
 ### Duration
 
 result not found in online
@@ -882,6 +972,12 @@ ASEAN Trade Entrepreneurship & Digital Business Banking & Finance Digital Market
 
 ## mba-in-corporate-law-odl
 
+
+### URL
+
+https://www.veritas.edu.my/veritas/mba-in-corporate-law-odl/
+
+
 ### Duration
 
 result not found in online
@@ -921,6 +1017,12 @@ Resource Fee: RM1,000 per year
 ---
 
 ## mba-in-digital-marketing-odl
+
+
+### URL
+
+https://www.veritas.edu.my/veritas/mba-in-digital-marketing-odl/
+
 
 ### Duration
 
@@ -984,6 +1086,12 @@ Resource Fee: RM1,000 per year
 ---
 
 ## mba-in-digital-transformation-odl
+
+
+### URL
+
+https://www.veritas.edu.my/veritas/mba-in-digital-transformation-odl/
+
 
 ### Duration
 
@@ -1050,6 +1158,12 @@ Resource Fee: RM1,000 per year
 
 ## doctor-of-business-administration-odl
 
+
+### URL
+
+https://www.veritas.edu.my/veritas/doctor-of-business-administration-odl/
+
+
 ### Duration
 
 result not found in online
@@ -1084,6 +1198,12 @@ RM29,000Resource Fee: RM1,000
 ---
 
 ## phd-in-education-conventional
+
+
+### URL
+
+https://www.veritas.edu.my/veritas/phd-in-education-conventional/
+
 
 ### Duration
 
@@ -1143,6 +1263,12 @@ RM29,000Resource Fee: RM1,000 per year
 ---
 
 ## phd-in-education-odl
+
+
+### URL
+
+https://www.veritas.edu.my/veritas/phd-in-education-odl/
+
 
 ### Duration
 

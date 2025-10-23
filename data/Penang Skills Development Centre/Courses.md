@@ -2,6 +2,12 @@
 
 ## certificate-in-electronic-engineeering
 
+
+### URL
+
+https://www.futuretech.edu.my/programs/school-of-engineering/certificate-in-electronic-engineeering
+
+
 ### Programme Structure
 
 - Basic Electrical Technology
@@ -60,6 +66,12 @@ Mar, Jul
 
 ## certificate-in-industrial-automation-technology-level-2
 
+
+### URL
+
+https://www.futuretech.edu.my/programs/tvet/certificate-in-industrial-automation-technology-level-2
+
+
 ### Programme Structure
 
 - Industrial Automation Engineering Drawing
@@ -94,6 +106,12 @@ May, Jul. Oct
 ---
 
 ## certificate-in-industrial-automation-technology-level-3
+
+
+### URL
+
+https://www.futuretech.edu.my/programs/tvet/certificate-in-industrial-automation-technology-level-3
+
 
 ### Programme Structure
 
@@ -133,6 +151,12 @@ Result not found in online
 
 ## certificate-in-precision-machining-technology-level-2
 
+
+### URL
+
+https://www.futuretech.edu.my/programs/tvet/certificate-in-precision-machining-technology-level-2
+
+
 ### Programme Structure
 
 - Tool & Cutter Grinder Operation
@@ -167,6 +191,12 @@ May, Jul. Oct
 ---
 
 ## certificate-in-precision-machining-technology-level-3
+
+
+### URL
+
+https://www.futuretech.edu.my/programs/tvet/certificate-in-precision-machining-technology-level-3
+
 
 ### Programme Structure
 
@@ -206,6 +236,12 @@ Result not found in online
 
 ## certificate-in-quality-assurance-technology-level-2
 
+
+### URL
+
+https://www.futuretech.edu.my/programs/tvet/certificate-in-quality-assurance-technology-level-2
+
+
 ### Programme Structure
 
 - Product/Process Inspection
@@ -239,6 +275,12 @@ May, Jul, Oct
 ---
 
 ## certificate-in-quality-assurance-technology-level-3
+
+
+### URL
+
+https://www.futuretech.edu.my/programs/tvet/certificate-in-quality-assurance-technology-level-3
+
 
 ### Programme Structure
 
@@ -282,6 +324,12 @@ Result not found in online
 # Diploma
 
 ## diploma-in-computer-engineering
+
+
+### URL
+
+https://www.futuretech.edu.my/programs/school-of-engineering/diploma-in-computer-engineering
+
 
 ### Programme Structure
 
@@ -355,6 +403,12 @@ Feb, Mar, Jul
 
 ## diploma-in-electronic-engineering
 
+
+### URL
+
+https://www.futuretech.edu.my/programs/school-of-engineering/diploma-in-electronic-engineering
+
+
 ### Programme Structure
 
 - Engineering Mathematics
@@ -426,6 +480,12 @@ Feb, Mar, Jul
 
 ## diploma-in-industrial-automation-technology-level-4
 
+
+### URL
+
+https://www.futuretech.edu.my/programs/tvet/diploma-in-industrial-automation-technology-level-4
+
+
 ### Programme Structure
 
 - Industrial Automation Systems Design
@@ -458,6 +518,12 @@ Result not found in online
 ---
 
 ## diploma-in-information-technology
+
+
+### URL
+
+https://www.futuretech.edu.my/programs/school-of-engineering/diploma-in-information-technology
+
 
 ### Programme Structure
 
@@ -526,6 +592,12 @@ TBD
 
 ## diploma-in-manufacturing-technology-level-4
 
+
+### URL
+
+https://www.futuretech.edu.my/programs/tvet/diploma-in-manufacturing-technology-level-4
+
+
 ### Programme Structure
 
 - Industrial Automation Systems Design
@@ -558,6 +630,12 @@ Result not found in online
 ---
 
 ## diploma-in-mechatronic-engineering
+
+
+### URL
+
+https://www.futuretech.edu.my/programs/school-of-engineering/diploma-in-mechatronic-engineering
+
 
 ### Programme Structure
 
@@ -631,6 +709,12 @@ Feb, Mar, Jul
 ---
 
 ## diploma-in-quality-assurance-technology-metrology-level-4
+
+
+### URL
+
+https://www.futuretech.edu.my/programs/tvet/diploma-in-quality-assurance-technology-metrology-level-4
+
 
 ### Programme Structure
 

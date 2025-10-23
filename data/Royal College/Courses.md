@@ -2,6 +2,10 @@
 
 ## foundation-in-science
 
+### URL
+
+https://www.rumc.edu.my/programmes/foundation-in-science/#1710139595455-7fac4474-f530
+
 ### Programme Structure
 
 LEARNING OUTCOMES Learning Outcomes Upon successful completion of the Foundation programme, you will be able to: 1. Acquire knowledge of basic sciences and their application in medicine and health sciences 2. Demonstrate the ability to engage in scientific topics and understand basic concepts and relevant terminologies 3. Develop a range of fundamental study and communication skills 4. Enhance proficiency in the English language 5. Master basic laboratory skills and techniques 6. Comprehend clinical and caregiving aspects in medical and healthcare professions Our Foundation in Science (FIS) programme imparts a diverse range of skills and knowledge that lay the groundwork for success in the pursuit of a medical degree. As you progress through your medical studies, you will gain a robust understanding of basic sciences, from biology to chemistry, forming the building blocks of medical knowledge. We aim to instil an understanding of the clinical and caregiving dimensions within medical professions. This holistic insight equips students with empathy and an understanding of the human aspect of medicine, ensuring they approach their medical degree with a well-rounded perspective.
@@ -20,11 +24,15 @@ Every July & August
 
 ### Entry Requirements
 
-ENTRY REQUIREMENTS Entry Requirements Please note that all requirements stated are minimum academic criteria and do not guarantee admission. Entry requirements above may be updated and the final decisions lie with RUMC Admissions. Entry Requirements Programme Minimum Requirements SPM / IGCSE or any O-Level equivalent 3A’s & 2B’s in Biology Chemistry Mathematics or Additional Mathematics Physics One other subject Unified Examination Certificate (UEC) 3 B4’s in Biology Chemistry Mathematics or Advance Mathematics or Physics Language Requirement English Proficiency Test (EPT) Malaysian International 1119 GCE-O (up until SPM 2020) Minimum grade ‘B’ N/A CEFR (from SPM 2021 onwards) Minimum grade ‘C1’ 1st English Language Minimum grade ‘B’
+ENTRY REQUIREMENTS Entry Requirements Please note that all requirements stated are minimum academic criteria and do not guarantee admission. Entry requirements above may be updated and the final decisions lie with RUMC Admissions. Entry Requirements Programme Minimum Requirements SPM or any O-Level equivalent 3A’s & 2B’s in Biology Chemistry Mathematics or Additional Mathematics Physics One other subject International General Certificate of Secondary Education (IGCSE) [Pearson / Edexcel] 3A’s & 2B’s / 77766 in Biology Chemistry Mathematics or Additional Mathematics Physics One other subject Unified Examination Certificate (UEC) 3 B4’s in Biology Chemistry Physics or Mathematics 1 & 2 or Advance Mathematics 1 & 2 International Baccalaureate Middle Years Programme (MYP) 77766 in Biology Chemistry Mathematics Physics One other subject General Secondary Education Certificate (Tawjihi) Science stream 95% with 3As & 2B's in Biology Chemistry Mathematics or Additional Mathematics Physics One other subject Thailand Matayom 6 Overall CGPA 3.00 with a GPA 3.50 above in each of the Science Biology (compulsory) Chemistry (compulsory) Physics (compulsory) Mathematics English Vietnam High School 45/50 points with a subject combination of Biology Chemistry Physics Mathematics One other subject West African Senior School Certificate Examination (WASSCE) 3 B2’s and 2B3’s Biology Chemistry Physics Mathematics One other subject Language Requirement English Proficiency Test (EPT) Malaysian International 1119 GCE-O (up until SPM 2020) Minimum grade ‘B’ N/A CEFR (from SPM 2021 onwards) Minimum grade ‘C1’ 1st English Language Minimum grade ‘B’ International Qualifications not listed in the entry criteria will be submitted to UK ENIC for qualification equivalency assessment against Cambridge A-Levels standard upon complete submission into the application portal. This verification process will take approximately six to ten working days. Entry requirements are subject to change by the authorities agencies/bodies.
 
 ---
 
 ## pre-medical-foundation-year
+
+### URL
+
+https://www.rumc.edu.my/programmes/pre-medical-foundation-year/
 
 ### Programme Structure
 
@@ -44,13 +52,17 @@ Every September
 
 ### Entry Requirements
 
-ENTRY REQUIREMENTS Pre-requisites A pass in SPM / O-Level or equivalent with 5B’s each in Biology, Chemistry, Physics and Mathematics / Additional Mathematics and another subject (excluding languages) at the school level or its equivalent. This is also applicable to applicants with STPM / A-Level qualifications. Entry Requirements Applying to Malaysia’s Public Sector? A ‘PASS’ in Bahasa Melayu at SPM is required for the Housemanship application. Important Information for International Applicants: 1. Indian Applicants: Indian nationals intending to practice in India at any stage in their medical career are required to sit the NEET examination in India and obtain a Certificate of Eligibility from the National Medical Commission of India, before commencing medical studies. This information is accurate at the time of publication. Please check the most up-to-date rules and regulations for eligibility to practice in India post-graduation with the National Medical Commission. 2. European Union (EU) Applicants: RUMC CANNOT accept applicants who are eligible for the Central Applicants Office (CAO). However, we do review applicants on a case-to-case basis. For more information or clarification, please get in touch with our education counsellors.
+ENTRY REQUIREMENTS Pre-requisites All Pre-Medical (FY) applicants must present a minimum 5B’s in Biology, Chemistry, Mathematics, Physics, and one additional subject at SPM/IGCSE/O-Level or equivalent. Entry requirements are subject to change by the authoritative agencies/bodies. Entry Requirements Applying to Malaysia’s Public Sector? A ‘PASS’ in Bahasa Melayu at SPM is required for the Housemanship application. Important Information for International Applicants: 1. Indian Applicants: Indian nationals intending to practice in India at any stage in their medical career are required to sit the NEET examination in India and obtain a Certificate of Eligibility from the National Medical Commission of India, before commencing medical studies. This information is accurate at the time of publication. Please check the most up-to-date rules and regulations for eligibility to practice in India post-graduation with the National Medical Commission. 2. European Union (EU) Applicants: RUMC CANNOT accept applicants who are eligible for the Central Applicants Office (CAO). However, we do review applicants on a case-to-case basis. For more information or clarification, please get in touch with our education counsellors.
 
 ---
 
 # Degree
 
 ## master-of-science-in-occupational-therapy
+
+### URL
+
+https://www.rumc.edu.my/programmes/master-of-science-in-occupational-therapy/
 
 ### Programme Structure
 
@@ -71,6 +83,10 @@ ENTRY REQUIREMENTS Entry Requirements Please note that all requirements stated a
 ---
 
 ## medical-informatics
+
+### URL
+
+https://www.rumc.edu.my/programmes/medical-informatics/
 
 ### Programme Structure
 
@@ -95,6 +111,10 @@ ENTRY REQUIREMENTS Entry Requirements Pathway Requirement STPM Pass with a minim
 ---
 
 ## undergraduate-medicine
+
+### URL
+
+https://www.rumc.edu.my/programmes/undergraduate-medicine/
 
 ### Programme Structure
 

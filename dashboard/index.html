@@ -418,16 +418,16 @@
       return res.json();
     }
 
-    function boolBadge(v) { 
-      return v 
-        ? '<span class="good">✓</span>' 
-        : '<span class="bad">✗</span>'; 
+    function boolBadge(v) {
+      return v
+        ? '<span class="good">✓</span>'
+        : '<span class="bad">✗</span>';
     }
 
     function renderSystem(system) {
       const ts = new Date(system.timestamp * 1000).toLocaleString();
       document.getElementById('meta').textContent = `Last updated: ${ts}`;
-      
+
       const docCount = system.vector_db?.documents || 0;
       document.getElementById('vector-db').innerHTML = `
         <div class="stat-box">
@@ -438,7 +438,7 @@
 
       const tbody = document.querySelector('#sources-table tbody');
       tbody.innerHTML = '';
-      
+
       const sources = system.data_sources || [];
       if (sources.length === 0) {
         tbody.innerHTML = '<tr><td colspan="3" class="empty-state"><div class="empty-state-icon">📭</div><div>No data sources found</div></td></tr>';
@@ -468,7 +468,7 @@
 
     function renderBenchmark(benchmark) {
       const per = benchmark.per_query || [];
-      
+
       if (per.length === 0) {
         document.querySelector('.chart-container').innerHTML = '<div class="empty-state"><div class="empty-state-icon">📊</div><div>No benchmark data available</div></div>';
         return;
@@ -486,24 +486,24 @@
       // Set canvas height dynamically
       const accCanvas = document.getElementById('accuracyChart');
       accCanvas.style.height = `${dynamicHeight}px`;
-      
+
       const latCanvas = document.getElementById('latencyChart');
       latCanvas.style.height = `${dynamicHeight}px`;
 
       // Accuracy Chart (Horizontal Bar)
       new Chart(accCanvas, {
         type: 'bar',
-        data: { 
-          labels, 
-          datasets: [{ 
-            label: 'Accuracy', 
-            data: acc, 
+        data: {
+          labels,
+          datasets: [{
+            label: 'Accuracy',
+            data: acc,
             backgroundColor: '#10b981',
             borderRadius: 6,
             barThickness: 24
-          }] 
+          }]
         },
-        options: { 
+        options: {
           indexAxis: 'y',
           responsive: true,
           maintainAspectRatio: false,
@@ -518,9 +518,9 @@
               borderWidth: 1
             }
           },
-          scales: { 
-            x: { 
-              min: 0, 
+          scales: {
+            x: {
+              min: 0,
               max: 1,
               grid: { color: '#f1f5f9' },
               ticks: { color: '#64748b' }
@@ -536,17 +536,17 @@
       // Latency Chart (Horizontal Bar)
       new Chart(latCanvas, {
         type: 'bar',
-        data: { 
-          labels, 
-          datasets: [{ 
-            label: 'Latency (s)', 
-            data: lat, 
+        data: {
+          labels,
+          datasets: [{
+            label: 'Latency (s)',
+            data: lat,
             backgroundColor: '#3b82f6',
             borderRadius: 6,
             barThickness: 24
-          }] 
+          }]
         },
-        options: { 
+        options: {
           indexAxis: 'y',
           responsive: true,
           maintainAspectRatio: false,
@@ -603,20 +603,20 @@
         type: 'bar',
         data: {
           labels: ['Average', 'P95', 'Minimum', 'Maximum'],
-          datasets: [{ 
-            label: 'Latency (seconds)', 
+          datasets: [{
+            label: 'Latency (seconds)',
             data: [
-              scal.avg_latency_sec || 0, 
-              scal.p95_latency_sec || 0, 
-              scal.min_latency_sec || 0, 
+              scal.avg_latency_sec || 0,
+              scal.p95_latency_sec || 0,
+              scal.min_latency_sec || 0,
               scal.max_latency_sec || 0
-            ], 
+            ],
             backgroundColor: ['#3b82f6', '#f59e0b', '#10b981', '#ef4444'],
             borderRadius: 8,
             barThickness: 60
           }]
         },
-        options: { 
+        options: {
           responsive: true,
           maintainAspectRatio: false,
           plugins: {
@@ -630,8 +630,8 @@
               borderWidth: 1
             }
           },
-          scales: { 
-            y: { 
+          scales: {
+            y: {
               beginAtZero: true,
               grid: { color: '#f1f5f9' },
               ticks: { color: '#64748b' },
@@ -678,4 +678,4 @@
     setInterval(init, 60000);
   </script>
 </body>
-</html>
+</html><!-- cd-check 2025-10-23-090725Z -->

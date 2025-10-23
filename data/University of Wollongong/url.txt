@@ -1,56 +1,42 @@
+# ---- Business (programs) ----
+https://www.uow.edu.my/programme/bachelor-of-arts-hons-business-management/
+https://www.uow.edu.my/programme/bachelor-of-accountancy/
+https://www.uow.edu.my/programme/bachelor-of-arts-hons-international-business-management/
+https://www.uow.edu.my/programme/diploma-in-business/
+https://www.uow.edu.my/programme/doctor-of-philosophy-business-batu-kawan/
+https://www.uow.edu.my/programme/master-of-business-administration-batu-kawan/
+https://www.uow.edu.my/programme/master-of-business-batu-kawan-penang/
 
-																								<ul class="undergrat-title">
-												
+# ---- Built Environment ----
+https://www.uow.edu.my/programme/ba-hons-in-interior-architecture/
+https://www.uow.edu.my/programme/diploma-in-interior-design/
 
+# ---- Communication & Creative Arts ----
+https://www.uow.edu.my/programme/bachelor-of-arts-hons-in-media-production/
+https://www.uow.edu.my/programme/bachelor-of-arts-hons-in-communication-and-public-relations/
+https://www.uow.edu.my/programme/diploma-in-mass-communication/
 
-														<li>
-															<a class="prog-pg-subject-title"><p>- </p><p>Diploma in Business Management (ODL)</p></a>
+# ---- Computing & Creative Media ----
+https://www.uow.edu.my/programme/bachelor-of-software-engineering-hons-bk/
+https://www.uow.edu.my/programme/bachelor-of-computer-science-hons-3/
+https://www.uow.edu.my/programme/bachelor-of-information-systems-hons/
+https://www.uow.edu.my/programme/diploma-in-information-technology-bk/
+https://www.uow.edu.my/programme/doctor-of-philosophy-computer-science/
+https://www.uow.edu.my/programme/master-in-computer-science/
 
-															<div class="prog-pg-subject-campus">
-																																		<a href="https://www.uow.edu.my/programme/diploma-in-business-management-odl/">
-																			<div class="prog-pg-campus-icon" style="background-color:#0c2340">
-																				U																			</div>
-																		</a>
-																																</div>
+# ---- Engineering ----
+https://www.uow.edu.my/programme/diploma-in-mechatronics-engineering/
+https://www.uow.edu.my/programme/bachelor-of-mechatronics-engineering-with-honours-batu-kawan/
+https://www.uow.edu.my/programme/master-of-science-engineering/
 
-														</li>
-																											
+# ---- Hospitality, Tourism & Culinary Arts ----
+https://www.uow.edu.my/programme/bachelor-of-arts-hons-in-international-culinary-arts/
+https://www.uow.edu.my/programme/bachelor-of-arts-hons-in-international-hotel-tourism-management/
+https://www.uow.edu.my/programme/diploma-in-international-hotel-management-penang/
+https://www.uow.edu.my/programme/diploma-in-culinary-arts-penang/
+https://www.uow.edu.my/programme/doctor-of-philosophy-hospitality-and-tourism/
+https://www.uow.edu.my/programme/master-of-science-in-hospitality-and-tourism/
 
-
-														<li>
-															<a class="prog-pg-subject-title"><p>- </p><p>Diploma in Business Administration</p></a>
-
-															<div class="prog-pg-subject-campus">
-																																		<a href="https://www.uow.edu.my/programme/diploma-in-business-administration/">
-																			<div class="prog-pg-campus-icon" style="background-color:#0c2340">
-																				U																			</div>
-																		</a>
-																																</div>
-
-														</li>
-																											
-
-
-														<li>
-															<a class="prog-pg-subject-title"><p>- </p><p>Diploma in Business</p></a>
-
-															<div class="prog-pg-subject-campus">
-																																		<a href="https://www.uow.edu.my/programme/diploma-in-business/">
-																			<div class="prog-pg-campus-icon" style="background-color:#0000ff">
-																				BK																			</div>
-																		</a>
-																																</div>
-
-														</li>
-																											
-
-
-														<li>
-															<a class="prog-pg-subject-title"><p>- </p><p>Certificate in Business Communication</p></a>
-
-															<div class="prog-pg-subject-campus">
-																																		<a href="https://www.uow.edu.my/programme/certificate-of-business-communication/">
-																			<div class="prog-pg-campus-icon" style="background-color:#ff1e2c">
-																				C																			</div>
-																		</a>
-																																</div>
+# ---- Pre-University ----
+https://www.uow.edu.my/programme/foundation-in-science/
+https://www.uow.edu.my/programme/foundation-in-arts-batu-kawan/

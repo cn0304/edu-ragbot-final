@@ -2,6 +2,10 @@
 
 ## advanced-diploma-in-midwifery
 
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/advanced-diploma-in-midwifery
+
 ### Programme Structure
 
 Among the Courses Offered Health assessment Promotion and Education Medical Diseases, Abnormal Pregnancy & Abnormal Labor Perinatal & Neonatal Introduction to Midwifery Normal Pregnancy and Normal Labor Obstetrics and Gynaecology Emergency Community Health Nursing Research methods and Statistics Clinical Practice I, II and III. Career Prospects Registered Midwifery locally and international, Lactation Nurse
@@ -25,6 +29,10 @@ About the Course The Advanced Diploma in Nursing (Midwifery) equips student with
 ---
 
 ## diploma-accounting
+
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-accounting.php
 
 ### Programme Structure
 
@@ -50,6 +58,10 @@ About the Course MSU’s diploma programme in accountancy combines studies in ac
 
 ## diploma-aircraft-maintenance-technology
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-aircraft-maintenance-technology.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Basic Aerodynamics Theory of Flight and Flight Control Aviation Legislation Materials and Hardware Year Two Air Conditioning, Cabin Pressurization and Oxygen Systems Airframe Structure Aircraft Landing Gear and Brakes Electronics Instrument and Avionics System Year Three Industrial Training Career Prospects Aircraft Maintenance technician Sheet Metal Repair Technician Overhaul Technician
@@ -73,6 +85,10 @@ About the Course The growing aircraft industry requires professionally trained m
 ---
 
 ## diploma-beauty-management
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-beauty-management.php
 
 ### Programme Structure
 
@@ -98,6 +114,10 @@ About the Course Gain that professional edge as you undertake the Diploma in Bea
 
 ## diploma-business-computing
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-business-computing.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Computer Organisation and Architecture Basic Discrete Mathematics Algorithm and Data Structure Practices of Management Year Two Object Oriented Programming Fundamentals to Database Statistics and Probabilities Industrial Training Year Three Visual Basic Programming Data Communication and Network Operating System Career Prospects System Support Software Development Computer Networking
@@ -121,6 +141,10 @@ About the Course To have a competitive advantage in the business world, business
 ---
 
 ## diploma-computer-engineering
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-computer-engineering.php
 
 ### Programme Structure
 
@@ -146,6 +170,10 @@ About the Course If you have an interest in finding out how computer works, expl
 
 ## diploma-computer-forensic
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-computer-forensic.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Basic Discrete Mathematics Introduction to Criminal Law Data Communicationand Network System Analysisand Design Year Two Network and Computer Security Fundamentals to Database Industrial Training Year Three Operating System Computer Trouble Shooting Linux Programming Career Prospects Digital Forensics Cyber Programmer You may also find employment in law-enforcement agencies and consulting companies.
@@ -169,6 +197,10 @@ About the Course Computer forensics is the investigation of illegal or unauthori
 ---
 
 ## diploma-counselling-guidance
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/diploma-counselling-guidance.php
 
 ### Programme Structure
 
@@ -194,6 +226,10 @@ About the Course Counselling revolves around the personal growth, career and wel
 
 ## diploma-creative-visual
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-creative-visual.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Visual Studies Scriptwriting Basic Lighting Television Studies Year Two Commercial Photography Sound Design Video Production Industrial Training Year Three Photojournalism Film Appreciation Digital Portfolio Career Prospects Photographer Videographer Video Editor
@@ -217,6 +253,10 @@ About the Course With its focus on experiential learning, MSU's Diploma in Creat
 ---
 
 ## diploma-culinary-arts
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-culinary-arts.php
 
 ### Programme Structure
 
@@ -242,6 +282,10 @@ About the Course A passion for food and creating gastronomic delights can open a
 
 ## diploma-early-childhood-education
 
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/diploma-early-childhood-education.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Fundamentals of Health, Safety and Nutrition for Early Childhood Education Philosophy of Early Childhood Education Approaches in Early Childhood Education Program Planning for Infants and Toddlers Year Two Family and Community Relations Child Development Pre-School Science and Mathematics Observation, Assessment and Evaluation Year Three Internship: Teaching Training Career Prospects Child Care Provider Child Development Consultant Pre-school Teacher
@@ -256,7 +300,7 @@ Duration of Study 2 ½ years Credit Hours Recognition (R3/143/4/0101) (02/26) (M
 
 ### Entry Requirements
 
-Entry Requirements Possess SPM with a minimum of three (3) credits in any subject or its equivalent; OR a pass in Sijil Tinggi Persekolahan Malaysia (STPM) with a minimum Grade C (GP 2.00) in any subject or its equivalent; OR a pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Maqbul ; OR a Certificate (Level 3, MQF) in any qualification with at least a CGPA of 2.00; OR a pass in SKM/SVM Level 3, MQF in Early Child Care / Preschool Note: HEPs need to conduct specific screening and provide guidance related to the field of the programme for these students. OR other relevant equivalent qualifications recognised by the Malaysian Government as equivalent to the above requirements. English Competency Requirement (International Student) Achieve a grade in the Malaysian University English Test (MUET) or any English competency test equivalent to a Low B1 in the Common European Framework of Reference for Languages (CEFR) .
+Entry Requirements Possess SPM with a minimum of THREE credits in any subject or its equivalent; OR A pass in Sijil Tinggi Persekolahan Malaysia (STPM) with a minimum of Grade C (GP 2.0) in any subject or its equivalent; OR A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Maqbul; OR A Certificate (Level 3, MQF) in any qualification with at least a CGPA of 2.00; OR A pass in SKM/SVM Level 3, MQF in Early Child Care/Preschool (Note: HEPs need to conduct specific screening and guidance related to the field of the programme for the students.) ; OR Other relevant equivalent qualifications recognised by the Malaysian government as equivalent to the above requirements. English Competency Requirement (International Student): Achieve a grade in the Malaysian University English Test (MUET) or any English competency test equivalent to a Low B1 in the Common European Framework of Reference for Languages (CEFR).
 
 ### About
 
@@ -265,6 +309,10 @@ About the Course If you have a passion for working with children and envision a 
 ---
 
 ## diploma-education
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/diploma-education.php
 
 ### Programme Structure
 
@@ -290,6 +338,10 @@ About the Course Many assume that teaching English is “easy” but in reality,
 
 ## diploma-electrical-electronic-engineering
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-electrical-electronic-engineering.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Circuit Theory Instrumentation and Measurement Material Science C Programming Year Two Digital Electronic Power System Analogue Electronic Industrial Training Year Three Introduction to Electromagnetic Industrial Control Engineering Tools and Simulation Career Prospects RM20,000 - RM25,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
@@ -313,6 +365,10 @@ About the Course Electrical and electronic principles are at the core concept of
 ---
 
 ## diploma-entrepreneurship
+
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-entrepreneurship.php
 
 ### Programme Structure
 
@@ -338,6 +394,10 @@ About the Course The advent of the Internet has led to a surge in entrepreneuria
 
 ## diploma-event-management
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-event-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Tourism and Leisure Environment Protocol and Ethics Event Budgeting and Cost Control The Event Industry Year Two Human Resource for Service Industry Management for Service Industry Industrial Training Year Three Public Relation for Event Industry Convention, Meeting and Exhibition Entrepreneurial Skills Career Prospects Event Coordinator Corporate Event Planner
@@ -361,6 +421,10 @@ About the Course From the internationally recognised Academy Awards ceremony to 
 ---
 
 ## diploma-fashion-design
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-fashion-design.php
 
 ### Programme Structure
 
@@ -386,6 +450,10 @@ About the Course MSU's Diploma in Fashion Design programme aims to develop creat
 
 ## diploma-game-design-animation
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-game-design-animation.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Fundamentals of Game Art and Animation Figure Drawing Introduction to Game Development I Visual Research Year Two Storyboarding Cartooning and Comic Design 3D Modelling Industrial Training Year Three Digital Video 3D Animation Project Career Prospects Animator Junior Game Designer Graphic Designer
@@ -409,6 +477,10 @@ About the Course The curriculum of the MSU diploma programme in design and anima
 ---
 
 ## diploma-graphic-design
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-graphic-design.php
 
 ### Programme Structure
 
@@ -434,6 +506,10 @@ About the Course The curriculum of the MSU Diploma in Graphic Design teaches you
 
 ## diploma-hair-design
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-hair-design.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Introduction to Beauty Industry Customer Service and Sales Fundamental of Hair Cutting Hair Styling Year Two Management for Service Industry Hair and Scalp Treatment Industrial Training Year Three Skin Structure and Growth Make Up Hair Colouring Career Prospects Junior Hair Stylist Hair Salon Owner
@@ -458,13 +534,17 @@ About the Course MSU's Diploma in Hairdressing programme will equip you with all
 
 ## diploma-hospitality-tourism-management
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-hospitality-tourism-management.php
+
 ### Programme Structure
 
 Among the Courses Offered The Diploma in Tourism Management offers a range of courses that prepare students for careers in the tourism industry. Key courses include Tourism Marketing, which covers strategies for promoting travel destinations, and Tourism Industry Management, focusing on business operations in tourism. Students also take Tour Guide Technique and Introduction to Tour Operation, building practical skills for guiding tourists and organizing travel itineraries. Other important subjects include Tourism Geography, Sustainable Tourism, and Event Practices, offering a comprehensive understanding of the industry’s global reach and its environmental impact. This program equips students with the knowledge and skills needed to succeed in various roles within the tourism sector. Career Prospects Graduates of the Diploma in Tourism Management can pursue diverse careers in the tourism industry, including roles as: 1. Tourism Officers 2. Tour Operators 3. Tour Guides 4. Event Planners 5. Travel Agents Students can also work in Destination Marketing, Hotel or Resort Management, and as Sustainable Tourism Consultants. These opportunities are available across travel agencies, tour companies, hotels, event firms, and tourism boards, offering dynamic career paths in a growing global industry.
 
 ### Fee
 
-Fees RM27,000 - RM30,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM27,000 - RM30,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
@@ -472,7 +552,7 @@ Duration of Study 2 years and 6 months Credit Hours 90 Hours Recognition (R3/101
 
 ### Entry Requirements
 
-Entry Requirements A pass in SPM with a minimum of three (3) credits in any subject, or its equivalent; OR A pass in Sijil Tinggi Persekolahan Malaysia (STPM) with a minimum of Grade C (GP 2.00) in any subject, or its equivalent; OR A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Maqbul in any subject, or its equivalent; OR A pass in SKM Level 3 in a related field; OR A Certificate (Level 3, MQF) in a related field or its equivalent. English Competency Requirement (International Students): Achieve a minimum score of 4.0 in the International English Language Testing System (IELTS) or Malaysian University English Test (MUET) Band 2, or its equivalent.
+Entry Requirements A pass in SPM with a minimum of three (3) credits in any subject, or its equivalent; OR A pass in Sijil Tinggi Persekolahan Malaysia (STPM) with a minimum of Grade C (GP 2.00) in any subject, or its equivalent; OR A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Maqbul in any subject, or its equivalent; OR A pass in SKM Level 3 in a related field; OR A Certificate (Level 3, MQF) in a related field or its equivalent. International students are required to achieve a minimum score of 4.0 in the International English Language Testing System (IELTS) / Malaysian University English Test (MUET) with Band 2 OR its equivalent.
 
 ### About
 
@@ -481,6 +561,10 @@ About the Course The Diploma in Tourism Management provides students with the es
 ---
 
 ## diploma-human-capital-management
+
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-human-capital-management.php
 
 ### Programme Structure
 
@@ -506,6 +590,10 @@ About the Course The strength of MSU Diploma in Human Capital Management program
 
 ## diploma-in-music
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-in-music
+
 ### Programme Structure
 
 Among the Courses Offered Music Theory Principal Study Aural Training Ensemble (Choir / Orchestra) Introduction to Songwriting Introduction to Arranging Arranging Introduction to Music Technology Music of the 20th & 21st Century Western Music History Career Prospects Performer (Instrumentalist / Vocalist) Music Director Music Producer Composer / Songwriter Arranger Music Teacher
@@ -529,6 +617,10 @@ About the Course The Diploma in Music program focuses on providing students with
 ---
 
 ## diploma-in-sports-management
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-in-sports-management
 
 ### Programme Structure
 
@@ -554,6 +646,10 @@ About the Course The program will equip students with the skills and knowledge o
 
 ## diploma-information-management
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-information-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Fundamentals to Database Information Literacy Principles of Information Science Information Resource Management Year Two Web Content Management and Design Electronic Publishing System Analysis and Design Planning and Conceptual Design of Library Year Three Industrial Training Career Prospects Assistant Librarian Assistant Knowledge Officer Assistant Administrator Assistant Information Officer Assistant Records Officer Assistant Documents Officer Assistant IT officer IT Support Officer
@@ -576,31 +672,11 @@ About the Course The Diploma in Information Management programme is designed to 
 
 ---
 
-## diploma-information-technology-mobile-wireless
-
-### Programme Structure
-
-Among the Courses Offered Year One Introduction to Programming Analogue and Digital Electronic Algorithm and Data Structure Data Communication and Network Year Two Introduction to Human Computer Interaction Mobile Programming using J2ME Communication System Industrial Training Year Three Mobile System Development Operating System Antenna and Propagation Career Prospects Assistant Security Administrator Technical Support Technician Mobile Technician Junior Network Administrator
-
-### Fee
-
-Fees RM20,000 - RM25,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
-
-### Duration
-
-Duration of Study 2 ½ years Credit Hours Recognition (R3/0611/4/0070) (06/29) (MQA/A9545)
-
-### Entry Requirements
-
-Entry Requirements Possess SPM with at least THREE (3) credits in any subjects (inclusive of Mathematics or any equivalent qualification); OR A pass in Sijil Tinggi Persekolahan Malaysia (STPM) with a minimum Grade C (GP 2.00) in a subject and a credit in Mathematics at SPM level (or equivalent); OR A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Maqbul (Pass) and a credit in Mathematics at SPM level (or equivalent); OR Possess SKM Level 3 in a related field. (Candidates without Mathematics can be admitted subject to a thorough, rigorous assessment to determine their competencies in Mathematics equivalent to SPM level); OR A Certificate (Level 3, MQF) in a related field with at least a CGPA of 2.00; OR Other relevant and equivalent qualifications recognised by the Malaysian Government. (Candidates can be admitted if their admission qualification contains Mathematics subject(s) equivalent to Mathematics at the SPM level. Those without a pass in Mathematics at SPM level or equivalent can be admitted but are required to take and pass the reinforcement Mathematics subject. The reinforcement Mathematics subject must be offered in the first semester or before enrolment with unconditional offer.) Notes: Candidates with a pass in Mathematics at the SPM level (or equivalent) may be admitted if their admission qualification contains Mathematics subject(s) equivalent to Mathematics at the SPM level. Candidates with a pass in Mathematics at SPM level (or equivalent) and without a Mathematics subject in their admission qualification must take and pass the reinforcement Mathematics subject equivalent to the SPM level. This reinforcement Mathematics must be offered in the first semester or before enrolment with unconditional offer. Candidates with a credit in Computing-related subject(s) at the SPM level (or equivalent) may be given preferential consideration.
-
-### About
-
-About the Course The diploma programme in information technology specialising in mobile and wireless technology prepares you to be well-versed in network and infrastructure management and also capable of developing mobile and wireless applications. You will train and learn from the most advanced technologies in the design, operation and management of wireless networks, with guidance from lecturers who are keen in exploring new trends and development in the industry. Your theoretical and practical skills will be enhanced in the collaborative learning environments at Management and Science University which will develop you into a resourceful learner, creative communicator and critical thinker. Industrial placement in the second year will enhance your understanding and knowledge in this field, preparing you for a successful career in the mobile and wireless technology industry.
-
----
-
 ## diploma-information-technology
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-information-technology.php
 
 ### Programme Structure
 
@@ -624,7 +700,39 @@ About the Course Information technology is an integral part of our daily lives, 
 
 ---
 
+## diploma-information-technology-mobile-wireless
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-information-technology-mobile-wireless.php
+
+### Programme Structure
+
+Among the Courses Offered Year One Introduction to Programming Analogue and Digital Electronic Algorithm and Data Structure Data Communication and Network Year Two Introduction to Human Computer Interaction Mobile Programming using J2ME Communication System Industrial Training Year Three Mobile System Development Operating System Antenna and Propagation Career Prospects Assistant Security Administrator Technical Support Technician Mobile Technician Junior Network Administrator
+
+### Fee
+
+Fees RM20,000 - RM25,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+
+### Duration
+
+Duration of Study 2 ½ years Credit Hours Recognition (R3/0611/4/0070) (06/29) (MQA/A9545)
+
+### Entry Requirements
+
+Entry Requirements Possess SPM with at least THREE (3) credits in any subjects (inclusive of Mathematics or any equivalent qualification); OR A pass in Sijil Tinggi Persekolahan Malaysia (STPM) with a minimum Grade C (GP 2.00) in a subject and a credit in Mathematics at SPM level (or equivalent); OR A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Maqbul (Pass) and a credit in Mathematics at SPM level (or equivalent); OR Possess SKM Level 3 in a related field. (Candidates without Mathematics can be admitted subject to a thorough, rigorous assessment to determine their competencies in Mathematics equivalent to SPM level); OR A Certificate (Level 3, MQF) in a related field with at least a CGPA of 2.00; OR Other relevant and equivalent qualifications recognised by the Malaysian Government. (Candidates can be admitted if their admission qualification contains Mathematics subject(s) equivalent to Mathematics at the SPM level. Those without a pass in Mathematics at SPM level or equivalent can be admitted but are required to take and pass the reinforcement Mathematics subject. The reinforcement Mathematics subject must be offered in the first semester or before enrolment with unconditional offer.) Notes: Candidates with a pass in Mathematics at the SPM level (or equivalent) may be admitted if their admission qualification contains Mathematics subject(s) equivalent to Mathematics at the SPM level. Candidates with a pass in Mathematics at SPM level (or equivalent) and without a Mathematics subject in their admission qualification must take and pass the reinforcement Mathematics subject equivalent to the SPM level. This reinforcement Mathematics must be offered in the first semester or before enrolment with unconditional offer. Candidates with a credit in Computing-related subject(s) at the SPM level (or equivalent) may be given preferential consideration.
+
+### About
+
+About the Course The diploma programme in information technology specialising in mobile and wireless technology prepares you to be well-versed in network and infrastructure management and also capable of developing mobile and wireless applications. You will train and learn from the most advanced technologies in the design, operation and management of wireless networks, with guidance from lecturers who are keen in exploring new trends and development in the industry. Your theoretical and practical skills will be enhanced in the collaborative learning environments at Management and Science University which will develop you into a resourceful learner, creative communicator and critical thinker. Industrial placement in the second year will enhance your understanding and knowledge in this field, preparing you for a successful career in the mobile and wireless technology industry.
+
+---
+
 ## diploma-interior-design
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-interior-design.php
 
 ### Programme Structure
 
@@ -650,6 +758,10 @@ About the Course Interior design is all about creating functional spaces in resi
 
 ## diploma-investment-management
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-investment-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Principles of Finance Elementary Accounting Principles of Corporate Finance Year Two Introduction to Cost Accounting Financial Future and Options Real Estate Valuation and Management Financial Statement and Analysis Year Three Investment Regulations and Practices Introduction to Strategic Management Investment Management Project Career Prospects Investment Analyst Assistant Junior Financial Planner
@@ -673,6 +785,10 @@ About the Course The Diploma in Investment Management programme introduces stude
 ---
 
 ## diploma-islamic-banking
+
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-islamic-banking.php
 
 ### Programme Structure
 
@@ -698,6 +814,10 @@ About the Course Islamic banking is among the fastest growing segments of the fi
 
 ## diploma-islamic-finance
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-islamic-finance.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Introduction to Accounting Introduction to Fiqh Mualamah Contract in Islamic Finance Islamic Capital Market Year Two Islamic Ethics Islamic Financial Planning Quantitative Methods in Finance Islamic Financial System Year Three Islamic Finance Project Industrial Training Career Prospects Junior Risk Management Officer Junior Regulatory Officer Junior Collections Officer
@@ -721,6 +841,10 @@ About the Course MSU's Diploma in Islamic Finance programme will equip you with 
 ---
 
 ## diploma-logistic-management
+
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-logistic-management.php
 
 ### Programme Structure
 
@@ -746,6 +870,10 @@ About the Course Logistics management is a popular qualification sought by aspir
 
 ## diploma-management
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Practices of Management Operation Management Introduction to Customer Services Organisational Behaviour Year Two Human Resource Management Principles of Finance Quality Management Introduction to Strategic Management Year Three E-Commerce Industrial Training Career Prospects Administrative Assistant Junior Customer Relations Officer Junior Human Resource Officer Entrepreneur
@@ -768,7 +896,39 @@ About the Course The Diploma in Management programme offers you a broad business
 
 ---
 
+## diploma-mechanical-engineering
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-mechanical-engineering.php
+
+### Programme Structure
+
+Among the Courses Offered Year One Technical Drawing Mechanic of Materials Engineering Mathematics Metrology and Instrumentation Year Two Thermodynamics Fluid Mechanics Workshop Technology and Practice Industrial Training Year Three Hydraulic and Pneumatics Mechanics of Machines Electronics and Digital Engineering Career Prospects Assistant Mechanical Engineer Mould Design Assistant Process Technician Maintenance Technician
+
+### Fee
+
+Fees RM55,000 - RM60,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+
+### Duration
+
+Duration of Study 2 ½ years Credit Hours Recognition (R2/521/4/0042) (03/28) (MQA/ FA1219)
+
+### Entry Requirements
+
+Entry Requirements Pass SPM or its equivalent with at least credits in THREE (3) subjects, including Mathematics and ONE (1) relevant science / technical / vocational subject AND a pass in English; OR Pass Sijil Tinggi Persekolahan Malaysia (STPM) or its equivalent with a pass in Mathematics, English, and ONE (1) relevant science / technical / vocational subject at the SPM level; OR Recognised Certificate in Engineering / Engineering Technology or its equivalent; OR Recognised related Vocational and Technical / Skills Certificate or its equivalent with ONE (1) year of relevant work experience or a minimum of ONE (1) semester of a bridging programme. For International students: Test of English as a Foreign Language (TOEFL) score of 500 OR International English Language Testing System (IELTS) score of 5.0 OR its equivalent. If a student does not meet this requirement, HEPs must offer English proficiency courses to ensure that the student’s proficiency is sufficient to meet the needs of the programme. This is normally conducted through an assessment process.
+
+### About
+
+About the Course Mechanical Engineering covers extensive fields which include manufacturing, mechanisms and design. The curriculum of the diploma programme in mechanical engineering at Management and Science University will give you a solid foundation in core engineering principles and practices of mechanical engineering. Our lecturers are experienced practitioners and we collaborate closely with industry to ensure our mechanical engineering diploma programme meets the needs of the workplace.
+
+---
+
 ## diploma-mechanical-engineering-air-conditioning-refrigeration
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-mechanical-engineering-air-conditioning-refrigeration.php
 
 ### Programme Structure
 
@@ -794,6 +954,10 @@ About the Course Air Conditioning and Refrigeration at Management and Science Un
 
 ## diploma-mechanical-engineering-highrise-building-maintenance
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-mechanical-engineering-highrise-building-maintenance.php
+
 ### Programme Structure
 
 Among the Courses Offered Career Prospects Career Prospect Contents
@@ -816,31 +980,11 @@ About the Course Highrise Building Maintenance at Management & Science Universit
 
 ---
 
-## diploma-mechanical-engineering
-
-### Programme Structure
-
-Among the Courses Offered Year One Technical Drawing Mechanic of Materials Engineering Mathematics Metrology and Instrumentation Year Two Thermodynamics Fluid Mechanics Workshop Technology and Practice Industrial Training Year Three Hydraulic and Pneumatics Mechanics of Machines Electronics and Digital Engineering Career Prospects Assistant Mechanical Engineer Mould Design Assistant Process Technician Maintenance Technician
-
-### Fee
-
-Fees RM55,000 - RM60,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
-
-### Duration
-
-Duration of Study 2 ½ years Credit Hours Recognition (R2/521/4/0042) (03/28) (MQA/ FA1219)
-
-### Entry Requirements
-
-Entry Requirements Pass SPM or its equivalent with at least credits in THREE (3) subjects, including Mathematics and ONE (1) relevant science / technical / vocational subject AND a pass in English; OR Pass Sijil Tinggi Persekolahan Malaysia (STPM) or its equivalent with a pass in Mathematics, English, and ONE (1) relevant science / technical / vocational subject at the SPM level; OR Recognised Certificate in Engineering / Engineering Technology or its equivalent; OR Recognised related Vocational and Technical / Skills Certificate or its equivalent with ONE (1) year of relevant work experience or a minimum of ONE (1) semester of a bridging programme. For International students: Test of English as a Foreign Language (TOEFL) score of 500 OR International English Language Testing System (IELTS) score of 5.0 OR its equivalent. If a student does not meet this requirement, HEPs must offer English proficiency courses to ensure that the student’s proficiency is sufficient to meet the needs of the programme. This is normally conducted through an assessment process.
-
-### About
-
-About the Course Mechanical Engineering covers extensive fields which include manufacturing, mechanisms and design. The curriculum of the diploma programme in mechanical engineering at Management and Science University will give you a solid foundation in core engineering principles and practices of mechanical engineering. Our lecturers are experienced practitioners and we collaborate closely with industry to ensure our mechanical engineering diploma programme meets the needs of the workplace.
-
----
-
 ## diploma-medical-assistant
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/diploma-medical-assistant.php
 
 ### Programme Structure
 
@@ -866,6 +1010,10 @@ About the Course Assistant Medical Officers (AMOs), also known as Medical Assist
 
 ## diploma-medical-laboratory-technology
 
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/diploma-medical-laboratory-technology.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One General Biology and Human Genetic Parasitology Clinical Biochemistry Immunology and Serology Year Two Haematology Diagnostic Cytology General Pathology Clinical Immunohaematology Year Three Histopathology Clinical Training Career Prospects Medical Laboratory Technologist Insurance Underwriter Phlebotomist
@@ -889,6 +1037,10 @@ About the Course Medical laboratory technology is one of the most rapidly expand
 ---
 
 ## diploma-medical-science
+
+### URL
+
+https://www.msu.edu.my/international-medical-school/diploma-medical-science.php
 
 ### Programme Structure
 
@@ -914,6 +1066,10 @@ About the Course Diploma in Medical Sciences is a platform developed to provide 
 
 ## diploma-multimedia
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/diploma-multimedia.php
+
 ### Programme Structure
 
 Among the Courses Offered Career Prospects Career Prospect Contents
@@ -937,6 +1093,10 @@ About the Course The curriculum of the MSU multimedia diploma programme will equ
 ---
 
 ## diploma-music-technology
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-music-technology.php
 
 ### Programme Structure
 
@@ -962,6 +1122,10 @@ About the Course The Diploma in Music Technology at Management and Science Unive
 
 ## diploma-nursing
 
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/diploma-nursing.php
+
 ### Programme Structure
 
 Among the Courses Offered Anatomy & Physiology Principles and Practices of Nursing Communication of Nurses Psychology and Sociology Nursing Infections, Fluids, Burns and Scalds Respiratory and Gastrointestinal System Musculoskeletal, Genitourinary and Endocrine System Mental Health Nursing Pediatric Nursing Obstetrics and Gynaecology Community Health Nursing Career Prospects General Practice Nurse Esthetic Nurse
@@ -985,6 +1149,10 @@ About the Course The core of MSU's Diploma in Nursing programme is the integrati
 ---
 
 ## diploma-occupational-safety-health
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/diploma-occupational-safety-health.php
 
 ### Programme Structure
 
@@ -1010,6 +1178,10 @@ About the Course Occupational safety and health is a multidisciplinary field con
 
 ## diploma-office-management-technology
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-office-management-technology.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Computer and Information Processing Organisational Behaviour Advanced Document Processing Introduction to Public Relations Year Two Event Management Principles of Corporate Governance Office Simulation Personality Development Year Three Industrial Training Career Prospects Personal Assistant Office Administrator Assistant Operations Manager
@@ -1033,6 +1205,10 @@ About the Course The office management technology diploma programme at Managemen
 ---
 
 ## diploma-ophthalmic-dispensing
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/diploma-ophthalmic-dispensing.php
 
 ### Programme Structure
 
@@ -1058,6 +1234,10 @@ About the Course The profession of ophthalmic dispensing entails matching optica
 
 ## diploma-outdoor-recreation
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-outdoor-recreation
+
 ### Programme Structure
 
 Among the Courses Offered Year One Introduction to Outdoor and Recreation Swimming Life Saving Year Two Wilderness Survival Management Recreation and Disability Leisure Facility Design Year Three Outdoor Instruction Technique Rescue Operation Industrial Training Career Prospects Nature Guide Camp Facilitator Recreation Planner Park / Theme Park Ranger Sales and Marketing Officer Customer Service Officer Reservation and Ticketing Officer Adventure Tourism Officer
@@ -1081,6 +1261,10 @@ About the Course If you love the outdoors and manage recreation activites, our D
 ---
 
 ## diploma-patisserie-arts
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-patisserie-arts.php
 
 ### Programme Structure
 
@@ -1106,6 +1290,10 @@ About the Course A career in patisserie arts calls for a mastery of techniques f
 
 ## diploma-pharmacy
 
+### URL
+
+https://www.msu.edu.my/school-pharmacy/diploma-pharmacy.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Anatomy and Physiology Organic Chemistry Pharmaceutical Calculation General Pharmacology Year Two Pharmacology For Nervous System Pharmacology for CVS and Respiratory System Pharmaceutical Analysis Pharmacognosy Year Three Industrial/ Community Pharmacy Training Hospital Pharmacy Training Career Prospects Pharmacy Assistant Pharmacy Technician Healthcare Assistant
@@ -1129,6 +1317,10 @@ About the Course The curriculum of the MSU diploma programme in pharmacy aims to
 ---
 
 ## diploma-physiotherapy
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/diploma-physiotherapy.php
 
 ### Programme Structure
 
@@ -1154,13 +1346,17 @@ About the Course Physiotherapy or physical therapy is the treatment of disease o
 
 ## diploma-public-relations-entertainment-management
 
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/diploma-public-relations-entertainment-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Introduction to Public Relations Writing Skills for Public Relations Introduction to Corporate Communications Advertising and Promotion Year Two Ethics in Public Relations Mandarin Public Relations Marketing Cross Cultural Communication Year Three Event Practices in Public Relations Business Law Industrial Training Career Prospects Media Relations Production Music Manager Performance Promotions Manager
 
 ### Fee
 
-Fees RM20,000 - RM25,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM20,000 - RM25,000 *The stated fees are an estimation of the overall cost for completion of the programme. In cases where there are credit exemptions, offered rebates, or approved scholarship applications, there will be a considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
@@ -1168,7 +1364,7 @@ Duration of Study 2 1/2 years Credit Hours Recognition (R3/0321/4/0122) (07/28) 
 
 ### Entry Requirements
 
-Entry Requirements A pass in SPM or its equivalent, with a minimum of three (3) credits in any subject, including English; OR A pass in Sijil Tinggi Persekolahan Malaysia (STPM) or its equivalent, with a minimum of Grade C (GP 2.00) in any subject and a credit in English at SPM or its equivalent; OR A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Maqbul and a credit in English at SPM or its equivalent; OR A pass in SKM Level 3 and a pass in SPM with a credit in English; OR A Certificate or its equivalent and a credit in English at SPM or its equivalent; OR A Certificate in Media and Communication or its equivalent. English Competency Requirement (International Students) Achieve a Test of English as a Foreign Language (TOEFL) score of 500 or an International English Language Testing System (IELTS) score of 5.0 , or its equivalent. If a student does not meet this requirement, Higher Education Providers (HEPs) must offer English proficiency courses to ensure that the student’s proficiency is sufficient to meet the needs of the programme. This is normally conducted through an assessment process.
+Entry Requirements A pass in SPM or its equivalent, with a minimum of 3 credits in any subject, including English; OR A pass in Sijil Tinggi Persekolahan Malaysia (STPM) or its equivalent, with a minimum of Grade C (GP 2.00) in any subject and a credit in English at SPM or its equivalent; OR A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Maqbul and a credit in English at SPM or its equivalent; OR A pass in SKM Level 3 and pass SPM with a credit in English; OR A Certificate or its equivalent and a credit in English at SPM or its equivalent; OR A Certificate in Media and Communication or its equivalent. English Competency Requirement (International Student): Test of English as a Foreign Language (TOEFL) score of 500 OR International English Language Testing System (IELTS) score of 5.0 OR its equivalent is required. If a student does not meet this requirement, HEPs must offer English proficiency courses to ensure that the student’s proficiency is sufficient to meet the needs of the programme. This is normally conducted through an assessment process.
 
 ### About
 
@@ -1177,6 +1373,10 @@ About the Course The Diploma in Public Relations and Entertainment Management pr
 ---
 
 ## diploma-radiotherapy
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/diploma-radiotherapy.php
 
 ### Programme Structure
 
@@ -1202,6 +1402,10 @@ About the Course Radiation therapists or therapeutic radiographers work especial
 
 ## diploma-retail-management
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/diploma-retail-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Practices of Management Introduction to Retail Management Introduction to Accounting Retail Business Environment Year Two Retail Practices Business Law Introduction to Strategic Management Year Three Seminar in Retail Management Human Resource Management Industrial Training Career Prospects Retail Supervisor Junior Purchasing Executive Junior Marketing Executive
@@ -1225,6 +1429,10 @@ About the Course The Diploma in Retail Management programme at Management and Sc
 ---
 
 ## diploma-spa-management
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/diploma-spa-management.php
 
 ### Programme Structure
 
@@ -1250,6 +1458,10 @@ About the Course Diploma in Spa Management As a Diploma in Spa Management studen
 
 ## diploma-sport-science
 
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/diploma-sport-science.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Anatomy and Physiology Health and Fitness Assessment Exercise Physiology Principles of Coaching Year Two Motor Learning and Development Sports Psychology and Sociology Designing Exercise Program Management and Maintenance of Sports Facilities Year Three Legal and Ethical Issues in Sports Sports Attachment Career Prospects Sports Instructor/Psychologist/Manager/Administrator Strength and Conditioning Coach / Exercise / Rehab Fitness Trainer/Coordinator Sports Facilities Manager Sports Marketer
@@ -1273,6 +1485,10 @@ About the Course The Diploma in Sport Science programme offers the opportunity f
 ---
 
 ## diploma-traditional-chinese-medicine
+
+### URL
+
+https://www.msu.edu.my/school-pharmacy/diploma-traditional-chinese-medicine.php
 
 ### Programme Structure
 
@@ -1300,6 +1516,10 @@ About the Course The curriculum of the MSU diploma programme in traditional Chin
 
 ## bachelor-accountancy
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-accountancy.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Introduction to Financial Accounting Financial Accounting and Reporting Service Marketing E-Commerce and Government` Year Two Financial Management Audit Accounting Information System Management Accounting Year Three Taxation Risk Management Public Sector Accounting Year Four Financial Derivatives Business Ethics and Corporate Governance Industrial Training Career Prospects Auditor Tax Advisor Accountant
@@ -1323,6 +1543,10 @@ About the Course Accountancy at MSU will equip you with the fundamentals and dev
 ---
 
 ## bachelor-airline-services-management
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-airline-services-management
 
 ### Programme Structure
 
@@ -1348,6 +1572,10 @@ About the Course From ground handling to in-flight services, Bachelor in Airline
 
 ## bachelor-beauty-hair-management
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-beauty-hair-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Safety and Maintenance for Beauty Introduction to Beauty Industry Professional Grooming Hair Styling Year Two Manicure and Pedicure Skin Structure and Growth Promotion in Sales and Marketing for Beauty Industries Year Three Operation Management for Saloon Industrial Training OSHA Management for Beauty Industries Career Prospects Beauty Consultant Salon Owner Hair Designer
@@ -1362,7 +1590,7 @@ Duration of Study 3 ½ years Credit Hours Recognition (R2/1012/6/0002) (05/32) (
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; OR A pass in STAM with at least grade of Jayyid; OR Matriculation or Foundation with at least CGPA of 2.00; OR A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; OR A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Student: Achieve a minimum Band 3 in MUET OR equivalent to CERF (Low B2)**. Notes: * A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld.2 (23), 21st April 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements ENTRY REQUIREMENTS A pass in STPM with at least Grade C (GP 2.0) in any two (2) subjects*; OR A pass in STAM with at least grade of Jayyid; OR Matriculation or Foundation with at least CGPA of 2.00; OR A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; OR A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). ENGLISH COMPETENCY REQUIREMENT (INTERNATIONAL STUDENT): For International Student: Achieve a minimum Band 3 in MUET OR equivalent to CERF (Low B2)**. NOTES: * A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41) , 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , 20th November 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23) , 21st April 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
 
 ### About
 
@@ -1371,6 +1599,10 @@ About the Course The beauty therapy industry is highly competitive and constantl
 ---
 
 ## bachelor-bioinformatics
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-bioinformatics.php
 
 ### Programme Structure
 
@@ -1394,31 +1626,11 @@ About the Course Bioinformatics is an area of study which intersects biotechnolo
 
 ---
 
-## bachelor-biomedical-science-odl
-
-### Programme Structure
-
-Among the Courses Offered Year 1 Cell Biology and Genetics Anatomy and Physiology Public Health • Biochemistry Year 2 Clinical Biochemistry Medical Parasitology Medical Entomology Transfusion Science and Blood Banking Year 3 Complementary and Alternative Medicine Systemic Pathology Principles of Laboratory Animal Science Year 4 Research Methodology Case Study Special Topics in Biomedical Sciences Year 5 Research Project I Research Project II Industrial Training Career Prospects Medical Laboratory Manager R&D Scientist / Science Officer Medical Product Specialist Underwriter Science Writer/Journalist Research Assistant
-
-### Fee
-
-Fees RM100,00 - RM105,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
-
-### Duration
-
-Duration of Study 5 years Credit Hours 136 Recognition MQA/PA 5407
-
-### Entry Requirements
-
-Entry Requirements i. Obtained MUET Band 3 or IELTS (5.5) / TOEFL (550) AND a) You need to pass STPM/Matriculation/A-Level/Pre-University or equivalent, with at least a C (2.50 CGPA) in Biology/Physics and Chemistry, and to pass SPM with a Credit or equivalent in five (5) subjects including three (3) from among Biology, Physics, Mathematics, Chemistry, and English; or obtain a b) Diploma in a related field, with at least 2.75 CGPA, accompanied by at least 3 years (36 months) working experience in a relevant field if CGPA is below 2.75; or obtain other qualifications recognized as equivalent. c) International students must achieve at least 6.00 in IELTS or 550 in TOEFL or equivalent.
-
-### About
-
-About the Course Bachelor of Biomedical Science at Management and Science University prepares you for a career in biomedical science with a strong emphasis on research. You will attain solid foundations in both the biological and the medical sciences through extensive theoretical knowledge and advanced laboratory skills. Throughout your studies, you will be guided by our lecturers and industry professionals, and will be engaged in collaborative group projects, discussions and presentations. To enhance your employability, you will undertake an industrial placement at the end of the programme to gain experience in the working environment of local hospitals or biomedical companies. You may also apply for the MSU Global Internship Programme, which would add value to your knowledge and experience in the discipline.
-
----
-
 ## bachelor-biomedical-science
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-biomedical-science.php
 
 ### Programme Structure
 
@@ -1442,7 +1654,39 @@ About the Course Bachelor of Biomedical Science at Management and Science Univer
 
 ---
 
+## bachelor-biomedical-science-odl
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-biomedical-science-odl
+
+### Programme Structure
+
+Among the Courses Offered Year 1 Cell Biology and Genetics Anatomy and Physiology Public Health • Biochemistry Year 2 Clinical Biochemistry Medical Parasitology Medical Entomology Transfusion Science and Blood Banking Year 3 Complementary and Alternative Medicine Systemic Pathology Principles of Laboratory Animal Science Year 4 Research Methodology Case Study Special Topics in Biomedical Sciences Year 5 Research Project I Research Project II Industrial Training Career Prospects Medical Laboratory Manager R&D Scientist / Science Officer Medical Product Specialist Underwriter Science Writer/Journalist Research Assistant
+
+### Fee
+
+Fees RM100,00 - RM105,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+
+### Duration
+
+Duration of Study 5 years Credit Hours 136 Recognition MQA/PA 5407
+
+### Entry Requirements
+
+Entry Requirements i. Obtained MUET Band 3 or IELTS (5.5) / TOEFL (550) AND a) You need to pass STPM/Matriculation/A-Level/Pre-University or equivalent, with at least a C (2.50 CGPA) in Biology/Physics and Chemistry, and to pass SPM with a Credit or equivalent in five (5) subjects including three (3) from among Biology, Physics, Mathematics, Chemistry, and English; or obtain a b) Diploma in a related field, with at least 2.75 CGPA, accompanied by at least 3 years (36 months) working experience in a relevant field if CGPA is below 2.75; or obtain other qualifications recognized as equivalent. c) International students must achieve at least 6.00 in IELTS or 550 in TOEFL or equivalent.
+
+### About
+
+About the Course Bachelor of Biomedical Science at Management and Science University prepares you for a career in biomedical science with a strong emphasis on research. You will attain solid foundations in both the biological and the medical sciences through extensive theoretical knowledge and advanced laboratory skills. Throughout your studies, you will be guided by our lecturers and industry professionals, and will be engaged in collaborative group projects, discussions and presentations. To enhance your employability, you will undertake an industrial placement at the end of the programme to gain experience in the working environment of local hospitals or biomedical companies. You may also apply for the MSU Global Internship Programme, which would add value to your knowledge and experience in the discipline.
+
+---
+
 ## bachelor-broadcasting
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-broadcasting
 
 ### Programme Structure
 
@@ -1468,6 +1712,10 @@ About the Course Bachelor in Broadcasting aims to present the nature of programm
 
 ## bachelor-business-computing
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-business-computing.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Computer Architecture Database System Data Communication and Network Data Structureand Algorithm Year Two Object Oriented Programming Human Computer Interaction Principles of Economics Software Project Management Year Three Accounting Information System E-Commerce Industrial Training Career Prospects Analyst Programmer System Analyst Business Process Analyst
@@ -1491,6 +1739,10 @@ About the Course The curriculum of the MSU honours degree programme in business 
 ---
 
 ## bachelor-cardiovascular-technology
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-cardiovascular-technology.php
 
 ### Programme Structure
 
@@ -1516,6 +1768,10 @@ About the Course Cardiovascular technologists deal with the diagnosis and treatm
 
 ## bachelor-computer-engineering
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-computer-engineering.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Discrete Mathematics Problem Solving and Programming Data Communication and Network Circuit Theory Year Two Digital Logic Design Engineering Mathematics Statistics and Probabilities Object Oriented Programming Year Three Digital System Design Robotic Programming Industrial Training Career Prospects Network & System Support Engineer Automation Engineer Equipment Engineer Analyst Programmer
@@ -1539,6 +1795,10 @@ About the Course The products of computer engineering are in every facet of our 
 ---
 
 ## bachelor-computer-forensic
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-computer-forensic.php
 
 ### Programme Structure
 
@@ -1564,6 +1824,10 @@ About the Course MSU's Bachelor in Computer Forensic programme is designed to de
 
 ## bachelor-computer-science
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-computer-science.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One • Introduction to Programming • ComputerArchitecture • System Analysis and Design • Data Communication and Network • Database System • Discrete Mathematics • Object Oriented Programming Year Two • Object Oriented Analysis and Design • Network and Data Security • Software Architecture, Design and Testing • Client Server Computing • Web Programming • Real Time System • Distributed System Year Three • Intelligence System • Programming for Mobile Devices • Data Mining • Industrial Training Career Prospects Software Engineer System Analyst Database Administrator Computer System Engineer
@@ -1587,6 +1851,10 @@ About the Course Students of Bachelor in Computer Science (Honours) at MSU will 
 ---
 
 ## bachelor-counselling-guidance
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-counselling-guidance.php
 
 ### Programme Structure
 
@@ -1612,6 +1880,10 @@ About the Course A career in counselling revolves around guiding and encouraging
 
 ## bachelor-creative-multimedia
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-creative-multimedia.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Creative Photography Digital Audio and Video Database System Basic Drawing Year Two Visual Research Multimedia Authoring System Human Computer Interface Design Research Year Three Advertising Design Writing for Multimedia Industrial Training Career Prospects Interface Designer Multimedia Designer Web Designer
@@ -1635,6 +1907,10 @@ About the Course The curriculum of the MSU honours degree programme in creative 
 ---
 
 ## bachelor-creative-video-photography
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-creative-video-photography.php
 
 ### Programme Structure
 
@@ -1660,6 +1936,10 @@ About the Course With the emergence of social networks, our lives have become so
 
 ## bachelor-culinary-arts
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-culinary-arts.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Introduction to Hospitality Management Principles of Food Preparation Pastry, Bakery and Confectionery Techniques International Cuisine Year Two Malay Cuisine Food and Beverage Service Management Purchasing and Cost Control Advanced Pastry, Bakery and Confectionery Techniques Year Three Food Supply Chain Restaurant Planning and Design Industrial Training Career Prospects Food Stylist Restaurateur Sous Chef
@@ -1684,6 +1964,10 @@ About the Course Culinary arts graduates are always in demand all over the globe
 
 ## bachelor-culinary-management
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-culinary-management
+
 ### Programme Structure
 
 Among the Courses Offered In campus: Managing Kitchen Operation Managing Food and Beverage Operation Food Production and Innovation Project I & II Foodservice Menu Design and Creativity Food Critique and Creative Writing Halal Food and Beverage Management Work-based Learning: The Art and Craftmen of Cold Kitchen Prodcue F&B Cost Control Pastry, Bakery and Confectionery World Menu Flavours The Malaysian Kitchen Leadership in Hospitality Internship Industrial Work Experience Career Prospects Chef De Partie Executive Sous Chef/ Sous Chef Executive Chef Baker Pastry Chef Food & Beverage Manager Culinary Consultant Research and Development Chef
@@ -1706,7 +1990,39 @@ About the Course The Bachelor in Culinary Management is a dynamic program that c
 
 ---
 
+## bachelor-early-childhood-education
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-early-childhood-education.php
+
+### Programme Structure
+
+Among the Courses Offered Year One Learning Through Play Philosophy of Early Childhood Education Cognitive Development of Young Children Social and Emotional Development of Young Children Year Two Early Literacy and Language Curriculum Design, Theory and Practice Gifted Children and Early Childhood Education Music and Movement for Young Children Year Three Developing Critical and Creative Thinking for Young Children Managing Early Childhood Centres Practicum I and II Career Prospects Pre-school Administrator Early Childhood Curriculum Designer Educational Researcher
+
+### Fee
+
+Fees RM40,000 - RM45,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
+
+### Duration
+
+Duration of Study 3 years Credit Hours Recognition (R3/0112/6/0023) (09/27) (MQA/A7057)
+
+### Entry Requirements
+
+Entry Requirements A pass in STPM with a minimum of Grade C (GP 2.00) in any TWO subjects; OR A pass in STAM with a minimum grade of Jayyid; OR A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR A Diploma (Level 4, MQF) in ECE with at least a CGPA of 2.00 out of 4.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM)** in ECE subject to the HEP Senate/Academic Board’s approval. HEPs are required to conduct screening and provide relevant bridging courses; OR A Diploma (Level 4, MQF) in the relevant fields with at least a CGPA of 2.00 out of 4.00; OR Other relevant equivalent qualifications recognised by the Malaysian government as equivalent to the above requirements. English Competency Requirement (International Student): Achieve a grade in the MUET or any English competency test equivalent to a Low B2 in the CEFR. Note: **For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5(53) , 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For private higher educational institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23) , 21st April 2020 – Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+
+### About
+
+About the Course The MSU Bachelor in Early Childhood Education programme will develop your understanding of young children's physical and mental needs alongside their social, cognitive, creative and emotional development. This programme will cultivate your confidence to teach young children and motivate you to become a better educator. Throughout your academic journey at Management and Science University, you will be guided by our experienced lecturers with years of expertise in this field. Their innovative and experiential method will ensure you have a balance between the theoretical and practical aspects to early childhood education. The practicum in your final year will encompass all the practical, social, managerial and entrepreneurial skills needed for you to excel in this industry.
+
+---
+
 ## bachelor-early-childhood-education-pjj
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-early-childhood-education-pjj.php
 
 ### Programme Structure
 
@@ -1730,31 +2046,39 @@ About the Course The MSU Bachelor in Early Childhood Education programme will de
 
 ---
 
-## bachelor-early-childhood-education
+## bachelor-education
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-education.php
 
 ### Programme Structure
 
-Among the Courses Offered Year One Learning Through Play Philosophy of Early Childhood Education Cognitive Development of Young Children Social and Emotional Development of Young Children Year Two Early Literacy and Language Curriculum Design, Theory and Practice Gifted Children and Early Childhood Education Music and Movement for Young Children Year Three Developing Critical and Creative Thinking for Young Children Managing Early Childhood Centres Practicum I and II Career Prospects Pre-school Administrator Early Childhood Curriculum Designer Educational Researcher
+Among the Courses Offered Year One Counselling and Guidance Trends in Language Teaching Professionalism and Ethics in Education Sociology of Education Year Two English Phonetics and Phonology English Language Testing and Evaluation Introduction to Varieties of English Discourse Analysis Year Three Management of Sports Injuries Teaching Reading and Writing Skills Internship: Teaching Practical Career Prospects
 
 ### Fee
 
-Fees RM40,000 - RM45,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM40,000 - RM45,000 *The stated fees are an estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates, or approval of scholarship applications, there will be considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
-Duration of Study 3 years Credit Hours Recognition (R3/0112/6/0023) (09/27) (MQA/A7057)
+Duration of Study 3 years Credit Hours Recognition (R2/0114/6/0010) (11/29) (MQA/A5604)
 
 ### Entry Requirements
 
-Entry Requirements Minimum Entry Requirements A pass in STPM with a minimum of Grade C (GP 2.00) in any TWO subjects; OR A pass in STAM with a minimum grade of Jayyid ; OR A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR A Diploma (Level 4, MQF) in ECE with at least a CGPA of 2.00 out of 4.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM)** in ECE subject to the HEP Senate / Academic Board’s approval. HEPs are required to conduct screening and provide relevant bridging courses; OR A Diploma (Level 4, MQF) in the relevant fields with at least a CGPA of 2.00 out of 4.00; OR Other relevant equivalent qualifications recognised by the Malaysian Government as equivalent to the above requirements. English Competency Requirement (International Students): Achieve a grade in the MUET or any English competency test equivalent to a Low B2 in the CEFR. Note: ** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5(53) , 20th November 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23) , 21st April 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements A pass in STPM with a minimum of Grade C (GP 2.00) in any TWO subjects; A pass in STAM with a minimum grade of Jayyid; A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; A Diploma (Level 4, MQF) in any field with at least CGPA of 2.00 out of 4.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00 out of 4.00; Other relevant equivalent qualifications recognised by Malaysian government as equivalent to the above requirements. Additional requirement for Teaching English as Second Language (TESL): Achieve minimum of Band 4 in MUET or its equivalent (Programme Standard: Language) English Competency Requirement (International Student): Achieve MUET or any English competency test equivalent to a Low B1 Common European Framework of Reference (CEFR). Note: For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
 
 ### About
 
-About the Course The MSU Bachelor in Early Childhood Education programme will develop your understanding of young children's physical and mental needs alongside their social, cognitive, creative and emotional development. This programme will cultivate your confidence to teach young children and motivate you to become a better educator. Throughout your academic journey at Management and Science University, you will be guided by our experienced lecturers with years of expertise in this field. Their innovative and experiential method will ensure you have a balance between the theoretical and practical aspects to early childhood education. The practicum in your final year will encompass all the practical, social, managerial and entrepreneurial skills needed for you to excel in this industry.
+About the Course The MSU Bachelor in Education programme focusing in the Teaching of English as a Second Language (TESL) aims to produce teachers of English for secondary schools. Our focus on both language proficiency and its education will help you develop sound theoretical and practical knowledge in teaching English as a second language. This programme is delivered through innovative, 21st century teaching techniques which will engage you with collaborative and highly focused assessments and projects to give you the foundation you need for a successful career in education and TESL.
 
 ---
 
 ## bachelor-education-electrical-electronic-engineering
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-education-electrical-electronic-engineering.php
 
 ### Programme Structure
 
@@ -1770,7 +2094,7 @@ Duration of Study 3 years Credit Hours Recognition (R2/0114/6/0004) (12/30) (MQA
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with a minimum Grade C (GP 2.00) in any two subjects ; OR a pass in STAM with a minimum grade of Jayyid ; OR a Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR a Diploma (Level 4, MQF) in any field with at least a CGPA of 2.00 out of 4.00; OR a Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; OR an Advanced Diploma (Level 5, MQF) with at least a CGPA of 2.00 out of 4.00; OR other relevant equivalent qualifications recognised by the Malaysian Government as equivalent to the above requirements. Additional Requirement (TESL) Achieve a minimum of Band 4 in MUET or its equivalent. (Programme Standard: Language) English Competency Requirement (International Student) Achieve MUET or any English competency test equivalent to Low B1 in the Common European Framework of Reference (CEFR) . Note: *For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , dated 20 November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
+Entry Requirements A pass in STPM with a minimum of Grade C (GP 2.00) in any TWO subjects; OR A pass in STAM with a minimum grade of Jayyid; OR A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR A Diploma (Level 4, MQF) in any field with at least a CGPA of 2.00 out of 4.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; OR An Advanced Diploma (Level 5, MQF) with at least a CGPA of 2.00 out of 4.00; OR Other relevant equivalent qualifications recognised by the Malaysian government as equivalent to the above requirements. Additional requirement for Teaching English as a Second Language (TESL): Achieve a minimum of Band 4 in MUET or its equivalent. (Programme Standard: Language) English Competency Requirement (International Student): Achieve MUET or any English competency test equivalent to a Low B1 in the Common European Framework of Reference (CEFR). Note: * For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
 
 ### About
 
@@ -1779,6 +2103,10 @@ About the Course Teacher education in technical vocational education and trainin
 ---
 
 ## bachelor-education-physical-education-health
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-education-physical-education-health.php
 
 ### Programme Structure
 
@@ -1794,7 +2122,7 @@ Duration of Study 3 years Credit Hours Recognition (R2/0114/6/0025) (08/29) (MQA
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with a minimum Grade C (GP 2.00) in any two subjects ; OR a pass in STAM with a minimum grade of Jayyid ; OR a Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR a Diploma (Level 4, MQF) in any field with at least a CGPA of 2.00 out of 4.00; OR a Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; OR an Advanced Diploma (Level 5, MQF) with at least a CGPA of 2.00 out of 4.00; OR other relevant equivalent qualifications recognised by the Malaysian Government as equivalent to the above requirements. Additional Requirement (for Teaching English as a Second Language – TESL) Achieve a minimum of Band 4 in MUET or its equivalent. (Programme Standard: Language) English Competency Requirement (International Student) Achieve MUET or any English competency test equivalent to Low B1 in the Common European Framework of Reference (CEFR) . Note: *For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , dated 20 November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
+Entry Requirements A pass in STPM with a minimum of Grade C (GP 2.00) in any TWO subjects; OR A pass in STAM with a minimum grade of Jayyid; OR A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR A Diploma (Level 4, MQF) in any field with at least a CGPA of 2.00 out of 4.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; OR An Advanced Diploma (Level 5, MQF) with at least a CGPA of 2.00 out of 4.00; OR Other relevant equivalent qualifications recognised by the Malaysian government as equivalent to the above requirements. Additional requirement for Teaching English as a Second Language (TESL): Achieve a minimum of Band 4 in MUET or its equivalent. (Programme Standard: Language) English Competency Requirement (International Student): Achieve MUET or any English competency test equivalent to a Low B1 in the Common European Framework of Reference (CEFR). Note: * For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
 
 ### About
 
@@ -1803,6 +2131,10 @@ About the Course The teaching of physical education and health at Management and
 ---
 
 ## bachelor-education-science
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-education-science.php
 
 ### Programme Structure
 
@@ -1818,7 +2150,7 @@ Duration of Study 3 years Credit Hours Recognition (R2/0114/6/0006) (03/29) ( MQ
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with a minimum Grade C (GP 2.00) in any two subjects ; OR a pass in STAM with a minimum grade of Jayyid ; OR a Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR a Diploma (Level 4, MQF) in any field with at least a CGPA of 2.00 out of 4.00; OR a Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; OR an Advanced Diploma (Level 5, MQF) with at least a CGPA of 2.00 out of 4.00; OR other relevant equivalent qualifications recognised by the Malaysian Government as equivalent to the above requirements. Additional Requirement (for Teaching English as a Second Language – TESL) Achieve a minimum of Band 4 in MUET or its equivalent. (Programme Standard: Language) English Competency Requirement (International Students) Achieve MUET or any English competency test equivalent to Low B1 in the Common European Framework of Reference (CEFR) . Note: *For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , dated 20 November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
+Entry Requirements A pass in STPM with a minimum of Grade C (GP 2.00) in any TWO subjects; OR A pass in STAM with a minimum grade of Jayyid; OR A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR A Diploma (Level 4, MQF) in any field with at least a CGPA of 2.00 out of 4.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; OR An Advanced Diploma (Level 5, MQF) with at least a CGPA of 2.00 out of 4.00; OR Other relevant equivalent qualifications recognised by the Malaysian government as equivalent to the above requirements. Additional requirement for Teaching English as a Second Language (TESL): Achieve a minimum of Band 4 in MUET or its equivalent. (Programme Standard: Language) English Competency Requirement (International Student): Achieve MUET or any English competency test equivalent to a Low B1 in the Common European Framework of Reference (CEFR). Note: * For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
 
 ### About
 
@@ -1827,6 +2159,10 @@ About the Course The MSU honours degree programme in science education offers yo
 ---
 
 ## bachelor-education-visual-art
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-education-visual-art.php
 
 ### Programme Structure
 
@@ -1842,7 +2178,7 @@ Duration of Study 3 years Credit Hours Recognition (R2/145/6/0031) (11/27) (MQA/
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with a minimum Grade C (GP 2.00) in any two subjects ; OR a pass in STAM with a minimum grade of Jayyid ; OR a Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR a Diploma (Level 4, MQF) in any field with at least a CGPA of 2.00 out of 4.00; OR a Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; OR an Advanced Diploma (Level 5, MQF) with at least a CGPA of 2.00 out of 4.00; OR other relevant equivalent qualifications recognised by the Malaysian government as equivalent to the above requirements. Additional Requirement (for Teaching English as a Second Language – TESL) Achieve a minimum of Band 4 in MUET or its equivalent. (Programme Standard: Language) English Competency Requirement (International Students) Achieve a grade in MUET or any English competency test equivalent to Low B1 in the Common European Framework of Reference (CEFR) . Note: *For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , dated 20 November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
+Entry Requirements A pass in STPM with a minimum of Grade C (GP 2.00) in any TWO subjects; OR A pass in STAM with a minimum grade of Jayyid; OR A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR A Diploma (Level 4, MQF) in any field with at least a CGPA of 2.00 out of 4.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; OR An Advanced Diploma (Level 5, MQF) with at least a CGPA of 2.00 out of 4.00; OR Other relevant equivalent qualifications recognised by the Malaysian government as equivalent to the above requirements. Additional requirement for Teaching English as Second Language (TESL): Achieve a minimum of Band 4 in MUET or its equivalent. (Programme Standard: Language) English Competency Requirement (International Student): Achieve MUET or any English competency test equivalent to a Low B1 in the Common European Framework of Reference (CEFR). Note: * For public universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
 
 ### About
 
@@ -1850,31 +2186,11 @@ About the Course The role of art educators in the education system is to provide
 
 ---
 
-## bachelor-education
-
-### Programme Structure
-
-Among the Courses Offered Year One Counselling and Guidance Trends in Language Teaching Professionalism and Ethics in Education Sociology of Education Year Two English Phonetics and Phonology English Language Testing and Evaluation Introduction to Varieties of English Discourse Analysis Year Three Management of Sports Injuries Teaching Reading and Writing Skills Internship: Teaching Practical Career Prospects RM40,000 - RM45,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
-
-### Fee
-
-Fees RM40,000 - RM45,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
-
-### Duration
-
-Duration of Study 3 years Credit Hours Recognition (R2/0114/6/0010) (11/29) (MQA/A5604)
-
-### Entry Requirements
-
-Entry Requirements Minimum Entry Requirements A pass in STPM with a minimum of Grade C (GP 2.00) in any TWO subjects; OR A pass in STAM with a minimum grade of Jayyid ; OR A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00 out of 4.00; OR A Diploma (Level 4, MQF) in any field with at least CGPA of 2.00 out of 4.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) subject to HEP Senate / Academic Board’s approval*. The HEPs are required to conduct screening and provide appropriate bridging courses; OR An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00 out of 4.00; OR Other relevant equivalent qualifications recognised by the Malaysian Government as equivalent to the above requirements. Additional Requirement for Teaching English as Second Language (TESL): Achieve a minimum of Band 4 in MUET or its equivalent. ( Programme Standard: Language ) English Competency Requirement (International Students): Achieve (MUET) or any English competency test equivalent to a Low B1 Common European Framework of Reference (CEFR). Note: * For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , 20th November 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA).
-
-### About
-
-About the Course The MSU Bachelor in Education programme focusing in the Teaching of English as a Second Language (TESL) aims to produce teachers of English for secondary schools. Our focus on both language proficiency and its education will help you develop sound theoretical and practical knowledge in teaching English as a second language. This programme is delivered through innovative, 21st century teaching techniques which will engage you with collaborative and highly focused assessments and projects to give you the foundation you need for a successful career in education and TESL.
-
----
-
 ## bachelor-entrepreneurship
+
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-entrepreneurship.php
 
 ### Programme Structure
 
@@ -1882,7 +2198,7 @@ Among the Courses Offered Year One Principles of Economics Introduction to Entre
 
 ### Fee
 
-Fees RM50,000 - RM55,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM50,000 - RM55,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
@@ -1890,7 +2206,7 @@ Duration of Study 3.5 years Credit Hours Recognition (R/0414/6/0184) (06/27) (MQ
 
 ### Entry Requirements
 
-Entry Requirements Minimum Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; A pass in STAM with at least grade of Jayyid ; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR viii. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Students: Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications. (English subject requirement does not apply to international students since they are required to meet certain international English examination scores and may be granted exemptions.) Can be waived if higher qualifications include Mathematics and English with equivalent or higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent may be exempted from the English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but must attend special enhancement course(s) (SPM equivalent, remedial in nature). Students must pass these enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41) , 9th December 2019 – Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and scores. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23) , 21st April 2020 – Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; A pass in STAM with at least grade of Jayyid; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/ Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Students: Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
 
 ### About
 
@@ -1899,6 +2215,10 @@ About the Course Creativity and innovation are integral factors in developing ne
 ---
 
 ## bachelor-event-management
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-event-management.php
 
 ### Programme Structure
 
@@ -1924,6 +2244,10 @@ About the Course Managing events requires individuals who have a blend of creati
 
 ## bachelor-fashion-design
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-fashion-design.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Art and Design Fundamentals Sewing Techniques Colour Theory Patternmaking Year Two Patternmaking and Construction Fashion Show Management Fabric Embellishment Menswear Year Three Visual Merchandising Fashion Image and Styling Industrial Training Career Prospects Retail Buyer Fashion Merchandiser Visual Merchandiser Fashion Designer
@@ -1938,7 +2262,7 @@ Duration of Study 3 years Credit Hours Recognition (R2/214/6/0033) (11/26) (MQA/
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with a minimum of Grade C (GP 2.00) in any two (2) subjects, or its equivalent; OR A pass in STAM with a minimum grade of Jayyid, or its equivalent; OR A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00, or its equivalent; OR A Diploma (Level 4, MQF) with a minimum CGPA of 2.00, or its equivalent; OR A pass in Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) in suitable fields with a minimum CGPA of 2.50 subjected to Senate / Academic Board’s approval (Note: The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme) ; OR A pass in DKM / DLKM / DVM with a minimum CGPA of 2.00 and at least have two (2) years working experience in a related discipline; OR Other relevant equivalent qualifications recognised by the Malaysian Government. AND viii. Pass an interview OR submission of portfolio determined by the HEP as required. English Competency Requirement (International Student) Achieve a minimum score Band 3 in MUET or equivalent.
+Entry Requirements i. A pass in STPM with a minimum of Grade C (GP 2.00) in any two (2) subjects, or its equivalent; OR ii. A pass in STAM with a minimum grade of Jayyid, or its equivalent; OR iii. A Certificate in Matriculation or Foundation with a minimum CGPA of 2.00, or its equivalent; OR iv. A Diploma (Level 4, MQF) with a minimum CGPA of 2.00, or its equivalent; OR v. A pass in Diploma Kemahiran Malaysia (DKM) / Diploma Lanjutan Kemahiran Malaysia (DLKM) / Diploma Vokasional Malaysia (DVM) in suitable fields with a minimum CGPA of 2.50 subjected to Senate / Academic Board’s approval Note: The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme; OR vi. A pass in DKM / DLKM / DVM with a minimum CGPA of 2.00 and at least have two (2) years working experience in a related discipline; OR vii. Other relevant equivalent qualifications recognised by the Malaysian Government. AND viii. Pass an interview OR submission of portfolio determined by the HEP as required. ENGLISH COMPETENCY REQUIREMENT (INTERNATIONAL STUDENT): Achieve a minimum score Band 3 in MUET or equivalent.
 
 ### About
 
@@ -1947,6 +2271,10 @@ About the Course At Management and Science University, we provide a dynamic, sup
 ---
 
 ## bachelor-finance
+
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-finance.php
 
 ### Programme Structure
 
@@ -1972,6 +2300,10 @@ About the Course The Bachelor in Finance programme primes you for the challengin
 
 ## bachelor-food-service-technology
 
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-food-service-technology.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Microbiology Food Microbiology Food Service Information System Year Two Purchasing and Menu Planning Food Quality Control and Assurance Food Service Layout and Design Food Processing and Preservation Year Three Food Service Management Ethics in Food Industry Industrial Training Career Prospects Food Manufacturing Officer Food Technologist Food Planner Restaurant Manager Product Development Manager Kitchen Manager Quality Control Officer Researcher Academician
@@ -1995,6 +2327,10 @@ About the Course MSU's Bachelor in Food Service Technology programme prepares yo
 ---
 
 ## bachelor-forensic-science
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-forensic-science.php
 
 ### Programme Structure
 
@@ -2020,6 +2356,10 @@ About the Course Studying forensic science at Management & Science University wi
 
 ## bachelor-game-development-tvet
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-game-development-tvet
+
 ### Programme Structure
 
 Among the Courses Offered Logics for Games Design Visual Programming for Game Mechanics Game Character Animation Games UI/ UX Design Environment Design in Games Project Management in Games Development Games Marketing & Monetization Public Relation & Community Engagement in Games Strategic Management in Games Career Prospects Game designer Game Concept Artist Gameplay Programmer
@@ -2043,6 +2383,10 @@ About the Course Bachelor in Game Development (Honours) of MSU aims to provide t
 ---
 
 ## bachelor-games-design-animation
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-games-design-animation.php
 
 ### Programme Structure
 
@@ -2068,6 +2412,10 @@ About the Course Games design development is innovative and exciting from techno
 
 ## bachelor-graphic-design
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-graphic-design.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Creative Photography Colour Theory and Application Digital Imaging Typography Year Two Brand Identity Design Packaging Design Interactive Media Design Research Year Three Digital 3D Design Professional Practice Industrial Training Career Prospects Technical Illustrator Advertising Designer Web Designer Packaging Designer
@@ -2091,6 +2439,10 @@ About the Course Bachelor of Graphic Design programme at Management and Science 
 ---
 
 ## bachelor-halal-quality-assurance
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-halal-quality-assurance
 
 ### Programme Structure
 
@@ -2116,6 +2468,10 @@ About the Course This program covers Halal Quality Management within the Halal i
 
 ## bachelor-health-science-management
 
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-health-science-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Disaster Management Principle of Health Care and Disease Prevention Socio-Cultural Aspect of Health Care Health Safety, Emergency and Crisis Management Year Two Health Care Programme Planning and Evaluation Instrumentation Planning, Designing and Management of Clinical Services Biostatistics Year Three National Health Policy and Law Quality Management and Hospital Accreditation System Hospital Attachment Career Prospects Health Care Consultant Hospital Administrator Managed-Care Administrator Quality Improvement Officer “Silver Hair” Industry – Elderly Care (Home Care, Old Folks Home, Shelters) Clinics – patient management, accounting, information management Rehab Centres Physiotherapy facilities Hospice Health Insurance companies Medical equipment manufacturers
@@ -2139,6 +2495,10 @@ About the Course The MSU Bachelor in Health Science Management programme is desi
 ---
 
 ## bachelor-hospitality-tourism-management
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-hospitality-tourism-management.php
 
 ### Programme Structure
 
@@ -2164,6 +2524,10 @@ About the Course From hotels to resorts, cruise ships to tour agencies, the Bach
 
 ## bachelor-hotel-management
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-hotel-management
+
 ### Programme Structure
 
 Among the Courses Offered In campus: Hotel Operation Management Hotel Innkeepers Law Fundamental of Front Office Management Fundamental of Housekeeping Management Fundamental of Food and Beverage Management Digital Marketing in Hospitality Industry Manpower Management for Hospitality Managers International Hospitality Management Practices Work-based Learning: Room Division Analysis in Front Office Facility Management for Housekeeping Menu Planning and Development Sustainability in Hospitality Leadership in Hospitality Industrial Work Experience Career Prospects Hotel General Manager Housekeeping Manager Food and Beverage Manager Front Office Manager Guest Relations Executive
@@ -2188,13 +2552,17 @@ About the Course The Bachelor in Hotel Management offers a comprehensive blend o
 
 ## bachelor-human-capital-management
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-human-capital-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Principles of Accounting Introduction to Human Capital Management Principles of Finance Organisational Behaviour Year Two Manpower Planning Compensation and Benefits Performance Management Operation Management Year Three Employment Law and Employee Benefits Occupational Health and Safety Industrial Training Career Prospects Human Resource Executive Recruitment Consultant Training Manager Payroll Manager
 
 ### Fee
 
-Fees RM35,000 - RM40,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM35,000 - RM40,000 *The stated fees are an estimation for overall completion of the program. In cases where there are credit exemptions, offered rebates, or approved scholarship applications, there will be a considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
@@ -2202,7 +2570,7 @@ Duration of Study 3 years Credit Hours Recognition (R3/0414/6/0213) (03/27) (MQA
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; OR A pass in STAM with at least grade of Jayyid ; OR Matriculation or Foundation with at least CGPA of 2.00; OR A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; OR A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR viii. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Student: Achieve a minimum Band 3 in MUET OR equivalent to CERF (Low B2)**. Notes: * A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; OR A pass in STAM with at least grade of Jayyid; OR Matriculation or Foundation with at least CGPA of 2.00; OR A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; OR A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR viii. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Students: Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
 
 ### About
 
@@ -2212,13 +2580,17 @@ About the Course MSU's Bachelor in Human Capital Management programme aligns wor
 
 ## bachelor-in-accounting-and-finance
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-in-accounting-and-finance
+
 ### Programme Structure
 
-Among the Courses Offered Year One Business Mathematics Introduction to Financial Accounting Principles of Finance Commercial law Principles and Practices of Management Year Two Management Accounting Financial Accounting and Reporting Taxation Money and Capital Market Investment Analysis Year Three Accounting Information System Audit Financial Derivatives Risk Management Business Ethics and Corporate Governance Year Four Internship (6 months) Career Prospects Tax Adviser Risk Analyst Retail Banker Account Executive External Auditor
+Among the Courses Offered Year One Business Mathematics Introduction to Financial Accounting Principles of Finance Commercial Law Principles and Practices of Management Year Two Management Accounting Financial Accounting and Reporting Taxation Money and Capital Market Investment Analysis Year Three Accounting Information System Audit Financial Derivatives Risk Management Business Ethics and Corporate Governance Year Four Internship (6 months) Career Prospects Tax Adviser Risk Analyst Retail Banker Account Executive External Auditor
 
 ### Fee
 
-Fees RM50,000 - RM60,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM50,000 - RM60,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
@@ -2226,7 +2598,7 @@ Duration of Study 4 Years Credit Hours 147 Recognition (R/0488/6/0029) (07/32) (
 
 ### Entry Requirements
 
-Entry Requirements Minimum Entry Requirements A pass in Sijil Tinggi Persekolahan Malaysia (STPM) or its equivalent, with a minimum Grade C+ (GP 2.33) in two subjects; OR A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Jayyid (good); OR A pass in Diploma (Level 4, MQF) with a minimum CGPA of 2.50; OR A pass in Matriculation/Foundation qualification or its equivalent with a minimum CGPA of 2.50; OR Diploma in Accounting fields (Level 4, MQF) or equivalent with a minimum CGPA of 2.50. Candidates with a CGPA below 2.50 but more than 2.00 may be admitted subject to a thorough rigorous assessment; OR Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) in Accounting fields with a minimum CGPA of 2.50, subjected to HEP Senate/Academic Board's approval; OR Diploma Lanjutan Kemahiran Malaysia (DLKM) in Accounting fields with a minimum CGPA of 2.50, subjected to HEP Senate/Academic Board's approval; OR Possess an Advanced Diploma (Level 5, MQF) in accounting or related field with at least a CGPA of 2.50; OR Other relevant and equivalent qualifications recognised by the Malaysian Government. AND a credit in: Mathematics in SPM level or its equivalent; OR Candidates with a pass in Mathematics at SPM level need to take and pass the enhancement Mathematics subject that is equivalent to the SPM level. The enhancement Mathematics subject must be offered in the first semester or before enrolment with unconditional offer. Notes: Enhancement Mathematics and English can contribute to the overall graduating credit. Students from Matriculation / Foundation or its equivalent can be exempted from taking enhancement Mathematics and English, provided that the Mathematics and English offered at the programme level are equivalent to or higher than those offered at SPM level. English Competency Requirement (International Students) Achieve a minimum of Band 3.5 in MUET or equivalent to CERF (High B1). If a student does not meet this requirement, the HEP must offer English proficiency courses to ensure that the student's proficiency is sufficient to meet the needs of the programme.
+Entry Requirements A pass in Sijil Tinggi Persekolahan Malaysia (STPM) or its equivalent, with a minimum Grade C+ (GP 2.33) in two subjects; A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Jayyid (good); A pass in Diploma (Level 4, MQF) with minimum of CGPA of 2.50; A pass in Matriculation/Foundation qualification or its equivalent with a minimum CGPA of 2.50; Diploma in Accounting fields (Level 4, MQF) or equivalent with a minimum CGPA of 2.50. Candidates with a CGPA below 2.50 but more than 2.00 may be admitted subject to a thorough rigorous assessment; Diploma Kemahiran Malaysia (DKM)/ Diploma Vokasional Malaysia (DVM) in Accounting fields with a minimum CGPA of 2.50 subjected to HEP Senate/ Academic Board's approval; Diploma Lanjutan Kemahiran Malaysia (DLKM) in Accounting fields with a minimum CGPA of 2.50 subjected to HEP Senate/ Academic Board's approval; Possess an Advanced Diploma (Level 5, MQF) in accounting or related field with at least a CGPA of 2.50; Other relevant and equivalent qualifications recognised by the Malaysian Government. AND a credit in: Mathematics at SPM level or its equivalent; Candidates with a pass in Mathematics at SPM level need to take and pass the enhancement Mathematics subject equivalent to SPM level. The enhancement Mathematics subject must be offered in the first semester or before enrolment with unconditional offer. Notes: Enhancement Mathematics and English can contribute to the overall graduating credit. Students from Matriculation/Foundation or its equivalent can be exempted from taking enhancement Mathematics and English, provided that the Mathematics and English offered at the programme level is equivalent/more than the Mathematics and English offered at an SPM level. English Competency Requirement (International Student): Achieve a minimum of Band 3.5 in MUET or equivalent to CERF (High B1). If a student does not meet this requirement, the HEP must offer English proficiency courses to ensure that the student's proficiency is sufficient to meet the needs of the programme.
 
 ### About
 
@@ -2235,6 +2607,10 @@ About the Course Bachelor in Accounting and Finance's students are exposed to va
 ---
 
 ## bachelor-in-dental-surgery
+
+### URL
+
+https://www.msu.edu.my/school-of-dentistry/bachelor-in-dental-surgery
 
 ### Programme Structure
 
@@ -2260,6 +2636,10 @@ About the Course The Bachelor in Dental Surgery (BDS), a five-year programme del
 
 ## bachelor-in-economic-and-finance
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-in-economic-and-finance
+
 ### Programme Structure
 
 Among the Courses Offered Year One Principles of Accounting Information Technology for Business Business Statistics Principles and Practices of Management Principles of Microeconomics Year Two Corporate Finance Intermediate Microeconomics Monetary Economics Investment Analysis Money and Capital Market Year Three Econometrics Industrial Economics International Financial Management Security Analysis and Management Year Four Internship (6 months) Career Prospects Data Analyst Financial Risk Analyst Researcher Risk Analyst
@@ -2283,6 +2663,10 @@ About the Course The program is a double major program in which it consist of ec
 ---
 
 ## bachelor-in-english-language-and-literature-studies
+
+### URL
+
+https://www.msu.edu.my/bachelor-in-english-language-and-literature-studies
 
 ### Programme Structure
 
@@ -2308,6 +2692,10 @@ About the Course A study of the English language provides the perfect context fo
 
 ## bachelor-in-environmental-health-honours
 
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-in-environmental-health-honours
+
 ### Programme Structure
 
 Among the Courses Offered Year 1 Introduction to Environmental Health and Safety Anatomy and Physiology Biochemistry Environmental Health Analytical Instrumentation Year 2 Water Supply and Quality Control Vector and Pest Management Domestic and Industrial Wastewater Management Management of Hazardous Materials Year 3 Pollution Control and Technology Environmental Health Impact Assessment Disease Mapping and Modelling Environmental Health Project I Environmental Health Field Practical Experience I Year 4 Environmental Health Project II Environmental Health Field Practical Experience II Career Prospects Industrial Hygienist, Environmental Health Officer, Environmental Health and Safety Executive, Quality and Safety Environment Officer,Environmental Impact Assessor and Environmental Engineers
@@ -2331,6 +2719,10 @@ About the Course Bachelor in Environmental Health (Hons) focuses on the surround
 ---
 
 ## bachelor-in-information-management
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-in-information-management
 
 ### Programme Structure
 
@@ -2356,6 +2748,10 @@ About the Course The Bachelor in Information Management (Honours) programme is d
 
 ## bachelor-in-islamic-banking-honours
 
+### URL
+
+https://www.msu.edu.my/bachelor-in-islamic-banking-honours
+
 ### Programme Structure
 
 Among the Courses Offered Year One Islamic Capital Market Islamic Bank Management Islamic Economics Accounting for Islamic Financial Institution Year Two Financial Risk Management Islamic Treasury Takaful Islamic Investment Year Three Islamic Wealth Management Ethics in Islamic Banking & Finance Industrial Training Career Prospects Risk Management Officer Wealth Management Officer Collections Officer Shariah Compliance Officer
@@ -2379,6 +2775,10 @@ About the Course The Bachelor in Islamic Banking programme is designed to equip 
 ---
 
 ## bachelor-in-islamic-finance-hons
+
+### URL
+
+https://www.msu.edu.my/bachelor-in-islamic-finance-hons
 
 ### Programme Structure
 
@@ -2404,6 +2804,10 @@ About the Course Islamic finance is a growing industry in the financial world wh
 
 ## bachelor-in-translation-and-interpreting
 
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-in-translation-and-interpreting
+
 ### Programme Structure
 
 Among the Courses Offered Introduction to Translation Studies Translation Strategies History of Interpreting Specialized Translator Translation Assessment Translation Project Editing and Abstracting Linguistics for Translators Note taking for interpreter Malay Language 1 Malay Language 2 Malay Language 3 Mandarin Language 1 Mandarin Language 2 Discourse Analysis Professional English English for Occupational Purposes Career Prospects Freelance Translator/Interpreter In House Translator/ Interpreter Editor Proofreader Subtitler
@@ -2428,13 +2832,17 @@ About the Course The MSU Bachelor in Translation and Interpreting programme focu
 
 ## bachelor-industrial-management
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-industrial-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Business Mathematics Principles of Industrial Management E-Commerce and Government Principles of Finance Year Two Commercial Law International Business Management Linear Algebra Production System Management Year Three Multivariate Data Analysis Forecasting Industrial Training Career Prospects Industrial Production Manager Purchasing Manager Operations Manager Supply Chain Manager
 
 ### Fee
 
-Fees RM35,000 - RM40,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM35,000 - RM40,000 * The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
 
 ### Duration
 
@@ -2442,7 +2850,7 @@ Duration of Study 3 years Credit Hours Recognition (R3/345/6/0010) (05/26) (MQA/
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; A pass in STAM with at least grade of Jayyid ; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR viii. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Student: Achieve a minimum Band 3 in MUET OR equivalent to CERF (Low B2)**. Notes: * A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects * ; A pass in STAM with at least grade of Jayyid; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval *** ; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval *** ; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. Other equivalent qualifications recognised by the Malaysian Government. Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes * below this table). For International Student Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2) ** . Notes * A pass in Mathematics and English at SPM level or equivalent qualifications. (English subject requirement does not apply to international students since they are required to meet certain scores of international English examinations and may be granted certain exemptions.) Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and scores. References / Regulatory Letters *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
 
 ### About
 
@@ -2451,6 +2859,10 @@ About the Course Industrial management revolves around the creation and manageme
 ---
 
 ## bachelor-information-communication-technology
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-information-communication-technology.php
 
 ### Programme Structure
 
@@ -2476,6 +2888,10 @@ About the Course Bachelor in Information and Communication Technology programme 
 
 ## bachelor-information-system-auditing
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-information-system-auditing.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Computer Architecture Data Structure and Algorithm Statistics and Probabilities Year Two Object Oriented Programming Audit Web Programming Human Computer Interaction Year Three Accounting Information System Commercial Law Industrial Training Career Prospects System Auditor System and Methods Executive Software Tester
@@ -2499,6 +2915,10 @@ About the Course MSU's Bachelor of Information System in Auditing programme aims
 ---
 
 ## bachelor-information-technology-mobile-wireless
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-information-technology-mobile-wireless.php
 
 ### Programme Structure
 
@@ -2524,6 +2944,10 @@ About the Course The curriculum of the MSU Bachelor in Information Technology sp
 
 ## bachelor-instructional-multimedia
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-instructional-multimedia.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Curriculum and Instruction Basic Drawing System Analysis and Design Psychology in Education Year Two Instructional System Design Designing Computer-Based Instruction Digital Audio and Video Multimedia-Based Instructional Design Year Three Cognitive Science Digital Media Content Development Industrial Training Career Prospects Instructional Designer Application Developer Learning and Development Manager Digital Learning Manager
@@ -2548,13 +2972,17 @@ About the Course Instructional multimedia contents have become the latest needed
 
 ## bachelor-international-business
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-international-business.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Principles of Accounting Business Mathematics Organisational Behaviour Principles of Economics Year Two International Business Money and Capital Market Logistics Management International Trade Year Three Global Strategic Management Advertising and Promotion Industrial Training Career Prospects International Marketing Manager Global Logistics Manager Marketing Executive Multinational Manager
 
 ### Fee
 
-Fees RM40,000 - RM45,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM40,000 - RM45,000 *The stated fees are an estimation for overall completion of the program. In any cases where there are credit exemptions, offered rebates, or approved scholarship applications, there will be a considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
@@ -2562,7 +2990,7 @@ Duration of Study 3 years Credit Hours Recognition (R3/0414/6/0215) (05/27) (MQA
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; A pass in STAM with at least grade of Jayyid ; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR viii. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Student: Achieve a minimum Band 3 in MUET OR equivalent to CERF (Low B2)**. Notes: * A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects * ; A pass in STAM with at least grade of Jayyid; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval *** ; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval *** ; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes * below this table). For International Student: Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2) ** . Notes: * A pass in Mathematics and English at SPM level or equivalent qualifications. (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions) Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
 
 ### About
 
@@ -2572,13 +3000,17 @@ About the Course The Bachelor in International Business programme gives you a br
 
 ## bachelor-investment-management
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-investment-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Principles of Accounting Principles of Economics Business Mathematics E-Commerce and Government Year Two Quantitative Methods in Finance Money and Capital Market Investment Analysis International Business Management Year Three Econometrics Portfolio Funds Management Industrial Training Career Prospects Investment Analyst Financial Planner Investment Advisor
 
 ### Fee
 
-Fees RM40,000 - RM45,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM40,000 - RM45,000 *The stated fees are an estimation for the overall completion of the program. In any cases where there are credit exemptions, offered rebates, or approved scholarship applications, there will be a considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
@@ -2586,7 +3018,7 @@ Duration of Study 3 years Credit Hours Recognition (R3/0412/6/0027) (03/29) (MQA
 
 ### Entry Requirements
 
-Entry Requirements Pass STPM (or any equivalent qualification) with a minimum Grade C+ (GP 2.33) in any 2 subjects; and pass SPM (or any equivalent qualification) with credit in Mathematics and pass in English; OR Pass STAM with a minimum grade of Jayyid ; and pass SPM (or any equivalent qualification) with credit in Mathematics and pass in English; OR Matriculation/Foundation qualification (or any equivalent qualification) with a minimum CGPA of 2.50 out of 4.00, and pass SPM (or any equivalent qualification) with credit in Mathematics and pass in English; OR Any qualification equivalent to Diploma in Finance, Banking, Insurance or related field (Level 4, MQF) with a minimum CGPA of 2.50 out of 4.00. Note: The credit requirement for Mathematics and pass in English at SPM level for candidates in category (i), (ii), and (iii) can be waived should the qualifications contain Mathematics and English subjects with equivalent/higher achievement. International students are required to achieve a minimum score of 6.0 for IELTS OR its equivalent.
+Entry Requirements Pass STPM (or any equivalent qualification) with a minimum Grade C+ (GP 2.33) in any 2 subjects; and pass SPM (or any equivalent qualification) with credit in Mathematics and pass in English; OR Pass STAM with a minimum grade of Jayyid; and pass SPM (or any equivalent qualification) with credit in Mathematics and pass in English; OR Matriculation/Foundation qualification (or any equivalent qualification) with a minimum CGPA of 2.50 out of 4.00, and pass SPM (or any equivalent qualification) with credit in Mathematics and pass in English; OR Any qualification equivalent to Diploma in Finance, Banking, Insurance or related field (Level 4, MQF) with a minimum CGPA of 2.50 out of 4.00. Note: The credit requirement for Mathematics and pass in English at SPM level for candidates in category (i), (ii), and (iii) can be waived should the qualifications contain Mathematics and English subjects with equivalent/higher achievement. International students are required to achieve a minimum score of 6.0 for IELTS OR its equivalent.
 
 ### About
 
@@ -2595,6 +3027,10 @@ About the Course Students in this programme will be well prepared for the full r
 ---
 
 ## bachelor-islamic-management
+
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-islamic-management.php
 
 ### Programme Structure
 
@@ -2620,6 +3056,10 @@ About the Course With Islamic finance experiencing global growth and Malaysia ai
 
 ## bachelor-law-commerce
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-law-commerce.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One International Business Management Principles of Accounting Practices of Management Principles of Finance Year Two Law of Tort Constitutional Law Jurisprudence Law of Contract Year Three Equity and trust Land Law Industrial Training Career Prospects You may find employment in a wide range of institutions which includes legal firms, merchant banking, international business and money markets.
@@ -2643,6 +3083,10 @@ About the Course The combination of law and commerce creates a wide range of pro
 ---
 
 ## bachelor-liberal-arts
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-liberal-arts
 
 ### Programme Structure
 
@@ -2668,6 +3112,10 @@ About the Course The liberal arts and sciences have been the foundation of colle
 
 ## bachelor-logistics-management
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-logistics-management
+
 ### Programme Structure
 
 Among the Courses Offered Year One Principles and Practices of Management Business Mathematics Organisational Behaviour International Business Management Fundamentals of Logistics Management Shipping Management Year Two Managerial and Cost Accounting Freight Forwarding Warehousing Logistics Management Transport Economics Business in Logistics Procurement Management Year Three Management Research / Project Seminar in Logistic Management Strategic Management Inventory and Supply Chain Management International Logistic Management Total Quality Management Career Prospects Graduates may pursue career in the logistics sector including freight forwarding, warehousing, courier, transportation and even manufacturing.
@@ -2682,7 +3130,7 @@ Duration of Study 3 years Credit Hours 120 Recognition (R/345/6/1063) (02/28) (M
 
 ### Entry Requirements
 
-Entry Requirements Minimum Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; A pass in STAM with at least grade of Jayyid ; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR viii. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Students: Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications. (English subject requirement does not apply to international students since they are required to meet certain scores of international English examinations and may be granted exemptions.) Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent or higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s) . These courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41) , 9th December 2019 – Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23) , 21st April 2020 – Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; A pass in STAM with at least grade of Jayyid; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Students: Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examinations and are privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 – Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 – Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
 
 ### About
 
@@ -2691,6 +3139,10 @@ About the Course Logistics management is a popular qualification sought by aspir
 ---
 
 ## bachelor-management-public-relation-entertainment
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-management-public-relation-entertainment.php
 
 ### Programme Structure
 
@@ -2716,13 +3168,17 @@ About the Course Bachelor of Public Relations Management aims to develop the ski
 
 ## bachelor-marketing-psychology
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-marketing-psychology.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Introduction to Psychology Practices of Management Cognitive Psychology Developmental Psychology Year Two Marketing Management Service Marketing Social Psychology Marketing Research Year Three International Marketing Psychology of the Internet Industrial Training Career Prospects Marketing Psychologist Online Marketing Executive Market Researcher Brand Manager
 
 ### Fee
 
-Fees RM40,000 - RM45,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM40,000 - RM45,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
@@ -2730,7 +3186,7 @@ Duration of Study 3 years Credit Hours Recognition (R3/0388/6/0007) (10/30) (MQA
 
 ### Entry Requirements
 
-Entry Requirements Minimum Entry Requirements Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; A pass in STAM with at least grade of Jayyid ; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below). For International Students: Achieve a minimum Band 3 in MUET or equivalent to CEFR (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English requirement does not apply to international students who meet international English examination standards). Can be waived if higher qualifications include Mathematics and English with equivalent or higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent may be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but must attend special enhancement courses (SPM equivalent, remedial in nature). Students must pass these as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 – Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and scores. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April 2020 – Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements i. A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; OR ii. A pass in STAM with at least grade of Jayyid; OR iii. Matriculation or Foundation with at least CGPA of 2.00; OR iv. A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR v. An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR vi. A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/ Academic Board's approval***; OR vii. A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/ Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR viii. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Students: Achieve a minimum Band 3 in MUET OR equivalent to CERF (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA) . For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
 
 ### About
 
@@ -2739,6 +3195,10 @@ About the Course The Bachelor in Marketing with Psychology programme uniquely co
 ---
 
 ## bachelor-mechanical-engineering
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-mechanical-engineering.php
 
 ### Programme Structure
 
@@ -2764,6 +3224,10 @@ About the Course Mechanical engineering is a broad area that includes applicatio
 
 ## bachelor-medicine-surgery
 
+### URL
+
+https://www.msu.edu.my/international-medical-school/bachelor-medicine-surgery.php
+
 ### Programme Structure
 
 Among the Courses Offered Career Prospects
@@ -2787,6 +3251,10 @@ About the Course The Bachelor of Medicine and Bachelor of Surgery (MBBS) at the 
 ---
 
 ## bachelor-music-technology
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-music-technology.php
 
 ### Programme Structure
 
@@ -2812,6 +3280,10 @@ About the Course Bachelor in Music Technology aims to develop your musical talen
 
 ## bachelor-new-media
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-new-media.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Information Design Digital Design Basic Media Culture Creative Photography Year Two Media Law Integrated Advertising and Marketing Communication Media Analysis Sound Design Year Three Digital Video Production Digital 3D Design Industrial Training Career Prospects Applications Designer Multimedia Specialist New Media Developer Web Content Designer
@@ -2835,6 +3307,10 @@ About the Course New media such as online news outlets, social media and blogs a
 ---
 
 ## bachelor-nursing
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-nursing.php
 
 ### Programme Structure
 
@@ -2860,6 +3336,10 @@ About the Course Nursing is a specialised profession that focuses on caring, nur
 
 ## bachelor-nutrition
 
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-nutrition.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Human Anatomy and Physiology Biochemistry and Basic Genetic Health Nutrition Introduction to Food Science Nutrition Through Life Cycle Year Two Food and Nutrient Analysis Nutrition and Metabolism Assessment of Nutritional Status Nutrition Communication and Counselling Nutrigenomics Year Three Health Promotion and Education for Nutrition Contemporary Issues in Nutrition Sports Nutrition Nutrition Therapy Food Security Year Four Nutrition Internship Career Prospects ​​​​ Nutritionist Public Health Educator Wellness Counsellor Corporate Nutritionist Scientific Writer/Journalist Food Scientist Food Quality Control Manager Researcher Academician
@@ -2883,6 +3363,10 @@ About the Course The increased prevalence of overweight and obesity together wit
 ---
 
 ## bachelor-occupational-safety-health
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-occupational-safety-health
 
 ### Programme Structure
 
@@ -2908,6 +3392,10 @@ About the Course Bachelor in Occupational Safety and Health (BOSH) focuses on la
 
 ## bachelor-of-medical-sciences-honours
 
+### URL
+
+https://www.msu.edu.my/bachelor-of-medical-sciences-honours
+
 ### Programme Structure
 
 Among the Courses Offered The program offers courses that are relevant to student’s future planning and market demands in various sector. Among the courses offered are Course Cluster Courses Year Offered Basic Medical Sciences Anatomy and Physiology for each body system. Human Environment Interface 1 Integrative Bio-medical Sciences Pathophysiology of each body systems Communicable Diseases 2 & 3 Medical Related Clinical Medicine Psychological Medicine Forensic Medicine Nutrition in Medical Sciences Public Health Medicine Genetics 2 & 3 Ethics & Professionalism Bioethics 3 Internship Community Medicine Clinical Training in Medical Sciences 3 Personal Enrichment Competencies (PEC) Communications Skills Thinking Skills Teamwork Skills IT Skills Managerial Skills 1 - 3 Career Prospects Graduates can have broad career opportunities, among the careers are: Research based for example working in the research center as Research Officer, Research Coordinator and Research assistant. Pharmaceutical company as Regulatory Affair Officer, Quality Assurance Officer, Product Specialist, Research and Development Officer or any related to health. Medical Product Company – Product specialist. Medical Health Services – Trainer, Supervisor. NGO – Program Coordinator and Officers. Insurance Industry for example Medical Claim Officer or Medical Underwriter. Others : Administrative Officers, Phlebotomist and etc.
@@ -2932,6 +3420,10 @@ About the Course Medical science program provides a wide range and a structured 
 
 ## bachelor-office-management-technology
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-office-management-technology
+
 ### Programme Structure
 
 Among the Courses Offered Year One Office Management Office Automation Note Taking Year Two Administrative Office Procedure Office Business Process Web Design and Multimedia Year Three Office System Analysis and Design Current Issues in Office Management Technology Administrative Database System Career Prospects Corporate Secretarial Assistant Administrative Support Supervisor Senior Executive Office Administrator Administrative Manager and Executive Secretary
@@ -2946,7 +3438,7 @@ Duration of Study 3.5 years Credit Hours 120 Recognition (R/346/6/0046) (12/27) 
 
 ### Entry Requirements
 
-Entry Requirements Minimum Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; OR A pass in STAM with at least grade of Jayyid ; OR Matriculation or Foundation with at least CGPA of 2.00; OR A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; OR A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; OR Other equivalent qualifications recognised by the Malaysian Government. Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. *Additional Requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Students: Achieve a minimum Band 3 in MUET OR equivalent to CERF (Low B2)**. Notes: * A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41) , 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53) , 20th November 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23) , 21st April 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; A pass in STAM with at least grade of Jayyid; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/ Academic Board's approval***; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/ Academic Board's approval***; Other equivalent qualifications recognised by the Malaysian Government. Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Students: Achieve a minimum Band 3 in MUET OR equivalent to CERF (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English requirement does not apply to international students since they are required to meet certain scores of international English examination and are privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These courses are SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
 
 ### About
 
@@ -2955,6 +3447,10 @@ About the Course This course is designed to prepare students for careers in offi
 ---
 
 ## bachelor-optometry
+
+### URL
+
+https://www.msu.edu.my/faculty-health-life-sciences/bachelor-optometry.php
 
 ### Programme Structure
 
@@ -2980,6 +3476,10 @@ About the Course Optometry is a specialised branch in healthcare which trains yo
 
 ## bachelor-outdoor-leisure-adventure-management
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-outdoor-leisure-adventure-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Introduction to Outdoor and Recreation Industry Life Saving Marketing for Outdoor and Recreation Year Two Outdoor Education and Instruction Technique Research Methods for Service Industry Effective Outdoor Leadership Event Management Year Three Recreation Program Planning and Delivery Management Research for Service Industry Industrial Training Career Prospects Swimming Instructor Recreation Instructor Recreation Coordinator Event Coordinator for Sports Event Conservation and Environmental Coordinator Outdoor Recreation Equipment and Facilities Business
@@ -2994,7 +3494,7 @@ Duration of Study 3 years Credit Hours 120 hours Recognition (R3/1014/6/0004) (0
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with at least Grade C (GP 2.00) in any two (2) subjects*; OR A pass in STAM with at least grade of Jayyid ; OR Matriculation or Foundation with at least CGPA of 2.00; OR A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board’s approval***; OR A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board’s approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR Other equivalent qualifications recognised by the Malaysian Government. *Additional Requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to Notes below). English Competency Requirement (International Students) Achieve a minimum Band 3 in MUET or equivalent to CEFR (Low B2)** . Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they must meet the required international English examination scores and may receive certain exemptions) . Can be waived should any other higher qualification contain Mathematics and English subjects with an equivalent or higher achievement. Malaysian students who used English as the medium of instruction in their previous study or achieved at least Band 2 in MUET or its equivalent can be exempted from the English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s) . These courses should be SPM equivalent and remedial in nature. Students must pass the enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 – Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and scores. References: *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April 2020 – Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements i. A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; OR ii. A pass in STAM with at least grade of Jayyid; OR iii. Matriculation or Foundation with at least CGPA of 2.00; OR iv. A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR v. An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR vi. A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; OR vii. A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR viii. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). English Competency Requirement (International Student): Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA) . For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta .
 
 ### About
 
@@ -3003,6 +3503,10 @@ About the Course With the combination of practical aspects of outdoor recreation
 ---
 
 ## bachelor-patisserie-arts
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-patisserie-arts.php
 
 ### Programme Structure
 
@@ -3028,6 +3532,10 @@ About the Course The patisserie world is a dynamic and rapidly growing industry 
 
 ## bachelor-pharmacy
 
+### URL
+
+https://www.msu.edu.my/school-pharmacy/bachelor-pharmacy.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Anatomy and Physiology Microbiology and Immunology Principles of Pharmacology Dispensing and Compounding Pharmacy Year Two Medicinal Chemistry Pharmaceutical Analysis Pharmacotherapy Specialised Hospital Pharmacy Practice Year Three Designing Pharmaceutical Dosage Form Pharmacoepidemiology Clinical Pharmacokinetics Community Pharmacy Practice Year Four Clinical Pharmacy Clerkship Manufacturing – Industrial Pharmacy Practice Pharmacy Management and Entrepreneur Research Project Experiential Learning (Year 3 and Year 4) Clinical & Community Pharmacy Clerkship and Attachment Ward-based pharmacotherapy and medication reconciliation Patient counselling (discharge, chronic disease, device technique) Therapeutic drug monitoring and antimicrobial stewardship Community dispensing, OTC/minor ailments management, health screening Industrial Pharmacy Attachment (Year 4) Exposure to GMP, QA/QC, validation and documentation Scale-up, technology transfer and product lifecycle management Regulatory affairs (dossier basics, pharmacovigilance reporting) Supply chain/warehouse fundamentals and stability studies Simulation & OSCEs Dispensing accuracy, aseptic/sterile technique, error detection Communication stations (counselling, teamwork) Research Supervised project (lab, clinical, social/administrative pharmacy or industry) Data analysis, ethics and dissemination (poster/oral) Interprofessional Learning Joint cases and simulations with Medicine, Dentistry, Veterinary Medicine, Nursing and Allied Health Community & Public Health Outreach on vaccination, medication safety, antimicrobial resistance, and chronic disease screening Assessment (typical) Preceptor evaluations, competency checklists and logbooks Case write-ups, reflective journals, OSCEs and viva voce Note: To register as a pharmacist in Malaysia, graduates must complete Provisionally Registered Pharmacist (PRP) training with a provider approved by the Pharmacy Board of Malaysia. Career Prospects Pharmacist in Hospital Pharmacy, Community Pharmacy, Veterinary Pharmacy, Nuclear Pharmacy, and the Malaysian Armed Forces Pharmacist in Clinical Research Associate (CRA) Pharmacist in Product Development / Formulation Pharmacist in Quality Assurance / Quality Control (QA/QC) Pharmacist in Pharmacy Regulatory Affairs / Pharmacovigilance / Pharmacy Enforcement Pharmacist in Supply Chain & Manufacturing Pharmacy Academia / Researcher Pharmacist in Government Policymaking and Enforcement
@@ -3052,9 +3560,13 @@ About the Course Management and Science University (MSU) is an authorised local 
 
 ## bachelor-psychology
 
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/bachelor-psychology.php
+
 ### Programme Structure
 
-Among the Courses Offered AMONG THE COURSES OFFERED : Year One Social Psychology Principles and Techniques in Counselling Health Psychology History of Psychology Year Two Development Psychology Sensation and Perception Assessment and Observation in Counselling Theories in Counselling and Psychotherapy Year Three Psychological Testing and Measurement Abnormal Psychology Family Counselling Multicultural Counselling Research Project Internship Career Prospects Year One Social Psychology Principles and Techniques in Counselling Health Psychology History of Psychology Year Two Development Psychology Sensation and Perception Assessment and Observation in Counselling Theories in Counselling and Psychotherapy Year Three Psychological Testing and Measurement Abnormal Psychology Family Counselling Multicultural Counselling Research Project Internship
+Among the Courses Offered Year One Social Psychology Principles and Techniques in Counselling Health Psychology History of Psychology Year Two Development Psychology Sensation and Perception Assessment and Observation in Counselling Theories in Counselling and Psychotherapy Year Three Psychological Testing and Measurement Abnormal Psychology Family Counselling Multicultural Counselling Research Project Internship Career Prospects
 
 ### Fee
 
@@ -3076,13 +3588,17 @@ About the Course Psychology is the scientific study of how humans think and beha
 
 ## bachelor-retail-management
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/bachelor-retail-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Principles of Accounting Introduction to Retail Industry Principles of Finance Quantitative Techniques Year Two Retail Environment Networking Managerial and Cost Accounting Retail Merchandising Management Year Three Logistics Management Retail Advertising and Promotion Industrial Training Career Prospects Retail Manager Business Development Manager Sales Manager Brand Executive
 
 ### Fee
 
-Fees RM35,000 - RM40,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
+Fees RM35,000 - RM40,000 *The stated fees are an estimation of the overall completion cost of the program. In cases where there are credit exemptions, offered rebates, or approved scholarship applications, the total fees will be considerably reduced. The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students.
 
 ### Duration
 
@@ -3090,7 +3606,7 @@ Duration of Study 3 years Credit Hours Recognition (R3/341/6/0045) (06/27) (MQA/
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; OR A pass in STAM with at least grade of Jayyid ; OR Matriculation or Foundation with at least CGPA of 2.00; OR A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; OR A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. OR viii. Other equivalent qualifications recognised by the Malaysian Government. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Student: Achieve a minimum Band 3 in MUET OR equivalent to CERF (Low B2)**. Notes: * A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score. *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November, 2019 - Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April, 2020 - Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke Peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; A pass in STAM with at least grade of Jayyid; Matriculation or Foundation with at least CGPA of 2.00; A Diploma (Level 4, MQF) with at least CGPA of 2.00; An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; Other equivalent qualifications recognised by the Malaysian Government. Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). For International Students: Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and are privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 – Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabang**
 
 ### About
 
@@ -3099,6 +3615,10 @@ About the Course The retail industry involves many aspects from supply chain to 
 ---
 
 ## bachelor-science-aviation-management-piloting
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-science-aviation-management-piloting.php
 
 ### Programme Structure
 
@@ -3124,6 +3644,10 @@ About the Course Aviation Management and Piloting at Management & Science Univer
 
 ## bachelor-science-pharmaceutical-technology
 
+### URL
+
+https://www.msu.edu.my/school-pharmacy/bachelor-science-pharmaceutical-technology.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Bioinformatics for Pharmacy Bioengineering and Industrial Pharmacy Principle of Medical Pharmacology and Microbiology Pharmaceutical Calculation Year Two Basic Good Manufacturing Practice Research Instrumentation and Design Medicinal Chemistry Pharmacognosy Year Three Veterinary Product Therapeutic Nutraceutical Pharmaceutical Quality Assurance Year Four Industrial Pharmaceutical Internship Career Prospects Pharmacy Technologist R&D Officer Quality Control Officer
@@ -3148,6 +3672,10 @@ About the Course MSU's Bachelor in Pharmaceuticals Technology programme prepares
 
 ## bachelor-spa-management
 
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/bachelor-spa-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Introduction to Spa Therapies Principles and Practices of Spa Fundamentals of Anatomy and Physiology for Spa Customer Services in Hospitality Year Two Health and Wellness Tourism Spa Operation Management Spa Planning and Design Legal Aspects in Hospitality and Tourism Year Three Current Issues in Spa Treatments Industries Strategic Management for Spa Industrial Training Career Prospects Spa Manager Wellness Consultant Health Services Operations Manager
@@ -3162,7 +3690,7 @@ Duration of Study 3 years Credit Hours Recognition (R2/815/6/0001) (11/26) (MQA/
 
 ### Entry Requirements
 
-Entry Requirements A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; OR A pass in STAM with at least grade of Jayyid ; OR Matriculation or Foundation with at least CGPA of 2.00; OR A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; OR A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***. Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. *Additional Requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes below). English Competency Requirement (International Students) Achieve a minimum Band 3 in MUET or equivalent to CEFR (Low B2)** . Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain international English examination scores and may receive exemptions) . Can be waived should any other higher qualification contain Mathematics and English subjects with an equivalent or higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s) . These courses should be SPM equivalent and remedial in nature. Students must pass the enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 – Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and scores. References: *** For Public Universities: Refer to Surat JPT.S(BPKP)2000/400/04/01 Jld.5 (53), 20th November 2019 – Pindaan syarat kelayakan minimum (Syarat am) Diploma TVET (DKM, DLKM, DVM) sebagai syarat kelayakan masuk ke program Ijazah Sarjana Muda di Universiti Awam (UA). For Private Higher Educational Institutions: Refer to Surat JPT/GS 1000-606 Jld. 2(23), 21st April 2020 – Kemasukan Pelajar Lulusan Diploma Kemahiran Malaysia (DKM), Diploma Lanjutan Kemahiran Malaysia (DLKM) dan Diploma Vokasional Malaysia (DVM) ke peringkat Sarjana Muda (Tahap 6 MQF) atau yang setara dengannya di Institusi Pendidikan Tinggi Swasta.
+Entry Requirements i. A pass in STPM with at least Grade C (GP 2.0) in any 2 subjects*; OR ii. A pass in STAM with at least grade of Jayyid; OR iii. Matriculation or Foundation with at least CGPA of 2.00; OR iv. A Diploma (Level 4, MQF) with at least CGPA of 2.00; OR v. An Advanced Diploma (Level 5, MQF) with at least CGPA of 2.00; OR vi. A Diploma Kemahiran Malaysia (DKM) / Diploma Vokasional Malaysia (DVM) subjected to HEP Senate/Academic Board's approval***; OR vii. A Diploma Lanjutan Kemahiran Malaysia (DLKM) subjected to HEP Senate/Academic Board's approval***; OR viii. Other equivalent qualifications recognised by the Malaysian Government. Note for (vi) & (vii): The HEPs are to conduct screening and provide necessary guidance specific to the discipline of the programme. *Additional requirement: A pass in Mathematics and English at SPM level or equivalent qualifications (Refer to the Notes (*) below this table). English Competency Requirement (International Student): Achieve a minimum Band 3 in MUET OR equivalent to CEFR (Low B2)**. Notes: A pass in Mathematics and English at SPM level or equivalent qualifications (English subject requirement does not apply to international students since they are required to meet certain scores of international English examination and privileged with certain exemptions). Can be waived should any other higher qualifications contain Mathematics and English subjects with an equivalent/higher achievement. Malaysian students using English as the medium of instruction in their previous study or with at least Band 2 in MUET or equivalent can be exempted from a pass in English requirement. Those without a pass in Mathematics and/or English at SPM level or equivalent can be admitted but are required to attend special enhancement course(s). These special enhancement courses should be SPM equivalent, remedial in nature. Students must pass the Mathematics and English enhancement courses as a prerequisite to related core courses taught in English. ** Refer to Surat JPT GS 1000-630(41), 9th December 2019 - Syarat Kompetensi Bahasa Inggeris Kepada Pelajar Antarabangsa for equivalent English language assessments and score.
 
 ### About
 
@@ -3171,6 +3699,10 @@ About the Course Understanding the managerial aspects of running a spa is integr
 ---
 
 ## bachelor-technology-electrical-electronic
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-technology-electrical-electronic.php
 
 ### Programme Structure
 
@@ -3196,6 +3728,10 @@ About the Course Our Bachelor programme will aid you in developing a sound found
 
 ## bachelor-traditional-chinese-medicine
 
+### URL
+
+https://www.msu.edu.my/school-pharmacy/bachelor-traditional-chinese-medicine.php
+
 ### Programme Structure
 
 Among the Courses Offered Year One Bio-ethics and Nursing Basic Theory of Traditional Chinese Medicine Theory of Meridian and Point Anatomy and Physiology Year Two Chinese Materia Medica Pharmacology and Toxicology Immunology and Serology Year Three Chinese Tuina Therapy of Acupuncture and Moxibustion Radiographic Anatomy Clinical Pathology Year Four Pharmacoepidemiology Nutraceutical Industrial Pharmacy Attachment Career Prospects TCM Therapist Acupuncturist
@@ -3219,6 +3755,10 @@ About the Course The curriculum of the MSU honours degree programme in tradition
 ---
 
 ## bachelor-visual-communication-marketing
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/bachelor-visual-communication-marketing.php
 
 ### Programme Structure
 
@@ -3246,6 +3786,10 @@ About the Course From eye catching websites or iconic logos to smart packaging d
 
 ## master-biomedical-sciences
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-biomedical-sciences.php
+
 ### Programme Structure
 
 Among the Courses Offered Biomedical Science Laboratory Techniques Biostatistics Research Methodology Chemical Pathology Application Advanced Hematology Medical Microbiology and Immunology Career Prospects Research Scientist Academic Medical Writer Biochemist
@@ -3269,6 +3813,10 @@ About the Course The Master in Biomedical Sciences programme aims to balance the
 ---
 
 ## master-biomedicine
+
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-biomedicine.php
 
 ### Programme Structure
 
@@ -3294,6 +3842,10 @@ About the Course MSU's Master of Science in Biomedicine programme is designed fo
 
 ## master-business-administration
 
+### URL
+
+https://www.msu.edu.my/graduate-school-management/master-business-administration.php
+
 ### Programme Structure
 
 Among the Courses Offered Core Modules Accounting for Corporate Decisions & Evaluation Economics for Management Marketing Management Business Law & Business Ethics Financial Management Specialisation (Choose One) Global Marketing Project Management Islamic Banking and Finance Finance Career Prospects Management Consultant Entrepreneur Chief Operations Officer
@@ -3317,6 +3869,10 @@ About the Course Master in Business Administration programme is designed to prep
 ---
 
 ## master-clinical-pharmacy
+
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-clinical-pharmacy.php
 
 ### Programme Structure
 
@@ -3342,6 +3898,10 @@ About the Course Master of Clinical Pharmacy is ideal for pharmacy graduates who
 
 ## master-computer-science
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-computer-science.php
+
 ### Programme Structure
 
 Among the Courses Offered Advanced Research Method Graduate Seminar Quantitative Methods for Computer Science Thesis Writing Career Prospects Computer System Analyst Systems Engineer Lead Software Developer Data Analyst
@@ -3365,6 +3925,10 @@ About the Course The Master in Computer Science programme at Management and Scie
 ---
 
 ## master-counselling-guidance
+
+### URL
+
+https://www.msu.edu.my/graduate-school-management/master-counselling-guidance
 
 ### Programme Structure
 
@@ -3390,6 +3954,10 @@ About the Course Master in Counselling and Guidance (MCG) aims to develop knowle
 
 ## master-design
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-design.php
+
 ### Programme Structure
 
 Among the Courses Offered Research Method in Design Qualitative and Quantitative Methods Graduate Seminar Dissertation Writing Career Prospects Design Research Design Management Advertising Publishing
@@ -3413,6 +3981,10 @@ About the Course Creativity and innovation has led to many great design ideas th
 ---
 
 ## master-early-childhood-education
+
+### URL
+
+https://www.msu.edu.my/graduate-school-management/master-early-childhood-education
 
 ### Programme Structure
 
@@ -3438,6 +4010,10 @@ About the Course Master’s in early childhood education programme is a post-gra
 
 ## master-educational-management-leadership
 
+### URL
+
+https://www.msu.edu.my/graduate-school-management/master-educational-management-leadership.php
+
 ### Programme Structure
 
 Among the Courses Offered Organisational Theory, Management and Administration in Education Organisational Culture and Change in Education Globalisation and Education Statistical Analysis Teacher Professional Development Career Prospects Education Advisor Academician Curriculum Developer
@@ -3461,6 +4037,10 @@ About the Course Master in Educational Management and Leadership is for those wh
 ---
 
 ## master-fashion-business
+
+### URL
+
+https://www.msu.edu.my/graduate-school-management/master-fashion-business.php
 
 ### Programme Structure
 
@@ -3486,6 +4066,10 @@ About the Course Fashion business master’s programme at MSU will provide you w
 
 ## master-food-service-technology-research
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-food-service-technology-research.php
+
 ### Programme Structure
 
 Among the Courses Offered Research Methodology Graduate Seminar Dissertation Writing Career Prospects
@@ -3509,6 +4093,10 @@ About the Course Rapid developments in recent decades within technology and biol
 ---
 
 ## master-in-clinical-psychology
+
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-in-clinical-psychology
 
 ### Programme Structure
 
@@ -3534,6 +4122,10 @@ About the Course Master of Clinical Psychology programme aims to produce compete
 
 ## master-information-technology
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-information-technology.php
+
 ### Programme Structure
 
 Among the Courses Offered Advanced Research Method Quantitative Methods for Computer Science Dissertation Career Prospects Network Engineer Information Systems Manager Systems Analyst Academic
@@ -3557,6 +4149,10 @@ About the Course The world is continuously transformed by technology and employe
 ---
 
 ## master-international-event-management
+
+### URL
+
+https://www.msu.edu.my/school-hospitality-creative-arts/master-international-event-management
 
 ### Programme Structure
 
@@ -3582,6 +4178,10 @@ About the Course The highly competitive field of events management demands top w
 
 ## master-international-hospitality-tourism-management
 
+### URL
+
+https://www.msu.edu.my/graduate-school-management/master-international-hospitality-tourism-management.php
+
 ### Programme Structure
 
 Among the Courses Offered Tourism Analysis Destination Convention and Exposition in Tourism Industry Training and Development in Hospitality Global Strategic Management for Hospitality and Tourism Financial Analysis for Hospitality and Tourism Global Trends and Issues in Hospitality and Tourism Graduate Project Career Prospects Academia Consultancy Resort Management Hotel Corporations
@@ -3605,6 +4205,10 @@ About the Course The highly competitive field of tourism and hospitality demands
 ---
 
 ## master-management
+
+### URL
+
+https://www.msu.edu.my/graduate-school-management/master-management
 
 ### Programme Structure
 
@@ -3630,6 +4234,10 @@ About the Course Master of Management is designed for those who want to build a 
 
 ## master-of-anatomy
 
+### URL
+
+https://www.msu.edu.my/international-medical-school/master-of-anatomy
+
 ### Programme Structure
 
 Among the Courses Offered Core Courses Fundamental Anatomy and Its Technique Musculoskeletal System Cardiorespiratory System Gastrointestinal System Genitourinary System Neuroendocrinology System Teaching Methodology Research Methodology Research Project Elective Courses Radiological Anatomy Forensic Anatomy Plastination Techniques Sport Anatomy Career Prospects Academician Researcher Laboratory Manager
@@ -3653,6 +4261,10 @@ About the Course Master of Anatomy (MAT) programme at MSU equips the students wi
 ---
 
 ## master-of-science-in-engineering
+
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-of-science-in-engineering
 
 ### Programme Structure
 
@@ -3678,6 +4290,10 @@ About the Course Master of Science in Engineering is designed to serve a wide ra
 
 ## master-of-science-in-public-health
 
+### URL
+
+https://www.msu.edu.my/international-medical-school/master-of-science-in-public-health
+
 ### Programme Structure
 
 Among the Courses Offered Core Modules Epidemiology of Non-Communicable Diseases Prevention and Control of Communicable Diseases Family Health Public Health Nutrition Environmental Health Occupational Health Health Promotion Health Management Medical Statistics Research Methodology Research Project Career Prospects Public Health Scientist Academician Researcher
@@ -3701,6 +4317,10 @@ About the Course Master of Science in Public Health (MPH) programme at MSU nurtu
 ---
 
 ## master-of-science-medical-physiology
+
+### URL
+
+https://www.msu.edu.my/international-medical-school/master-of-science-medical-physiology
 
 ### Programme Structure
 
@@ -3726,6 +4346,10 @@ About the Course Master of Science (Medical Physiology) Programme is aimed at pr
 
 ## master-pharmacy
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-pharmacy.php
+
 ### Programme Structure
 
 Among the Courses Offered Career Prospects
@@ -3750,6 +4374,10 @@ About the Course Pharmaceutical research produces products that benefit human be
 
 ## master-science-applied-science
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/master-science-applied-science.php
+
 ### Programme Structure
 
 Among the Courses Offered Research Methodology Biostatistics Graduate Seminar Career Prospects Academia Research Consulting
@@ -3773,6 +4401,10 @@ About the Course Applied Science Master’s programme at MSU equips you with fle
 ---
 
 ## master-tesl
+
+### URL
+
+https://www.msu.edu.my/graduate-school-management/master-tesl
 
 ### Programme Structure
 
@@ -3800,6 +4432,10 @@ About the Course Master of Education specializing in the Teaching of English as 
 
 ## doctor-of-philosophy-accountingfinance
 
+### URL
+
+https://www.msu.edu.my/doctor-of-philosophy-accountingfinance
+
 ### Programme Structure
 
 Among the Courses Offered Advanced Research Methodology Graduate Seminar Thesis Writing Career Prospects Academia Research Consulting Financial Analyst Forensic Accounting
@@ -3823,6 +4459,10 @@ About the Course The research programme leading up to the award of a PhD in Acco
 ---
 
 ## doctor-of-philosophy-applied-science
+
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/doctor-of-philosophy-applied-science
 
 ### Programme Structure
 
@@ -3848,6 +4488,10 @@ About the Course Extend your academic qualifications in your chosen field with M
 
 ## doctor-of-philosophy-health-science
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/doctor-of-philosophy-health-science.php
+
 ### Programme Structure
 
 Among the Courses Offered Research Methodology Biostatistics Graduate Seminar Thesis Writing Career Prospects Potential career fields include: Academia Research and Development Medical and Health Services
@@ -3871,6 +4515,10 @@ About the Course As a Management and Science University (MSU) candidate for a Do
 ---
 
 ## doctor-of-veterinary-medicine
+
+### URL
+
+https://www.msu.edu.my/school-of-veterinary-medicine/doctor-of-veterinary-medicine
 
 ### Programme Structure
 
@@ -3896,6 +4544,10 @@ About the Course The School of Veterinary Medicine (SOV) at Management and Scien
 
 ## doctor-philosophy-computer-science
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/doctor-philosophy-computer-science.php
+
 ### Programme Structure
 
 Among the Courses Offered Advanced Research Methodology Quantitative Methods for Computer Science Graduate Seminar Thesis Writing Career Prospects Academia Research and Development Consulting
@@ -3919,6 +4571,10 @@ About the Course A programme of research into computer science advances the stat
 ---
 
 ## doctor-philosophy-engineering
+
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/doctor-philosophy-engineering.php
 
 ### Programme Structure
 
@@ -3944,6 +4600,10 @@ About the Course The MSU programme leading up to the award of a Doctor of Philos
 
 ## doctor-philosophy-in-education
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/doctor-philosophy-in-education
+
 ### Programme Structure
 
 Among the Courses Offered Developing a Research Project Statistical Analysis Graduate Seminar Thesis Writing Career Prospects Academician Education Advisor Curriculum Developer
@@ -3967,6 +4627,10 @@ About the Course PhD in Education is designed for education practitioners who wi
 ---
 
 ## phd-biomedicine
+
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/phd-biomedicine.php
 
 ### Programme Structure
 
@@ -3992,6 +4656,10 @@ About the Course The MSU research programme leading up to the award of a PhD in 
 
 ## phd-food-service-technology
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/phd-food-service-technology.php
+
 ### Programme Structure
 
 Among the Courses Offered Research Methodology Biostatistics Graduate Seminar Thesis Writing Career Prospects Academia Research and Development Consulting Health & Safety Agencies
@@ -4016,6 +4684,10 @@ About the Course The MSU research programme leading up to the award of a PhD in 
 
 ## phd-ict
 
+### URL
+
+https://www.msu.edu.my/school-graduate-studies/phd-ict.php
+
 ### Programme Structure
 
 Among the Courses Offered Advanced Research Methodology Quantitative Methods for Computer Science Graduate Seminar Thesis Writing Career Prospects Academia Research and Development Consulting
@@ -4039,6 +4711,10 @@ About the Course The MSU research programme leading up to the award of a Doctor 
 ---
 
 ## phd-management-business
+
+### URL
+
+https://www.msu.edu.my/graduate-school-management/phd-management-business
 
 ### Programme Structure
 
@@ -4066,6 +4742,10 @@ About the Course The research programme leading up to the award of a Doctor of P
 
 ## foundation-business
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/foundation-business.php
+
 ### Programme Structure
 
 Among the Courses Offered First Semester Accounting I Economics I Business Mathematics Introduction to Business and Marketing Second Semester Statistics Introduction to Finance Accounting II Economics II Career Prospects
@@ -4089,6 +4769,10 @@ About the Course The Foundation in Business programme is designed to provide com
 ---
 
 ## foundation-engineering-technology
+
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/foundation-engineering-technology.php
 
 ### Programme Structure
 
@@ -4114,6 +4798,10 @@ About the Course The Foundation in Engineering and Technology programme is aptly
 
 ## foundation-in-information-technology
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/foundation-in-information-technology
+
 ### Programme Structure
 
 Among the Courses Offered First Semester Problem Solving Techniques and Algorithm Mathematics Physics Second Semester Programming Introduction to Networking Introduction to Multimedia Career Prospects
@@ -4137,6 +4825,10 @@ About the Course This MSU foundation programme equips you for bachelor programme
 ---
 
 ## foundation-in-liberal-arts
+
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/foundation-in-liberal-arts
 
 ### Programme Structure
 
@@ -4162,6 +4854,10 @@ About the Course Foundation in Liberal Arts (FLB) program is designed to equippe
 
 ## foundation-law
 
+### URL
+
+https://www.msu.edu.my/faculty-business-management-professional-studies/foundation-law.php
+
 ### Programme Structure
 
 Among the Courses Offered First Semester Introduction to Legal Systems Introduction to Sociology Introduction to Law I Political Science Second Semester Introduction to Criminal and Constitutional Law Introduction to Law II Legal Methods English for Law Career Prospects
@@ -4185,6 +4881,10 @@ About the Course The Foundation in Law programme is aptly designed for students 
 ---
 
 ## foundation-science-biology
+
+### URL
+
+https://www.msu.edu.my/international-medical-school/foundation-science-biology.php
 
 ### Programme Structure
 
@@ -4210,6 +4910,10 @@ About the Course MSU Foundation in Sciences programme is designed to provide you
 
 ## foundation-tesl
 
+### URL
+
+https://www.msu.edu.my/school-education-social-sciences/foundation-tesl.php
+
 ### Programme Structure
 
 Among the Courses Offered First Semester Productive Skills - Writing Grammar I Receptive Skills - Speaking and Listening Receptive Skills - Reading and Vocabulary Second Semester English Pronunciation Grammar II Language and Culture Academic and Creative Writing Career Prospects
@@ -4234,6 +4938,10 @@ About the Course English is the foremost language of the internet and it is the 
 
 ## foundation-visual-arts
 
+### URL
+
+https://www.msu.edu.my/faculty-information-sciences-engineering/foundation-visual-arts.php
+
 ### Programme Structure
 
 Among the Courses Offered First Semester Basic Drawing 2D Animation Introduction to Photography Second Semester Computerised Graphics Creative Thinking in Art and Design 3D Animation Career Prospects RM15,000 - RM20,000 *The stated fees are estimation on overall completion of the program. In any cases where there are credit exemptions, offered rebates or approval of scholarship applications, there will be considerable reduction in the fees The fees stated here are for Malaysians or local students only. Kindly refer to MSU regarding the fees for international students
@@ -4257,6 +4965,10 @@ About the Course Through the Foundation in Visual Arts programme, you will be in
 ---
 
 ## msc-accounting-finance
+
+### URL
+
+https://www.msu.edu.my/graduate-school-management/msc-accounting-finance.php
 
 ### Programme Structure
 

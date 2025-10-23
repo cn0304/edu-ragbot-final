@@ -140,8 +140,10 @@ def format_markdown(courses_by_type):
     
     # Sort program types for consistent output
     type_order = ['foundation', 'certificate', 'diploma', 'degree', 'master', 'other']
-    sorted_types = sorted(courses_by_type.keys(), 
-                         key=lambda x: type_order.index(x) if x in type_order else len(type_order))
+    sorted_types = sorted(
+        courses_by_type.keys(), 
+        key=lambda x: type_order.index(x) if x in type_order else len(type_order)
+    )
     
     for program_type in sorted_types:
         # Add level 1 heading for program type
@@ -156,7 +158,13 @@ def format_markdown(courses_by_type):
             markdown_lines.append(f"## {course['slug']}")
             markdown_lines.append("")
             
-            # Add each section
+            # ✅ Add URL section
+            markdown_lines.append("### URL")
+            markdown_lines.append("")
+            markdown_lines.append(course['url'])
+            markdown_lines.append("")
+            
+            # Add each section in order
             section_order = [
                 'Programme Structure',
                 'Fees',
@@ -177,6 +185,7 @@ def format_markdown(courses_by_type):
             markdown_lines.append("")
     
     return '\n'.join(markdown_lines)
+
 
 
 def main():
@@ -232,6 +241,7 @@ def main():
             courses_by_type[program_type].append({
                 'slug': slug,
                 'name': name,
+                'url': course_data['url'],
                 'sections': course_data['sections']
             })
         

@@ -5,7 +5,24 @@ ATC provides several payment options, including credit/debit cards and online ba
 
 # Online Banking
 Remit your payment to the college account as specified below, based on your campus registration.
+
  
+
+Registration @ ATC KL Campus
+
+Company Name   : Advance Tertiary College Sdn Bhd
+
+Bank Account No. : 8001483191
+
+Bank Name            : CIMB Bank Berhad
+
+Bank Address        : Menara UAB Branch
+
+6, Jalan Tun Perak, 50050 Kuala Lumpur, Wilayah Persekutuan
+
+Bank Swift Code    : CIBBMYKL
+
+———————————————-                                 
 
 Registration @ ATC Penang Campus
 

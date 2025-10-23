@@ -2,6 +2,12 @@
 
 ## diploma-in-computer-graphic-design
 
+
+### URL
+
+https://www.unitar.my/programme/diploma-in-computer-graphic-design/
+
+
 ### Programme Structure
 
 - 2D Animation
@@ -61,6 +67,12 @@ result not found in online
 ---
 
 ## diploma-in-e-business
+
+
+### URL
+
+https://www.unitar.my/programme/diploma-in-e-business/
+
 
 ### Programme Structure
 
@@ -125,6 +137,12 @@ result not found in online
 
 ## diploma-in-e-secretaryship
 
+
+### URL
+
+https://www.unitar.my/programme/diploma-in-e-secretaryship/
+
+
 ### Programme Structure
 
 - Administrative Office Management
@@ -179,6 +197,12 @@ result not found in online
 ---
 
 ## diploma-in-early-childhood-education-college
+
+
+### URL
+
+https://www.unitar.my/programme/diploma-in-early-childhood-education-college/
+
 
 ### Programme Structure
 
@@ -235,6 +259,12 @@ result not found in online
 ---
 
 ## diploma-in-information-technology-college
+
+
+### URL
+
+https://www.unitar.my/programme/diploma-in-information-technology-college/
+
 
 ### Programme Structure
 
@@ -299,6 +329,12 @@ result not found in online
 
 ## diploma-in-multimedia-application
 
+
+### URL
+
+https://www.unitar.my/programme/diploma-in-multimedia-application/
+
+
 ### Programme Structure
 
 - 2D Animation
@@ -362,6 +398,12 @@ result not found in online
 
 ## diploma-in-tourism-management-college
 
+
+### URL
+
+https://www.unitar.my/programme/diploma-in-tourism-management-college/
+
+
 ### Programme Structure
 
 - Bahasa Kebangsaan
@@ -422,6 +464,12 @@ result not found in online
 # Other
 
 ## certificate-in-business-management
+
+
+### URL
+
+https://www.unitar.my/programme/certificate-in-business-management/
+
 
 ### Programme Structure
 

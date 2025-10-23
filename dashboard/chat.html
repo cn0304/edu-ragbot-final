@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,103 +7,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-  </script><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
   <style>
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
-
-    /* heading icons */
-    .h-icon {
-      display: inline-block;
-      margin-right: 8px;
-      font-size: 1.05em;
-      line-height: 1;
-      transform: translateY(1px); /* tiny optical alignment */
-    }
-
-    #sendButton { display: inline-flex; align-items: center; gap: 8px; }
-    #sendButton .bi { line-height: 1; font-size: 1em; }  /* icon matches text size */
-
-
-    /* Render all Markdown images safely and responsively */
-    .message-content img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 8px 0;
-    }
-
-    /* If an image is detected as a logo, float it near the heading */
-    .message-content img.logo-right {
-      float: right;
-      width: 64px;        /* tweak: 48–80px works well */
-      height: auto;
-      margin: 0 0 8px 12px;
-      border-radius: 6px;
-      box-shadow: 0 1px 2px rgba(0,0,0,.08);
-    }
-
-    /* Clear the float so heading text doesn’t overlap */
-    .message-content h1,
-    .message-content h2 {
-      overflow: hidden;
-    }
-
-    /* --- Copy UI --- */
-    .msg-tools {
-      display: flex;
-      justify-content: flex-end;
-      gap: 8px;
-      margin-bottom: 8px;  /* top toolbar spacing */
-      margin-top: 0;
-    }
-
-
-    .copy-all-btn, .copy-btn {
-      border: 1px solid #e2e8f0;
-      background: #f8fafc;
-      border-radius: 8px;
-      padding: 6px 10px;
-      font-size: 12px;
-      line-height: 1;
-      cursor: pointer;
-      color: #334155;
-    }
-    .copy-all-btn:hover, .copy-btn:hover {
-      background: #eef2f7;
-    }
-
-    /* inline button on headings */
-    .copy-btn {
-      margin-left: 8px;
-    }
-
-    /* Tiny toast */
-    .copy-toast {
-      position: fixed;
-      left: 50%;
-      bottom: 24px;
-      transform: translateX(-50%);
-      background: rgba(17, 24, 39, 0.95);
-      color: #fff;
-      padding: 8px 12px;
-      border-radius: 8px;
-      font-size: 13px;
-      z-index: 9999;
-      opacity: 0;
-      transition: opacity .18s ease;
-    }
-    .copy-toast.show { opacity: 1; }
-
-    /* keep existing copied toast above */
-    .copy-toast { z-index: 10000; }
 
     body {
       font-family: 'Inter', system-ui, sans-serif;
@@ -206,12 +112,44 @@
       box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
     }
 
+    /* Category Filter */
+    .category-filter {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .chip {
+      padding: 6px 12px;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      border-radius: 999px;
+      font-size: 14px;
+      color: #475569;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .chip:hover {
+      background: #e2e8f0;
+    }
+    .chip.active {
+      background: #3b82f6;
+      color: #fff;
+      border-color: #3b82f6;
+    }
+
     /* Chat Container */
     .chat-container {
       flex: 1;
       display: flex;
       flex-direction: column;
-      max-width: 1400px;
+      max-width: 900px;
       width: 100%;
       margin: 0 auto;
       padding: 24px;
@@ -284,7 +222,7 @@
     }
 
     .message-content {
-      max-width: 85%;
+      max-width: 70%;
       padding: 16px 20px;
       border-radius: 16px;
       line-height: 1.6;
@@ -309,18 +247,6 @@
       margin: 8px 0;
       padding-left: 20px;
     }
-
-    /* Prevent long URLs/words from overflowing bubbles */
-    .message-content {
-      overflow-wrap: anywhere;   /* modern */
-      word-wrap: break-word;     /* legacy fallback */
-      word-break: break-word;    /* extra safety */
-    }
-
-    .message-content a {
-      word-break: break-all;     /* anchors can be especially stubborn */
-    }
-
 
     .message-content li {
       margin: 4px 0;
@@ -402,7 +328,7 @@
     .input-container {
       display: flex;
       gap: 12px;
-      max-width: 1400px;
+      max-width: 900px;
       margin: 0 auto;
     }
 
@@ -525,122 +451,18 @@
         grid-template-columns: 1fr;
       }
     }
-
-/* === Dark theme ==== */
-:root[data-theme="dark"] body {
-  background: #0b1220;
-  color: #e5e7eb;
-}
-
-/* Header + nav */
-:root[data-theme="dark"] header {
-  background: #0f172a;
-  border-bottom-color: #1f2937;
-  box-shadow: 0 1px 3px rgba(0,0,0,.25);
-}
-:root[data-theme="dark"] .nav-link { background:#111827; color:#e5e7eb; }
-:root[data-theme="dark"] .nav-link:hover { background:#1f2937; color:#ffffff; }
-
-/* Assistant bubbles */
-:root[data-theme="dark"] .message.assistant .message-content {
-  background: #0f172a;
-  color: #e5e7eb;
-  border-color: #334155;
-}
-
-/* Sources + dividers */
-:root[data-theme="dark"] .sources { border-top-color:#334155; }
-:root[data-theme="dark"] .sources .source-item { color:#94a3b8; }
-
-/* Scrollbar tint */
-:root[data-theme="dark"] .messages::-webkit-scrollbar-track { background:#0b1220; }
-:root[data-theme="dark"] .messages::-webkit-scrollbar-thumb { background:#334155; }
-
-/* Input area */
-:root[data-theme="dark"] .input-area { background:#0f172a; border-top-color:#1f2937; }
-:root[data-theme="dark"] #queryInput {
-  background:#0b1220; color:#e5e7eb; border-color:#334155;
-}
-:root[data-theme="dark"] #queryInput::placeholder { color:#94a3b8; }
-
-/* Tiny buttons (copy) */
-:root[data-theme="dark"] .copy-all-btn,
-:root[data-theme="dark"] .copy-btn {
-  background:#0b1220; color:#e5e7eb; border-color:#334155;
-}
-:root[data-theme="dark"] .copy-all-btn:hover,
-:root[data-theme="dark"] .copy-btn:hover { background:#111827; }
-
-/* Select */
-:root[data-theme="dark"] select { background:#0b1220; color:#e5e7eb; border-color:#334155; }
-
-/* Cards on welcome */
-:root[data-theme="dark"] .suggestion-card { background:#0f172a; border-color:#334155; }
-:root[data-theme="dark"] .suggestion-card:hover { box-shadow:0 4px 12px rgba(0,0,0,.35); border-color:#3b82f6; }
-:root[data-theme="dark"] .welcome { color:#94a3b8; }
-
-/* === Background image (light + dark) === */
-body.has-bg{
-  /* change this path to your image */
-  --bg-img: url("/static/img/chat_background.jpg");
-  background:
-    /* light overlay to keep text readable */
-    linear-gradient(to bottom right, rgba(248,250,252,.70), rgba(248,250,252,.70)),
-    var(--bg-img) center / cover no-repeat fixed;
-}
-
-/* Dark theme overlay version */
-html[data-theme="dark"] body.has-bg{
-  background:
-    linear-gradient(to bottom right, rgba(2,6,23,.35), rgba(2,6,23,.35)),
-    var(--bg-img) center / cover no-repeat fixed;
-}
-
-/* Optional: glass cards over the photo */
-.card{
-  background: rgba(255,255,255,.78);
-  border-color: rgba(226,232,240,.6);
-  backdrop-filter: blur(8px);
-}
-html[data-theme="dark"] .card{
-  background: rgba(15,23,42,.62);
-  border-color: rgba(31,41,55,.7);
-}
-
-/* Optional: make header slightly glassy so image peeks through */
-header{
-  background: rgba(255,255,255,.80);
-  backdrop-filter: blur(10px);
-  border-bottom-color: rgba(226,232,240,.6);
-}
-html[data-theme="dark"] header{
-  background: rgba(15,23,42,.70);
-  border-bottom-color: rgba(31,41,55,.7);
-}
-
   </style>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
 </head>
-<body class="has-bg">
+<body>
   <header>
     <div class="header-left">
       <h1>University Assistant</h1>
       <div class="nav-links">
         <a href="/" class="nav-link">📊 Dashboard</a>
-
-           <button id="themeToggle"
-              class="btn btn-light border rounded-3 ms-2 p-0 d-inline-flex align-items-center justify-content-center"
-              type="button"
-              style="width:36px;height:36px"
-              aria-label="Toggle dark mode"
-              title="Toggle dark mode">
-            <i class="bi bi-moon-stars"></i>
-          </button>
       </div>
     </div>
     <div class="university-filter">
-      <span class="filter-label">University List:</span>
+      <span class="filter-label">Filter:</span>
       <select id="universityFilter">
         <option value="">All Universities</option>
       </select>
@@ -648,6 +470,10 @@ html[data-theme="dark"] header{
   </header>
 
   <div class="chat-container">
+    <div class="category-filter" id="categoryFilter">
+      <span class="filter-label">Category:</span>
+      <div class="chips" id="categoryChips"></div>
+    </div>
     <div class="messages" id="messages">
       <div class="welcome">
         <h2>👋 Hello! How can I help you today?</h2>
@@ -678,11 +504,11 @@ html[data-theme="dark"] header{
       <div class="input-container">
         <textarea
           id="queryInput"
-          placeholder="🧠 Ask about courses, applications, scholarships..."
+          placeholder="Ask about courses, applications, scholarships..."
           rows="1"
         ></textarea>
         <button id="sendButton" onclick="sendMessage()">
-          <i class="bi bi-send"></i><span>Send</span>
+          Send
         </button>
       </div>
     </div>
@@ -690,170 +516,6 @@ html[data-theme="dark"] header{
 
   <script>
     let isLoading = false;
-
-    if (window.marked && marked.setOptions) {
-      marked.setOptions({ breaks: true });
-    }
-
-    // Map heading keywords → icons
-    const HEADING_ICON_RULES = [
-      { keys: ["how to apply", "application", "admissions", "apply"], icon: "📝" },
-      { keys: ["location", "campus", "address", "where"],              icon: "📍" },
-      { keys: ["program list", "programmes", "programs", "courses"],    icon: "📚" },
-      { keys: ["scholarship", "financial aid", "bursary"],              icon: "💰" },
-      { keys: ["entry requirements", "requirements", "eligibility"],    icon: "🎯" },
-      { keys: ["fees", "tuition", "cost"],                              icon: "💵" },
-      { keys: ["deadline", "intake", "important dates"],                icon: "⏰" },
-      { keys: ["contact"],                                              icon: "☎️" },
-    ];
-
-    // --- Copy helpers ---
-    function showToast(msg) {
-      let t = document.getElementById('copy-toast');
-      if (!t) {
-        t = document.createElement('div');
-        t.id = 'copy-toast';
-        t.className = 'copy-toast';
-        document.body.appendChild(t);
-      }
-      t.textContent = msg || 'Copied';
-      t.classList.add('show');
-      setTimeout(() => t.classList.remove('show'), 1100);
-    }
-
-    async function copyToClipboard(text) {
-      try {
-        await navigator.clipboard.writeText(text);
-        showToast('Copied');
-      } catch (e) {
-        // Fallback
-        const ta = document.createElement('textarea');
-        ta.value = text;
-        ta.style.position = 'fixed';
-        ta.style.top = '-1000px';
-        document.body.appendChild(ta);
-        ta.focus();
-        ta.select();
-        try { document.execCommand('copy'); showToast('Copied'); } catch {}
-        document.body.removeChild(ta);
-      }
-    }
-
-    // Return plain text of one section: heading + content until next H1/H2/H3
-    function getSectionText(headingEl) {
-      const parts = [];
-      parts.push((headingEl.innerText || '').trim());
-      let n = headingEl.nextElementSibling;
-      while (n && !/^H[1-3]$/.test(n.tagName)) {
-        parts.push((n.innerText || '').trim());
-        n = n.nextElementSibling;
-      }
-      return parts.join('\n').replace(/\n{3,}/g, '\n\n').trim();
-    }
-
-    // Return plain text for the whole assistant answer (no sources/tools)
-    function getAnswerText(containerEl) {
-      const clone = containerEl.cloneNode(true);
-      clone.querySelectorAll('.sources, .msg-tools, .copy-btn').forEach(el => el.remove());
-      return (clone.innerText || '').replace(/\n{3,}/g, '\n\n').trim();
-    }
-
-    //Copy
-    function attachCopyFeatures(containerEl) {
-      if (!containerEl) return;
-
-      // (Re)create the top toolbar
-      let bar = containerEl.querySelector('.msg-tools');
-      if (!bar) {
-        bar = document.createElement('div');
-        bar.className = 'msg-tools';
-        containerEl.prepend(bar); // top-right toolbar
-      } else {
-        bar.innerHTML = '';
-      }
-
-      // Copy entire answer only
-      const copyBtn = document.createElement('button');
-      copyBtn.className = 'copy-all-btn';
-      copyBtn.type = 'button';
-      copyBtn.textContent = '📋 Copy answer';
-      copyBtn.addEventListener('click', () => {
-        copyToClipboard(getAnswerText(containerEl));
-      });
-
-      bar.append(copyBtn);
-    }
-
-
-    // Detect and polish images from Markdown; float a logo to the heading
-    function decorateImages(containerEl) {
-      if (!containerEl) return;
-
-      const imgs = containerEl.querySelectorAll("img");
-
-      imgs.forEach(img => {
-        // Light perf & privacy niceties
-        img.loading = "lazy";
-        img.decoding = "async";
-        img.referrerPolicy = "no-referrer";
-
-        // OPTIONAL: if your MD uses relative paths like ./images/logo.png,
-        // rewrite them to your static mount (uncomment & set base if needed)
-        // const src = img.getAttribute("src") || "";
-        // if (!/^https?:\/\//i.test(src)) {
-        //   img.src = "/static/md-assets/" + src.replace(/^\.?\//, "");
-        // }
-      });
-
-      // Heuristic: if the first image "looks like" a logo, style it
-      const first = imgs[0];
-      if (first) {
-        const s = (first.getAttribute("src") || "").toLowerCase();
-        const a = (first.getAttribute("alt") || "").toLowerCase();
-        const looksLikeLogo = /logo|brand|crest|emblem/.test(s + " " + a);
-        if (looksLikeLogo) {
-          first.classList.add("logo-right");
-        }
-      }
-    }
-
-    // decide icon by checking if any keyword appears in the heading text
-    function pickHeadingIcon(text) {
-      const t = (text || "").toLowerCase();
-      for (const rule of HEADING_ICON_RULES) {
-        if (rule.keys.some(k => t.includes(k))) return rule.icon;
-      }
-      return ""; // no icon for unmatched headings
-    }
-
-    // prepend icons to h2/h3 once (safe to call repeatedly)
-    function injectHeadingIcons(containerEl) {
-      if (!containerEl) return;
-      const headings = containerEl.querySelectorAll("h1, h2, h3");
-      headings.forEach(h => {
-        if (h.dataset.iconApplied === "1") return;           // avoid duplicates
-        const icon = pickHeadingIcon(h.textContent || "");
-        if (!icon) { h.dataset.iconApplied = "1"; return; }  // mark to skip next time
-        const span = document.createElement("span");
-        span.className = "h-icon";
-        span.textContent = icon;
-        h.prepend(span);
-        h.dataset.iconApplied = "1";
-      });
-    }
-
-
-    // Convert Markdown -> sanitized HTML
-    function renderMD(md) {
-      const html = (window.marked && marked.parse) ? marked.parse(md || '') : (md || '');
-      const safe = (window.DOMPurify && DOMPurify.sanitize) ? DOMPurify.sanitize(html) : html;
-      return safe;
-    }
-
-    // (Optional) promote lines that are exactly **Title** to "## Title"
-    function promoteBoldLinesToH2(md) {
-      return (md || '').replace(/^\s*\*\*(.+?)\*\*\s*$/gm, '## $1');
-    }
 
     // Load universities
     async function loadUniversities() {
@@ -870,6 +532,52 @@ html[data-theme="dark"] header{
         });
       } catch (e) {
         console.error('Failed to load universities:', e);
+      }
+    }
+
+    // Category chips
+    let selectedCategory = 'all';
+    const categoryOptions = [
+      { key: 'all', label: 'All' },
+      { key: 'foundation', label: 'Foundation' },
+      { key: 'diploma', label: 'Diploma' },
+      { key: 'degree', label: 'Degree' },
+      { key: 'master', label: 'Master' },
+      { key: 'phd', label: 'PhD' }
+    ];
+
+    function initCategories() {
+      const chipsDiv = document.getElementById('categoryChips');
+      if (!chipsDiv) return;
+      chipsDiv.innerHTML = '';
+      categoryOptions.forEach(opt => {
+        const chip = document.createElement('div');
+        chip.className = 'chip' + (opt.key === selectedCategory ? ' active' : '');
+        chip.textContent = opt.label;
+        chip.dataset.key = opt.key;
+        chip.addEventListener('click', () => {
+          selectedCategory = opt.key;
+          document.querySelectorAll('#categoryChips .chip').forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+        });
+        chipsDiv.appendChild(chip);
+      });
+    }
+
+    function getCategoryParams() {
+      switch (selectedCategory) {
+        case 'foundation':
+          return { course_type_filter: 'foundation', degree_subtype: null };
+        case 'diploma':
+          return { course_type_filter: 'diploma', degree_subtype: null };
+        case 'degree':
+          return { course_type_filter: 'degree', degree_subtype: null };
+        case 'master':
+          return { course_type_filter: 'degree', degree_subtype: 'master' };
+        case 'phd':
+          return { course_type_filter: 'degree', degree_subtype: 'doctor' };
+        default:
+          return { course_type_filter: null, degree_subtype: null };
       }
     }
 
@@ -893,7 +601,6 @@ html[data-theme="dark"] header{
       sendMessage();
     }
 
-
     function addMessage(role, content, sources = []) {
       const messagesDiv = document.getElementById('messages');
       const welcome = messagesDiv.querySelector('.welcome');
@@ -911,13 +618,19 @@ html[data-theme="dark"] header{
       const contentDiv = document.createElement('div');
       contentDiv.className = 'message-content';
       
-      // OPTIONAL heading promotion:
-      const maybeH2 = promoteBoldLinesToH2(content);
-      // Render Markdown
-      contentDiv.innerHTML = renderMD(maybeH2);
-      injectHeadingIcons(contentDiv);
-      decorateImages(contentDiv);
-
+      // Format content (preserve line breaks and lists)
+      const formattedContent = content
+        .split('\n')
+        .map(line => {
+          if (line.trim().startsWith('•') || line.trim().startsWith('-')) {
+            return `<li>${line.trim().substring(1).trim()}</li>`;
+          }
+          return line;
+        })
+        .join('<br>');
+      
+      contentDiv.innerHTML = formattedContent.replace(/(<li>.*<\/li>)/g, '<ul>$1</ul>');
+      
       // Add sources if available
       if (sources && sources.length > 0) {
         const sourcesDiv = document.createElement('div');
@@ -925,22 +638,14 @@ html[data-theme="dark"] header{
         sourcesDiv.innerHTML = '<div class="sources-title">Sources:</div>';
         
         sources.forEach(source => {
-          const label = `${source.university} - ${source.document}` + (source.course ? ` - ${source.course}` : '');
-
-        if (source.url) {
-          const a = document.createElement('a');
-          a.className = 'source-item';
-          a.href = source.url;
-          a.target = '_blank';
-          a.rel = 'noopener noreferrer';
-          a.textContent = label;
-          sourcesDiv.appendChild(a);
-        } else {
-          const div = document.createElement('div');
-          div.className = 'source-item';
-          div.textContent = label;
-          sourcesDiv.appendChild(div);
-        }
+          const sourceItem = document.createElement('div');
+          sourceItem.className = 'source-item';
+          let sourceText = `${source.university} - ${source.document}`;
+          if (source.course) {
+            sourceText += ` - ${source.course}`;
+          }
+          sourceItem.textContent = sourceText;
+          sourcesDiv.appendChild(sourceItem);
         });
         
         contentDiv.appendChild(sourcesDiv);
@@ -989,6 +694,8 @@ html[data-theme="dark"] header{
       
       // Get university filter
       const universityFilter = document.getElementById('universityFilter').value || null;
+      // Get category filter
+      const { course_type_filter, degree_subtype } = getCategoryParams();
       
       // Clear input
       input.value = '';
@@ -1012,6 +719,8 @@ html[data-theme="dark"] header{
           body: JSON.stringify({
             query: query,
             university_filter: universityFilter,
+            course_type_filter: course_type_filter,
+            degree_subtype: degree_subtype,
             stream: true
           })
         });
@@ -1050,13 +759,19 @@ html[data-theme="dark"] header{
               if (data.chunk) {
                 fullResponse += data.chunk;
                 
-                // OPTIONAL heading promotion:
-                const maybeH2 = promoteBoldLinesToH2(fullResponse);
-                contentDiv.innerHTML = renderMD(maybeH2);
-                injectHeadingIcons(contentDiv);
-                decorateImages(contentDiv);
-                attachCopyFeatures(contentDiv);
-
+                // Update content with formatting
+                const formatted = fullResponse
+                  .split('\n')
+                  .map(l => {
+                    if (l.trim().startsWith('•') || l.trim().startsWith('-')) {
+                      return `<li>${l.trim().substring(1).trim()}</li>`;
+                    }
+                    return l;
+                  })
+                  .join('<br>');
+                
+                contentDiv.innerHTML = formatted.replace(/(<li>.*<\/li>)/g, '<ul>$1</ul>');
+                
                 // Auto scroll
                 const messagesDiv = document.getElementById('messages');
                 messagesDiv.scrollTop = messagesDiv.scrollHeight;
@@ -1071,7 +786,9 @@ html[data-theme="dark"] header{
                   },
                   body: JSON.stringify({
                     query: query,
-                    university_filter: universityFilter
+                    university_filter: universityFilter,
+                    course_type_filter: course_type_filter,
+                    degree_subtype: degree_subtype
                   })
                 });
                 
@@ -1084,22 +801,20 @@ html[data-theme="dark"] header{
                   sourcesDiv.innerHTML = '<div class="sources-title">Sources:</div>';
                   
                   sourcesData.sources.forEach(source => {
-                  const label = `${source.university} - ${source.document}` + (source.course ? ` - ${source.course}` : '');
-                  if (source.url) {
-                    const a = document.createElement('a');
-                    a.className = 'source-item';
-                    a.href = source.url;
-                    a.target = '_blank';
-                    a.rel = 'noopener noreferrer';
-                    a.textContent = label;
-                    sourcesDiv.appendChild(a);
-                  } else {
-                    const div = document.createElement('div');
-                    div.className = 'source-item';
-                    div.textContent = label;
-                    sourcesDiv.appendChild(div);
-                  }
-                });
+                    const sourceItem = document.createElement('div');
+                    sourceItem.className = 'source-item';
+                    const section = source.section ? ` (${source.section})` : '';
+                    let sourceText = `${source.university} - ${source.document}`;
+                    if (source.course) {
+                      sourceText += ` - ${source.course}${section}`;
+                    }
+                    if (source.url) {
+                      sourceItem.innerHTML = `<a href="${source.url}" target="_blank" rel="noopener noreferrer">${sourceText}</a>`;
+                    } else {
+                      sourceItem.textContent = sourceText;
+                    }
+                    sourcesDiv.appendChild(sourceItem);
+                  });
                   
                   contentDiv.appendChild(sourcesDiv);
                 }
@@ -1124,47 +839,7 @@ html[data-theme="dark"] header{
 
     // Initialize
     loadUniversities();
-
-    // === Theme (light/dark) ============================================
-const THEME_KEY = 'ua_theme';
-
-function applyTheme(theme) {
-  // Set on <html> so we can target with :root[data-theme="..."]
-  document.documentElement.setAttribute('data-theme', theme);
-  // Also tell Bootstrap 5.3 to switch its palette
-  document.documentElement.setAttribute('data-bs-theme', theme === 'dark' ? 'dark' : 'light');
-
-  const btn = document.getElementById('themeToggle');
-  if (btn) {
-    const dark = theme === 'dark';
-    btn.innerHTML = dark ? '<i class="bi bi-sun"></i>' : '<i class="bi bi-moon-stars"></i>';
-    const label = dark ? 'Switch to light mode' : 'Switch to dark mode';
-    btn.setAttribute('aria-label', label);
-    btn.title = label;
-  }
-}
-
-function toggleTheme() {
-  const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-  const next = current === 'dark' ? 'light' : 'dark';
-  localStorage.setItem(THEME_KEY, next);
-  applyTheme(next);
-}
-
-// Initialize on first load (use saved; else system preference)
-(function initTheme() {
-  const saved = localStorage.getItem(THEME_KEY);
-  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  applyTheme(saved || (prefersDark ? 'dark' : 'light'));
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const btn = document.getElementById('themeToggle');
-    if (btn) btn.addEventListener('click', toggleTheme);
-  });
-})();
-
-
+    initCategories();
   </script>
-
 </body>
 </html>
