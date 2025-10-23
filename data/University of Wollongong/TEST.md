@@ -2,10 +2,6 @@
 
 ## foundation-in-arts-batu-kawan
 
-### URL
-
-https://www.uow.edu.my/programme/foundation-in-arts-batu-kawan/
-
 ### Programme Structure
 
 **Duration**
@@ -85,10 +81,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## foundation-in-science
-
-### URL
-
-https://www.uow.edu.my/programme/foundation-in-science/
 
 ### Programme Structure
 
@@ -172,10 +164,6 @@ If English language requirements are not fulfilled, additional English module(s)
 # Diploma
 
 ## diploma-in-business
-
-### URL
-
-https://www.uow.edu.my/programme/diploma-in-business/
 
 ### Programme Structure
 
@@ -278,10 +266,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## diploma-in-culinary-arts-penang
 
-### URL
-
-https://www.uow.edu.my/programme/diploma-in-culinary-arts-penang/
-
 ### Programme Structure
 
 **Duration**
@@ -375,10 +359,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## diploma-in-information-technology-bk
-
-### URL
-
-https://www.uow.edu.my/programme/diploma-in-information-technology-bk/
 
 ### Programme Structure
 
@@ -480,10 +460,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## diploma-in-interior-design
-
-### URL
-
-https://www.uow.edu.my/programme/diploma-in-interior-design/
 
 ### Programme Structure
 
@@ -590,10 +566,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## diploma-in-international-hotel-management-penang
 
-### URL
-
-https://www.uow.edu.my/programme/diploma-in-international-hotel-management-penang/
-
 ### Programme Structure
 
 **Duration**
@@ -687,10 +659,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## diploma-in-mass-communication
 
-### URL
-
-https://www.uow.edu.my/programme/diploma-in-mass-communication/
-
 ### Programme Structure
 
 **Duration**
@@ -781,10 +749,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## diploma-in-mechatronics-engineering
-
-### URL
-
-https://www.uow.edu.my/programme/diploma-in-mechatronics-engineering/
 
 ### Programme Structure
 
@@ -885,10 +849,6 @@ If English language requirements are not fulfilled, additional English module(s)
 # Degree
 
 ## ba-hons-in-interior-architecture
-
-### URL
-
-https://www.uow.edu.my/programme/ba-hons-in-interior-architecture/
 
 ### Programme Structure
 
@@ -1008,10 +968,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## bachelor-of-accountancy
-
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-accountancy/
 
 ### Programme Structure
 
@@ -1140,10 +1096,6 @@ This requirement can be exempted if the Foundation/Diploma was taught in English
 ---
 
 ## bachelor-of-arts-hons-business-management
-
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-arts-hons-business-management/
 
 ### Programme Structure
 
@@ -1280,10 +1232,6 @@ This requirement can be exempted if the Foundation/Diploma was taught in English
 
 ## bachelor-of-arts-hons-in-communication-and-public-relations
 
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-arts-hons-in-communication-and-public-relations/
-
 ### Programme Structure
 
 **Duration**
@@ -1386,10 +1334,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## bachelor-of-arts-hons-in-international-culinary-arts
-
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-arts-hons-in-international-culinary-arts/
 
 ### Programme Structure
 
@@ -1509,10 +1453,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## bachelor-of-arts-hons-in-international-hotel-tourism-management
 
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-arts-hons-in-international-hotel-tourism-management/
-
 ### Programme Structure
 
 **Duration**
@@ -1628,10 +1568,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## bachelor-of-arts-hons-in-media-production
 
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-arts-hons-in-media-production/
-
 ### Programme Structure
 
 **Duration**
@@ -1738,10 +1674,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## bachelor-of-arts-hons-international-business-management
-
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-arts-hons-international-business-management/
 
 ### Programme Structure
 
@@ -1872,10 +1804,6 @@ This requirement can be exempted if the Foundation/Diploma was taught in English
 
 ## bachelor-of-computer-science-hons-3
 
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-computer-science-hons-3/
-
 ### Programme Structure
 
 **Duration**
@@ -2003,10 +1931,6 @@ If English Language requirements are not fulfilled, additional English module(s)
 
 ## bachelor-of-information-systems-hons
 
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-information-systems-hons/
-
 ### Programme Structure
 
 **Duration**
@@ -2130,10 +2054,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## bachelor-of-mechatronics-engineering-with-honours-batu-kawan
-
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-mechatronics-engineering-with-honours-batu-kawan/
 
 ### Programme Structure
 
@@ -2263,10 +2183,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## bachelor-of-software-engineering-hons-bk
 
-### URL
-
-https://www.uow.edu.my/programme/bachelor-of-software-engineering-hons-bk/
-
 ### Programme Structure
 
 **Duration**
@@ -2394,10 +2310,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## master-in-computer-science
 
-### URL
-
-https://www.uow.edu.my/programme/master-in-computer-science/
-
 ### Programme Structure
 
 **Duration**
@@ -2467,10 +2379,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## master-of-business-administration-batu-kawan
-
-### URL
-
-https://www.uow.edu.my/programme/master-of-business-administration-batu-kawan/
 
 ### Programme Structure
 
@@ -2556,10 +2464,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## master-of-business-batu-kawan-penang
 
-### URL
-
-https://www.uow.edu.my/programme/master-of-business-batu-kawan-penang/
-
 ### Programme Structure
 
 **Duration**
@@ -2631,10 +2535,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## master-of-science-engineering
-
-### URL
-
-https://www.uow.edu.my/programme/master-of-science-engineering/
 
 ### Programme Structure
 
@@ -2712,10 +2612,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## master-of-science-in-hospitality-and-tourism
 
-### URL
-
-https://www.uow.edu.my/programme/master-of-science-in-hospitality-and-tourism/
-
 ### Programme Structure
 
 **Duration**
@@ -2787,10 +2683,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## doctor-of-philosophy-business-batu-kawan
 
-### URL
-
-https://www.uow.edu.my/programme/doctor-of-philosophy-business-batu-kawan/
-
 ### Programme Structure
 
 **Duration**
@@ -2861,10 +2753,6 @@ If English language requirements are not fulfilled, additional English module(s)
 
 ## doctor-of-philosophy-computer-science
 
-### URL
-
-https://www.uow.edu.my/programme/doctor-of-philosophy-computer-science/
-
 ### Programme Structure
 
 **Duration**
@@ -2934,10 +2822,6 @@ If English language requirements are not fulfilled, additional English module(s)
 ---
 
 ## doctor-of-philosophy-hospitality-and-tourism
-
-### URL
-
-https://www.uow.edu.my/programme/doctor-of-philosophy-hospitality-and-tourism/
 
 ### Programme Structure
 

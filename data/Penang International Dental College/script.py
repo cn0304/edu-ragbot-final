@@ -75,6 +75,9 @@ def main():
 
 ## foundation-in-doctor-of-dental-surgery
 
+### URL
+https://www.pidc.edu.my/dds/
+
 ### Programme Structure
 YEAR 1  
 Anatomy, Physiology, Biochemistry, Oral Biology  
@@ -109,6 +112,11 @@ September every year
 ---
 
 ## foundation-in-science-programme
+
+### URL
+https://www.pidc.edu.my/fis/
+
+
 
 ### Programme Structure
 PIDC's FOUNDATION IN SCIENCE PROGRAMME  

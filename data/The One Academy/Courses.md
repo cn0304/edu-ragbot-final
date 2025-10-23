@@ -2,6 +2,12 @@
 
 ## certificate-communication-design
 
+
+### URL
+
+https://www.toa.edu.my/programmes/foundation/certificate-communication-design
+
+
 ### Programme Structure
 
 **STUDY**
@@ -69,6 +75,12 @@ Bandar Sunway Campus, Penang Campus
 
 ## foundation-communication-design
 
+
+### URL
+
+https://www.toa.edu.my/programmes/foundation/foundation-communication-design
+
+
 ### Programme Structure
 
 **STUDY**
@@ -125,6 +137,12 @@ Bandar Sunway Campus
 ---
 
 ## foundation-interior-architecture-design
+
+
+### URL
+
+https://www.toa.edu.my/programmes/foundation/foundation-interior-architecture-design
+
 
 ### Programme Structure
 
@@ -186,6 +204,12 @@ Bandar Sunway Campus
 # Diploma
 
 ## digital-animation
+
+
+### URL
+
+https://www.toa.edu.my/programmes/diploma/digital-animation
+
 
 ### Programme Structure
 
@@ -251,6 +275,12 @@ Bandar Sunway Campus
 
 ## digital-media-design
 
+
+### URL
+
+https://www.toa.edu.my/programmes/diploma/digital-media-design
+
+
 ### Programme Structure
 
 **STUDY**
@@ -297,6 +327,12 @@ Bandar Sunway Campus, Penang Campus
 
 ## fashion-design-pattern-making
 
+
+### URL
+
+https://www.toa.edu.my/programmes/diploma/fashion-design-pattern-making
+
+
 ### Programme Structure
 
 **STUDY**
@@ -339,6 +375,12 @@ Bandar Sunway Campus
 ---
 
 ## film-visual-effects
+
+
+### URL
+
+https://www.toa.edu.my/programmes/diploma/film-visual-effects
+
 
 ### Programme Structure
 
@@ -386,6 +428,12 @@ Bandar Sunway Campus
 
 ## fine-arts
 
+
+### URL
+
+https://www.toa.edu.my/programmes/diploma/fine-arts
+
+
 ### Programme Structure
 
 **STUDY**
@@ -431,6 +479,12 @@ Bandar Sunway Campus
 ---
 
 ## illustration
+
+
+### URL
+
+https://www.toa.edu.my/programmes/diploma/illustration
+
 
 ### Programme Structure
 
@@ -484,6 +538,12 @@ Bandar Sunway Campus, Penang Campus
 
 ## interior-design
 
+
+### URL
+
+https://www.toa.edu.my/programmes/diploma/interior-design
+
+
 ### Programme Structure
 
 **STUDY**
@@ -529,6 +589,12 @@ Bandar Sunway Campus, Penang Campus
 ---
 
 ## visual-communication-design
+
+
+### URL
+
+https://www.toa.edu.my/programmes/diploma/visual-communication-design
+
 
 ### Programme Structure
 
@@ -584,6 +650,12 @@ Bandar Sunway Campus
 
 ## digital-media-design
 
+
+### URL
+
+https://www.toa.edu.my/programmes/degree/digital-media-design
+
+
 ### Programme Structure
 
 **STUDY**
@@ -618,6 +690,12 @@ Bandar Sunway Campus
 
 ## graphic-design
 
+
+### URL
+
+https://www.toa.edu.my/programmes/degree/graphic-design
+
+
 ### Programme Structure
 
 **STUDY**
@@ -651,6 +729,12 @@ Bandar Sunway Campus
 ---
 
 ## interior-architecture-design
+
+
+### URL
+
+https://www.toa.edu.my/programmes/degree/interior-architecture-design
+
 
 ### Programme Structure
 

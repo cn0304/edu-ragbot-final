@@ -2,6 +2,12 @@
 
 ## certificate-in-business-information-technology
 
+
+### URL
+
+https://www.sentral.edu.my/programme/certificate-in-business-information-technology/
+
+
 ### Programme Structure
 
 Bahasa Kebangsaan A/B Pendidikan Moral/ Pengajian Islam Pengajian Malaysia Basic English Mathematics Computer Applications Skills Basic Economics Basic Statistics Personal Development and Leadership Fundamentals of Business and Management Introduction to Computer Systems Business Accounting Communication Skills Marketing Essentials Desktop Publishing Introduction to Management Accounting Website Development Introduction to Organizational Behaviour Introduction to Database Introduction to Programming Community Service
@@ -20,13 +26,19 @@ January, April, June, August, October
 
 ### Entry Requirements
 
-Passed SPM/SPMV/O-Level with a minimum of 1 credit and a pass in Mathematics; or Passed UEC with at least grade ‘B’ in 1 subject OR possess Sijil Kemahiran Malaysia (SKM) Level 2 in a related field and a pass in Mathematics; or Other relevant equivalent qualifications recognised by the Malaysian Government. Note: Students with a pass in Mathematics at SPM level or equivalent can be admitted but are required to take and pass the reinforcement Mathematics with unconditional offer
+Passed SPM/SPMV/O-Level with a minimum of 1 credit and a pass in Mathematics; or Passed UEC with at least grade ‘B’ in 1 subject OR possess Sijil Kemahiran Malaysia (SKM) Level 2 in a related field and a pass in Mathematics; or Other relevant equivalent qualifications recognised by the Malaysian Government. Note: Students without a pass in Mathematics at SPM level or equivalent can be admitted but are required to take and pass the reinforcement Mathematics with unconditional offer
 
 ---
 
 # Foundation
 
 ## foundation-in-business-management
+
+
+### URL
+
+https://www.sentral.edu.my/programme/foundation-in-business-management/
+
 
 ### Programme Structure
 
@@ -54,6 +66,12 @@ A pass in SPM/ SPMV with minimum credit in at least 5 subjects; OR; A pass in UE
 
 ## diploma-in-accounting
 
+
+### URL
+
+https://www.sentral.edu.my/programme/diploma-in-accounting/
+
+
 ### Programme Structure
 
 Principles of Accounting Business Communication Business Mathematics Computerised Accounting Academic English Computer Applications Financial Accounting 1 Introduction to Cost Accounting Principles of Economics Accountant in Business Principles of Management Managing Costs & Finances Principles of Marketing Business Law Financial Accounting 2 Taxation I Business Statistics Financial Management I Financial Accounting 3 Management Accounting Implementing Audit Procedure 1 Company Law Financial Management II Financial Accounting 4 Taxation II Implementing Audit Procedure II MPU Subjects Bahasa Kebangsaan A / Etika Professional Pengajian Malaysia 2 (local students) / Bahasa Komunikasi 1 (foreign students) Fundamental of Life Long Learning Community Service
@@ -77,6 +95,12 @@ A Pass SPM/SPMV/O-Level with a minimum of 3 credits including Mathematics and a 
 ---
 
 ## diploma-in-business-studies
+
+
+### URL
+
+https://www.sentral.edu.my/programme/diploma-in-business-studies/
+
 
 ### Programme Structure
 
@@ -102,6 +126,12 @@ Passed SPM/SPMV/O-Level with a minimum of 3 credits; or Passed UEC with at least
 
 ## diploma-in-computer-systems-technology
 
+
+### URL
+
+https://www.sentral.edu.my/programme/diploma-in-computer-systems-technology/
+
+
 ### Programme Structure
 
 Academic English Bahasa Kebangsaan A Professional Ethics Introduction to Programming Computer Applications Computer System Fundamentals Introduction to Operating Systems Statistics and Probability Discrete Mathematics Cybersecurity Fundamentals Database Management System Bahasa Melayu Komunikasi 1 (International Student) Falsafah & Isu Semasa Calculus and Algebra Introduction to Networking Community Service Kursus Integriti dan Antirasuah (KIAR) Data Structures & Algorithms Object Oriented Programming System Analysis & Design Human Computer Interaction Enterprise Application Development Web Development Final Year Project Advanced Networking Ethics in Computing Introduction to Mobile Programming Industrial Training
@@ -126,6 +156,12 @@ Passed SPM/SPMV/O-Level with a minimum of 3 credits including Mathematics; or Pa
 
 ## diploma-in-early-childhood-education
 
+
+### URL
+
+https://www.sentral.edu.my/programme/diploma-in-early-childhood-education/
+
+
 ### Programme Structure
 
 Elementary English Academic English English for Communication English in Early Childhood Education Learning Skills Child Development Curriculum for Early Childhood Education Planning and Administration for Early Childhood Education Teaching and Learning Approaches in Early Childhood Programme Family and Community in Early Childhood Programme Guiding Children Behavior Arts and Creativity in Early Childhood Education Science and Mathematics in Early Childhood Education Teacher Professional Development in Early Childhood Education Observation and Assessment in Early Childhood Education Safety, Health and Nutrition in Early Childhood Education Music and Movement in Early Childhood Education Special Needs in Early Childhood Education Bahasa Melayu dalam Pendidikan Awal Kanak-Kanak Creative Learning Through Play Spiritual and Moral Education in Early Childhood Education Integrating Technology in Early Childhood Education Entrepreneurship in Early Childhood Programme Mandarin/Arabic Language Teaching Practicum (Nursery and Preschool) MPU Subjects Pengajian Malaysia 2 Bahasa Kebangsaan A/Etika Professional Community Service Fundamental of Lifelong Learning
@@ -149,6 +185,12 @@ A pass in SPM with a minimum of 3 credits in any subject or its equivalent; A pa
 ---
 
 ## diploma-in-tourism-management
+
+
+### URL
+
+https://www.sentral.edu.my/programme/diploma-in-tourism-management/
+
 
 ### Programme Structure
 
@@ -176,6 +218,12 @@ Passed SPM/SPMV/O-Level with a minimum of 3 credits; or Passed UEC with at least
 
 ## bachelor-of-early-childhood-education-hons
 
+
+### URL
+
+https://www.sentral.edu.my/programme/bachelor-of-early-childhood-education-hons/
+
+
 ### Programme Structure
 
 Year 1 Growth and Development for Early Childhood Foundation of Early Childhood Care and Education Children and Play Elective 1 Mata Pelajaran Umum 1 Mata Pelajaran Umum 2 Health, Safety and Nutrition for Young Children Art and Craft Mata Pelajaran Umum 3 Young Children’s Literature Music and Movement in Early Childhood Observation and Assessment in Early Childhood Foundation of Early Childhood Business and Entrepreneurship Curriculum Planning & Programme Development Mata Pelajaran Umum 4 Year 2 Managing Young Children’s Behaviours Social and Environment Studies in Early Childhood Science and Technology in Early Childhood Mathematics in Early Childhood Teaching Young Children English Teaching Young Children Bahasa Malaysia Elective 2 HELP Graduate Attribute 1 Special Need in Early Childhood Education Early Childhood Entrepreneurship and Management Physical and Health Education in Early Childhood General Elective Research Methodology in Early Childhood Year 3 Families, Community and Society Children’s Theatre Open Elective Issues, Ethics and Professionalism in Early Childhood Education Early Childhood Research Project HELP Graduate Attribute 2 Practicum 1: Nursery Experience Practicum 2: Kindergarten Practice Elective Subjects Elective 1 Elective 2 Elective 3
@@ -202,6 +250,12 @@ Any one of the following: A Diploma in Early Childhood Education or its equivale
 
 ## acca-qualification
 
+
+### URL
+
+https://www.sentral.edu.my/programme/acca-qualification/
+
+
 ### Programme Structure
 
 ACCA QUALIFICATION Applied Knowledge The Applied Knowledge exams provides students with a broad introduction to the world of finance and develop your essential understanding and techniques in accounting. These exams are: Business and Technology (BT) Management Accounting (MA) Financial Accounting (FA) Applied Skills The Applied Skills exams build on existing knowledge and understanding and develop strong, broad and practical finance skills required of future strategic professional accountant in any sector or industry. These exams are: Corporate and Business Law (LW) Performance Management (PM) Taxation (TX) Financial Reporting (FR) Audit and Assurance (AA) Financial Management (FM) Strategic Professional The Strategic Professional exams prepare students for future leadership positions. They develop the strategic vision using your unique blend of technical, ethical and professional skills. And you can specialise in areas that best suit your career ambitions. Students must complete both Essentials exams and choose two of the Options. These exams are: Essentials Strategic Business Leader (SBL) Strategic Business Reporting (SBR) Options Advanced Financial Management (AFM) Advanced Performance Management (APM) Advanced Taxation (ATX) Advanced Audit and Assurance (AAA) Ethics and Professional Skills Module Students are required to complete our Ethics and Professional Skills module which develops in students the complete range of skills that employers told us they need. By introducing students to the full spectrum of advanced ethical and professional skills and exposing them to realistic business situations, our students are ready to shine with recruiters and be really credible in the workplace.
@@ -225,6 +279,12 @@ Pass STPM with 2 principal passes (SGP 2.0) and 3 SPM credits including Mathemat
 ---
 
 ## bsc-hons-accounting-finance
+
+
+### URL
+
+https://www.sentral.edu.my/programme/bsc-hons-accounting-finance/
+
 
 ### Programme Structure
 
@@ -250,6 +310,12 @@ MUET Band 2 and credit in Mathematics and pass in English in SPM and Any one of 
 
 ## bsc-hons-business-management
 
+
+### URL
+
+https://www.sentral.edu.my/programme/bsc-hons-business-management/
+
+
 ### Programme Structure
 
 Year 1 Penghayatan Etika & Peradaban Academic English The Future of Business Creative Problem Solving and Decision Making Digital & Business Skills Falsafah & Isu Semasa Data Analysis for Business Business Finance in Practice Principles of HRM Understanding Organizations Year 2 Youth Development Intercultural Management Project Management Marketing to Consumers in Digital Age Professional Development Environmental Management Elective 1 Operations Management Live Business Project Analysis for Management Decision Making | Digital Workplace Decision Making Year 3 Socio-Economic Engagement Business Entrepreneurial Simulation Project Strategic Management Business Ethics & Sustainability Elective 2 Innovation & Entrepreneurship International Business Leadership & Management in Business | Technology Innovation Supply Chain Management & Digital Transformation Elective 3 Industrial Training Elective Subject Cluster Marketing Psychology of Marketing Strategic Brand Management Integrated Marketing Communication Enterprise System Enterprise Resource Planning Business Intelligence Strategic IS Management Human Resource Training & Development Safety & Health Administration Employment & Industrial Relation Finance Accounting Information Systems Financial Markets and Institutions Financial Statement Analysis
@@ -274,6 +340,12 @@ Any one of the following: 2 Cs (CGPA 2.00) in STPM AND pass in Mathematics and c
 
 ## bsc-hons-software-engineering
 
+
+### URL
+
+https://www.sentral.edu.my/programme/bsc-hons-software-engineering/
+
+
 ### Programme Structure
 
 Year 1 MPU Computer System Internals and Linux Database Systems Programming 1 Academic English Computer Applications Mathematics for Computing MPU Professional Development and Practices Web Development and HCI Programming 2 Year 2 MPU Career Development Client Server Systems Design Patterns Data Structures and Algorithms MPU Digital Marketing Innovation Elective 1 Networking and Security Software Projects with Agile Techniques Software Evolution Year 3 MPU Dependable Software Engineering Information Security Management Project for SE Elective 2 Business Management Software Quality Management Elective 3 Industrial Training Elective Papers Introduction to Big Data Internet of Things Cloud Computing
@@ -297,6 +369,12 @@ Any one of the following: Passed STPM or equivalent to a minimum grade of ‘C�
 ---
 
 ## tourist-guides-programme-skm-3
+
+
+### URL
+
+https://www.sentral.edu.my/programme/tourist-guides-programme-skm-3/
+
 
 ### Programme Structure
 

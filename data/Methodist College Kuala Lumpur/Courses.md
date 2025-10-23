@@ -2,6 +2,10 @@
 
 ## australian-matriculation
 
+### URL
+
+https://mckl.edu.my/pykett/programme/australian-matriculation/
+
 ### Programme Structure
 
 Students are required to select a combination of 5 ATAR Subjects from the list below with at least one course from List A and one course from List B. Students will also need to select 1 language course.
@@ -91,11 +95,15 @@ No information available
 ### Intake
 
 12-18 months
-Next Intake: January, June & August
+Next Intake: January & August
 
 ---
 
 ## cambridge-a-level
+
+### URL
+
+https://mckl.edu.my/pykett/programme/cambridge-a-level/
 
 ### Programme Structure
 
@@ -190,6 +198,10 @@ Next Intake: January & July
 
 ## cambridge-a-level-german-pathway
 
+### URL
+
+https://mckl.edu.my/pykett/programme/cambridge-a-level-german-pathway/
+
 ### Programme Structure
 
 Students are required to enrol a minimum of 3 subjects and a maximum of 4 subjects.
@@ -267,6 +279,10 @@ Next Intake: January & July
 # Diploma
 
 ## diploma-in-computer-science
+
+### URL
+
+https://mckl.edu.my/pykett/programme/diploma-in-computer-science/
 
 ### Programme Structure
 
@@ -426,11 +442,15 @@ Updated as of 26 May 2025
 ### Intake
 
 2.5 years
-Next Intake: January, June & August
+Next Intake: January, April & August
 
 ---
 
 ## diploma-in-digital-business
+
+### URL
+
+https://mckl.edu.my/pykett/programme/diploma-in-digital-business/
 
 ### Programme Structure
 
@@ -576,11 +596,15 @@ Updated as of 26 May 2025
 ### Intake
 
 2.5 years
-Next Intake: January, June & August
+Next Intake: January, April & August
 
 ---
 
 ## diploma-in-digital-marketing
+
+### URL
+
+https://mckl.edu.my/pykett/programme/diploma-in-digital-marketing/
 
 ### Programme Structure
 
@@ -730,11 +754,15 @@ Updated as of 28 May 2025
 ### Intake
 
 2.5 years
-Next Intake: January, June & August
+Next Intake: January, April & August
 
 ---
 
 ## diploma-in-early-childhood-education
+
+### URL
+
+https://mckl.edu.my/pykett/programme/diploma-in-early-childhood-education/
 
 ### Programme Structure
 
@@ -887,11 +915,15 @@ Updated as of 28 March 2025
 ### Intake
 
 2.5 years
-Next Intake: January, June & August
+Next Intake: January, April & August
 
 ---
 
 ## diploma-in-information-technology
+
+### URL
+
+https://mckl.edu.my/pykett/programme/diploma-in-information-technology/
 
 ### Programme Structure
 
@@ -1051,13 +1083,17 @@ Updated as of 26 May 2025
 ### Intake
 
 2.5 years
-Next Intake: January, June & August
+Next Intake: January, April & August
 
 ---
 
 # Certificate
 
 ## cambridge-a-level-preparatory-prepcal-programme
+
+### URL
+
+https://mckl.edu.my/pykett/programme/cambridge-a-level-preparatory-prepcal-programme
 
 ### Programme Structure
 
@@ -1120,6 +1156,10 @@ Next Intake: May
 
 ## cambridge-international-certificate-in-teaching-learning
 
+### URL
+
+https://mckl.edu.my/pykett/programme/cambridge-international-certificate-in-teaching-learning/
+
 ### Programme Structure
 
 The Certificate comprises three units related to practice which together form Module 1: Exploring learning and teaching. Candidates who achieve a Pass in Module 1 have the option to progress to Module 2 and 3 which lead to the award of the Diploma (CIDTL).
@@ -1156,6 +1196,10 @@ Next Intake: March, June, August
 ---
 
 ## cambridge-international-diploma-in-teaching-learning
+
+### URL
+
+https://mckl.edu.my/pykett/programme/cambridge-international-diploma-in-teaching-learning/
 
 ### Programme Structure
 
@@ -1194,6 +1238,10 @@ Next Intake: April (Module 2), November (Module 3)
 
 ## effective-lesson-design-and-planning
 
+### URL
+
+https://mckl.edu.my/pykett/programme/effective-lesson-design-and-planning/
+
 ### Programme Structure
 
 No information available
@@ -1219,6 +1267,10 @@ Next Intake: June, August, December 2023
 ---
 
 ## embracing-autism-understanding-supporting-learners-with-autism
+
+### URL
+
+https://mckl.edu.my/pykett/programme/embracing-autism-understanding-supporting-learners-with-autism/
 
 ### Programme Structure
 
@@ -1246,6 +1298,10 @@ Next Intake: June, August, December 2023
 
 ## fa-sa-formative-assessment-and-summative-assessment
 
+### URL
+
+https://mckl.edu.my/pykett/programme/fa-sa-formative-assessment-and-summative-assessment/
+
 ### Programme Structure
 
 No information available
@@ -1271,6 +1327,10 @@ Next Intake: June, August, December 2023
 ---
 
 ## micro-credentials-in-fundamentals-of-innovation-and-entrepreneurship
+
+### URL
+
+https://mckl.edu.my/pykett/programme/micro-credentials-in-fundamentals-of-innovation-and-entrepreneurship/
 
 ### Programme Structure
 
@@ -1299,6 +1359,10 @@ Next Intake: 23 Oct - 21 Dec
 
 ## micro-credentials-in-information-system
 
+### URL
+
+https://mckl.edu.my/pykett/programme/micro-credentials-in-information-system/
+
 ### Programme Structure
 
 No information available
@@ -1323,6 +1387,10 @@ Next Intake: 28 Aug - 8 Dec
 ---
 
 ## micro-credentials-in-programming-with-python
+
+### URL
+
+https://mckl.edu.my/pykett/programme/micro-credentials-in-programming-with-python/
 
 ### Programme Structure
 
@@ -1351,6 +1419,10 @@ Next Intake: 23 Oct - 8 Dec
 
 ## teaching-and-effective-active-learning-class
 
+### URL
+
+https://mckl.edu.my/pykett/programme/teaching-and-effective-active-learning-class/
+
 ### Programme Structure
 
 No information available
@@ -1376,6 +1448,10 @@ Next Intake: June, August, December 2023
 ---
 
 ## thriving-with-attention-deficit-hyperactivity-disorder-in-the-classroom
+
+### URL
+
+https://mckl.edu.my/pykett/programme/thriving-with-attention-deficit-hyperactivity-disorder-in-the-classroom/
 
 ### Programme Structure
 

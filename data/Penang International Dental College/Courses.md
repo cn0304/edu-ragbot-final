@@ -2,6 +2,9 @@
 
 ## foundation-in-doctor-of-dental-surgery
 
+### URL
+https://www.pidc.edu.my/dds/
+
 ### Programme Structure
 YEAR 1  
 Anatomy, Physiology, Biochemistry, Oral Biology  
@@ -27,6 +30,7 @@ Other equivalent qualifications acceptable by MQA/MOHE or relevant professional 
 **LOCAL STUDENT**  
 | YEAR | TUITIONFEE | EXAMINATION, LABORATORY,LIBRARY & STUDENTSMANAGEMENT FEES | MEDICAL, STUDENTAFFAIRS, ORIENTATION& OTHER FEE | TOTALFEE |
 | --- | --- | --- | --- | --- |
+| 1 | RM 49,000 | RM 8,290 | RM 2,650 | RM 59,940 | 2 | RM 49,000 | RM 8,290 | RM 2,650 | RM 59,940 | 3 | RM 49,000 | RM 8,290 | RM 2,650 | RM 59,940 | 4 | RM 49,000 | RM 8,290 | RM 2,650 | RM 59,940 | 5 | RM 49,000 | RM 8,290 | RM 2,650 | RM 59,940 | TOTAL | RM 245,000 | RM 41,450 | RM 13,250 | RM 299,700 |
 | 1 | RM 49,000 | RM 8,290 | RM 2,650 | RM 59,940 |
 | 2 | RM 49,000 | RM 8,290 | RM 2,650 | RM 59,940 |
 | 3 | RM 49,000 | RM 8,290 | RM 2,650 | RM 59,940 |
@@ -37,12 +41,14 @@ Other equivalent qualifications acceptable by MQA/MOHE or relevant professional 
 **INTERNATIONAL STUDENT**  
 | YEAR | TUITION FEE | EXAMINATION, LABORATORY,LIBRARY & STUDENTSMANAGEMENT FEES | MEDICAL, STUDENTAFFAIRS, ORIENTATION& OTHER FEE | DEPOSIT& BOND | TOTALFEE |
 | --- | --- | --- | --- | --- | --- |
+| YEAR | TUITION FEE | EXAMINATION, LABORATORY,LIBRARY & STUDENTSMANAGEMENT FEES | MEDICAL, STUDENTAFFAIRS, ORIENTATION& OTHER FEE | DEPOSIT& BOND | TOTALFEE |
+| 1 | RM 49,500 | RM 24,200 | RM 2,850 | RM 3,900 | RM 80,450 | 2 | RM 49,500 | RM 24,200 | RM 2,850 | - | RM 76,550 | 3 | RM 49,500 | RM 24,200 | RM 2,850 | - | RM 76,550 | 4 | RM 49,500 | RM 24,200 | RM 2,850 | - | RM 76,550 | 5 | RM 49,500 | RM 24,200 | RM 2,850 | - | RM 76,550 | TOTAL | RM 247,500 | RM 211,000 | RM 14,250 | RM 3,900RM 386,650 | RM 386,650 |
 | 1 | RM 49,500 | RM 24,200 | RM 2,850 | RM 3,900 | RM 80,450 |
 | 2 | RM 49,500 | RM 24,200 | RM 2,850 | - | RM 76,550 |
 | 3 | RM 49,500 | RM 24,200 | RM 2,850 | - | RM 76,550 |
 | 4 | RM 49,500 | RM 24,200 | RM 2,850 | - | RM 76,550 |
 | 5 | RM 49,500 | RM 24,200 | RM 2,850 | - | RM 76,550 |
-| TOTAL | RM 247,500 | RM 211,000 | RM 14,250 | RM 3,900 | RM 386,650 |
+| TOTAL | RM 247,500 | RM 211,000 | RM 14,250 | RM 3,900RM 386,650 | RM 386,650 |
 
 ### Intake
 September every year
@@ -50,6 +56,11 @@ September every year
 ---
 
 ## foundation-in-science-programme
+
+### URL
+https://www.pidc.edu.my/fis/
+
+
 
 ### Programme Structure
 PIDC's FOUNDATION IN SCIENCE PROGRAMME  
