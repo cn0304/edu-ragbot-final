@@ -6,3 +6,5 @@ __pycache__/
 *.pyd
 .pytest_cache/
 node_modules/
+vector_db/
+metrics/system.json

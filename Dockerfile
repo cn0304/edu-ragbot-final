@@ -1,25 +1,28 @@
-# Base image
+# Dockerfile
 FROM python:3.11-slim
 
-# Prevent Python from buffering stdout/stderr
+# Make logs flush immediately
 ENV PYTHONUNBUFFERED=1
 
+# Workdir inside the container
 WORKDIR /app
 
-# System dependencies (optional, kept minimal)
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
-  && rm -rf /var/lib/apt/lists/*
-
-# Install Python dependencies first (better layer caching)
-COPY requirements.txt /app/requirements.txt
-RUN pip install --no-cache-dir -r /app/requirements.txt
-
-# Copy application source
+# Copy project files
 COPY . /app
 
-# Expose API port
+# Install the Python packages your app imports at startup
+# (reranker deps are optional; your code disables reranker if missing)
+RUN pip install --no-cache-dir \
+    fastapi \
+    "uvicorn[standard]" \
+    chromadb \
+    ollama
+
+# Make sure Python can import "backend.app.web_dashboard"
+ENV PYTHONPATH=/app
+
+# Expose the API port
 EXPOSE 8000
 
-# Default command: launch monitoring dashboard
+# Start your FastAPI app
 CMD ["python", "-m", "uvicorn", "backend.app.web_dashboard:app", "--host", "0.0.0.0", "--port", "8000"]

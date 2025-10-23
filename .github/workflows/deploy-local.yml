@@ -15,7 +15,7 @@ jobs:
         run: |
           docker compose up -d --build
           for i in {1..20}; do
-            curl -fsS "http://127.0.0.1:8000/health" && echo "Health OK" && exit 0
+            curl -fsS "http://127.0.0.1:8000/api/metrics" && echo "Health OK" && exit 0
             sleep 2
           done
           echo "Health check failed" >&2
