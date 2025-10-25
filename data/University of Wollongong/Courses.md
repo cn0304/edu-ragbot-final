@@ -40,9 +40,10 @@ Fundamentals of IT
 
 **Electives**
 
-Arts & Humanities
+##### Arts & Humanities
 Introduction to Sociology
-IT / Computer Science
+
+##### IT / Computer Science
 Mathematics 2
 
 ### Fee & Intakes
@@ -123,10 +124,10 @@ Statistics
 
 **Electives**
 
-Pure Sciences
+##### Pure Sciences
 Biology 2
 Chemistry 2
-Physical Sciences
+##### Physical Sciences
 Mathematics 3
 Physics 2
 

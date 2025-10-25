@@ -7,11 +7,6 @@
 **General Enquiries**  
 [+604-217 1999](tel:+6042171999)
 
-**Selangor** (Satellite Office)  
-A-02-01, Empire Office Tower, Jalan SS16/1, Subang Jaya, 47500, Selangor.  
-**General Enquiries**  
-[+603-8603 3946](tel:+60386033946)
-
 #### Education Counsellors & MInTFM
 
 **Undergraduate, Pre-Med, Foundation in Science**  

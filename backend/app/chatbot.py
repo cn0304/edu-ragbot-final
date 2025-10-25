@@ -9,7 +9,8 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 import json
 import asyncio
-
+from fastapi.responses import JSONResponse
+import traceback
 from .rag_engine import get_rag_engine
 
 
@@ -34,6 +35,11 @@ class SourceRequest(BaseModel):
     """Request to get sources for a query"""
     query: str
     university_filter: Optional[str] = None
+
+class FeedbackRequest(BaseModel):
+    rating: str                    # "up" or "down"
+    comment: Optional[str] = None  # optional short text
+    request_id: Optional[str] = None  # optional; falls back to last request
 
 
 @router.post("/query")
@@ -116,6 +122,28 @@ async def get_sources(request: SourceRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@router.post("/feedback")
+async def chat_feedback(payload: FeedbackRequest):
+    """
+    Store simple thumbs-up/down feedback with optional comment.
+    Always return a JSON object so the UI doesn't see a network error.
+    """
+    rag = get_rag_engine()
+    try:
+        rag.submit_feedback(
+            rating=payload.rating,
+            comment=payload.comment,
+            request_id=payload.request_id,
+        )
+        # success
+        return {"ok": True}
+    except Exception as e:
+        # Log full traceback to server console for debugging
+        tb = traceback.format_exc()
+        print("[/feedback] ERROR:", e, "\n", tb)
+        # Return 200 + ok:false so the frontend doesn't show a red 'network error'
+        # (You can change to status_code=500 if you prefer strict behavior)
+        return JSONResponse(status_code=200, content={"ok": False, "error": str(e)})
 
 @router.get("/universities")
 async def get_universities():

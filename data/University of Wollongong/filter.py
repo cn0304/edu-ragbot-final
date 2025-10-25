@@ -6,6 +6,7 @@ Keeps only <a ... href="...">...</a> blocks where href matches URL in url.txt
 
 import re
 
+
 def read_urls(url_file):
     """Read and normalize URLs from url.txt"""
     urls = set()

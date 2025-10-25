@@ -7,6 +7,7 @@
 ## How to Apply
 
 ![](https://www.tarc.edu.my/files/admissions/2022/4C468DCC-EC9A-460E-8D9D-98BE83668B1B.png)
+### Step 1: Choose Your Programme
 
 Browse our [website](https://www.tarc.edu.my/admissions/a/intake-in-progress/) to select your desired programme. Please take note of the entry requirements, programme details, intake dates, fees and other prerequisites before submitting your application.
 
@@ -14,6 +15,7 @@ Browse our [website](https://www.tarc.edu.my/admissions/a/intake-in-progress/) t
 
 ![](https://www.tarc.edu.my/files/admissions/2022/12A5D15F-B293-40ED-B049-D3683DF92044.png)
 
+### Step 2: Apply Online
 Please complete ALL SECTIONS of the online application and submit the required supporting documents.
 
 [_Video Guide_](https://drive.google.com/file/d/1wxYl_dBIvBHyvTccluJSSjiWpvmFWDdj/view?usp=sharing "Steps for Online Application")
@@ -23,6 +25,7 @@ Please complete ALL SECTIONS of the online application and submit the required s
 
 ![](https://www.tarc.edu.my/files/admissions/2022/24864284-6416-4F1B-9AA7-BA9BB16F1C4C.png)
 
+### Step 3: Submission Of Documents
 Applicants are required to upload the relevant documents:
 
 1. MyKad (front and back)
@@ -61,12 +64,14 @@ All submitted documents will be treated with strict confidentiality. They will b
 
 ![](https://www.tarc.edu.my/files/admissions/2022/D5810BA3-E074-447F-B396-D4FB80C4BA82.png)
 
+### Srwp 4: Check Application Status
 Applicants are to check their application status by logging into their [online application account](https://www.tarc.edu.my/account/login.jsp?fappcode=online-app). They will be notified of the result of their application via email. A Short Message Service (SMS) will be sent to successful applicants (Malaysian phone numbers only).
 
 [_Video Guide_](https://drive.google.com/file/d/1VCDnpxFLGToVQDBROEDxU_urWGj_POPn/view "How to Check Application Status")
 
 ![](https://www.tarc.edu.my/files/admissions/2022/B651AEC9-6B0A-4435-BF6E-895EB242490D.png)
 
+### Step 5: Accpetance Of Offer
 **_No student should enrol in more than one programme of study at the University at any given time._**
 
 Acceptance of the offer of admission is by **paying the fees** as stated in the **‘Payment Details’ advice** latest by the stipulated due date.
@@ -89,27 +94,31 @@ Method of Payment:-
 ## Registration
 
 ![](https://www.tarc.edu.my/files/admissions/tag/4A21B481-9B45-4928-88E0-A318D0CD76BF.jpg)
-
+#### Payment Status & Student Registration Number
 Students may check their payment status/receipt and student registration number 2-3 working days after the payment of fees at [http://bit.ly/TARUMTapp](http://bit.ly/TARUMTapp). An SMS will also be sent (Malaysian phone numbers only).
 
 ![](https://www.tarc.edu.my/files/admissions/tag/4E608575-353A-41C5-89FF-21B5045C90BF.jpg)
 
+#### Student Identification (ID) Card
 Students are to make their student ID card during orientation or upon commencement of the programme. Prior to making the student ID card, please upload the **Student ID Card Photo** on the Student Intranet > Application > Student ID Card Photo. Students will be notified via their  TAR UMT email address to make/collect their student ID card.
 
 The student ID card serves as an important identification document for entry to the campus as well as for accessing facilities and services within the University. All students are to wear their student ID card at all times while on campus.
 
 ![](https://www.tarc.edu.my/files/admissions/tag/FD0E6BC3-A589-49A5-8FD4-4A9476B68FD6.jpg)
 
+#### Verification of Qualifying Results
 The University may require new students to (re)submit in scanned/snapped copies of their Original Certificate/Result(s) or to present the original documents in person by a stipulated deadline. Failure to do so by the deadline will result in the withdrawal of the student.
 
 ![](https://www.tarc.edu.my/files/admissions/tag/91D76084-5F85-46EB-A346-6FA8451B3F3E.jpg)
 
+#### Online Verification of Student Particulars
 The verification of student particulars will be available on the Student Intranet 3 days before orientation for new students and 3 days before the commencement of programme for students on promotion.
 
 Students must check, verify and update their personal particulars to ensure that the information in the University database is accurate.
 
 ![](https://www.tarc.edu.my/files/admissions/202305/30EA7C5F-D2A7-4930-B4F2-7EB9C6469B03.png)
 
+#### Orientation
 It is important for all new students to attend the Orientation.
 
 Students who have accepted the offer of admission by paying the fees and have registered for the programme are to log in to the [Student Intranet](https://web.tarc.edu.my/portal/login.jsp) through the University website to check the Orientation Schedule one week before the orientation (for KL Campus students) or 2-3 days before the orientation (for Branch students).
@@ -118,5 +127,6 @@ Students who pay fees/register after the commencement of the programmes are to s
 
 ![](https://www.tarc.edu.my/files/admissions/tag/A9B00F61-3254-4DC2-A42E-B48206155FF7.jpg)
 
+#### Student Declaration/ Terms & Conditions
 -   [Student Declaration](https://www.tarc.edu.my/files/admissions/studentdeclaration/35C30F8E-231A-4115-BAA4-AE9856BDF40D.pdf)
 -   [Terms & Conditions (Conditional Offer)](https://www.tarc.edu.my/files/admissions/termcondition2025/3B7E3E8E-8514-4EBA-993D-8502C7E2AD34.pdf)

@@ -4,6 +4,25 @@ import chromadb
 from chromadb.config import Settings
 import ollama
 import re
+import logging, json, time, uuid
+from pathlib import Path
+
+OLLAMA_OPTIONS = {
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 123,          # any fixed int is fine
+    "repeat_penalty": 1.0
+}
+
+def _stable_tie_key(meta: Dict) -> tuple:
+    meta = meta or {}
+    return (
+        meta.get('university_short') or '',
+        meta.get('document_type') or '',
+        meta.get('section') or '',
+        meta.get('course_id') or '',
+        meta.get('course_title') or ''
+    )
 
 try:
     from .reranker import create_reranker, BaseReranker
@@ -11,6 +30,67 @@ try:
 except ImportError:
     RERANKER_AVAILABLE = False
     print("⚠ Reranker not available. Install: pip install sentence-transformers torch")
+
+
+# ---------- Structured logging (1-line summary + optional verbose) ----------
+LOG_DIR = Path(os.getenv("LOG_DIR", "./logs"))
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+
+# Turn detailed logs on/off. Default OFF (so you get 1 line per question only).
+VERBOSE = os.getenv("RAG_VERBOSE", "0").lower() in ("1", "true", "yes", "on")
+
+# (A) Summary: write straight to a file named by date: rag_YYYY-MM-DD.jsonl
+def _summary_path() -> Path:
+    return LOG_DIR / f"rag_{time.strftime('%Y-%m-%d')}.jsonl"
+
+def log_summary(**fields):
+    fields.setdefault("ts", time.strftime('%Y-%m-%dT%H:%M:%S%z'))
+    line = json.dumps(fields, ensure_ascii=False)
+    try:
+        with open(_summary_path(), "a", encoding="utf-8") as f:
+            f.write(line + "\n")
+    except Exception:
+        pass  # never break the app because of logging
+
+# (B) Verbose event-by-event logs (only if VERBOSE=1)
+_DEBUG_PATH = LOG_DIR / "rag_debug.jsonl"
+_logger = logging.getLogger("rag_debug")
+_logger.setLevel(logging.INFO)
+if not _logger.handlers:
+    if VERBOSE:
+        fh = logging.FileHandler(_DEBUG_PATH, encoding="utf-8")
+        fh.setFormatter(logging.Formatter('%(message)s'))
+        _logger.addHandler(fh)
+    else:
+        _logger.addHandler(logging.NullHandler())
+
+def log_event(event: str, **fields):
+    """Detailed events (retrieves, rerank, etc.). Only logs when VERBOSE=1."""
+    if not VERBOSE:
+        return
+    payload = {
+        "ts": time.strftime('%Y-%m-%dT%H:%M:%S%z'),
+        "event": event,
+        **fields
+    }
+    try:
+        _logger.info(json.dumps(payload, ensure_ascii=False))
+    except Exception:
+        pass
+
+
+# ---------- Feedback storage (JSONL, date-based) ----------
+def _feedback_path() -> Path:
+    return LOG_DIR / f"feedback_{time.strftime('%Y-%m-%d')}.jsonl"
+
+def save_feedback_line(**fields):
+    fields.setdefault("ts", time.strftime('%Y-%m-%dT%H:%M:%S%z'))
+    try:
+        with open(_feedback_path(), "a", encoding="utf-8") as f:
+            f.write(json.dumps(fields, ensure_ascii=False) + "\n")
+    except Exception:
+        # never break app on feedback write
+        pass
 
 
 class SmartRAGEngine:
@@ -54,6 +134,23 @@ class SmartRAGEngine:
         print(f"  - Model: {model_name}")
         print(f"  - Documents: {self.collection.count()}")
         print(f"  - Reranker: {'Enabled' if self.use_reranker else 'Disabled'}")
+
+        # Structured log: engine init (verbose only)
+        try:
+            log_event(
+                "engine_init",
+                model=self.model_name,
+                reranker=bool(self.use_reranker),
+                docs=self.collection.count(),
+                db_path=db_path
+            )
+        except Exception:
+            pass
+
+        # ---- Keep last answer metadata for feedback linking ----
+        self._last_request_id: Optional[str] = None
+        self._last_query: Optional[str] = None
+        self._last_sources: List[Dict] = []
 
     def detect_query_type(self, query: str) -> Dict:
         """
@@ -169,7 +266,6 @@ class SmartRAGEngine:
                 result['list_query'] = True
 
         # Fallback: handle intake-only phrasing even if course keywords weren’t detected
-        # e.g., "ATC foundation-in-law intake period" should still be treated as a course query
         if not result['doc_type'] and any(word in query_lower for word in ['intake', 'intakes', 'start']):
             result['doc_type'] = 'courses'
             result['course_query'] = True
@@ -178,11 +274,13 @@ class SmartRAGEngine:
 
         return result
 
-    def retrieve_context(self, query: str, query_info: Dict, n_results: int = 3) -> List[Dict]:
+
+    def retrieve_context(self, query: str, query_info: Dict, n_results: int = 3, request_id: Optional[str] = None) -> \
+    List[Dict]:
         """
         Retrieve candidate chunks from Chroma and (optionally) rerank them.
         """
-        # ---------- Build Chroma where clause (unchanged) ----------
+        # ---------- Build Chroma where clause ----------
         conditions = []
 
         if query_info['university']:
@@ -197,15 +295,22 @@ class SmartRAGEngine:
                 'Programme Structure': [
                     'Programme Structure', 'Program Structure',
                     'Structure', 'Course Structure',
-                    'Curriculum', 'Modules', 'Subjects'
+                    'Curriculum', 'Modules', 'Subjects', 'Syllabus'
                 ],
                 'Fees': ['Fees', 'Fee', 'Fee & Intakes', 'Tuition'],
                 'Fee & Intakes': ['Fee & Intakes', 'Fees', 'Fee', 'Intakes', 'Campus Intakes'],
                 'Fee': ['Fee', 'Fees', 'Fee & Intakes', 'Tuition'],
                 'Entry Requirements': ['Entry Requirements', 'Requirements', 'Entry Requirement'],
                 'Campus Intakes': ['Campus Intakes', 'Intakes', 'Fee & Intakes'],
-                'Intakes': ['Intakes', 'Campus Intakes', 'Fee & Intakes']
+                'Intakes': ['Intakes', 'Campus Intakes', 'Fee & Intakes'],
+                'Core': [
+                    'Core', 'Programme Structure', 'Program Structure',
+                    'Structure', 'Course Structure', 'Curriculum',
+                    'Modules', 'Subjects', 'Syllabus'
+                ],
+                'Electives': ['Electives', 'Elective', 'Optional', 'Optional Modules']
             }
+
             candidates = synonyms_map.get(section, [section])
             if len(candidates) == 1:
                 conditions.append({'section': candidates[0]})
@@ -224,6 +329,8 @@ class SmartRAGEngine:
             where_clause = conditions[0]
         else:
             where_clause = {'$and': conditions}
+
+        log_event("retrieve_start", request_id=request_id, n_results=n_results, where=where_clause)
 
         # ---------- Over-fetch so the reranker has room to work ----------
         retrieval_k = n_results
@@ -260,39 +367,69 @@ class SmartRAGEngine:
                 'relevance_score': sim
             })
 
-        # ---------- Rerank (now it actually runs) ----------
-        if self.use_reranker and self.reranker and len(context_chunks) >= 2:
-            print(f"   🔄 Reranking {len(context_chunks)} → {n_results} chunks")
+        # --- NEW: first stable sort by vector similarity + tie-breaks
+        context_chunks.sort(
+            key=lambda c: (-float(c.get('relevance_score', 0.0)), _stable_tie_key(c.get('metadata')))
+        )
+
+        log_event("retrieve_done", request_id=request_id, fetched=len(context_chunks),
+                  use_reranker=bool(self.use_reranker))
+
+        # ---------- Rerank ----------
+        before_count = len(context_chunks)
+        if self.use_reranker and self.reranker and before_count >= 2:
             context_chunks = self.reranker.rerank(
                 query=query,
                 documents=context_chunks,
-                top_k=n_results
+                top_k=retrieval_k  # keep over-fetch size here; we'll trim after sorting
             )
-            # Already trimmed by reranker
-            return context_chunks
+            log_event(
+                "rerank_done",
+                request_id=request_id,
+                strategy=type(self.reranker).__name__ if self.reranker else None,
+                top_k=retrieval_k,
+                before=before_count,
+                after=len(context_chunks)
+            )
+        else:
+            # Fallbacks (no reranker or too few hits): top-up if needed
+            try:
+                if len(context_chunks) < retrieval_k and where_clause is not None:
+                    items = self.collection.get(where=where_clause, include=['documents', 'metadatas'])
+                    docs = items.get('documents', [])
+                    metas = items.get('metadatas', [])
+                    seen = {c['content'] for c in context_chunks}
+                    for d, m in zip(docs, metas):
+                        if d and d not in seen:
+                            context_chunks.append({
+                                'content': d,
+                                'metadata': m,
+                                'relevance_score': 0.5
+                            })
+                            seen.add(d)
+                            if len(context_chunks) >= retrieval_k:
+                                break
+            except Exception:
+                pass
 
-        # ---------- Fallbacks (no reranker or too few hits) ----------
+        # --- NEW: final stable sort preferring rerank_score (if present), else vector similarity
+        def _primary_score(c: Dict) -> float:
+            if c.get('rerank_score') is not None:
+                return float(c['rerank_score'])
+            return float(c.get('relevance_score', 0.0))
+
+        context_chunks.sort(
+            key=lambda c: (-_primary_score(c), _stable_tie_key(c.get('metadata')))
+        )
+
+        # Final trim & log
+        final_chunks = context_chunks[:n_results]
         try:
-            if len(context_chunks) < n_results and where_clause is not None:
-                items = self.collection.get(where=where_clause, include=['documents', 'metadatas'])
-                docs = items.get('documents', [])
-                metas = items.get('metadatas', [])
-                seen = {c['content'] for c in context_chunks}
-                for d, m in zip(docs, metas):
-                    if d and d not in seen:
-                        context_chunks.append({
-                            'content': d,
-                            'metadata': m,
-                            'relevance_score': 0.5
-                        })
-                        seen.add(d)
-                        if len(context_chunks) >= n_results:
-                            break
+            top = final_chunks[0]['relevance_score'] if final_chunks else None
+            log_event("retrieve_final", request_id=request_id, returned=len(final_chunks), top_relevance=top)
         except Exception:
             pass
-
-        # Final trim
-        return context_chunks[:n_results]
+        return final_chunks
 
     def _match_course(self, query: str, university_short: Optional[str]) -> Optional[Dict[str, str]]:
         """Find best matching course (id/title) from the collection for a given query and university.
@@ -464,14 +601,23 @@ class SmartRAGEngine:
 
         # Determine answer style based on query type
         if query_info['doc_type'] == 'courses' and query_info['section']:
-            # Specific course section query
+            # Specific course section query (subjects / structure need strict rules)
             answer_instruction = """
-Present the answer in a clear, organized bullet-point format:
-- Use bullet points (•) for main items
-- Use sub-bullets (  -) for details
-- Keep it concise but complete
-- Include all important information (dates, amounts, requirements, etc.)
-"""
+        Render EXACTLY the structure that appears in the context, preserving headings and order.
+
+        Rules:
+        - Keep "Semester 1", "Semester 2", "Semester 3" as top-level blocks (if present), in that order.
+        - If the context has a line like "Elective (1 subject)", show it as a NOTE under Semester 3. DO NOT indent any elective CATEGORY or SUBJECT under Semester 3.
+        - If the context contains an "Electives" heading, create a separate top-level "Electives" block AFTER the semesters.
+        - Under "Electives", list every category exactly as written (e.g., "Arts & Humanities", "IT / Computer Science", "Mathematics", "Pure Sciences", "Physical Sciences"), and list their subjects beneath them exactly as written.
+        - DO NOT move or duplicate subjects between blocks. If "Introduction to Programming" appears in the Semester 3 list (before the "Electives" heading), it belongs to Semester 3, NOT to the Electives block.
+        - Include all items. Do not omit categories like "IT / Computer Science" or their subjects (e.g., "Mathematics 2") if they appear in the context.
+        - No rewording beyond turning raw lines into clean bullets. Keep titles/wording as-is.
+        Output format:
+        - Use bullets (•) for Semester headings and the "Electives" heading.
+        - Use sub-bullets (  -) for items under each heading.
+        """
+
         elif query_info['doc_type'] in ['how_to_apply', 'scholarship', 'campus']:
             # Simple document query
             answer_instruction = """
@@ -508,6 +654,58 @@ YOUR ANSWER:"""
 
         return prompt
 
+    def _extract_elective_notes(self, chunks: List[Dict]) -> List[str]:
+        """Find lines like 'Elective (1 subject)' that appear in the context."""
+        notes = []
+        for ch in chunks:
+            txt = ch.get("content", "")
+            for line in txt.splitlines():
+                line_clean = line.strip(" •*-").strip()
+                # catch variations, e.g. Elective(s) (1 subject / 2 courses)
+                if re.match(r'^(Elective[s]?\s*\([^)]+\))$', line_clean, flags=re.IGNORECASE):
+                    notes.append(line_clean)
+        # de-dup, preserve order
+        seen = set()
+        out = []
+        for n in notes:
+            k = n.lower()
+            if k not in seen:
+                seen.add(k)
+                out.append(n)
+        return out
+
+    def _inject_elective_note_under_semester(
+            self, text: str, target_semester: str, notes: List[str]
+    ) -> str:
+        """
+        If text is missing the elective note that exists in context, inject it
+        as the FIRST sub-bullet under the given semester.
+        """
+        if not notes:
+            return text
+
+        # Already present?
+        already = any(n.lower() in text.lower() for n in notes)
+        if already:
+            return text
+
+        # Find the "• Semester 3" block and insert after its heading line
+        # Supports bullets like "• Semester 3" or "- Semester 3"
+        pattern = r'(^[•\-\*]\s*' + re.escape(target_semester) + r'\s*$)'
+        lines = text.splitlines()
+        out = []
+        i = 0
+        inserted = False
+        while i < len(lines):
+            out.append(lines[i])
+            if not inserted and re.match(pattern, lines[i].strip(), flags=re.IGNORECASE):
+                # Insert the note as a sub-bullet
+                for n in notes:
+                    out.append("  - " + n)
+                inserted = True
+            i += 1
+        return "\n".join(out)
+
     async def generate_response(self,
                                query: str,
                                university_filter: Optional[str] = None,
@@ -516,11 +714,49 @@ YOUR ANSWER:"""
         生成响应
         """
 
+        # Correlation ID for this user request
+        request_id = uuid.uuid4().hex
+        t0 = time.time()
+        log_event("query_received", request_id=request_id, query=query, university_filter=university_filter)
+
+        # init timers and summary values
+        retrieve_ms = 0
+        llm_ms = 0
+        retrieved_count = 0
+        top_rel = None
+
+        # store for feedback
+        self._last_request_id = request_id
+        self._last_query = query
+        self._last_sources = []  # will be filled after retrieval
+
+        def _summ(status: str, error: Optional[str] = None):
+            # Single-line summary
+            log_summary(
+                event="query_summary",
+                request_id=request_id,
+                query=query,
+                university=(query_info.get('university') if 'query_info' in locals() else None),
+                doc_type=(query_info.get('doc_type') if 'query_info' in locals() else None),
+                section=(query_info.get('section') if 'query_info' in locals() else None),
+                retrieved=retrieved_count,
+                top_relevance=round(top_rel, 3) if isinstance(top_rel, (int, float)) else None,
+                retrieve_ms=int(retrieve_ms),
+                llm_ms=int(llm_ms),
+                total_ms=int((time.time() - t0) * 1000),
+                model=self.model_name,
+                reranker=bool(self.use_reranker),
+                status=status,
+                error=error
+            )
+
         # Step 1: Detect query type
         query_info = self.detect_query_type(query)
         # External university filter override
         if university_filter:
             query_info['university'] = university_filter
+
+        log_event("query_detected", request_id=request_id, detected=query_info)
 
         # For course queries, try matching a specific program and enforce specificity
         if query_info.get('doc_type') == 'courses':
@@ -534,46 +770,45 @@ YOUR ANSWER:"""
                     "(e.g., Computer Science) so I can retrieve the Programme Structure, "
                     "Fee & Intakes, or Entry Requirements sections."
                 )
+                log_event("query_needs_specificity", request_id=request_id, reason="missing_university_and_course")
                 yield msg
+                _summ("needs_specificity")
                 return
 
-        print(f"\n🔍 Query Analysis:")
-        print(f"   University: {query_info['university'] or 'All'}")
-        print(f"   Doc Type: {query_info['doc_type'] or 'Any'}")
-        print(f"   Section: {query_info['section'] or 'N/A'}")
-
-        # Special path: list-only course query (no details) — route through LLM
-        if query_info['doc_type'] == 'courses' and query_info['course_query'] and query_info.get(
-                'list_query') and not query_info.get('section'):
+        # Special path: list-only course query (no details)
+        if query_info['doc_type'] == 'courses' and query_info['course_query'] and query_info.get('list_query') and not query_info.get('section'):
             titles = self.list_courses(query_info)
-
-            # Build a minimal "context" from the list so LLM formats it nicely
             uni = query_info.get('university') or 'All'
+
             if titles:
                 list_context = "\n".join([f"- {t}" for t in titles])
                 prompt = f"""You are a helpful university admission assistant.
 
-        CONTEXT INFORMATION:
-        University: {uni}
-        Detected intent: course list
-        Courses:
-        {list_context}
+CONTEXT INFORMATION:
+University: {uni}
+Detected intent: course list
+Courses:
+{list_context}
 
-        USER QUESTION: {query}
+USER QUESTION: {query}
 
-        INSTRUCTIONS:
-        Return a clean, concise bullet list of the courses above.
-        - Do NOT add or invent courses.
-        - If a university is specified, mention it in the header.
-        - No extra commentary beyond the list and a short header.
-        """
-
+INSTRUCTIONS:
+Return a clean, concise bullet list of the courses above.
+- Do NOT add or invent courses.
+- If a university is specified, mention it in the header.
+- No extra commentary beyond the list and a short header.
+"""
+                log_event("course_list_prepare", request_id=request_id, university=uni, count=len(titles))
+                tried_llm = False
                 try:
+                    t_llm0 = time.time()
+                    tried_llm = True
                     if stream:
                         response = ollama.chat(
                             model=self.model_name,
                             messages=[{'role': 'user', 'content': prompt}],
-                            stream=True
+                            stream=True,
+                            options=OLLAMA_OPTIONS
                         )
                         for chunk in response:
                             if 'message' in chunk and 'content' in chunk['message']:
@@ -582,13 +817,17 @@ YOUR ANSWER:"""
                         response = ollama.chat(
                             model=self.model_name,
                             messages=[{'role': 'user', 'content': prompt}],
-                            stream=False
+                            stream=False,
+                            options=OLLAMA_OPTIONS
                         )
                         yield response['message']['content']
-                except Exception as e:
-                    # Hard fallback if LLM fails
+                except Exception:
                     header = f"Course list — {uni}"
                     yield header + ":\n" + "\n".join([f"• {t}" for t in titles])
+                finally:
+                    if tried_llm:
+                        llm_ms = (time.time() - t_llm0) * 1000
+                _summ("ok_list")
                 return
 
             # No titles case — still go through LLM (echo the same message)
@@ -602,12 +841,16 @@ YOUR ANSWER:"""
             fallback_text = header + ". Try adjusting filters (e.g., 'master', 'bachelor')."
 
             prompt = f"Return exactly this sentence without adding anything else:\n\n{fallback_text}"
+            tried_llm = False
             try:
+                t_llm0 = time.time()
+                tried_llm = True
                 if stream:
                     response = ollama.chat(
                         model=self.model_name,
                         messages=[{'role': 'user', 'content': prompt}],
-                        stream=True
+                        stream=True,
+                        options=OLLAMA_OPTIONS
                     )
                     for chunk in response:
                         if 'message' in chunk and 'content' in chunk['message']:
@@ -621,19 +864,69 @@ YOUR ANSWER:"""
                     yield response['message']['content']
             except Exception:
                 yield fallback_text
+            finally:
+                if tried_llm:
+                    llm_ms = (time.time() - t_llm0) * 1000
+            _summ("ok_list_empty")
             return
 
         # Step 2: Retrieve context
+        is_structure_q = (
+                query_info.get('doc_type') == 'courses' and
+                query_info.get('section') in (
+                    'Programme Structure', 'Program Structure', 'Structure',
+                    'Course Structure', 'Curriculum', 'Modules', 'Subjects'
+                )
+        )
+
         # For full documents, we only need 1 result; for course sections fetch more
         if query_info['doc_type'] in ['how_to_apply', 'campus', 'scholarship']:
             n_results = 1
         else:
             n_results = 6
 
-        context_chunks = self.retrieve_context(query, query_info, n_results=n_results)
+        t_retr0 = time.time()
+        context_chunks = self.retrieve_context(query, query_info, n_results=n_results, request_id=request_id)
 
-        # Thresholding: be lenient for simple docs and course section queries
-        # Rationale: full documents like how_to_apply/campus/scholarship should be used even with low similarity
+        # PATCH A3: for structure/subjects queries, keep only the single best structure chunk
+        if is_structure_q and context_chunks:
+            wanted_sections = (
+                'Programme Structure', 'Program Structure', 'Structure',
+                'Course Structure', 'Curriculum', 'Modules', 'Subjects'
+            )
+            best = None
+            for ch in context_chunks:
+                sec = (ch.get('metadata', {}) or {}).get('section') or ''
+                if sec in wanted_sections:
+                    best = ch
+                    break
+            if best:
+                context_chunks = [best]
+
+        retrieve_ms = (time.time() - t_retr0) * 1000
+        retrieved_count = len(context_chunks)
+        top_rel = (context_chunks[0]['relevance_score'] if context_chunks else None)
+
+        # Collect sources for feedback linkage
+        self._last_sources = []
+        for ch in context_chunks:
+            meta = ch.get('metadata', {})
+            url = None
+            for key in ('url', 'source_url', 'page_url', 'pdf_url'):
+                if meta.get(key):
+                    url = meta[key]; break
+            if not url:
+                m = re.search(r'\((https?://[^\s)]+)\)', ch.get('content','')) or re.search(r'https?://[^\s)]+', ch.get('content',''))
+                if m: url = m.group(1)
+            self._last_sources.append({
+                "university": meta.get("university_short"),
+                "document": meta.get("document_type"),
+                "course": meta.get("course_id"),
+                "section": meta.get("section"),
+                "url": url
+            })
+
+        # Thresholding
         min_threshold = 0.3 if query_info['doc_type'] in ['how_to_apply', 'campus', 'scholarship'] else 0.02
         is_lenient = (
             (query_info['doc_type'] in ['how_to_apply', 'campus', 'scholarship']) or
@@ -649,13 +942,18 @@ YOUR ANSWER:"""
                 "• Scholarships\n"
                 "• Campus locations"
             )
+            log_event("not_enough_context", request_id=request_id, returned=len(context_chunks))
             prompt = f"Output EXACTLY the following text and nothing else:\n\n{fallback_text}"
+            tried_llm = False
             try:
+                t_llm0 = time.time()
+                tried_llm = True
                 if stream:
                     response = ollama.chat(
                         model=self.model_name,
                         messages=[{'role': 'user', 'content': prompt}],
-                        stream=True
+                        stream=True,
+                        options=OLLAMA_OPTIONS
                     )
                     for chunk in response:
                         if 'message' in chunk and 'content' in chunk['message']:
@@ -670,23 +968,31 @@ YOUR ANSWER:"""
             except Exception:
                 # Last resort fallback
                 yield fallback_text
+            finally:
+                if tried_llm:
+                    llm_ms = (time.time() - t_llm0) * 1000
+            _summ("no_context")
             return
-
-        print(f"   Retrieved: {len(context_chunks)} chunks")
-        print(f"   Top relevance: {context_chunks[0]['relevance_score']:.1%}")
 
         # Step 3: Build prompt
         prompt = self.build_prompt(query, context_chunks, query_info)
 
         # Step 4: Generate with Ollama
         try:
-            if stream:
+            log_event("llm_start", request_id=request_id, model=self.model_name, prompt_chars=len(prompt),
+                      chunks=len(context_chunks))
+            t_llm0 = time.time()
+
+            # For structure/subjects answers we need to post-process, so disable streaming
+            force_no_stream = is_structure_q
+            effective_stream = (stream and not force_no_stream)
+
+            if effective_stream:
                 response = ollama.chat(
                     model=self.model_name,
                     messages=[{'role': 'user', 'content': prompt}],
                     stream=True
                 )
-
                 for chunk in response:
                     if 'message' in chunk and 'content' in chunk['message']:
                         yield chunk['message']['content']
@@ -696,20 +1002,41 @@ YOUR ANSWER:"""
                     messages=[{'role': 'user', 'content': prompt}],
                     stream=False
                 )
-                yield response['message']['content']
+                text = response['message']['content']
+
+                # --- Patch: if Semester 3 has an elective note in context but model omitted it, inject it.
+                if is_structure_q:
+                    elective_notes = self._extract_elective_notes(context_chunks)
+                    # We only intend to show notes like "Elective (1 subject)" under Semester 3
+                    text = self._inject_elective_note_under_semester(text, target_semester="Semester 3",
+                                                                     notes=elective_notes)
+
+                yield text
+
+                llm_ms = (time.time() - t_llm0) * 1000
+                log_event("llm_done", request_id=request_id, duration_ms=int(llm_ms))
         except Exception as e:
+            log_event("llm_error", request_id=request_id, error=str(e))
             yield f"Error generating response: {str(e)}"
+            _summ("llm_error", error=str(e))
+            return
+
+        # One-line summary & finish
+        _summ("ok")
+        return
 
     def get_sources(self, query: str, university_filter: Optional[str] = None) -> List[Dict]:
+        request_id = uuid.uuid4().hex
+        log_event("sources_lookup_start", request_id=request_id, query=query, university_filter=university_filter)
+
         query_info = self.detect_query_type(query)
         if university_filter:
             query_info['university'] = university_filter
+
         # keep n_results=3 or as-is
-        context_chunks = self.retrieve_context(query, query_info, n_results=3)
+        context_chunks = self.retrieve_context(query, query_info, n_results=3, request_id=request_id)
 
         sources = []
-        # ... inside SmartRAGEngine.get_sources(), in the for-loop over context_chunks:
-
         for chunk in context_chunks:
             meta = chunk['metadata']
             vector_sim = float(chunk.get('relevance_score', 0.0))
@@ -717,7 +1044,6 @@ YOUR ANSWER:"""
 
             primary = float(rerank) if rerank is not None else vector_sim
 
-            # inside get_sources(), inside the for chunk in context_chunks: loop
             src = {
                 'university': meta['university_short'],
                 'document': meta['document_type'],
@@ -727,14 +1053,12 @@ YOUR ANSWER:"""
             if rerank is not None:
                 src['rerank_score'] = round(float(rerank), 3)
 
-            # 🔗 add this block
+            # Prefer explicit metadata URL if present; else best-effort from content
             url = None
-            # 1) prefer explicit metadata if present
             for key in ('url', 'source_url', 'page_url', 'pdf_url'):
                 if key in meta and meta[key]:
                     url = meta[key]
                     break
-            # 2) otherwise, grab the first link from the chunk text (Markdown or bare URL)
             if not url:
                 text = chunk.get('content', '')
                 m = re.search(r'\((https?://[^\s)]+)\)', text) or re.search(r'https?://[^\s)]+', text)
@@ -743,14 +1067,44 @@ YOUR ANSWER:"""
             if url:
                 src['url'] = url
 
-            # keep your existing extras
             if 'course_id' in meta:
                 src['course'] = meta['course_id']
                 src['section'] = meta.get('section', 'Overview')
 
             sources.append(src)
 
+        log_event("sources_lookup_done", request_id=request_id, count=len(sources))
         return sources
+
+    # ---------- Feedback API (programmatic) ----------
+    def submit_feedback(self,
+                        rating: str,                  # "up" or "down"
+                        comment: Optional[str] = None,
+                        request_id: Optional[str] = None) -> bool:
+        """
+        Store a single feedback item linked to a request. If request_id is None,
+        it uses the most recent request handled by this engine.
+        """
+        rid = request_id or self._last_request_id
+        payload = {
+            "event": "feedback",
+            "request_id": rid,
+            "rating": "up" if str(rating).lower() in ("up", "1", "true", "yes", "👍") else "down",
+            "comment": (comment or "").strip() or None,
+            "query": self._last_query,
+            "sources": [s for s in (self._last_sources or []) if s.get("url") or s.get("document")],
+        }
+        save_feedback_line(**payload)
+        log_event("feedback_saved", **{k: v for k, v in payload.items() if k != "sources"})
+        return True
+
+    def last_context(self) -> Dict:
+        """Optional helper to fetch the last request + sources for UI use."""
+        return {
+            "request_id": self._last_request_id,
+            "query": self._last_query,
+            "sources": self._last_sources,
+        }
 
 
 # Singleton instance
