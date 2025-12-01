@@ -1,7 +1,7 @@
 {
-  "timestamp": 1760430844,
+  "timestamp": 1763350031,
   "vector_db": {
-    "documents": 2722
+    "documents": 2310
   },
   "data_sources": [
     {
@@ -100,7 +100,7 @@
       "outputs": {
         "Courses.md": true,
         "Scholarship.md": true,
-        "How to apply.md": false,
+        "How to apply.md": true,
         "Our Campus.md": true
       },
       "inputs": {
@@ -174,7 +174,7 @@
       }
     },
     {
-      "name": "Vertitas College",
+      "name": "Veritas College",
       "outputs": {
         "Courses.md": true,
         "Scholarship.md": true,

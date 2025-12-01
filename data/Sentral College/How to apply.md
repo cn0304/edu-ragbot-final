@@ -1,5 +1,7 @@
-## Contact **Info**
+### URL
+https://www.sentral.edu.my/contact-us/
 
+## Contact **Info**
 **SENTRAL College Penang**  
 3 Penang Street,  
 10200 George Town, Penang, Malaysia.
@@ -30,12 +32,10 @@ Email : [info@sentral.edu.my](mailto:info@sentral.edu.my)
 Closed on Public Holidays
 
 #### Social Media
-
 -   [ⓕ](https://www.facebook.com/SentralCollegePenang/)
 -   [𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🅾](https://www.instagram.com/sentralcollegepenang/?hl=en)
 -   [▶Youtube](https://www.youtube.com/channel/UCgFdSXpn5jG8pI_pGLmHGlA)
 
 ## Send Your **Message**
-
 Do you have any questions regarding SENTRAL College, our pre-university programmes, our facilities or accommodation? [Fill in the form](https://www.sentral.edu.my/contact-us/) below and we will contact you shortly.
 

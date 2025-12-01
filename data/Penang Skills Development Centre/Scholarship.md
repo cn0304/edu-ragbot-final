@@ -1,11 +1,13 @@
+### URL
+https://www.futuretech.edu.my/resources/financial-assistance
+
 # Financial Assistance
 Discover FutureTech Academy’s range of financial aid options designed to make your education journey easier!
 
 ### Perbadanan Tabung Pendidikan Tinggi Nasional (PTPTN)
+**Eligible Programs: School of Engineering**
 
-##### Eligible Programs: School of Engineering
-
-###### Important Information
+#### Important Information
 
 -   Students will only receive funding from Semester 2 onwards
 -   The closing dates for each cycle of PTPTN loan application are 30 April and 31 October
@@ -13,7 +15,7 @@ Discover FutureTech Academy’s range of financial aid options designed to make 
 -   Students must obtain a minimum of 2.0 every semester to receive PTPTN loan for the following semester
 -   The maximum amount of loan that a student can apply for is as below:
 
-###### Terms & Conditions
+#### Terms & Conditions
 
 -   Applicant must fulfill the following requirements to qualify for the loan application
 -   Must be a Malaysian citizen
@@ -29,13 +31,12 @@ Discover FutureTech Academy’s range of financial aid options designed to make 
 -   Students will be briefed on how to apply online at PTPTN website and how to submit the relevant supporting documents to FutureTech Academy
 -   The loan is disbursed directly into the applicant’s CIMB Savings Account (Individual)
 
-###### Terms & Conditions
+#### Terms & Conditions
 
 -   Repayment/Financing of the education loan will begin 6 months after students obtain the last payment from PTPTN
 
 ### PTPK (Skills Development Fund Corporation)
-
-##### Eligible Program: Applied Engineering (AE)
+**Eligible Program: Applied Engineering (AE)**
 
 -   Loan rate between RM2,500 to RM24,000 depending on program/training phase
 -   Allowance (RM400, RM600, RM800) + transport (one-off RM500 payment) are covered

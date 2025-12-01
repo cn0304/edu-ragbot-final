@@ -1,8 +1,11 @@
+### URL
+https://mckl.edu.my/pykett/admission/scholarship-financial-aid/
+
 # Scholarship and Financial Aid
 
-## Merit Scholarship
+### Merit Scholarship
 
-### **Programmes**
+ **Programmes**
 
 -   **Pre-University Programmes**
     
@@ -33,7 +36,7 @@
 
 >Note: Grades are considered in the following order of increasing value: A-, A, A+. Unless explicitly stated otherwise, a lower A grade will not be taken into consideration when applying the scholarship evaluation criteria. 
 
-### **Eligible Criteria**
+ **Eligible Criteria**
 
 -   The Merit Scholarship (“**Scholarship**”) is open to all students below the age of 25 years enrolling in a full-time MCKL programme within two years of completion of their SPM/IGCSE/UEC/A-Level/AUSMAT. 
 -   Only Trial/Forecast Results which are obtained from registered schools under the Ministry of Education, can be used to apply for the scholarship.
@@ -49,7 +52,7 @@
 -   Scholarship offer is considered null and void if the student fails to meet the minimum entry requirement as set by the MOHE in their actual results.
 -   Students can only be on one scholarship or financial aid at a time, whichever is higher.
 
-### **General Terms & Conditions**
+ **General Terms & Conditions**
 
 -   Applicants must submit their results to the Office of the Registrar within 7 days of release of the actual results to confirm their eligibility for the Scholarship, – failing which applicants may have their Scholarship be put under review. 
 -   Applicants may apply for more than one MCKL scholarship/ bursary/ financial aid/ discount (collectively, “award”) at any one time but will be permitted to benefit from only one award, which shall generally be the award with the highest quantum. 
@@ -79,7 +82,8 @@
 -   This Scholarship is not transferable or cannot be encashed and does not cover external examination fees (if applicable) or textbooks. 
 -   MCKL reserves the right to amend any criteria and/or terms and conditions of the Scholarship as and when it deems necessary. The decision of MCKL on all matters pertaining to the Scholarship is absolute and final.
 
-## MCKL Special Scholarships & Financial Aid
+---
+### MCKL Special Scholarships & Financial Aid
 
 ## 1. **MCKL Excellence Award Scholarship**
 
@@ -266,7 +270,8 @@ Please download the **[application form here](https://mckl.edu.my/pykett/wp-cont
 
 Please download the [**application form here.**](https://mckl.edu.my/pykett/wp-content/uploads/sites/5/2025/10/Financial-Aid-26-Sep-2025.pdf)
 
-## Methodist Affiliated Scholarships
+---
+### Methodist Affiliated Scholarships
 
 **A) Malaysian Methodist Pastor’s Children Scholarship**   
 **B) Malaysian Non-Methodist Pastor's Children Scholarship**  
@@ -324,7 +329,8 @@ Please download the [**application form here.**](https://mckl.edu.my/pykett/wp-c
 
 Please download the **[application form here](https://mckl.edu.my/pykett/wp-content/uploads/sites/5/2025/10/MCKL-Methodist-Affiliated-Scholarship-26-Sep-2025.pdf)**.
 
-## MCKL Discounts/Bursaries
+---
+### MCKL Discounts/Bursaries
 
 **A) Sibling Bursary**  
 **B) Selected High School, Home-Schooling**
@@ -364,8 +370,8 @@ Please download the **[application form here](https://mckl.edu.my/pykett/wp-cont
 
 Please download the [**application form here**](https://mckl.edu.my/pykett/wp-content/uploads/sites/5/2025/10/MCKL-Discount-Bursaries-26-Sep-2025.pdf). 
 
-
-## External Scholarship
+---
+### External Scholarship
 ### MCKL-Sin Chew Education Fund Award
 MCKL-Sin Chew Education Fund Award is offered under the collaboration with Sin Chew Media Corporation Berhad to aid the poor and/or needy students to further their tertiary studies in Malaysia. 
 
@@ -442,7 +448,8 @@ MCKL-Stedfast Scholarship is offered under the collaboration with Stedfast Assoc
 
 Please download the [**application form here**](https://mckl.edu.my/wp-content/uploads/2025/07/Yys-C1KJ_Schship_Appl.Form_Dual-Lgs-Latest-@-22-Jan-24.pdf). 
 
-## MCKL Industry Scholarship
+---
+### MCKL Industry Scholarship
 
 ### 100% MCKL Industry Scholarship
 -   The MCKL Industry Scholarship (hereinafter referred as **MCKLIS**) is open for Diploma in Computer Science, Diploma in Information Technology, Diploma in Digital Business and Diploma in Digital Marketing applicants. 
@@ -471,7 +478,8 @@ Please download the [**application form here**](https://mckl.edu.my/wp-content/u
 
 For more information, please email us at [**admission.pg@mckl.edu.my**](mailto:admission.pg@mckl.edu.my). 
 
-## Other Scholarships
+---
+### Other Scholarships
 ### Preston L Peach Award
 -   This award is only applicable for 100% discount off tuition fees (A-Level up to 4 subjects). However, there is no scholarship/waiver of tuition fee for additional language subjects (German, Spanish, etc.)
 -   This award is open to all students who achieve a minimum GPA of 3.80 in their latest internal examinations and holds at least one (1) permanent leadership position (President / Vice President) in an MCKL organisation.

@@ -1,3 +1,6 @@
+### URL
+https://www.rumc.edu.my/scholarship-financing/
+
 # Scholarship
 
 ### Full Scholarship - Medicine
@@ -42,7 +45,7 @@ _The outcome of the scholarship will be announced by the **end of** **May 2025**
 |        **Malaysian**         |       RM 620,000\*       |       RM 498,900\*       |
 |      **International**       |       RM 740,000\*       |       RM 602,400\*       |
 
-**\***Based on current exchange rate & subject to change.
+\* **Based on current exchange rate & subject to change.**
 
 _Information is correct at time of printing / publication. RUMC reserves the right to amend the information without prior notice._
 

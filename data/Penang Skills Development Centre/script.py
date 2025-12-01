@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-FutureTech College Course Information Scraper
-Usage:
-    python script.py url.txt --output Courses.md
 
-This script extracts course details from FutureTech College programme pages.
-https://www.futuretech.edu.my/programs/
+Usage:
+    python3 "data/Penang Skills Development Centre/script.py" \
+      "data/Penang Skills Development Centre/input.txt" \
+      --output "data/Penang Skills Development Centre/Courses.md"
+
 """
 
 import argparse
@@ -31,13 +31,41 @@ def clean_text(text):
     """Normalize whitespace."""
     return re.sub(r"\s+", " ", text).strip() if text else ""
 
+MONTH_MAP = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Sept": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+
+
+def normalize_months(text: str) -> str:
+    """Replace short month names (Jan, Feb, Mar, etc.) with full names."""
+    if not text:
+        return text
+    for short, full in MONTH_MAP.items():
+        text = re.sub(rf"\b{short}\b", full, text)
+    return text
 
 def extract_course_info(url):
     """Fetch and parse a single course page."""
     print(f"Fetching: {url}")
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/119.0.0.0 Safari/537.36"
+        )
     }
 
     try:
@@ -60,10 +88,12 @@ def extract_course_info(url):
         txt = d.get_text(" ", strip=True)
         if "Duration" in txt:
             duration = txt.replace("Duration", "").strip()
+            duration = normalize_months(duration)
             course_data["sections"]["Duration"] = duration
             print("  ✓ Duration")
         elif "Intake" in txt:
             intake = txt.replace("Intake", "").strip()
+            intake = normalize_months(intake)
             course_data["sections"]["Intake"] = intake
             print("  ✓ Intake")
 

@@ -1,3 +1,6 @@
+### URL
+https://www.msucollege.edu.my/branches/msu-college-penang.php
+
 ## Location
 Located in the second largest city in Malaysia, MSU College Penang is the leading college in the northern region. For those who prefer the experience of a major city with major multinational companies, MSU College Penang would be an idyllic place to pursue world recognized qualifications.
 
@@ -18,8 +21,7 @@ Call us at 04-226 8281 for more information on the programmes offered and dates 
 
 MSU College Penang _DK248(P)  
 KP/JPS.IPTS(Dft/Aku)1_  
-  
-  
+
   
 No Tel : [04-2263698](tel:+6042263698)  
 Email : [penang@msucollege.edu.my](mailto:penang@msucollege.edu.my)

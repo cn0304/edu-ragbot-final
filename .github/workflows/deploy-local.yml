@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted   # matches your Mac runner label
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
 

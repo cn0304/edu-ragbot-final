@@ -3,12 +3,12 @@ name: RAG Data Pipeline
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2 * * *' # nightly
+    - cron: '0 2 * * *' # 10am in MLS
   push:
     paths:
-      - 'data/**'
-      - 'scripts/**'
-      - 'backend/app/**'
+      - '../../data'
+      - '../../scripts'
+      - '../../backend/app'
 
 jobs:
   scrape:

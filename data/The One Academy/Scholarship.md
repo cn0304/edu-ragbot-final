@@ -1,3 +1,6 @@
+### URL
+https://www.toa.edu.my/admission/#financial-aid
+
 # SCHOLARSHIP AND FINANCIAL AID
 
 We believe that everyone should have a chance to receive a professional and quality education. Please refer below a range of loans and scholarships for deserving students. Our aim is to make quality education accessible to all who aspire to pursue their academic goals.

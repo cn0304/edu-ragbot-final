@@ -1,3 +1,6 @@
+### URL
+https://www.uow.edu.my/study-at-uow-malaysia/admissions-procedure/
+
 # Admission
 Find out all the important information necessary in pursuing an education at either campus. Prospective students who are interested to enrol in UOW Malaysia will have to complete the application process. For clearer steps on how to do that, follow the process below or contact us at these details:
 
@@ -106,6 +109,7 @@ Students who have outstanding fees may be terminated from their studies.
 
 UOW Malaysia shall not be held reliable for any payment made through any third party/unauthorized channel.
 
+
 # Refund Policy
 **Refund of Fees**
 
@@ -132,3 +136,5 @@ Students are allowed to defer their studies for ONE (1) semester ONLY. Students 
 Student who has withdrawn / deferred / left the program for more than one year is liable to pay again the admission (for international student), and Registration fee upon re-admission.
 
 Note: The University / College reserves the right to change the Bursary Policies when deem necessary.
+
+[**Make an Enquiry**](https://www.uow.edu.my/enquiry?utm_source=enquiry&utm_medium=website&utm_campaign=top+menu)

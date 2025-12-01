@@ -38,7 +38,7 @@ async def test_with_without_reranker():
         results = []
         for query in test_queries:
             start = time.time()
-            sources = rag.get_sources(query)
+            sources = rag.get_sources()
             elapsed = time.time() - start
 
             # compute average relevance across retrieved chunks

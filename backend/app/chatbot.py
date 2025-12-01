@@ -11,8 +11,7 @@ import json
 import asyncio
 from fastapi.responses import JSONResponse
 import traceback
-from .rag_engine import get_rag_engine
-
+from .rag_engine import get_rag_engine, _postprocess_answer_text
 
 router = APIRouter(prefix="/api/chat", tags=["chat"])
 
@@ -36,8 +35,9 @@ class SourceRequest(BaseModel):
     query: str
     university_filter: Optional[str] = None
 
+
 class FeedbackRequest(BaseModel):
-    rating: str                    # "up" or "down"
+    rating: str  # "up" or "down"
     comment: Optional[str] = None  # optional short text
     request_id: Optional[str] = None  # optional; falls back to last request
 
@@ -49,25 +49,44 @@ async def chat_query(request: ChatRequest):
     """
     try:
         rag = get_rag_engine()
-        
+
         if request.stream:
-            # Streaming response
+            # Streaming response with incremental post-processing
             async def generate():
+                # Accumulate raw + fixed text so we can safely fix patterns across chunk boundaries
+                full_raw = ""
+                full_fixed = ""
+
                 try:
                     async for chunk in rag.generate_response(
-                        query=request.query,
-                        university_filter=request.university_filter,
-                        stream=True
+                            query=request.query,
+                            university_filter=request.university_filter,
+                            stream=True
                     ):
-                        # Send each chunk as SSE (Server-Sent Events)
-                        yield f"data: {json.dumps({'chunk': chunk, 'done': False})}\n\n"
-                    
+                        if not chunk:
+                            continue
+
+                        # Append new raw text from LLM
+                        full_raw += chunk
+
+                        # Run global fixer on the entire answer so far
+                        new_fixed = _postprocess_answer_text(full_raw)
+
+                        # Only send the *new* part that wasn't sent before
+                        diff = new_fixed[len(full_fixed):]
+                        if diff:
+                            full_fixed = new_fixed
+                            # Send each diff chunk as SSE (Server-Sent Events)
+                            yield f"data: {json.dumps({'chunk': diff, 'done': False})}\n\n"
+
                     # Send completion signal
                     yield f"data: {json.dumps({'chunk': '', 'done': True})}\n\n"
-                    
+
                 except Exception as e:
+                    import traceback
+                    traceback.print_exc()
                     yield f"data: {json.dumps({'error': str(e), 'done': True})}\n\n"
-            
+
             return StreamingResponse(
                 generate(),
                 media_type="text/event-stream",
@@ -77,30 +96,31 @@ async def chat_query(request: ChatRequest):
                     "X-Accel-Buffering": "no"
                 }
             )
+
         else:
             # Non-streaming response
             answer = ""
             async for chunk in rag.generate_response(
-                query=request.query,
-                university_filter=request.university_filter,
-                stream=False
+                    query=request.query,
+                    university_filter=request.university_filter,
+                    stream=False
             ):
                 answer += chunk
-            
+
             # Get sources
             sources = rag.get_sources(request.query, request.university_filter)
-            
+
             # Get query info
             query_info = rag.detect_query_type(request.query)
             if request.university_filter:
                 query_info['university'] = request.university_filter
-            
+
             return ChatResponse(
                 answer=answer,
                 sources=sources,
                 query_info=query_info
             )
-            
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -112,22 +132,29 @@ async def get_sources(request: SourceRequest):
     """
     try:
         rag = get_rag_engine()
+
+        # 1) Prefer the sources from the last answer (same session)
+        last_sources = getattr(rag, "_last_sources", None)
+        if last_sources:
+            return {
+                "sources": last_sources,
+                "count": len(last_sources),
+            }
+
+        # 2) Fallback to old behaviour: recompute from scratch
         sources = rag.get_sources(request.query, request.university_filter)
-        
+
         return {
             "sources": sources,
-            "count": len(sources)
+            "count": len(sources),
         }
-        
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
 @router.post("/feedback")
 async def chat_feedback(payload: FeedbackRequest):
-    """
-    Store simple thumbs-up/down feedback with optional comment.
-    Always return a JSON object so the UI doesn't see a network error.
-    """
     rag = get_rag_engine()
     try:
         rag.submit_feedback(
@@ -141,9 +168,8 @@ async def chat_feedback(payload: FeedbackRequest):
         # Log full traceback to server console for debugging
         tb = traceback.format_exc()
         print("[/feedback] ERROR:", e, "\n", tb)
-        # Return 200 + ok:false so the frontend doesn't show a red 'network error'
-        # (You can change to status_code=500 if you prefer strict behavior)
         return JSONResponse(status_code=200, content={"ok": False, "error": str(e)})
+
 
 @router.get("/universities")
 async def get_universities():
@@ -164,7 +190,8 @@ async def get_universities():
             {"code": "PSDC", "name": "Penang Skills Development Centre"},
             {"code": "ROYAL", "name": "Royal College"},
             {"code": "VERITAS", "name": "Veritas College"},
-            {"code": "TARU", "name": "Tunku Abdul Rahman University"}
+            {"code": "TARU", "name": "Tunku Abdul Rahman University"},
+            {"code": "PENINSULA", "name": "Peninsula College"}
         ]
     }
 
@@ -177,7 +204,7 @@ async def health_check():
     try:
         rag = get_rag_engine()
         doc_count = rag.collection.count()
-        
+
         return {
             "status": "healthy",
             "model": rag.model_name,

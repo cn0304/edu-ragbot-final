@@ -1,3 +1,6 @@
+### URL
+https://www.sentral.edu.my/facilities/
+
 Located within the heritage enclave of George Town right at the confluence of Penang Street and Bishop Street is the gleaming 14 storeys high campus of SENTRAL College Penang.
 
 Touted to be the tallest building within the vicinity, it houses five storeys of carpark, classrooms, lecture theatres, auditorium, computer labs, student lounge & recreation areas, library, discussion rooms, event rooms and much more in order to provide students with a conducive learning environment and services for an optimum learning experience.
@@ -81,6 +84,7 @@ For more information of our facilities, do visit our corporate video specially m
 **SENTRAL College Penang**  
 3 Penang Street,  
 10200 George Town, Penang, Malaysia.
+[**Get Direction**](https://maps.app.goo.gl/nKg5a1RgUaK1DHas6)
 
 Tel : +604-2621 888
 Fax : +604 2636 368

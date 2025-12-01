@@ -1,3 +1,6 @@
+### URL
+https://www.toa.edu.my/about/our-campus#penang
+
 # Penang Campus
 
 ## Reception Lobby
@@ -56,10 +59,28 @@ Penang is a land filled with diversity of the inhabitants, which provides it a r
 ![](https://www.toa.edu.my/static/styles/images/about/our-campus/p-1i.webp)
 
 # The One Academy Penang
-3H-3A-1, Straits Quay,
-Jalan Seri Tanjung Pinang,
-Tanjong Tokong,
-10470, Georgetown, Penang, Malaysia.
+### Email
+
+-   [penang@toa.edu.my](mailto:penang@toa.edu.my)  
+    (General Enquiries, Comments / Feedback, Request Prospectus)
+
+### Phone
+-   [+604-210 3000](tel:604-210 3000)
+
+### Office Hours
+-   Monday - Friday:
+-   9:00am - 5:30pm
+
+-   Saturday:
+-   9:00am - 1:00pm
+
+-   Sunday & Public Holiday:
+-   Closed
+
+### Address
+
+3H-3A-1, Straits Quay, Jalan Seri Tanjung Pinang, Tanjong Tokong, 10470, Georgetown, Penang, Malaysia.
+
 [Map](https://maps.app.goo.gl/dDnztz1V9SQBzyxZ7)
 T [+604-210 3000](tel:+604-210 3000)
 E [penang@toa.edu.my](mailto:penang@toa.edu.my)

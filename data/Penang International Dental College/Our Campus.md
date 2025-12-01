@@ -1,9 +1,13 @@
+### URL
+https://www.pidc.edu.my/contact/
+
 ## Penang International Dental College (PIDC)
 
 ### Address
 
 PENANG INTERNATIONAL DENTAL COLLEGE  
 Level 18, NB Tower, 5050, Jalan Bagan Luar, 12000, Butterworth, Penang. Malaysia.
+[**Get Direction**](https://maps.app.goo.gl/5yWfvBDKNFDeNMsKA)
 
 ### General Contact
 

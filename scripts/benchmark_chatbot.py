@@ -1,9 +1,13 @@
+# benchmark_chatbot.py
 import asyncio
 import json
 import os
 import time
 import sys
 from typing import Any, Dict, List
+
+# === A) Backend choice via env ===
+BACKEND = os.getenv("RETRIEVER_BACKEND", "llamaindex")
 
 # Ensure repo root on sys.path
 ROOT = os.path.dirname(os.path.dirname(__file__))
@@ -45,7 +49,7 @@ def check_accuracy(rag: SmartRAGEngine, q: str, expect: Dict[str, Any]) -> bool:
             ok = False
             break
     # light retrieval check: ensure at least one source returned
-    srcs = rag.get_sources(q)
+    srcs = rag.get_sources()
     return ok and len(srcs) > 0
 
 
@@ -66,17 +70,19 @@ async def run_scalability_test(rag: SmartRAGEngine, q: str, concurrency: int = 1
     }
 
 
-def write_benchmark(results: Dict[str, Any]) -> None:
-    root = os.path.dirname(os.path.dirname(__file__))
-    out = os.path.join(root, 'metrics', 'benchmark.json')
-    os.makedirs(os.path.dirname(out), exist_ok=True)
-    with open(out, 'w', encoding='utf-8') as f:
-        json.dump(results, f, indent=2)
-    print(f"Wrote benchmark metrics to {out}")
-
-
 def main() -> None:
-    rag = SmartRAGEngine()
+    # === B) Instantiate engine with backend (with a safe fallback) ===
+    try:
+        rag = SmartRAGEngine(retriever_backend=BACKEND)
+    except TypeError:
+        # If your current engine doesn't yet accept retriever_backend, fall back gracefully.
+        rag = SmartRAGEngine()
+        # Keep a hint on the instance so it's visible in results
+        try:
+            setattr(rag, "retriever_backend", BACKEND)
+        except Exception:
+            pass
+
     # Accuracy & latency per query
     per_query = []
     for item in QUERIES:
@@ -93,13 +99,21 @@ def main() -> None:
     # Scalability under workload
     scal = asyncio.run(run_scalability_test(rag, "Compare scholarships between INTI and UOW", concurrency=8))
 
+    # === C) Include backend in results and write per-backend file ===
     results = {
         "timestamp": int(time.time()),
-        "model": rag.model_name,
+        "model": getattr(rag, "model_name", "unknown"),
+        "retriever_backend": BACKEND,
         "per_query": per_query,
         "scalability": scal,
     }
-    write_benchmark(results)
+
+    root = os.path.dirname(os.path.dirname(__file__))
+    out = os.path.join(root, 'metrics', f'benchmark_{BACKEND}.json')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2)
+    print(f"Wrote benchmark metrics to {out}")
 
 
 if __name__ == '__main__':

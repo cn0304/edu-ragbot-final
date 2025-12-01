@@ -1,8 +1,9 @@
-# Admission
+### URL
+https://peninsulacollege.edu.my/malaysian-student/
 
-## MALAYSIAN STUDENTS
+# MALAYSIAN STUDENTS
 
-#### Fields Marked With An \* Are Required
+**Fields Marked With An \* Are Required**
 
 ### Online Admission Form
 
@@ -14,8 +15,8 @@ Important: Please be advised that we are unable to process your application unti
 
 [**Malaysia Student Application Form**](https://peninsulacollege.edu.my/malaysian-student/)
 
-
-## INTERNATIONAL STUDENTS
+---
+# INTERNATIONAL STUDENTS
 
 ### Admission Process
 
@@ -94,7 +95,7 @@ Note:
 
 The personal bond form can be submitted after you have arrived in Malaysia for the student pass endorsement. If the personal bond is submitted before the VAL is issued, any errors found will not affect the VAL approval process; however Institutions are advised to make the necessary corrections before the student pass sticker endorsement stage.
 
-**7\. No-Objection Certificate (NOC)**\*
+**7\. No-Objection Certificate (NOC)** \*
 
 No-Objection Certificate (NOC) is only required if the student is from Sudan. This document must be applied by the institution and can only be collected from the Sudanese Embassy in Kuala Lumpur by the institution representatives.
 

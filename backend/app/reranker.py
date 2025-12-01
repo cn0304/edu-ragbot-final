@@ -17,14 +17,6 @@ class BaseReranker(ABC):
     def rerank(self, query: str, documents: List[Dict], top_k: int = 5) -> List[Dict]:
         """
         Rerank documents based on query relevance
-        
-        Args:
-            query: User query
-            documents: List of document dicts with 'content' and 'metadata'
-            top_k: Number of top documents to return
-            
-        Returns:
-            Reranked list of documents with updated relevance scores
         """
         pass
 

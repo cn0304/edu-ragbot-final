@@ -1,3 +1,6 @@
+### URL
+https://newinti.edu.my/why-inti/student-support-services/scholarships-financial-assistance/
+
 # Scholarships & Financial Assistance
 
 As part of our mission to provide access to world-class education to students, we offer a range of scholarships and awards to deserving applicants. 
@@ -9,6 +12,7 @@ As part of our mission to provide access to world-class education to students, w
 
 Please visit the respective student services department for more information on our scholarship offers and other avenues of financial aid such as the PTPTN loan, study loans and more.
 
+### INTI Merit Scholarship
 **For SPM**
 
 - Closing date: 2 weeks before class commencement
@@ -30,7 +34,7 @@ Academic program: AUP / Pre-U
 
 *A is inclusive of A+, A or A- only.
 
-Diploma (1st Year)
+**Diploma (1st Year)**
 
 Academic program: Diploma
 
@@ -46,7 +50,7 @@ Academic program: Diploma
 
 *A is inclusive of A+, A or A- only.
 
-4+0 Program / Foundation (1st Year)
+**4+0 Program / Foundation (1st Year)**
 
 Academic program: 4+0 SNHU / Foundation
 
@@ -65,7 +69,7 @@ Academic program: 4+0 SNHU / Foundation
 
 - Closing date: 2 weeks before class commencement
 
-AUP (1st Year) / A-Level (3 Subjects)
+**AUP (1st Year) / A-Level (3 Subjects)**
 
 Academic program: AUP / Pre-U
 
@@ -80,7 +84,7 @@ Academic program: AUP / Pre-U
 |3As|Up to 20% Tuition Fee Waiver|
 |2As|Up to 10% Tuition Fee Waiver|
 
-Diploma (1st Year)
+**Diploma (1st Year)**
 
 Academic program: Diploma
 
@@ -95,7 +99,7 @@ Academic program: Diploma
 |3As|Up to 20% Tuition Fee Waiver|
 |2As|Up to 10% Tuition Fee Waiver|
 
-4+0 Program / Foundation (1st Year)
+**4+0 Program / Foundation (1st Year)**
 
 Academic program: 4+0 SNHU / Foundation
 
@@ -149,6 +153,8 @@ All Degree Programs
 - A+ = 6 points; A = 5 points; B = 4 points; C = 3 points; D = 2 points; E = 1 point
 - An equivalency table for conversion of grade to points
 
+---
+### INTI Sports Excellent Scholarship
 - Closing date: 2 weeks before class commencement
 
 |   |   |
@@ -156,6 +162,8 @@ All Degree Programs
 |Criteria|Entitlement|
 |- State or national players<br>- Meet the entry requirements for each individual program<br>- Open to local students only<br>- Interview required|- **National player (sports)**  <br>    – up to 100% tuition fee waiver.  <br>    Miscellaneous fees not included as part of tuition fees have to be borne by students.<br>- **State player (sports)**  <br>    – up to 50% tuition fee waiver.  <br>    Miscellaneous fees not included as part of tuition fees have to be borne by students.|
 
+---
+### INTI Tertiary Scholarship
 - Closing date: 2 weeks before class commencement
 
 |   |   |   |   |
@@ -167,6 +175,8 @@ All Degree Programs
 |iv)|Foundation / Diploma from other institution – CGPA 3.2 or equivalent|RM8,000 per year|
 |v)|Foundation / Diploma from other institution – CGPA 3.0 or equivalent|RM5,000 (one-off deduction)|
 
+---
+### INTI Chairman Award
 - Closing date: Intake date
 
 Applicable to all INTI campuses in West Malaysia
@@ -176,6 +186,8 @@ Applicable to all INTI campuses in West Malaysia
 |Criteria|Entitlement|
 |- Bumiputera Malaysian citizens and fulfill the entry requirements|- 10% tuition fee waiver for the entire programme, excluding English Programme and short programmes|
 
+---
+### INTI Family Loyalty Reward
 - Closing date: Intake date
 
 |   |   |
@@ -183,6 +195,8 @@ Applicable to all INTI campuses in West Malaysia
 |Criteria|Entitlement|
 |- This scheme is applicable to new students who have parent(s), spouse or siblings that is currently studying at INTI or who is an INTI alumni.|- RM500 tuition fee waiver (one-off deduction)|
 
+---
+### INTI Secondary School Teacher Recognition Award
 - Closing date: Intake date
 
 |   |   |
@@ -192,6 +206,8 @@ Applicable to all INTI campuses in West Malaysia
 
 Note: Miscellaneous fees not included as part of the tuition fees have to be borne by students.
 
+---
+### Tun Arshad Ayub Scholarship
 The Tun Arshad Ayub Scholarship is applicable for full research postgraduate programmes offered at INTI International University in memorizing the late Tun Arshad Ayub and his contribution to Malaysia’s education reform. He was the first Chancellor of INTI International University, Nilai. In his capacity as INTI’s Chancellor, he looked to elevating the University’s standing in the education industry to greater heights with his years of experience. The Scholarship is expected to encourage more Malaysians to dedicate to research activities and outputs.
 
 - Closing date: Five (5) weeks prior to semester commence
@@ -203,6 +219,8 @@ The Tun Arshad Ayub Scholarship is applicable for full research postgraduate pro
 
 Note: For full terms and conditions, please refer to INTI International University
 
+---
+### Other Financial Aids and Loans
 - Perbadanan Tabung Pendidikan Tinggi Nasional (PTPTN) Loan
 - MARA Study Loan
 - EPF Withdrawal

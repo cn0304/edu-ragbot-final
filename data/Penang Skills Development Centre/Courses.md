@@ -40,7 +40,7 @@ Result not found in online
 
 ### Intake
 
-Mar, Jul
+March, July
 
 ### Entry Requirements
 
@@ -93,7 +93,7 @@ Result not found in online
 
 ### Intake
 
-May, Jul. Oct
+May, July. October
 
 ### Entry Requirements
 
@@ -178,7 +178,7 @@ Result not found in online
 
 ### Intake
 
-May, Jul. Oct
+May, July. October
 
 ### Entry Requirements
 
@@ -262,7 +262,7 @@ Result not found in online
 
 ### Intake
 
-May, Jul, Oct
+May, July, October
 
 ### Entry Requirements
 
@@ -373,7 +373,7 @@ Result not found in online
 
 ### Intake
 
-Feb, Mar, Jul
+February, March, July
 
 ### Entry Requirements
 
@@ -450,7 +450,7 @@ Result not found in online
 
 ### Intake
 
-Feb, Mar, Jul
+February, March, July
 
 ### Entry Requirements
 
@@ -680,7 +680,7 @@ Result not found in online
 
 ### Intake
 
-Feb, Mar, Jul
+February, March, July
 
 ### Entry Requirements
 

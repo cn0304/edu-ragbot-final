@@ -8,75 +8,35 @@ https://mckl.edu.my/pykett/programme/australian-matriculation/
 
 ### Programme Structure
 
-Students are required to select a combination of 5 ATAR Subjects from the list below with at least one course from List A and one course from List B. Students will also need to select 1 language course.
-
-NOTE:
-
-- Business Management and Enterprise
-
-- Economics
-
-- English / General English
-
-- *English as an Additional Language/Dialect (EALD)
-
-- Accounting and Finance ^KL
-
-- Applied Information Technology ^KL
-
-- Biology
-
-- Chemistry
-
-- Human Biology ^KL
-
-- Mathematics Applications
-
-- Mathematics Methods
-
-- Physics
-
-- Psychology
-
-- Numeracy
-
-- Reading
-
-- Writing
+**Compulsory Subjects**
 
 - Service Learning
-
 - Character Formation
 
-- *Evidence is required to be produced for EALD eligibility (less than 7 years of English medium education).
+**List A (Arts/Languages/Social Sciences)**
 
-- ^KL – Subjects offered in Kuala Lumpur Campus only.
+- Business Management and Enterprise
+- Economics
+- English / General English
+- *English as an Additional Language/Dialect (EALD)
 
-- ATAR courses are only offered in January & June intakes.
+**List B (Mathematics/Science/Technology)**
 
-- Human Biology (ATAR course) is only offered in the June intake.
+- Accounting and Finance ^KL
+- Applied Information Technology ^KL
+- Biology
+- Chemistry
+- Human Biology ^KL
+- Mathematics Applications
+- Mathematics Methods
+- Physics
+- Psychology
 
-- August intake students will need to re-register their courses in the subsequent January semester allowing them to choose different course combination depending on the course requirement.
+**Online Literacy And Numeracy Assessment (OLNA)**
 
-- The OLNA is an online assessment designed to enable students to successfully meet the Western Australian Certificate of Education (WACE) requirement of demonstrating the minimum standard of literacy (reading and writing) and numeracy
-
-  - Business Management and Enterprise
-  - Economics
-  - English / General English
-  - *English as an Additional Language/Dialect (EALD) |   - Accounting and Finance ^KL
-  - Applied Information Technology ^KL
-  - Biology
-  - Chemistry
-  - Human Biology ^KL
-  - Mathematics Applications
-  - Mathematics Methods
-  - Physics
-  - Psychology
-  - Numeracy
-  - Reading
-  - Writing
-  - Service Learning
-  - Character Formation
+- Numeracy
+- Reading
+- Writing
 
 ### Entry Requirements
 
@@ -92,9 +52,12 @@ Other QualificationsOther equivalent qualifications recognised by the Ministry o
 
 No information available
 
-### Intake
+### Duration
 
 12-18 months
+
+### Intake
+
 Next Intake: January & August
 
 ---
@@ -107,62 +70,29 @@ https://mckl.edu.my/pykett/programme/cambridge-a-level/
 
 ### Programme Structure
 
-Students are required to enrol a minimum of 3 subjects and a maximum of 4 subjects.
-
-Note:
-
-- Biology
-
-- Chemistry
-
-- Computer Science
-
-- Further Mathematics
-
-- Mathematics
-
-- Physics
-
-- Accounting *(KL)
-
-- Business
-
-- Economics
-
-- Law
-
-- Literature in English
-
-- Psychology
+**Compulsory Subjects**
 
 - Character Formation
-
 - Service Learning
-
 - Digital and Information Literacy *(PG)
 
-- *(KL) – Subjects offered in Kuala Lumpur Campus only.
+**Sciences**
 
-- *(PG) – Subjects offered in Penang, Pykett Campus only.
+- Biology
+- Chemistry
+- Computer Science
+- Further Mathematics
+- Mathematics
+- Physics
 
-- Students are advised to refer to the Admission Form when selecting the subject combinations.
+**Arts**
 
-- Further Mathematics can only be enrolled as the fourth subject.
-
-  - Biology
-  - Chemistry
-  - Computer Science
-  - Further Mathematics
-  - Mathematics
-  - Physics |   - Accounting *(KL)
-  - Business
-  - Economics
-  - Law
-  - Literature in English
-  - Psychology
-  - Character Formation
-  - Service Learning
-  - Digital and Information Literacy *(PG)
+- Accounting *(KL)
+- Business
+- Economics
+- Law
+- Literature in English
+- Psychology
 
 ### Entry Requirements
 
@@ -174,24 +104,22 @@ Other QualificationsOther equivalent qualifications recognised by the Ministry o
 
 PREREQUISITE
 
-- Credit in respective Science subject is required for Biology, Chemistry and Physics
-
-- Credit in Additional Mathematics is required for Mathematics and Computer Science
-
-- Further Mathematics must be enrolled with Mathematics
-
 Sijil Pelajaran Malaysia (SPM)Min. 5 credits including English and a pass in Bahasa Kebangsaan and History (Sejarah)O-Levels / IGCSE Min. 5 credits including EnglishOther QualificationsOther equivalent qualifications recognised by the Ministry of Higher Education (MOHE) or Malaysian Government will be considered on a case-by-case basis | **PREREQUISITE**
-  - Credit in respective Science subject is required for Biology, Chemistry and Physics
-  - Credit in Additional Mathematics is required for Mathematics and Computer Science
-  - Further Mathematics must be enrolled with Mathematics
+
+- Credit in respective Science subject is required for Biology, Chemistry and Physics
+- Credit in Additional Mathematics is required for Mathematics and Computer Science
+- Further Mathematics must be enrolled with Mathematics
 
 ### Fees
 
 No information available
 
-### Intake
+### Duration
 
 18 - 21 months
+
+### Intake
+
 Next Intake: January & July
 
 ---
@@ -204,52 +132,23 @@ https://mckl.edu.my/pykett/programme/cambridge-a-level-german-pathway/
 
 ### Programme Structure
 
-Students are required to enrol a minimum of 3 subjects and a maximum of 4 subjects.
-
-Subjects:
-
-Compulsory Subjects:
-
-German Language Proficiency:
-
-NOTE:
-
-- Mathematics
-
-- *Biology/Economics
-
-- *Law/Psychology
-
-- *Chemistry/Computer Science
-
-- Physics
+**Compulsory Subjects**
 
 - Service Learning
-
 - Character Formation
-
 - Digital and Information Literacy
 
+**Subjects**
+
+- Mathematics
+- *Biology/Economics
+- *Law/Psychology
+- *Chemistry/Computer Science
+- Physics
+
+**German Language Proficiency**
+
 - German Language Level A1, A2 & B1
-
-- Student may only select one subject based on the provided options.*
-
-- Students are advised to refer to the Admission Form when selecting the subject combinations.
-
-- Student’s progress in German language proficiency will be monitored throughout the programme.
-
-**Subjects:**
-  - Mathematics
-  - *Biology/Economics
-  - *Law/Psychology
-  - *Chemistry/Computer Science
-  - Physics
-**Compulsory Subjects:**
-  - Service Learning
-  - Character Formation
-  - Digital and Information Literacy
-**German Language Proficiency:**
-  - German Language Level A1, A2 & B1
 
 ### Entry Requirements
 
@@ -260,18 +159,19 @@ O-Levels / IGCSE Min. 5 credits including English
 Other QualificationsOther equivalent qualifications recognised by the Ministry of Higher Education (MOHE) or Malaysian Government will be considered on a case-by-case basis
 
 - Credit in respective Science subject is required for Biology, Chemistry and Physics
-
 - Credit in Additional Mathematics is required for Mathematics and Computer Science
-
 - Further Mathematics must be enrolled with Mathematics
 
 ### Fees
 
 No information available
 
-### Intake
+### Duration
 
 18 months
+
+### Intake
+
 Next Intake: January & July
 
 ---
@@ -286,119 +186,50 @@ https://mckl.edu.my/pykett/programme/diploma-in-computer-science/
 
 ### Programme Structure
 
-Discipline Core
-
-Specialisation
-
-Industrial Training
-
-Capstone Project
-
-** Uses SAS content and software.
-
-*Mata Pelajaran Pengajian Umum (MPU):
-
-NOTE:*MPU: The Ministry of Education (MOE) requires all students to take Mata Pelajaran Umum (MPU) (i.e. General Studies) within the duration of their studies. MCKL established a series of subjects that different programmes need to implement for all students to meet the Ministry’s requirements. Subjects will differ depending on the institution and the level of studies of the student.
+**Core**
 
 - Computer Organisation and Architecture
-
 - Fundamentals of Database
-
 - Discrete Mathematics
-
 - Calculus and Algebra
-
 - Data Communications and Networking
-
 - Computers and Operating Systems
-
 - Programming with Python
-
 - Systems Analysis and Design
-
-- Statistics**
-
+- Statistics
 - Cybersecurity
-
 - Professionalism and Ethics in Computing
 
+**Discipline Core**
+
 - Design Thinking
-
 - Human Computer Interaction
-
 - Project Management
-
 - Data Structure and Algorithms
-
 - Mobile Computing
-
 - Web Computing
-
 - Object-Oriented Development
-
 - Cloud Computing
+- Industrial Training
+- Capstone Project
 
-- Fundamentals of Data Science**
+**Specialisation**
 
-- Data Processing and Visualisation**
-
-- Introduction to Data Mining**
-
-- Machine Learning**
-
+- Fundamentals of Data Science
+- Data Processing and Visualisation
+- Introduction to Data Mining
+- Machine Learning
 - Big Data Architecture
 
+**Compulsory Subjects**
+
 - Falsafah dan Isu Semasa
-
 - Integrity and Anti-Corruption
-
 - Character Formation
-
 - Service Learning
-
-- Bahasa Kebangsaan AFor local students who do not have credit in SPM BM
-
-- Bahasa Melayu Komunikasi 1For international students
-
-- For local students who do not have credit in SPM BM
-
-- For international students
-
-Core | Discipline Core | Specialisation
-  - Computer Organisation and Architecture
-  - Fundamentals of Database
-  - Discrete Mathematics
-  - Calculus and Algebra
-  - Data Communications and Networking
-  - Computers and Operating Systems
-  - Programming with Python
-  - Systems Analysis and Design
-  - Statistics**
-  - Cybersecurity
-  - Professionalism and Ethics in Computing | **Industrial Training**
-  - Design Thinking
-  - Human Computer Interaction
-  - Project Management
-  - Data Structure and Algorithms
-  - Mobile Computing
-  - Web Computing
-  - Object-Oriented Development
-  - Cloud Computing |   - Fundamentals of Data Science**
-  - Data Processing and Visualisation**
-  - Introduction to Data Mining**
-  - Machine Learning**
-  - Big Data Architecture
-** Uses SAS content and software.
-***Mata Pelajaran Pengajian Umum (MPU):**
-  - Falsafah dan Isu Semasa
-  - Integrity and Anti-Corruption
-  - Character Formation
-  - Service Learning
-  - Bahasa Kebangsaan AFor local students who do not have credit in SPM BM
+- Bahasa Kebangsaan A
   - For local students who do not have credit in SPM BM
-  - Bahasa Melayu Komunikasi 1For international students
-  - For international students
-  - For local students who do not have credit in SPM BM
+- Bahasa Melayu Komunikasi 1
   - For international students
 
 ### Entry Requirements
@@ -425,11 +256,10 @@ Or Equivalent
 
 Note:
 
-- Candidates with a pass in Mathematics at SPM level (or Mathematics equivalent to SPM) and without a Mathematics subject in their admission qualification need to take and pass the reinforcement Mathematics subject that is equivalent to the SPM level. The reinforcement Mathematics subject must be offered in the first semester or before enrolment with an unconditional offer.
-
-- Candidates with a credit in Computing-related subject(s) at the SPM level (or equivalent to SPM level) may be given preferential consideration.
-
 SIJIL PELAJARAN MALAYSIA (SPM)Min. 3 credits including Mathematics and a pass in Bahasa Melayu and Sejarah (History)O LEVEL / IGCSEMin. 3 credits including MathematicsUEC Min. 3Bs including MathematicsSIJIL TINGGI PERSEKOLAHAN MALAYSIA (STPM)Min. a Grade C in any subjects and a credit in Mathematics at SPM level or its equivalent OTHER QUALIFICATIONSOther equivalent qualifications recognised by the Ministry of Higher Education (MOHE) or Malaysian Government will be considered on a case-by-case basis | ENGLISH REQUIREMENTS (INTERNATIONAL)CEFRMid B1IELTS4.5TOEFL iBT33Or Equivalent
+
+- Candidates with a pass in Mathematics at SPM level (or Mathematics equivalent to SPM) and without a Mathematics subject in their admission qualification need to take and pass the reinforcement Mathematics subject that is equivalent to the SPM level. The reinforcement Mathematics subject must be offered in the first semester or before enrolment with an unconditional offer.
+- Candidates with a credit in Computing-related subject(s) at the SPM level (or equivalent to SPM level) may be given preferential consideration.
 
 ### Fees
 
@@ -439,9 +269,12 @@ Tuition Fee: RM23,400
 
 Updated as of 26 May 2025
 
-### Intake
+### Duration
 
 2.5 years
+
+### Intake
+
 Next Intake: January, April & August
 
 ---
@@ -454,113 +287,50 @@ https://mckl.edu.my/pykett/programme/diploma-in-digital-business/
 
 ### Programme Structure
 
-Industrial Training
-
-*Mata Pelajaran Pengajian Umum (MPU):
-
-NOTE:*MPU: The Ministry of Education (MOE) requires all students to take Mata Pelajaran Umum (MPU) (i.e. General Studies) within the duration of their studies. MCKL established a series of subjects that different programmes need to implement for all students to meet the Ministry’s requirements. Subjects will differ depending on the institution and the level of studies of the student.
+**Core**
 
 - Business Ethics
-
 - Organisational Behaviour
-
 - Fundamentals of Innovation and Entrepreneurship
-
 - Introduction to Digital Business
-
 - International Business
-
 - Business Process Management
-
 - Introduction to Business Communication
-
 - Information System for Business
-
 - Introduction to Microeconomics
-
 - Introduction to Macroeconomics
-
 - Financial Accounting
-
 - Introduction to Finance
-
 - Introduction to Management
-
 - Introduction to Human Resource Management
-
 - Introduction to Marketing
-
 - Quantitative Methods
 
+**Discipline Core**
+
 - Business Law
-
 - Supply Chain Management
-
 - Business Data Communication
-
 - Cybersecurity
-
 - Introduction to Digital Marketing
+- Industrial Training
+
+**Specialisation**
 
 - Introduction to E-Commerce
-
 - Business Application Development
-
 - Decision Support Systems
-
 - Digital Business Project
 
+**Compulsory Subjects**
+
 - Falsafah dan Isu Semasa
-
 - Integrity and Anti-Corruption
-
 - Character Formation
-
 - Service Learning
-
-- Bahasa Kebangsaan A For local students who do not have credit in SPM BM
-
-- Bahasa Melayu Komunikasi 1 For international students
-
-- For local students who do not have credit in SPM BM
-
-- For international students
-
-Core | Discipline Core | Specialisation
-  - Business Ethics
-  - Organisational Behaviour
-  - Fundamentals of Innovation and Entrepreneurship
-  - Introduction to Digital Business
-  - International Business
-  - Business Process Management
-  - Introduction to Business Communication
-  - Information System for Business
-  - Introduction to Microeconomics
-  - Introduction to Macroeconomics
-  - Financial Accounting
-  - Introduction to Finance
-  - Introduction to Management
-  - Introduction to Human Resource Management
-  - Introduction to Marketing
-  - Quantitative Methods | **Industrial Training**
-  - Business Law
-  - Supply Chain Management
-  - Business Data Communication
-  - Cybersecurity
-  - Introduction to Digital Marketing |   - Introduction to E-Commerce
-  - Business Application Development
-  - Decision Support Systems
-  - Digital Business Project
-***Mata Pelajaran Pengajian Umum (MPU):**
-  - Falsafah dan Isu Semasa
-  - Integrity and Anti-Corruption
-  - Character Formation
-  - Service Learning
-  - Bahasa Kebangsaan A For local students who do not have credit in SPM BM
+- Bahasa Kebangsaan A
   - For local students who do not have credit in SPM BM
-  - Bahasa Melayu Komunikasi 1 For international students
-  - For international students
-  - For local students who do not have credit in SPM BM
+- Bahasa Melayu Komunikasi 1
   - For international students
 
 ### Entry Requirements
@@ -593,9 +363,12 @@ Tuition Fee: RM 23,400
 
 Updated as of 26 May 2025
 
-### Intake
+### Duration
 
 2.5 years
+
+### Intake
+
 Next Intake: January, April & August
 
 ---
@@ -608,117 +381,50 @@ https://mckl.edu.my/pykett/programme/diploma-in-digital-marketing/
 
 ### Programme Structure
 
-Discipline Core
-
-Specialisation
-
-Industrial Training
-
-*Mata Pelajaran Pengajian Umum (MPU):
-
-NOTE:*MPU: The Ministry of Education (MOE) requires all students to take Mata Pelajaran Umum (MPU) (i.e. General Studies) within the duration of their studies. MCKL established a series of subjects that different programmes need to implement for all students to meet the Ministry’s requirements. Subjects will differ depending on the institution and the level of studies of the student.
+**Core**
 
 - Business Ethics
-
 - Organisational Behaviour
-
 - Fundamentals of Innovation and Entrepreneurship
-
 - Introduction to Digital Business
-
 - International Business
-
 - Business Process Management
-
 - Introduction to Business Communication
-
 - Information System for Business
-
 - Introduction to Microeconomics
-
 - Introduction to Macroeconomics
-
 - Financial Accounting
-
 - Introduction to Finance
-
 - Intoduction to Management
-
 - Introduction to Human Resource Management
-
 - Introduction to Marketing
-
 - Quantitative Methods
 
+**Discipline Core**
+
 - Consumer Behaviour
-
 - Service Marketing
-
 - Strategic Brand Management
-
 - Strategic Global Marketing
-
 - Introduction to Digital Marketing
+- Industrial Training
+
+**Specialisation**
 
 - Search Engine Optimisation
-
 - Social Media Content Marketing
-
 - Marketing Research and Analytics
-
 - Digital Marketing Project
 
+**Compulsory Subjects**
+
 - Falsafah dan Isu Semasa
-
 - Integrity and Anti-Corruption
-
 - Character Formation
-
 - Service Learning
-
-- Bahasa Kebangsaan AFor local students who do not have credit in SPM BM
-
-- Bahasa Melayu Komunikasi 1For international students
-
-- For local students who do not have credit in SPM BM
-
-- For international students
-
-Core | Discipline Core | Specialisation
-  - Business Ethics
-  - Organisational Behaviour
-  - Fundamentals of Innovation and Entrepreneurship
-  - Introduction to Digital Business
-  - International Business
-  - Business Process Management
-  - Introduction to Business Communication
-  - Information System for Business
-  - Introduction to Microeconomics
-  - Introduction to Macroeconomics
-  - Financial Accounting
-  - Introduction to Finance
-  - Intoduction to Management
-  - Introduction to Human Resource Management
-  - Introduction to Marketing
-  - Quantitative Methods | **Industrial Training**
-  - Consumer Behaviour
-  - Service Marketing
-  - Strategic Brand Management
-  - Strategic Global Marketing
-  - Introduction to Digital Marketing |   - Search Engine Optimisation
-  - Social Media Content Marketing
-  - Marketing Research and Analytics
-  - Digital Marketing Project
-***Mata Pelajaran Pengajian Umum (MPU):**
-  - Falsafah dan Isu Semasa
-  - Integrity and Anti-Corruption
-  - Character Formation
-  - Service Learning
-  - Bahasa Kebangsaan AFor local students who do not have credit in SPM BM
+- Bahasa Kebangsaan A
   - For local students who do not have credit in SPM BM
-  - Bahasa Melayu Komunikasi 1For international students
-  - For international students
-  - For local students who do not have credit in SPM BM
+- Bahasa Melayu Komunikasi 1
   - For international students
 
 ### Entry Requirements
@@ -751,9 +457,12 @@ Tuition Fee: RM23,400
 
 Updated as of 28 May 2025
 
-### Intake
+### Duration
 
 2.5 years
+
+### Intake
+
 Next Intake: January, April & August
 
 ---
@@ -766,131 +475,63 @@ https://mckl.edu.my/pykett/programme/diploma-in-early-childhood-education/
 
 ### Programme Structure
 
-Child Development Behaviour
-
-Pedagogical Practices and Research
-
-Early Years Curriculum
-
-Child’s Wellness and Families
-
-Administration and Management
-
-Technology and Communication
-
-Practical
-
-*Mata Pelajaran Umum (MPU)
-
-NOTE:*MPU Subjects: The Ministry of Higher Education (MOHE) requires all students to take Mata Pelajaran Umum (MPU)(i.e. General Studies) within the duration of their studies. MCKL establishes a series of subjects that different programmes need to implement for all students to meet the Ministry’s requirements. Subjects will differ depending on the institution and the level of studies of the student.
-
-- Child Development
-
-- Observation and Assessment of Young Children
-
-- Behavioural Guidance of Children
-
-- Children with Special Needs
-
-- Foundations of Professional Practice
-
-- Early Childhood Education Standards and Approaches
-
-- Pedagogies in Early Childhood Education (New)
-
-- Introduction to Early Childhood Educational Research (New)
-
-- Foundations of Early Childhood Education
-
-- Language and Early Literacy
-
-- Teaching Mathematics to Young Children
-
-- Teaching Science to Young Children
-
-- Teaching Social Studies to Young Children
-
-- Physical Education for Young Children
-
-- Play in Early Childhood Education
-
-- Creative Expressions through Art and Drama
-
-- Creative Expressions through Music and Movement
-
-- Infant and Toddler Care
-
-- Child’s Health, Safety, and Nutrition
-
-- Partnership with Families and the Community
-
-- Programme Planning and Implementation
-
-- Entrepreneurship and Early Childhood Administration
-
-- Technology in Early Childhood Education
-
-- English Enhancement
-
-- Practicum I: Block Practice in Childcare Centre (TASKA)
-
-- Practicum II: Block Practice in Preschool/ Kindergarten (TADIKA)
+**Compulsory Subjects**
 
 - Falsafah dan Isu Semasa
-
 - Information Literacy
-
 - Character Formation
-
 - Service Learning
-
-- Bahasa Kebangsaan AFor local students who do not have credit in SPM BM
-
+- Bahasa Kebangsaan A
+  - For local students who do not have credit in SPM BM
 - BM Komunikasi 1For international students
-
-- For local students who do not have credit in SPM BM
-
-- For international students
+  - For international students
 
 **Child Development Behaviour**
-  - Child Development
-  - Observation and Assessment of Young Children
-  - Behavioural Guidance of Children
-  - Children with Special Needs
-  - Foundations of Professional Practice
-  - Early Childhood Education Standards and Approaches
-  - Pedagogies in Early Childhood Education (New)
-  - Introduction to Early Childhood Educational Research (New) | **Early Years Curriculum**
-  - Foundations of Early Childhood Education
-  - Language and Early Literacy
-  - Teaching Mathematics to Young Children
-  - Teaching Science to Young Children
-  - Teaching Social Studies to Young Children
-  - Physical Education for Young Children
-  - Play in Early Childhood Education
-  - Creative Expressions through Art and Drama
-  - Creative Expressions through Music and Movement | **Child’s Wellness and Families**
-  - Infant and Toddler Care
-  - Child’s Health, Safety, and Nutrition
-  - Partnership with Families and the Community
-  - Programme Planning and Implementation
-  - Entrepreneurship and Early Childhood Administration
-  - Technology in Early Childhood Education
-  - English Enhancement
+
+- Child Development
+- Observation and Assessment of Young Children
+- Behavioural Guidance of Children
+- Children with Special Needs
+
+**Pedagogical Practices and Research**
+
+- Foundations of Professional Practice
+- Early Childhood Education Standards and Approaches
+- Pedagogies in Early Childhood Education (New)
+- Introduction to Early Childhood Educational Research (New)
+
+**Early Years Curriculum**
+
+- Foundations of Early Childhood Education
+- Language and Early Literacy
+- Teaching Mathematics to Young Children
+- Teaching Science to Young Children
+- Teaching Social Studies to Young Children
+- Physical Education for Young Children
+- Play in Early Childhood Education
+- Creative Expressions through Art and Drama
+- Creative Expressions through Music and Movement
+
+**Child’s Wellness and Families**
+
+- Infant and Toddler Care
+- Child’s Health, Safety, and Nutrition
+- Partnership with Families and the Community
+
+**Administration and Management**
+
+- Programme Planning and Implementation
+- Entrepreneurship and Early Childhood Administration
+
+**Technology and Communication**
+
+- Technology in Early Childhood Education
+- English Enhancement
+
 **Practical**
-  - Practicum I: Block Practice in Childcare Centre (TASKA)
-  - Practicum II: Block Practice in Preschool/ Kindergarten (TADIKA)
-***Mata Pelajaran Umum (MPU)**
-  - Falsafah dan Isu Semasa
-  - Information Literacy
-  - Character Formation
-  - Service Learning
-  - Bahasa Kebangsaan AFor local students who do not have credit in SPM BM
-  - For local students who do not have credit in SPM BM
-  - BM Komunikasi 1For international students
-  - For international students
-  - For local students who do not have credit in SPM BM
-  - For international students
+
+- Practicum I: Block Practice in Childcare Centre (TASKA)
+- Practicum II: Block Practice in Preschool/ Kindergarten (TADIKA)
 
 ### Entry Requirements
 
@@ -912,9 +553,12 @@ Tuition Fee: RM20,700
 
 Updated as of 28 March 2025
 
-### Intake
+### Duration
 
 2.5 years
+
+### Intake
+
 Next Intake: January, April & August
 
 ---
@@ -927,119 +571,50 @@ https://mckl.edu.my/pykett/programme/diploma-in-information-technology/
 
 ### Programme Structure
 
-Discipline Core
-
-Specialisation
-
-Industrial Training
-
-Capstone Project
-
-** Uses SAS content and software.
-
-*Mata Pelajaran Pengajian Umum (MPU):
-
-NOTE:*MPU: The Ministry of Education (MOE) requires all students to take Mata Pelajaran Umum (MPU) (i.e. General Studies) within the duration of their studies. MCKL established a series of subjects that different programmes need to implement for all students to meet the Ministry’s requirements. Subjects will differ depending on the institution and the level of studies of the student.
+**Core**
 
 - Computer Organisation and Architecture
-
 - Fundamentals of Database
-
 - Discrete Mathematics
-
 - Calculus and Algebra
-
 - Data Communications and Networking
-
 - Computers and Operating Systems
-
 - Programming with Python
-
 - Systems Analysis and Design
-
-- Statistics**
-
+- Statistics
 - Cybersecurity
-
 - Professionalism and Ethics in Computing
 
+**Discipline Core**
+
 - Design Thinking
-
 - Human Computer Interaction
-
 - Project Management
-
 - Data Structure and Algorithms
-
 - Mobile Computing
-
 - Web Computing
-
 - Object-Oriented Development
-
 - Cloud Computing
+- Industrial Training
+- Capstone Project
 
-- Fundamentals of Data Science**
+**Specialisation**
 
-- Data Processing and Visualisation**
-
-- Introduction to Data Mining**
-
-- Machine Learning**
-
+- Fundamentals of Data Science
+- Data Processing and Visualisation
+- Introduction to Data Mining
+- Machine Learning
 - Big Data Architecture
 
+**Compulsory Subjects**
+
 - Falsafah dan Isu Semasa
-
 - Integrity and Anti-Corruption
-
 - Character Formation
-
 - Service Learning
-
-- Bahasa Kebangsaan AFor local students who do not have credit in SPM BM
-
-- Bahasa Melayu Komunikasi 1For international students
-
-- For local students who do not have credit in SPM BM
-
-- For international students
-
-Core | Discipline Core | Specialisation
-  - Computer Organisation and Architecture
-  - Fundamentals of Database
-  - Discrete Mathematics
-  - Calculus and Algebra
-  - Data Communications and Networking
-  - Computers and Operating Systems
-  - Programming with Python
-  - Systems Analysis and Design
-  - Statistics**
-  - Cybersecurity
-  - Professionalism and Ethics in Computing | **Industrial Training**
-  - Design Thinking
-  - Human Computer Interaction
-  - Project Management
-  - Data Structure and Algorithms
-  - Mobile Computing
-  - Web Computing
-  - Object-Oriented Development
-  - Cloud Computing |   - Fundamentals of Data Science**
-  - Data Processing and Visualisation**
-  - Introduction to Data Mining**
-  - Machine Learning**
-  - Big Data Architecture
-** Uses SAS content and software.
-***Mata Pelajaran Pengajian Umum (MPU):**
-  - Falsafah dan Isu Semasa
-  - Integrity and Anti-Corruption
-  - Character Formation
-  - Service Learning
-  - Bahasa Kebangsaan AFor local students who do not have credit in SPM BM
+- Bahasa Kebangsaan A
   - For local students who do not have credit in SPM BM
-  - Bahasa Melayu Komunikasi 1For international students
-  - For international students
-  - For local students who do not have credit in SPM BM
+- Bahasa Melayu Komunikasi 1
   - For international students
 
 ### Entry Requirements
@@ -1066,11 +641,10 @@ Or Equivalent
 
 Note:
 
-- Candidates with a pass in Mathematics at SPM level (or Mathematics equivalent to SPM) and without a Mathematics subject in their admission qualification need to take and pass the reinforcement Mathematics subject that is equivalent to the SPM level. The reinforcement Mathematics subject must be offered in the first semester or before enrolment with an unconditional offer.
-
-- Candidates with a credit in Computing-related subject(s) at the SPM level (or equivalent to SPM level) may be given preferential consideration.
-
 SIJIL PELAJARAN MALAYSIA (SPM)Min. 3 credits including Mathematics and a pass in Bahasa Melayu and Sejarah (History)O LEVEL / IGCSEMin. 3 credits including MathematicsUEC Min. 3Bs including MathematicsSIJIL TINGGI PERSEKOLAHAN MALAYSIA (STPM)Min. a Grade C in any subjects and a credit in Mathematics at SPM level or its equivalent OTHER QUALIFICATIONSOther equivalent qualifications recognised by the Ministry of Higher Education (MOHE) or Malaysian Government will be considered on a case-by-case basis | ENGLISH REQUIREMENTS (INTERNATIONAL)CEFRMid B1IELTS4.5TOEFL iBT33Or Equivalent
+
+- Candidates with a pass in Mathematics at SPM level (or Mathematics equivalent to SPM) and without a Mathematics subject in their admission qualification need to take and pass the reinforcement Mathematics subject that is equivalent to the SPM level. The reinforcement Mathematics subject must be offered in the first semester or before enrolment with an unconditional offer.
+- Candidates with a credit in Computing-related subject(s) at the SPM level (or equivalent to SPM level) may be given preferential consideration.
 
 ### Fees
 
@@ -1080,9 +654,12 @@ Tuition Fee: RM23,400
 
 Updated as of 26 May 2025
 
-### Intake
+### Duration
 
 2.5 years
+
+### Intake
+
 Next Intake: January, April & August
 
 ---
@@ -1097,41 +674,20 @@ https://mckl.edu.my/pykett/programme/cambridge-a-level-preparatory-prepcal-progr
 
 ### Programme Structure
 
+**Subjects Offering**
+
 - Fundamentals of Accounting
-
 - Fundamentals of Biology
-
 - Fundamentals of Business
-
 - Fundamentals of Chemistry
-
 - Fundamentals of Economics
-
 - Fundamentals of Pure Mathematics
-
 - Fundamentals of Applied Mathematics
-
 - Fundamentals of Physics
-
 - Introduction to Computer Science
-
 - Introduction to Literature in English
-
 - Introduction to Law
-
 - Introduction to Psychology
-
-  - Fundamentals of Accounting
-  - Fundamentals of Biology
-  - Fundamentals of Business
-  - Fundamentals of Chemistry
-  - Fundamentals of Economics
-  - Fundamentals of Pure Mathematics
-  - Fundamentals of Applied Mathematics |   - Fundamentals of Physics
-  - Introduction to Computer Science
-  - Introduction to Literature in English
-  - Introduction to Law
-  - Introduction to Psychology
 
 ### Entry Requirements
 
@@ -1145,6 +701,11 @@ Admission Deposit | 500 | 3,000
 Student Resource Fee | 850 | 850
 Course Fee (3-4 subjects) | 3,500 – 4,000 | 3,500 – 4,000
 Total (RM) | 5,450 – 5,950 | 8,850 – 9,350
+
+### Duration
+
+Preparatory Course 10 Teaching Weeks Programme
+10 Teaching Weeks Programme
 
 ### Intake
 
@@ -1173,24 +734,22 @@ Minimum Entry Requirements
 English Language RequirementsCambridge recommends a minimum requirement of Band 5.5 for IELTS, equivalent to Band 4 MUET and Grade C in SPM / 1119 English
 
 - Possess at least a diploma or degree in any discipline.
-
 - Be a full- or part-time teacher employed in an educational institution such as a school, college, university.
-
 - Teach in their current education institution over a full academic year for a minimum of 24 weeks and a minimum of 6 hours per week;
-
 - Have a regular support of a mentor who understands the essential educational principles;
-
 - Teach a group of minimum 6 learners;
-
 - Be responsible for planning, teaching and formatively assessing students
 
 ### Fees
 
 No information available
 
-### Intake
+### Duration
 
 4 months (Module 1)
+
+### Intake
+
 Next Intake: March, June, August
 
 ---
@@ -1212,26 +771,23 @@ Minimum Entry Requirements
 English Language RequirementsCambridge recommends a minimum requirement of Band 5.5 for IELTS, equivalent to Band 4 MUET and Grade C in SPM / 1119 English
 
 - Possess at least a diploma or degree in any discipline
-
 - Completed and achieved a Pass or Distinction in Module 1 (CICTL) within three (3) years from the submission of Module 1 (Certicate) to make an entry for Module 2, and one (1) year from the submission of Module 2 (Diploma) to make an entry for Module 3 (Diploma)
-
 - Be a full- or part-time teacher employed in an educational institution such as a school, college, university
-
 - Teach in their current education institution over a full academic year for a minimum of 24 weeks and a minimum of 6 hours per week
-
 - Have a regular support of a mentor who understands the essential educational principles
-
 - Teach a group of minimum 6 learners
-
 - Be responsible for planning, teaching and formatively assessing students
 
 ### Fees
 
 No information available
 
-### Intake
+### Duration
 
 4 months per module
+
+### Intake
+
 Next Intake: April (Module 2), November (Module 3)
 
 ---
@@ -1244,7 +800,33 @@ https://mckl.edu.my/pykett/programme/effective-lesson-design-and-planning/
 
 ### Programme Structure
 
-No information available
+**Part 1 Backward Planning**
+
+- What, Who, Why, and How
+
+**Part 2 Aim vs Learning Objectives**
+
+- Aim and objectives in general
+- Aim and learning objectives in teaching context
+
+**Part 3 The Basic Structure of Lesson Design**
+
+- Three Stages: The Begining, Middle and The EndThe Beginning The Activities Sharing the Learning Objectives The Middle PEP Model PAR Model The Strategy of Gradual Release of Responsibility Webb’s Depth of Knowledge (DOK)The End The Activities
+- The Beginning The Activities Sharing the Learning Objectives
+- The Activities
+- Sharing the Learning Objectives
+- The Middle PEP Model PAR Model The Strategy of Gradual Release of Responsibility Webb’s Depth of Knowledge (DOK)
+- PEP Model
+- PAR Model
+- The Strategy of Gradual Release of Responsibility
+- Webb’s Depth of Knowledge (DOK)
+- The End The Activities
+
+**Mode of Delivery**
+
+- Lecture
+- Interactive Activities
+- Discussions
 
 ### Entry Requirements
 
@@ -1257,6 +839,11 @@ No information available
 Duration | Half Day (4 Hours)
 Normal Rate | RM 650 per pax
 Group Rate | RM 3,000 group of 6 & above
+
+### Duration
+
+Short Course FOUR (4) Hours
+FOUR (4) Hours
 
 ### Intake
 
@@ -1274,7 +861,21 @@ https://mckl.edu.my/pykett/programme/embracing-autism-understanding-supporting-l
 
 ### Programme Structure
 
-No information available
+**Module 1**
+
+- What is autism spectrum disorder?
+- The behavioural characteristics of autism
+
+**Module 2**
+
+- Educational strategies for teaching learners with autism
+- Characteristics of a learning environment that support the success of learners with autism
+
+**Mode of Delivery**
+
+- Lecture
+- Interactive Activities
+- Discussions
 
 ### Entry Requirements
 
@@ -1287,6 +888,11 @@ No information available
 Duration | Half Day (4 Hours)
 Normal Rate | RM 650 per pax
 Group Rate | RM 3,000 group of 6 & above
+
+### Duration
+
+Short Course FOUR (4) Hours
+FOUR (4) Hours
 
 ### Intake
 
@@ -1304,7 +910,20 @@ https://mckl.edu.my/pykett/programme/fa-sa-formative-assessment-and-summative-as
 
 ### Programme Structure
 
-No information available
+**Programme Structure**
+
+- Understanding assessment in teaching & learning
+- Types of assessments (Formative vs Summative)
+- Basic principles of assessments
+- Formative and summative assessment methods
+- Considerations for the selection of assessment methods
+- Assessment for Learning (AfL)
+- AfL in practice
+
+**Mode Of Delivery**
+
+- Lecture
+- Group discussions and activities
 
 ### Entry Requirements
 
@@ -1318,102 +937,16 @@ Duration | Half Day (4 hours)
 Normal Rate | RM 650 per pax
 Group Rate | RM 3,000 per group of 6 & above
 
+### Duration
+
+Short Course Four (4) Hours
+Four (4) Hours
+
 ### Intake
 
 Short Course
 Four (4) Hours
 Next Intake: June, August, December 2023
-
----
-
-## micro-credentials-in-fundamentals-of-innovation-and-entrepreneurship
-
-### URL
-
-https://mckl.edu.my/pykett/programme/micro-credentials-in-fundamentals-of-innovation-and-entrepreneurship/
-
-### Programme Structure
-
-No information available
-
-### Entry Requirements
-
-No information available
-
-### Fees
-
-*Group rate: Min 3 pax and above
-
-Category | Rates
-Group Rate | RM 480 per pax
-Student Rate | RM 600 per pax
-Normal Rate | RM 1,200 per pax
-
-### Intake
-
-Short Course
-7 weeks
-Next Intake: 23 Oct - 21 Dec
-
----
-
-## micro-credentials-in-information-system
-
-### URL
-
-https://mckl.edu.my/pykett/programme/micro-credentials-in-information-system/
-
-### Programme Structure
-
-No information available
-
-### Entry Requirements
-
-No information available
-
-### Fees
-
-Category | Rates
-Group Rate(Min 3 pax above) | RM 480 per pax
-Promo Rate | RM 600 per pax
-Normal Rate | RM 1,200 per pax
-
-### Intake
-
-Short courses
-14 weeks
-Next Intake: 28 Aug - 8 Dec
-
----
-
-## micro-credentials-in-programming-with-python
-
-### URL
-
-https://mckl.edu.my/pykett/programme/micro-credentials-in-programming-with-python/
-
-### Programme Structure
-
-No information available
-
-### Entry Requirements
-
-No information available
-
-### Fees
-
-*Group rate: Min 3 pax and above
-
-Category | Rates
-Group Rate | RM 480 per pax*
-Student Rate | RM 600 per pax
-Normal Rate | RM 1,200 per pax
-
-### Intake
-
-Short Courses
-7 weeks
-Next Intake: 23 Oct - 8 Dec
 
 ---
 
@@ -1425,7 +958,34 @@ https://mckl.edu.my/pykett/programme/teaching-and-effective-active-learning-clas
 
 ### Programme Structure
 
-No information available
+**Module 1 Why active learning?**
+
+- Differentiation of instructions
+- Catering to diversity of learning styles
+
+**Module 2 Using active learning strategies at the start of the lesson**
+
+- Communicate the focus
+- Provocation
+- Active student response
+
+**Module 3 What is active learning?**
+
+- Definition of active learning
+- Theory behind active learning
+- Benefits of active learning
+
+**Module 4 Using active learning strategies at the end of the lesson**
+
+- K-W-L
+- Muddiest Point
+- Fist-to-Five
+
+**Mode of Delivery**
+
+- Lecture
+- Interactive Activities
+- Discussions
 
 ### Entry Requirements
 
@@ -1438,6 +998,11 @@ No information available
 Duration | Half Day (4 hours)
 Normal Rate | RM 650 per pax
 Group Rate | RM 3,000 per group of 6 & above
+
+### Duration
+
+Short Course Four (4) Hours
+Four (4) Hours
 
 ### Intake
 
@@ -1455,7 +1020,28 @@ https://mckl.edu.my/pykett/programme/thriving-with-attention-deficit-hyperactivi
 
 ### Programme Structure
 
-No information available
+**Topic 1 Learners within the autism spectrum disorder**
+
+- What is autism spectrum disorder?
+- The behavioural characteristics of autism
+- Educational strategies for teaching learners with autism
+
+**Topic 2 Learners with ADHD**
+
+- What is ADHD?
+- The behavioural characteristics of ADHD
+- Educational strategies for managing ADHD behaviours
+
+**Topic 3 Solutions to behavioural issues in inclusive classrooms**
+
+- Types of behavioural issues common with learners with special needs
+- Possible solutions to these behavioural issues
+
+**Mode of Delivery**
+
+- Lecture (F2F/ Online / Hybrid)
+- Interactive Activities
+- Discussions
 
 ### Entry Requirements
 
@@ -1468,6 +1054,11 @@ No information available
 Duration | Full Day (8 hours) including 1 hour lunch
 Normal Rate | RM 1,300 per pax
 Group Rate | RM 6,000 per group of 6 & above
+
+### Duration
+
+Short Course Eight (8) Hours
+Eight (8) Hours
 
 ### Intake
 

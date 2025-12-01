@@ -1,5 +1,8 @@
 ## Doctor of Dental Surgery (DDS)
 
+### URL
+https://www.pidc.edu.my/dds/#
+
 ### Application Form PIDC DDS Programme
 
 1\. Please download the [**Application Form**](https://join.pidc.edu.my/onlineapp-home912677)
@@ -18,6 +21,9 @@ WhatsApp: +6012-203 8638 / +6012-322 7432 / +6012-742 7432
 
 ## Foundation in Science
 
+### URL
+https://www.pidc.edu.my/fis/
+
 [**Foundation in Science Application Form**](https://join.pidc.edu.my/onlineapp-home912677)
 
 [**Foundation in Science Brochure**](https://www.pidc.edu.my/wp-content/uploads/fis/FISBrochure2025-web-version.pdf)
@@ -28,6 +34,9 @@ For questions and enquiries related to DDS programme, FIS programme and FIA prog
 
 
 ## Foundation in Arts
+### URL
+https://www.pidc.edu.my/fia/
+
 [**Foundation in Arts Application Form**](https://join.pidc.edu.my/onlineapp-home912677)
 
 For questions and enquiries related to DDS programme, FIS programme and FIA programme admission and intakes, kindly, please [contact us](https://www.pidc.edu.my/contact/).

@@ -142,10 +142,10 @@
         font-family: 'Inter', system-ui, sans-serif;
         background: #f8fafc;
         color: #0f172a;
-        min-height: 100vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        overflow: auto;
+        overflow: hidden;
       }
 
       /* Header */
@@ -175,10 +175,17 @@
         gap: 8px;
       }
 
-      h1::before {
+      header h1::before {
         content: "🤖";
-        font-size: 24px;
-      }
+          font-size: 24px;
+        }
+
+        /* Remove the robot from headings inside the assistant's messages */
+        .message.assistant .message-content h1::before,
+        .message.assistant .message-content h2::before,
+        .message.assistant .message-content h3::before {
+          content: none !important;
+        }
 
       .nav-links {
         display: flex;
@@ -280,9 +287,14 @@
         max-width: 1400px;
         width: 100%;
         margin: 0 auto;
-        padding: 24px;
+        padding: 0 24px 26px;
         overflow: hidden;
       }
+
+      /* after entering chat, bring the top padding back */
+        body.skip-hero .chat-container{
+          padding: 24px; /* normal spacing once hero is gone */
+        }
 
       /* Messages Area */
       .messages {
@@ -390,9 +402,30 @@
       }
 
       /* --- Markdown headings --- */
-    .message-content h1 { font-size: 20px; line-height: 1.35; margin: 10px 0 6px; font-weight: 700; }
-    .message-content h2 { font-size: 18px; line-height: 1.35; margin: 10px 0 6px; font-weight: 700; }
-    .message-content h3 { font-size: 16px; line-height: 1.35; margin: 8px 0 4px;  font-weight: 600; }
+    .message-content h1 {
+      font-size: 20px;
+      line-height: 1.35;
+      margin: 10px 0 6px;
+      font-weight: 700;
+      color: inherit;   /* <- follow bubble text colour */
+    }
+
+    .message-content h2 {
+      font-size: 18px;
+      line-height: 1.35;
+      margin: 10px 0 6px;
+      font-weight: 700;
+      color: inherit;   /* <- follow bubble text colour */
+    }
+
+    .message-content h3 {
+      font-size: 16px;
+      line-height: 1.35;
+      margin: 8px 0 4px;
+      font-weight: 600;
+      color: inherit;   /* <- follow bubble text colour */
+    }
+
     .message-content p  { margin: 0 0 8px; }
     .message-content ul, .message-content ol { margin: 8px 0 8px 18px; }
 
@@ -603,6 +636,19 @@
         border-color: #334155;
       }
 
+      /* Make header text readable in dark mode */
+    html[data-theme="dark"] header h1 {
+      color: #f9fafb;          /* bright text for "University Assistant" */
+    }
+
+    html[data-theme="dark"] .filter-label {
+      color: #e5e7eb;          /* "University List:" label */
+    }
+
+    html[data-theme="dark"] header .nav-link {
+      color: #e5e7eb;          /* Dashboard text */
+    }
+
       /* Sources + dividers */
       :root[data-theme="dark"] .sources { border-top-color:#334155; }
       :root[data-theme="dark"] .sources .source-item { color:#94a3b8; }
@@ -734,44 +780,161 @@
   :root[data-theme="dark"] .fb-tag:hover{ background:#111827; }
   :root[data-theme="dark"] .fb-tag.active{ background:#3b82f6; color:#fff; border-color:#3b82f6; }
 
-
-  .hero-landing{
-  position:relative;
-  height:100vh;
-  overflow:hidden;
-  color:#fff;
-  background:
-    /* overlay so text stays readable */
-    linear-gradient(180deg, rgba(11,18,32,.55) 0%, rgba(30,58,138,.45) 70%, rgba(11,18,32,.65) 100%),
-    url("/static/img/welcoming.png") center / cover no-repeat fixed;
-  transition: transform .6s ease, opacity .6s ease;
-  will-change: transform, opacity;
+.hero-title{
+  text-align:center;
+  margin: 4px auto 14px;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing:.2px;
+  color:#1e293b;
+}
+html[data-theme="dark"] .hero-title{
+  color:#f3f4f6;
+  text-shadow:0 2px 6px rgba(0,0,0,.55);
 }
 
-  .hero-landing.exiting{
-  opacity: 0;
-  transform: translateY(-6vh);
+/* HERO GRID (thumbs pop in TL→BR) */
+.hero-grid{ padding:20px 24px 8px; }
+/* grid keeps perspective so children can tilt */
+.hero-grid .grid{
+  display:grid;
+  grid-template-columns: repeat(5, 240px);
+  gap:16px;
+  justify-content:center;
+  margin:0 auto;
+  perspective: 1000px;
+  perspective-origin: 50% 35%;
 }
 
+/* base card */
+.uni-card{
+  width:240px;
+  opacity:0;
+  transform: scale(.94) translateY(10px);
+  transition:
+    opacity .75s ease,
+    transform .28s cubic-bezier(.2,.8,.2,1),
+    box-shadow .28s ease;
+  will-change: opacity, transform;
+  background: rgba(255,255,255,.82);
+  border: 1px solid rgba(226,232,240,.7);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(15,23,42,.08);
+  cursor: default; /* not clickable */
+}
+.uni-card.show{ opacity:1; transform:none; }
+html[data-theme="dark"] .uni-card{
+  background: rgba(15,23,42,.70);
+  border-color: rgba(31,41,55,.7);
+}
+
+/* image */
+.uni-img{
+  width:100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  display:block;
+  transition: transform .25s ease;
+  transform-origin:center;
+}
+/* (Optional) keep image steady while the container scales */
+@media (hover:hover){
+  .uni-card:hover .uni-img{ transform: none; }
+}
+
+/* hover lift + scale (works even without JS tilt) */
+@media (hover:hover){
+  .uni-card:hover{
+    transform: translateY(-6px) scale(1.04);
+    box-shadow: 0 20px 44px rgba(15,23,42,.22);
+  }
+}
+
+.uni-caption{ padding:10px 12px; font-weight:700; font-size:14px; text-align:center; color:#1e293b; }
+html[data-theme="dark"] .uni-caption{ color:#e5e7eb; }
+
+/* RESPONSIVE fallbacks so it doesn’t overflow on smaller screens */
+@media (max-width: 1280px){
+  .hero-grid .grid{ grid-template-columns: repeat(4, 240px); }
+}
+@media (max-width: 1024px){
+  .hero-grid .grid{ grid-template-columns: repeat(3, 220px); gap:14px; }
+  .uni-card{ width:220px; }
+}
+@media (max-width: 760px){
+  .hero-grid .grid{ grid-template-columns: repeat(2, 200px); gap:12px; }
+  .uni-card{ width:200px; }
+}
+@media (max-width: 480px){
+  .hero-grid .grid{ grid-template-columns: 1fr; }
+  .uni-card{ width:100%; }
+}
+
+/* HERO height + layout (fills screen under header) */
+#hero{
+  min-height: calc(100vh - var(--header-h, 72px)); /* fallback stops the warning */
+  display: flex;
+  flex-direction: column;
+  transition: opacity .6s ease, transform .6s ease;
+  will-change: opacity, transform;
+}
+#hero.exiting{
+  opacity:0;
+  transform: translateY(-8px);
+}
+
+/* grid grows; hint sits at bottom */
+#heroGrid{ flex: 1 1 auto; }
+
+/* Scroll hint — text only, larger, grey */
+.scroll-hint{
+  margin-top: auto;            /* stays at bottom of hero */
+  text-align: center;
+  font-size: 20px;             /* ↑ bigger than before */
+  font-weight: 800;            /* bolder */
+  letter-spacing: .2px;
+  color: #64748b;              /* grey */
+  cursor: pointer;             /* still clickable to enter */
+  user-select: none;
+}
+
+/* keep your arrow bounce */
+.scroll-hint .arrow{
+  display: inline-block;
+  animation: nudge 1.2s infinite ease-in-out;
+}
+
+/* optional: grey for dark theme */
+html[data-theme="dark"] .scroll-hint{
+  color: #cbd5e1;
+}
+.scroll-hint:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(15,23,42,.18);
+}
+
+@keyframes nudge{
+  0%,100%{ transform: translateY(0); opacity:.9; }
+  50%{ transform: translateY(2px); opacity:1; }
+}
+
+/* Dark theme */
+html[data-theme="dark"] .scroll-hint{
+  color: #e5e7eb;
+  background: rgba(15,23,42,.75);
+  border-color: rgba(31,41,55,.7);
+  box-shadow: 0 8px 24px rgba(0,0,0,.45);
+}
+
+/* Hide hero after entering chat */
 body.skip-hero #hero{ display:none; }
-.hero-nav{position:absolute;inset:0 0 auto;height:64px;display:flex;align-items:center;justify-content:space-between;
-  padding:0 24px;background:rgba(15,23,42,.35);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.08);}
-.hero-nav .brand{font-weight:700}
-.hero-nav .links a{color:#e5e7eb;text-decoration:none;margin-left:16px;font-size:14px;opacity:.9}
-.hero-center{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 20px}
-.hero-center h2{font-size:56px;letter-spacing:.04em;margin:0 0 10px}
-.hero-center p{font-size:18px;opacity:.9;max-width:720px}
-.scroll-hint{margin-top:18px;font-size:14px;opacity:.85;animation:hint 2.2s infinite}
-@keyframes hint{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
-.mountain.layer{position:absolute;left:0;right:0;bottom:0;height:45vh;pointer-events:none}
-.mountain.back{background:linear-gradient(#243b72,#1f2e5a);opacity:.35}
-.mountain.mid{background:linear-gradient(#172554,#0f1a36);opacity:.55;clip-path:polygon(0 60%,15% 45%,35% 55%,55% 40%,80% 55%,100% 45%,100% 100%,0 100%)}
-.mountain.front{background:linear-gradient(#0b1220,#0b1220);clip-path:polygon(0 70%,25% 50%,55% 70%,80% 55%,100% 70%,100% 100%,0 100%)}
-/* hide hero after entering */
-body.skip-hero #hero{display:none}
+
+/* Let page scroll before entering chat; lock it after */
+body { overflow-y:auto; overflow-x:hidden; }
+body.skip-hero { overflow:hidden; }
 
     </style>
-
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
   </head>
@@ -804,24 +967,14 @@ body.skip-hero #hero{display:none}
     </header>
 
     <!-- Welcome hero (scroll to enter) -->
-    <section id="hero" class="hero-landing">
-      <nav class="hero-nav">
-        <span class="brand">🎓 Penang Higher EducationAssistant</span>
-      </nav>
-
-      <div class="hero-center">
-        <h2>WELCOME</h2>
-        <p>Ask about universities, courses, fees, intakes, and more — grounded in official sources.</p>
-        <div id="scrollHint" class="scroll-hint">Scroll to start ↓</div>
-      </div>
-
+    <section id="hero" class="hero-grid">
+      <div id="heroGrid" class="grid"></div>
+      <div id="scrollHint" class="scroll-hint">
+          <span class="text">Scroll to start</span><span class="arrow">↓</span>
+        </div>
     </section>
 
     <div class="chat-container">
-      <div class="category-filter" id="categoryFilter">
-        <span class="filter-label">Category:</span>
-        <div class="chips" id="categoryChips"></div>
-      </div>
 
       <div class="messages" id="messages">
         <div class="welcome">
@@ -874,6 +1027,19 @@ body.skip-hero #hero{display:none}
 
   if (window.marked && marked.setOptions) {
       marked.setOptions({ breaks: true, gfm: true, smartLists: true });
+    }
+
+  // Measure header and set CSS var so the hero exactly fills the viewport.
+    function setHeaderHeightVar() {
+      const h = document.querySelector('header')?.getBoundingClientRect().height || 72;
+      document.documentElement.style.setProperty('--header-h', `${Math.round(h)}px`);
+    }
+
+    document.addEventListener('DOMContentLoaded', setHeaderHeightVar);
+    window.addEventListener('load', setHeaderHeightVar);
+    window.addEventListener('resize', setHeaderHeightVar);
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(setHeaderHeightVar);
     }
 
   // ====== THEME (from old version) =========================================
@@ -1023,23 +1189,9 @@ body.skip-hero #hero{display:none}
     });
   }
 
-  function getCategoryParams() {
-    switch (selectedCategory) {
-      case 'foundation':
-        return { course_type_filter: 'foundation', degree_subtype: null };
-      case 'diploma':
-        return { course_type_filter: 'diploma', degree_subtype: null };
-      case 'degree':
-        return { course_type_filter: 'degree', degree_subtype: null };
-      case 'master':
-        return { course_type_filter: 'degree', degree_subtype: 'master' };
-      case 'phd':
-        return { course_type_filter: 'degree', degree_subtype: 'doctor' };
-      default:
-        return { course_type_filter: null, degree_subtype: null };
+    function getCategoryParams() {
+      return { course_type_filter: null, degree_subtype: null };
     }
-  }
-
   // ====== Textarea helpers ==================================================
   const textarea = document.getElementById('queryInput');
   textarea.addEventListener('input', function() {
@@ -1062,9 +1214,12 @@ body.skip-hero #hero{display:none}
     // Turn bold-only lines into headings (handles **Title**, 1. **Title**, - **Title**)
     function promoteBoldLinesToH2(md) {
       return (md || '')
-        .replace(/^\s*\*\*(.+?)\*\*\s*$/gm, '## $1')         // **Title**
-        .replace(/^\s*\d+\.\s*\*\*(.+?)\*\*\s*$/gm, '## $1') // 1. **Title**
-        .replace(/^\s*[-*]\s+\*\*(.+?)\*\*\s*$/gm, '## $1'); // - **Title**
+        // **Title**
+        .replace(/^\s*\*\*(.+?)\*\*\s*$/gm, (_m, t) => `## ${t}`)
+        // 1. **Title**
+        .replace(/^\s*\d+\.\s*\*\*(.+?)\*\*\s*$/gm, (_m, t) => `## ${t}`)
+        // - **Title** or * **Title**
+        .replace(/^\s*[-*]\s+\*\*(.+?)\*\*\s*$/gm, (_m, t) => `## ${t}`);
     }
 
     // Render Markdown safely (normalize bullets + ensure blank line before lists)
@@ -1075,10 +1230,10 @@ body.skip-hero #hero{display:none}
       s = s
         .replace(/^\s*•\s+/gm, '- ')   // dot bullet → hyphen
         .replace(/^\s*·\s+/gm, '- ')   // middle dot → hyphen
-        .replace(/^\s*\+\s+/gm, '- '); // plus → hyphen (still valid list marker)
+        .replace(/^\s*\+\s+/gm, '- '); // plus → hyphen
 
       // Make sure lists start after a blank line so Marked doesn't treat them as text
-      s = s.replace(/([^\n])\n([ \t]*[-*+] )/g, '$1\n\n$2');
+      s = s.replace(/([^\n])\n([ \t]*[-*+] )/g, (_m, a, b) => `${a}\n\n${b}`);
 
       const html = (window.marked && marked.parse) ? marked.parse(s) : s;
       return (window.DOMPurify && DOMPurify.sanitize) ? DOMPurify.sanitize(html) : html;
@@ -1164,138 +1319,171 @@ body.skip-hero #hero{display:none}
 
   // ====== Send message / streaming =========================================
   async function sendMessage() {
-    if (isLoading) return;
+      if (isLoading) return;
 
-    const input = document.getElementById('queryInput');
-    const query = input.value.trim();
-    if (!query) return;
+      const input = document.getElementById('queryInput');
+      const query = input.value.trim();
+      if (!query) return;
 
-    const universityFilter = document.getElementById('universityFilter').value || null;
-    const { course_type_filter, degree_subtype } = getCategoryParams();
+      const universityFilter = document.getElementById('universityFilter').value || null;
+      const {course_type_filter, degree_subtype} = getCategoryParams();
 
-    // Clear input
-    input.value = '';
-    input.style.height = 'auto';
+      // Clear input
+      input.value = '';
+      input.style.height = 'auto';
 
-    // Add user message
-    addMessage('user', query);
+      // Add user message
+      addMessage('user', query);
 
-    // Show loading
-    isLoading = true;
-    document.getElementById('sendButton').disabled = true;
-    const loadingMsg = addLoadingMessage();
+      // Show loading
+      isLoading = true;
+      document.getElementById('sendButton').disabled = true;
+      const loadingMsg = addLoadingMessage();
 
-    try {
-      const response = await fetch('/api/chat/query', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          query,
-          university_filter: universityFilter,
-          course_type_filter,
-          degree_subtype,
-          stream: true
-        })
-      });
-
-      if (!response.ok) throw new Error('Failed to get response');
-
-      // Remove loading message
-      loadingMsg.remove();
-
-      // Create assistant message
-      let fullResponse = '';
-      const assistantMsg = addMessage('assistant', '');
-      const contentDiv = assistantMsg.querySelector('.message-content');
-
-      // Stream reader
-      const reader = response.body.getReader();
-      const decoder = new TextDecoder();
-
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        const chunk = decoder.decode(value);
-        const lines = chunk.split('\n');
-
-        for (const line of lines) {
-          if (!line.startsWith('data: ')) continue;
-          const data = JSON.parse(line.substring(6));
-
-          if (data.error) throw new Error(data.error);
-
-          if (data.chunk) {
-            fullResponse += data.chunk;
-
-            const md = promoteBoldLinesToH2(fullResponse);
-            contentDiv.innerHTML = renderMD(md);
-
-            // Attach / refresh copy toolbar on each incremental update
-            attachCopyFeatures(contentDiv);
-
-            renderFeedback(contentDiv);
-
-            // Auto scroll
-            const messagesDiv = document.getElementById('messages');
-            messagesDiv.scrollTop = messagesDiv.scrollHeight;
-          }
-
-          if (data.done) {
-            // Fetch sources when stream completes
-            const sourcesRes = await fetch('/api/chat/sources', {
+      try {
+          const response = await fetch('/api/chat/query', {
               method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
+              headers: {'Content-Type': 'application/json'},
               body: JSON.stringify({
-                query,
-                university_filter: universityFilter,
-                course_type_filter,
-                degree_subtype
+                  query,
+                  university_filter: universityFilter,
+                  course_type_filter,
+                  degree_subtype,
+                  stream: true
               })
-            });
+          });
 
-            const sourcesData = await sourcesRes.json();
+          if (!response.ok) throw new Error('Failed to get response');
 
-            if (sourcesData.sources && sourcesData.sources.length > 0) {
-              const sourcesDiv = document.createElement('div');
-              sourcesDiv.className = 'sources';
-              sourcesDiv.innerHTML = '<div class="sources-title">Sources:</div>';
+          // Remove loading message
+          loadingMsg.remove();
 
-              sourcesData.sources.forEach(source => {
-                const sourceItem = document.createElement('div');
-                sourceItem.className = 'source-item';
-                const section = source.section ? ` (${source.section})` : '';
-                let sourceText = `${source.university} - ${source.document}`;
-                if (source.course) {
-                  sourceText += ` - ${source.course}${section}`;
-                }
-                if (source.url) {
-                  sourceItem.innerHTML = `<a href="${source.url}" target="_blank" rel="noopener noreferrer">${sourceText}</a>`;
-                } else {
-                  sourceItem.textContent = sourceText;
-                }
-                sourcesDiv.appendChild(sourceItem);
-              });
+          // Create assistant message
+          let fullResponse = '';
+          const assistantMsg = addMessage('assistant', '');
+          const contentDiv = assistantMsg.querySelector('.message-content');
 
-              contentDiv.appendChild(sourcesDiv);
-            }
+          // Stream reader (robust SSE parsing)
+          const reader = response.body.getReader();
+          const decoder = new TextDecoder();
+          let buffer = '';
+          let finished = false;
 
-            // Ensure copy toolbar remains at the top after appending sources
-            attachCopyFeatures(contentDiv);
+          while (!finished) {
+              const {value, done} = await reader.read();
+              if (done) break;
 
-            break;
+              buffer += decoder.decode(value, {stream: true});
+
+              // SSE frames are separated by a blank line
+              const frames = buffer.split('\n\n');
+              buffer = frames.pop() || '';
+
+              for (const frame of frames) {
+                  // Each frame can have multiple lines; gather all data: lines
+                  const dataLines = frame
+                      .split('\n')
+                      .map(l => l.trim())
+                      .filter(l => l.startsWith('data:'))
+                      .map(l => l.slice(5).trim());
+
+                  if (!dataLines.length) continue;
+
+                  const joined = dataLines.join('\n');
+                  if (joined === '[DONE]') {  // optional sentinel
+                      finished = true;
+                      break;
+                  }
+
+                  let data;
+                  try {
+                      data = JSON.parse(joined);
+                  } catch {
+                      // Ignore partial/incomplete JSON until next chunk completes the frame
+                      continue;
+                  }
+
+                  if (data.error) {
+                      console.error('SSE error from backend:', data);
+                      // Show the message instead of crashing UI (temporary)
+                      const msg = `⚠️ Server error: ${data.error}`;
+                      contentDiv.innerHTML = renderMD(msg);
+                      attachCopyFeatures(contentDiv);
+                      renderFeedback(contentDiv);
+                      finished = true;
+                      break;
+                    }
+
+                  if (data.chunk) {
+                      fullResponse += data.chunk;
+
+                      const md = promoteBoldLinesToH2(fullResponse);
+                      contentDiv.innerHTML = renderMD(md);
+                      attachCopyFeatures(contentDiv);
+                      renderFeedback(contentDiv);
+
+                      const messagesDiv = document.getElementById('messages');
+                      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+                  }
+
+                  if (data.done) {
+                      // stop the stream and fetch sources once
+                      try {
+                          await reader.cancel();
+                      } catch {
+                      }
+                      finished = true;
+
+                      // Fetch sources after completion
+                      const sourcesRes = await fetch('/api/chat/sources', {
+                          method: 'POST',
+                          headers: {'Content-Type': 'application/json'},
+                          body: JSON.stringify({
+                              query,
+                              university_filter: universityFilter,
+                              course_type_filter,
+                              degree_subtype
+                          })
+                      });
+                      const sourcesData = await sourcesRes.json();
+
+                      if (sourcesData.sources && sourcesData.sources.length > 0) {
+                          const sourcesDiv = document.createElement('div');
+                          sourcesDiv.className = 'sources';
+                          sourcesDiv.innerHTML = '<div class="sources-title">Sources:</div>';
+
+                          sourcesData.sources.forEach(source => {
+                              const sourceItem = document.createElement('div');
+                              sourceItem.className = 'source-item';
+                              const section = source.section ? ` (${source.section})` : '';
+                              let sourceText = `${source.university} - ${source.document}`;
+                              if (source.course) sourceText += ` - ${source.course}${section}`;
+                              if (source.url) {
+                                  sourceItem.innerHTML = `<a href="${source.url}" target="_blank" rel="noopener noreferrer">${sourceText}</a>`;
+                              } else {
+                                  sourceItem.textContent = sourceText;
+                              }
+                              sourcesDiv.appendChild(sourceItem);
+                          });
+
+                          contentDiv.appendChild(sourcesDiv);
+                      }
+
+                      attachCopyFeatures(contentDiv);
+                      break;
+                  }
+              }
           }
+
+      } catch (error) {
+          console.error('Error:', error);
+          if (loadingMsg.parentNode) loadingMsg.remove();
+          addMessage('assistant', `Sorry, I encountered an error: ${error.message}`);
+        } finally {
+          isLoading = false;
+          document.getElementById('sendButton').disabled = false;
         }
       }
-    } catch (error) {
-      console.error('Error:', error);
-      if (loadingMsg.parentNode) loadingMsg.remove();
-      addMessage('assistant', `Sorry, I encountered an error: ${error.message}`);
-    } finally {
-      isLoading = false;
-      document.getElementById('sendButton').disabled = false;
-    }
-  }
 
    async function postFeedback(payload){
     const res = await fetch('/api/chat/feedback', {
@@ -1423,7 +1611,7 @@ body.skip-hero #hero{display:none}
   }
   // ====== Initialize ========================================================
   loadUniversities();
-  initCategories();
+  //initCategories();
 
   let started = false;
 
@@ -1440,8 +1628,10 @@ body.skip-hero #hero{display:none}
 
     // Scroll the real scrolling element (works in Safari/Chrome/Firefox)
     const root = document.scrollingElement || document.documentElement;
-    const targetY = hero.getBoundingClientRect().bottom + root.scrollTop;
+    const targetY = document.querySelector('.chat-container')
+                      .getBoundingClientRect().top + root.scrollTop - 8;
     root.scrollTo({ top: targetY, behavior: 'smooth' });
+
 
     // Finalize: hide hero and ensure chat is on top
     const finish = () => {
@@ -1452,7 +1642,7 @@ body.skip-hero #hero{display:none}
     };
 
     // No reliable scrollend on Safari — use a timer that matches CSS transition
-    setTimeout(finish, 650);
+    setTimeout(finish, 750);
   }
 
   // Fire once on *any* first intent to enter (wheel/touch/click)
@@ -1474,6 +1664,99 @@ body.skip-hero #hero{display:none}
     });
   })();
 
+
+// ---- HERO GRID DATA (14 unis) ----
+const HERO_UNIS = [
+  { code: "INTI",      name: "INTI International University" },
+  { code: "ATC",       name: "Advance Tertiary College" },
+  { code: "UOW",       name: "University of Wollongong Malaysia" },
+  { code: "MSU",       name: "Management & Science University" },
+  { code: "MCKL",      name: "Methodist College Kuala Lumpur" },
+  { code: "PIDC",      name: "Penang International Dental College" },
+  { code: "SENTRAL",   name: "Sentral College" },
+  { code: "TOA",       name: "The One Academy" },
+  { code: "UNITAR",    name: "UNITAR College" },
+  { code: "PSDC",      name: "Penang Skills Development Centre" },
+  { code: "ROYAL",     name: "Royal College" },
+  { code: "VERITAS",   name: "Veritas College" },
+  { code: "TARU",      name: "Tunku Abdul Rahman University" },
+  { code: "PENINSULA", name: "Peninsula College" }
+];
+
+function lowerCode(c){ return (c||"").toLowerCase(); }
+function imgBase(code){ return `/static/img/campuses/${lowerCode(code)}`; }
+
+/** Build the grid; each card pops in with a small stagger */
+function renderHeroGrid(){
+  const grid = document.getElementById('heroGrid');
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  HERO_UNIS.forEach((u, i) => {
+    const card = document.createElement('div');
+    card.className = 'uni-card';
+
+    const img = document.createElement('img');
+    img.className = 'uni-img';
+    img.alt = u.name;
+    // Try .png then fall back to .jpg if missing
+    img.src = imgBase(u.code) + '.png';
+    img.onerror = () => {
+      if (!img.dataset.triedJpg){
+        img.dataset.triedJpg = '1';
+        img.src = imgBase(u.code) + '.jpg';
+      }
+    };
+
+    const cap = document.createElement('div');
+    cap.className = 'uni-caption';
+    cap.textContent = u.name; // name only (no city)
+
+    card.appendChild(img);
+    card.appendChild(cap);
+    grid.appendChild(card);
+
+    const STAGGER_START = 350;   // ms before the first card shows
+    const STAGGER_STEP  = 220;   // ms between each card
+    setTimeout(() => card.classList.add('show'), STAGGER_START + i * STAGGER_STEP);
+
+    attachTilt(card);
+  });
+}
+
+function attachTilt(card){
+  if (!window.matchMedia('(hover:hover)').matches) return;
+
+  const MAX = 9;       // degrees
+  const SCALE = 1.06;  // gentle lift
+
+  function onMove(e){
+    const r = card.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width;
+    const py = (e.clientY - r.top)  / r.height;
+    const rx = (0.5 - py) * MAX;
+    const ry = (px - 0.5) * MAX;
+    card.style.transform =
+      `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) scale(${SCALE})`;
+    card.style.boxShadow = '0 22px 48px rgba(15,23,42,.24)';
+  }
+  function onLeave(){
+    card.style.transform = '';
+    card.style.boxShadow = '';
+  }
+  card.addEventListener('mousemove', onMove);
+  card.addEventListener('mouseleave', onLeave);
+}
+
+
+// Mount hero grid and keep your existing scroll-to-enter behavior
+window.addEventListener('DOMContentLoaded', () => {
+  renderHeroGrid();
+  const once = (el, ev, fn, opts={}) => el.addEventListener(ev, fn, { ...opts, once:true, passive:true });
+  once(window, 'wheel', enterChat);
+  once(window, 'touchstart', enterChat);
+  document.getElementById('scrollHint')?.addEventListener('click', enterChat, { once:true });
+});
 </script>
 
 

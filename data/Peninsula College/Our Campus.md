@@ -1,3 +1,6 @@
+### URL
+https://peninsulacollege.edu.my/contact-us/
+
 # The Ship Campus, Penang
 
 Anchored within One Auto Hub, the Batu Kawan Industrial Park, Penang, The Ship Campus is Peninsula College’s headquarters and one of the top **private colleges in Penang, Malaysia**. A major educational hub modelled after an iconic cruise ship, it offers a unique educational voyage for students seeking a blend of academic excellence and industry exposure and can accommodate up to 4,000 students.

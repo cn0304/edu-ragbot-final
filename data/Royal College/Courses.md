@@ -8,7 +8,30 @@ https://www.rumc.edu.my/programmes/foundation-in-science/#1710139595455-7fac4474
 
 ### Programme Structure
 
-LEARNING OUTCOMES Learning Outcomes Upon successful completion of the Foundation programme, you will be able to: 1. Acquire knowledge of basic sciences and their application in medicine and health sciences 2. Demonstrate the ability to engage in scientific topics and understand basic concepts and relevant terminologies 3. Develop a range of fundamental study and communication skills 4. Enhance proficiency in the English language 5. Master basic laboratory skills and techniques 6. Comprehend clinical and caregiving aspects in medical and healthcare professions Our Foundation in Science (FIS) programme imparts a diverse range of skills and knowledge that lay the groundwork for success in the pursuit of a medical degree. As you progress through your medical studies, you will gain a robust understanding of basic sciences, from biology to chemistry, forming the building blocks of medical knowledge. We aim to instil an understanding of the clinical and caregiving dimensions within medical professions. This holistic insight equips students with empathy and an understanding of the human aspect of medicine, ensuring they approach their medical degree with a well-rounded perspective.
+**Semester I**
+
+- General Physics 1
+- General Chemistry 1
+- General Biology 1
+- General Mathematics
+- Language, Communication & Study Skills 1
+- Basic IT
+
+**Semester II**
+
+- General Physics 2
+- General Chemistry 2
+- Human Systems 1
+- Languages and Communication Skills 2
+- Professionalism in the Health Sciences
+
+**Semester III**
+
+- Physics for Health Sciences
+- Chemistry for Health Sciences
+- Human Systems 2
+- Introduction to Diseases, Diagnostics, Therapeutics
+- Elective Projects
 
 ### Fee
 
@@ -36,7 +59,24 @@ https://www.rumc.edu.my/programmes/pre-medical-foundation-year/
 
 ### Programme Structure
 
-PROGRAMME DELIVERY Programme Delivery Our Pre-Med programme consists of 12 modules, amounting to 60 European Credit Transfer System (ECTS). Each modules carry 5 credits.
+**Semester 1**
+
+- Fundamental of Human Biology (5 credits)
+- Fundamentals of Medicinal & Pharmaceutical Chemistry (5 credits)
+- Medical Applications of Physics (5 credits)
+- Musculoskeletal System, Nervous System & Bioelectricity (5 credits)
+- Communication and Professionalism in the Health Science 1 (5 credits)
+- Biomedical Laboratory Sciences (5 credits)
+
+**Semester 2**
+
+- Thermoregulation, Special Senses, Endocrine System, Reproductive System (5 credits)
+- Introduction to Health and Disease (5 credit)
+- Medicinal & Pharmaceutical Chemistry II (5 credits)
+- Respiratory System, Gastrointestinal System (5 credits)
+- Cardiovascular System, Biological Fluids, Renal Function (5 credits)
+- Communication and Professionalism in the Health Science 2 (5 credits)
+- Biomedical Laboratory Sciences (5 credits)
 
 ### Fee
 
@@ -66,7 +106,11 @@ https://www.rumc.edu.my/programmes/master-of-science-in-occupational-therapy/
 
 ### Programme Structure
 
-TEACHING AND LEARNING METHODS Teaching and Learning Methods Lectures Research Thesis
+**Teaching and Learning Methods**
+
+- Lectures
+- Research
+- Thesis
 
 ### Fee
 
@@ -90,11 +134,72 @@ https://www.rumc.edu.my/programmes/medical-informatics/
 
 ### Programme Structure
 
-COURSE STRUCTURE Course Structure Year 1 Semester 1 Semester 2 Short Semester Foundations in Medicine Computer Architecture & Operating Systems Health Informatics Fundamentals Programming Fundamentals Technical Writing System Analysis & Design Health Databases & Data Management Exploring Artificial Intelligence in Health Mobile OS & Programming Communication Skills Appreciation of Ethics & Civilisations Philosophy & Current Issues Bahasa Melayu Komunikasi 2 Bahasa Kebangsaan A Critical Thinking Year 2 Semester 3 Semester 4 Short Semester Electronic Health Records Healthcare TechnologyManagement Advanced Programming Data Science & Analytics Elective Medical Internet of Things Medical coding standards Fundamentals of Medical Imaging Elective Elective Professionalism & Ethics in Healthcare Khidmat Masyarakat & Ko Kurikulum Year 3 Semester 5 Semester 6 Internet & Networking Health Data Visualisation Computer Security & Data Privacy Research Methodology Elective Internship Undergraduate Project
+**Year 1**
+
+**Semester 1**
+
+- Foundations in Medicine
+- Computer Architecture & Operating Systems
+- Health Informatics Fundamentals
+- Programming Fundamentals
+- Technical Writing
+
+**Semester 2**
+
+- System Analysis & Design
+- Health Databases & Data Management
+- Exploring Artificial Intelligence in Health
+- Mobile OS & Programming
+- Communication Skills
+
+**Short Semester**
+
+- Appreciation of Ethics & Civilisations
+- Philosophy & Current Issues
+- Bahasa Melayu Komunikasi 2
+- Bahasa Kebangsaan A
+- Critical Thinking
+
+**Year 2**
+
+**Semester 3**
+
+- Electronic Health Records
+- Healthcare TechnologyManagement
+- Advanced Programming
+- Data Science & Analytics
+- Elective
+
+**Semester 4**
+
+- Medical Internet of Things
+- Medical coding standards
+- Fundamentals of Medical Imaging
+- Elective
+
+**Short Semester**
+
+- Professionalism & Ethics in Healthcare
+- Khidmat Masyarakat & Ko Kurikulum
+
+**Year 3**
+
+**Semester 5**
+
+- Internet & Networking
+- Health Data Visualisation
+- Computer Security & Data Privacy
+- Research Methodology
+- Elective
+
+**Semester 6**
+
+- Internship
+- Undergraduate Project
 
 ### Fee
 
-FEES Fees Local students: RM93,000 for 3 years (RM15,500 per semester) International students: RM102,000 for 3 years (RM17,000 per semester) Special Bursary Available 2025 (Limited Slots) We are offering a special bursary worth RM45,000 for the inaugural intake of the Bachelor of Science in Medical Informatics. Students pay only RM1,970 per year *T&C Apply PTPTN-supported with global career pathways Secure your future in the fast-growing digital healthcare sector. Apply now while the bursary is still available. Malaysian Students - Fees International Students - Fees
+FEES Fees Local students: RM93,000 for 3 years (RM15,500 per semester) International students: RM102,000 for 3 years (RM17,000 per semester) Malaysian Students - Fees International Students - Fees
 
 ### Duration
 
@@ -102,7 +207,7 @@ FEES Fees Local students: RM93,000 for 3 years (RM15,500 per semester) Internati
 
 ### Intake
 
-September
+January 2026 September 2026
 
 ### Entry Requirements
 
@@ -118,7 +223,52 @@ https://www.rumc.edu.my/programmes/undergraduate-medicine/
 
 ### Programme Structure
 
-PROGRAMME DELIVERY Programme Delivery Our unique Medicine programmes offer you the best opportunities to gain an international medical degree whilst having unrivalled access to Malaysian clinical practice. We offer a modern systems-based approach to studying medicine, where all main areas of medical study will be covered to ensure you have the highest quality of medical education. Throughout the 5-year medicine programme, you will learn the fundamentals of basic and health sciences that focus on systems and skills.
+**Year 1 - 3 (IRELAND) – Systems**
+
+- Cardiovascular
+- Central Nervous System
+- Gastrointestinal & Hepatology
+- Genoto-urinary
+- Haematology
+- Locomotor
+- Renal, Endocrine & Breast
+- Respiratory
+- Psychology
+- Sociology
+- Tropical Medicine
+
+**Year 1 - 3 (IRELAND) – Each System Consists Of**
+
+- Anatomy
+- Biochemistry
+- Evidence-Based Medicine
+- Genetics
+- Introduction to Clinical Practice
+- Microbiology
+- Pharmacology
+- Physics in Medicine
+- Physiology
+- Public Health & Epidemiology
+
+**Year 3 - 5 (MALAYSIA)**
+
+- Clinical Skills
+- Communication Skills
+- Medicine
+- Surgery
+- Orthopaedics
+- Family Medicine
+- Paediatrics
+- Public Health
+- Psychiatry
+- Ear, Nose & Throat
+- Forensic & Legal Medicine
+- Obstetrics
+- Opthalmology
+- Anaesthesiology
+- Emergency Medicine
+- Radiology
+- Clinical Elective
 
 ### Fee
 

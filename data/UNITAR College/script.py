@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
 Usage:
-    python unitar_scraper.py urls.txt --output UnitarCourses.md
-
-Unitar Course Scraper
-Extracts Programme Structure, Entry Requirements, Fee, Duration, Intakes.
+    python3 "data/UNITAR College/script.py" \
+      "data/UNITAR College/input.txt" \
+      --output "data/UNITAR College/Courses.md"
 """
 
 import argparse
@@ -39,7 +38,8 @@ def extract_course_info(url):
     """Fetch and extract course details from Unitar programme page."""
     print(f"Fetching: {url}")
 
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"}
     try:
         res = requests.get(url, headers=headers, timeout=30)
         res.raise_for_status()
