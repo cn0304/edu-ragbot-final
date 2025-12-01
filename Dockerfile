@@ -13,7 +13,14 @@ RUN pip install --no-cache-dir \
     fastapi \
     "uvicorn[standard]" \
     chromadb \
-    ollama
+    ollama \
+    llama-index \
+    llama-index-core \
+    llama-index-llms-ollama \
+    llama-index-embeddings-ollama \
+    llama-index-vector-stores-chroma\
+    sentence-transformers \
+    torch
 
 ENV PYTHONPATH=/app
 

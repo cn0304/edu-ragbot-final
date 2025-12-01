@@ -9,9 +9,10 @@ services:
       - "8000:8000"
     environment:
       - VECTOR_DB_PATH=/app/vector_db
-      - USE_RERANKER=0   # optional: keeps image light
+      - USE_RERANKER=0
     volumes:
         - ./vector_db:/app/vector_db
-        - ./data:/app/data        # if you want live data edits
-        - ./metrics:/app/metrics  # optional, for system.json
+        - ./data:/app/data
+        - ./metrics:/app/metrics
+    command: uvicorn backend.app.web_dashboard:app --host 0.0.0.0 --port 8000
     restart: unless-stopped
