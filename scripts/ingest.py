@@ -191,10 +191,19 @@ class SmartDataIngestion:
             settings=Settings(anonymized_telemetry=False, allow_reset=True)
         )
 
-        # Configure Ollama embedding model
-        ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
-        embed_model = os.getenv("EMBED_MODEL", "all-minilm")
-        ef = OllamaEmbeddingFunction(url=ollama_url, model_name=embed_model)
+        from chromadb.utils.embedding_functions import (
+            OllamaEmbeddingFunction,
+            SentenceTransformerEmbeddingFunction
+        )
+
+        # Choose embedding fn
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print("⚠️ CI detected → Using MiniLM instead of Ollama")
+            ef = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
+        else:
+            ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
+            embed_model = os.getenv("EMBED_MODEL", "nomic-embed-text")
+            ef = OllamaEmbeddingFunction(url=ollama_url, model_name=embed_model)
 
         # delete old collection
         collection_name = os.getenv("CHROMA_COLLECTION", "university_docs")
