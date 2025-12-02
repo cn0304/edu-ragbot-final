@@ -5,8 +5,10 @@ from pathlib import Path
 from typing import List, Dict, Tuple
 import chromadb
 from chromadb.config import Settings
-from chromadb.utils.embedding_functions import OllamaEmbeddingFunction
-
+from chromadb.utils.embedding_functions import (
+    OllamaEmbeddingFunction,
+    SentenceTransformerEmbeddingFunction,
+)
 
 # --- DISABLE OLLAMA IN GITHUB ACTIONS ---
 if os.environ.get("GITHUB_ACTIONS") == "true":
@@ -191,16 +193,16 @@ class SmartDataIngestion:
             settings=Settings(anonymized_telemetry=False, allow_reset=True)
         )
 
-        from chromadb.utils.embedding_functions import (
-            OllamaEmbeddingFunction,
-            SentenceTransformerEmbeddingFunction
-        )
-
-        # Choose embedding fn
+        # -------------------------------
+        # Choose embedding function
+        # -------------------------------
         if os.environ.get("GITHUB_ACTIONS") == "true":
+            # CI: no Ollama daemon -> use MiniLM
             print("⚠️ CI detected → Using MiniLM instead of Ollama")
             ef = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
+            embed_model = "all-MiniLM-L6-v2"
         else:
+            # Local / lecturer machine: use Ollama embeddings
             ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
             embed_model = os.getenv("EMBED_MODEL", "nomic-embed-text")
             ef = OllamaEmbeddingFunction(url=ollama_url, model_name=embed_model)
@@ -217,13 +219,15 @@ class SmartDataIngestion:
             name=collection_name,
             metadata={
                 "description": "Smart-chunked university documents",
-                "embedding_model": embed_model  # <-- store it!
+                "embedding_model": embed_model,
             },
-            embedding_function=ef
+            embedding_function=ef,
         )
 
-        print(f"✓ ChromaDB initialized at {self.db_dir} | collection={collection_name} | embed={embed_model}")
-
+        print(
+            f"✓ ChromaDB initialized at {self.db_dir} | "
+            f"collection={collection_name} | embed={embed_model}"
+        )
     def process_university(self, university_path: Path) -> List[Dict]:
 
         university_name = university_path.name
