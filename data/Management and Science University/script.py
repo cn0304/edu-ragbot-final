@@ -226,20 +226,37 @@ def extract_msu_college_penang_courses():
     print(f"Fetching MSU College Penang listing: {MSU_COLLEGE_PENANG_URL}")
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     }
 
+    # ----------------------------------------------------
+    # TRY live request
+    # ----------------------------------------------------
     try:
         res = requests.get(MSU_COLLEGE_PENANG_URL, headers=headers, timeout=30)
         res.raise_for_status()
+        html = res.text
+        print("  ✓ Live fetch OK")
     except Exception as e:
-        print(f"  ✗ Error fetching MSU College Penang page: {e}")
-        return {}
+        print(f"  ✗ Live fetch failed: {e}")
+        print("  ⚠ Using fallback snapshot instead")
 
-    soup = BeautifulSoup(res.text, "html.parser")
+        snapshot_path = "data/Management and Science University/msu_penang_snapshot.html"
+        try:
+            with open(snapshot_path, "r", encoding="utf-8") as f:
+                html = f.read()
+            print("  ✓ Snapshot loaded")
+        except FileNotFoundError:
+            print(f"  ✗ Snapshot not found at {snapshot_path}")
+            return {}  # still safe skip, but won't crash scrapers
 
-    # Find the "Programme Offered" heading
+    # ----------------------------------------------------
+    # PARSE HTML (same logic as before)
+    # ----------------------------------------------------
+    soup = BeautifulSoup(html, "html.parser")
+
     heading = None
     for node in soup.find_all(string=re.compile(r"Programme Offered", re.I)):
         if isinstance(node, str):
@@ -247,10 +264,9 @@ def extract_msu_college_penang_courses():
             break
 
     if not heading:
-        print("  ✗ Could not find 'Programme Offered' section on MSU College Penang page.")
+        print("  ✗ Could not find programme section")
         return {}
 
-    # Map text headings -> programme type used in markdown
     category_map = {
         "degree programme": "Degree",
         "diploma programme": "Diploma",
@@ -262,12 +278,10 @@ def extract_msu_college_penang_courses():
     programmes_by_type = defaultdict(list)
     current_type = None
 
-    # Standard stub text for sections
     stub = (
-        "Detailed information (fees, duration, entry requirements and programme "
-        "structure) is not listed separately for this programme on the MSU College "
-        "Penang page.\n\n"
-        f"For enquiries, please use the online form: {MSU_COLLEGE_PENANG_ENQUIRY_URL} "
+        "Detailed information (fees, duration, entry requirements and programme structure) "
+        "is not listed separately for this programme on the MSU College Penang page.\n\n"
+        f"For enquiries, please use the online form: {MSU_COLLEGE_PENANG_ENQUIRY_URL}"
     )
 
     for el in heading.next_siblings:
@@ -280,47 +294,38 @@ def extract_msu_college_penang_courses():
         if not text:
             continue
 
-        # Stop once we reach "Contact Us"
         if re.search(r"contact us", text, re.I):
             break
 
-        lower_text = text.lower()
+        lower = text.lower()
 
-        # Category heading (Degree Programme / Diploma Programme / etc.)
-        if lower_text in category_map:
-            current_type = category_map[lower_text]
+        if lower in category_map:
+            current_type = category_map[lower]
             continue
 
-        # Programme list items under current category
         if current_type:
             for li in el.find_all("li"):
                 full_name = li.get_text(" ", strip=True)
                 if not full_name:
                     continue
 
-                # Remove only trailing MQA / code / date brackets, keep (Hons) etc.
                 name = strip_trailing_codes(full_name)
+                slug = slugify(name)
 
-                s = slugify(name)
-
-                sections = {
-                    "Programme Structure": stub,
-                    "Fee": stub,
-                    "Duration": stub,
-                    "Entry Requirements": stub,
-                }
-
-                programmes_by_type[current_type].append(
-                    {
-                        "slug": s,
-                        "title": name,
-                        "url": MSU_COLLEGE_PENANG_URL,
-                        "sections": sections,
+                programmes_by_type[current_type].append({
+                    "slug": slug,
+                    "title": name,
+                    "url": MSU_COLLEGE_PENANG_URL,
+                    "sections": {
+                        "Programme Structure": stub,
+                        "Fee": stub,
+                        "Duration": stub,
+                        "Entry Requirements": stub,
                     }
-                )
+                })
 
     if not programmes_by_type:
-        print("  ✗ No programmes found in MSU College Penang listing.")
+        print("  ✗ No programmes found")
         return {}
 
     return dict(programmes_by_type)
@@ -554,8 +559,8 @@ def main():
         print("Detected MSU College Penang – using programme-list mode.\n")
         courses_by_type = extract_msu_college_penang_courses()
         if not courses_by_type:
-            print("No programmes could be extracted from MSU College Penang page.")
-            return 1
+            print("⚠️ No programmes found – skipping MSU Penang.")
+            return 0
 
         markdown = format_markdown(courses_by_type)
         with open(args.output, "w", encoding="utf-8") as f:
