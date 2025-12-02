@@ -8,6 +8,10 @@ from chromadb.config import Settings
 from chromadb.utils.embedding_functions import OllamaEmbeddingFunction
 
 
+# --- DISABLE OLLAMA IN GITHUB ACTIONS ---
+if os.environ.get("GITHUB_ACTIONS") == "true":
+    os.environ["CHROMA_DISABLE_OLLAMA"] = "1"
+# ------------------------------------------------
 class SmartDocumentProcessor:
 
     def __init__(self):
