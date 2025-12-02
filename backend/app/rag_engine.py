@@ -791,23 +791,36 @@ class SmartRAGEngine:
         )
 
         collection_name = os.getenv("CHROMA_COLLECTION", "university_docs")
-        query_model = os.getenv("EMBED_MODEL", "all-minilm")
-        ef = OllamaEmbeddingFunction(url=ollama_url, model_name=query_model)
+        in_ci = os.environ.get("GITHUB_ACTIONS") == "true"
 
-        # Attach embedding_function so Chroma can embed query_texts here
-        self.collection = self.client.get_collection(
-            name=collection_name,
-            embedding_function=ef
-        )
+        if in_ci:
+            # CI: index was built by scripts/ingest.py using SentenceTransformer (MiniLM).
+            # Do NOT attach a new embedding_function here or Chroma will raise a conflict.
+            self.collection = self.client.get_collection(name=collection_name)
+            # Use the embedding model recorded during ingest
+            query_model = (self.collection.metadata or {}).get("embedding_model", "all-MiniLM-L6-v2")
+            self.embedding_fn = None
+        else:
+            # Local / real run: use Ollama for query embeddings, same as ingest.
+            query_model = os.getenv("EMBED_MODEL", "all-minilm")
+            ef = OllamaEmbeddingFunction(url=ollama_url, model_name=query_model)
+            self.embedding_fn = ef
 
-        # ---- Embedding-model mismatch guard (single place) ----
+            # Attach embedding_function so Chroma can embed query_texts here
+            self.collection = self.client.get_collection(
+                name=collection_name,
+                embedding_function=ef,
+            )
+
+        # ---- Embedding-model mismatch guard (only outside CI) ----
         stored = (self.collection.metadata or {}).get("embedding_model")
         if not stored:
             raise RuntimeError(
                 "Index is missing 'embedding_model' metadata. "
                 "Re-ingest your data and record EMBED_MODEL in collection.metadata."
             )
-        if stored != query_model:
+
+        if not in_ci and stored != query_model:
             raise RuntimeError(
                 f"Embedding model mismatch: index was built with '{stored}', "
                 f"but queries are using '{query_model}'. Rebuild to match."
