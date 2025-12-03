@@ -12,7 +12,7 @@ Build and start the server:
 docker compose up -d --build
 
 Open in browser:
-http://127.0.0.1:8000
+open http://127.0.0.1:8000
 
 To stop:
 docker compose down
@@ -24,7 +24,7 @@ Start the server manually:
 uvicorn backend.app.web_dashboard:app --reload --port 8000
 
 Open in browser:
-http://127.0.0.1:8000
+open http://127.0.0.1:8000
 
 ============================================================
 QUERY TESTING (scripts/test.py)
