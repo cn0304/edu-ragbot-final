@@ -9,6 +9,7 @@ import math, difflib
 import logging, json, time, uuid
 from pathlib import Path
 from chromadb.utils.embedding_functions import OllamaEmbeddingFunction
+from llama_index.core.base.embeddings.base import BaseEmbedding
 
 # Vector store adapter to re-use your existing Chroma collection
 from llama_index.core import VectorStoreIndex, StorageContext, Settings as LISettings
@@ -779,7 +780,7 @@ class SmartRAGEngine:
     def __init__(self,
                  db_path: str = "./vector_db",
                  ollama_url: str = "http://localhost:11434",
-                 model_name: str = "llama3.2",
+                 model_name: str = "llama3.2:3b",
                  use_reranker: bool = True,
                  reranker_strategy: str = "cross-encoder",
                  reranker_model: Optional[str] = None):
@@ -791,48 +792,54 @@ class SmartRAGEngine:
         )
 
         collection_name = os.getenv("CHROMA_COLLECTION", "university_docs")
-        in_ci = os.environ.get("GITHUB_ACTIONS") == "true"
 
-        if in_ci:
-            # CI: index was built by scripts/ingest.py using SentenceTransformer (MiniLM).
-            # Do NOT attach a new embedding_function here or Chroma will raise a conflict.
-            self.collection = self.client.get_collection(name=collection_name)
-            # Use the embedding model recorded during ingest
-            query_model = (self.collection.metadata or {}).get("embedding_model", "all-MiniLM-L6-v2")
-            self.embedding_fn = None
-        else:
-            # Local / real run: use Ollama for query embeddings, same as ingest.
-            query_model = os.getenv("EMBED_MODEL", "all-minilm")
-            ef = OllamaEmbeddingFunction(url=ollama_url, model_name=query_model)
-            self.embedding_fn = ef
+        # ✅ Always get the existing collection as-is.
+        #    It already knows which embedding function was used at ingest.
+        self.collection = self.client.get_collection(name=collection_name)
 
-            # Attach embedding_function so Chroma can embed query_texts here
-            self.collection = self.client.get_collection(
-                name=collection_name,
-                embedding_function=ef,
-            )
-
-        # ---- Embedding-model mismatch guard (only outside CI) ----
+        # Use the embedding model recorded during ingest (set in scripts/ingest.py)
         stored = (self.collection.metadata or {}).get("embedding_model")
-        if not stored:
-            raise RuntimeError(
-                "Index is missing 'embedding_model' metadata. "
-                "Re-ingest your data and record EMBED_MODEL in collection.metadata."
-            )
-
-        if not in_ci and stored != query_model:
-            raise RuntimeError(
-                f"Embedding model mismatch: index was built with '{stored}', "
-                f"but queries are using '{query_model}'. Rebuild to match."
-            )
+        query_model = stored or "all-MiniLM-L6-v2"
+        self.embedding_fn = None  # we don't attach a new embedding_fn to Chroma
 
         # LlamaIndex vectors using existing Chroma collection
         self._vector_store = ChromaVectorStore(chroma_collection=self.collection)
         self._storage_context = StorageContext.from_defaults(vector_store=self._vector_store)
 
-        # Set an embedding model for LlamaIndex retrieval
-        embed_model_name = os.getenv("EMBED_MODEL", "all-minilm")  # match ingest default
-        LISettings.embed_model = OllamaEmbedding(model_name=embed_model_name, base_url=ollama_url)
+        # ✅ LlamaIndex embedding model that matches the stored vectors
+        from sentence_transformers import SentenceTransformer
+
+        class MiniLMEmbedding(BaseEmbedding):
+            """LlamaIndex embedding wrapper for all-MiniLM-L6-v2."""
+
+            @classmethod
+            def class_name(cls) -> str:
+                return "MiniLMEmbedding"
+
+            def __init__(self, model_name: str):
+                super().__init__(model_name=model_name)
+                self._model = SentenceTransformer(model_name)
+
+            def _get_text_embedding(self, text: str) -> List[float]:
+                return self._model.encode(text, convert_to_numpy=False).tolist()
+
+            async def _aget_text_embedding(self, text: str) -> List[float]:
+                return self._get_text_embedding(text)
+
+            def _get_text_embeddings(self, texts: List[str]) -> List[List[float]]:
+                return self._model.encode(texts, convert_to_numpy=False).tolist()
+
+            async def _aget_text_embeddings(self, texts: List[str]) -> List[List[float]]:
+                return self._get_text_embeddings(texts)
+
+            def _get_query_embedding(self, query: str) -> List[float]:
+                return self._get_text_embedding(query)
+
+            async def _aget_query_embedding(self, query: str) -> List[float]:
+                return self._aget_text_embedding(query)
+
+        # Use the same model name that was used during ingest
+        LISettings.embed_model = MiniLMEmbedding(model_name=query_model)
 
         # Build index from the existing vector store (no re-ingest)
         self._index = VectorStoreIndex.from_vector_store(
@@ -4119,6 +4126,6 @@ def get_rag_engine() -> SmartRAGEngine:
         _rag_engine = SmartRAGEngine(
             db_path=os.getenv('VECTOR_DB_PATH', './vector_db'),
             ollama_url=os.getenv('OLLAMA_URL', 'http://localhost:11434'),
-            model_name=os.getenv('LLM_MODEL', 'llama3.2')
+            model_name=os.getenv('LLM_MODEL', 'llama3.2:3b')
         )
     return _rag_engine

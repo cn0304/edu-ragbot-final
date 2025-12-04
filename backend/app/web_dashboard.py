@@ -66,6 +66,18 @@ def create_app() -> Any:
 
     app = FastAPI(title="RAG Monitoring Dashboard")
 
+    import traceback
+    from fastapi.responses import PlainTextResponse
+
+    @app.exception_handler(Exception)
+    async def global_exception_handler(request, exc):
+        tb = traceback.format_exc()
+        print("\n" + "=" * 80)
+        print("GLOBAL ERROR CAUGHT")
+        print(tb)
+        print("=" * 80 + "\n")
+        return PlainTextResponse(str(exc), status_code=500)
+
     # Import chatbot routes
     try:
         from .chatbot import router as chat_router

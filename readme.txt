@@ -10,10 +10,6 @@ Make sure Docker Desktop is installed and running.
 
 Build and start the server:
 docker compose up -d --build
-##Because i remove the vectordb when submit
-
-python scripts/ingest.py
-python scripts/update_metrics.py
 
 Open in browser:
 open http://127.0.0.1:8000

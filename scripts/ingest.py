@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 import re
+import time
 from pathlib import Path
 from typing import List, Dict, Tuple
 import chromadb
@@ -14,6 +15,7 @@ from chromadb.utils.embedding_functions import (
 if os.environ.get("GITHUB_ACTIONS") == "true":
     os.environ["CHROMA_DISABLE_OLLAMA"] = "1"
 # ------------------------------------------------
+
 class SmartDocumentProcessor:
 
     def __init__(self):
@@ -193,19 +195,8 @@ class SmartDataIngestion:
             settings=Settings(anonymized_telemetry=False, allow_reset=True)
         )
 
-        # -------------------------------
-        # Choose embedding function
-        # -------------------------------
-        if os.environ.get("GITHUB_ACTIONS") == "true":
-            # CI: no Ollama daemon -> use MiniLM
-            print("⚠️ CI detected → Using MiniLM instead of Ollama")
-            ef = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
-            embed_model = "all-MiniLM-L6-v2"
-        else:
-            # Local / lecturer machine: use Ollama embeddings
-            ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
-            embed_model = os.getenv("EMBED_MODEL", "nomic-embed-text")
-            ef = OllamaEmbeddingFunction(url=ollama_url, model_name=embed_model)
+        ef = SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
+        embed_model = "all-MiniLM-L6-v2"
 
         # delete old collection
         collection_name = os.getenv("CHROMA_COLLECTION", "university_docs")
@@ -282,6 +273,7 @@ class SmartDataIngestion:
                         metadatas=metadatas,
                         ids=ids
                     )
+                    time.sleep(0.1)
                     total_chunks += len(chunks)
 
         print(f"\n✅ Ingestion complete!")
