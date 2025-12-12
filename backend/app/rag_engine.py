@@ -793,14 +793,11 @@ class SmartRAGEngine:
 
         collection_name = os.getenv("CHROMA_COLLECTION", "university_docs")
 
-        # ✅ Always get the existing collection as-is.
-        #    It already knows which embedding function was used at ingest.
         self.collection = self.client.get_collection(name=collection_name)
 
-        # Use the embedding model recorded during ingest (set in scripts/ingest.py)
         stored = (self.collection.metadata or {}).get("embedding_model")
         query_model = stored or "all-MiniLM-L6-v2"
-        self.embedding_fn = None  # we don't attach a new embedding_fn to Chroma
+        self.embedding_fn = None
 
         # LlamaIndex vectors using existing Chroma collection
         self._vector_store = ChromaVectorStore(chroma_collection=self.collection)

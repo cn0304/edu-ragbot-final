@@ -14,5 +14,6 @@ services:
         - ./vector_db:/app/vector_db
         - ./data:/app/data
         - ./metrics:/app/metrics
+        - ./logs:/app/logs
     command: uvicorn backend.app.web_dashboard:app --host 0.0.0.0 --port 8000
     restart: unless-stopped
