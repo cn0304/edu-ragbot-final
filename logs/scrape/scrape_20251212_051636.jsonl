@@ -1,0 +1,15 @@
+{"type": "summary", "timestamp": "2025-12-12T05:16:36", "total_directories": 14, "success_count": 14, "skipped_count": 0, "failure_count": 0}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Advance Tertiary College", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Advance Tertiary College"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "INTI International College", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/INTI International College"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Management and Science University", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Management and Science University"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Methodist College Kuala Lumpur", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Methodist College Kuala Lumpur"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Penang International Dental College", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Penang International Dental College"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Penang Skills Development Centre", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Penang Skills Development Centre"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Peninsula College", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Peninsula College"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Royal College", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Royal College"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Sentral College", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Sentral College"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "The One Academy", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/The One Academy"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Tunku Abdul Rahman University", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Tunku Abdul Rahman University"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "UNITAR College", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/UNITAR College"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "University of Wollongong", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/University of Wollongong"}
+{"type": "detail", "timestamp": "2025-12-12T05:16:36", "directory": "Veritas College", "status": "success", "return_code": 0, "message": "SUCCESS: /app/data/Veritas College"}

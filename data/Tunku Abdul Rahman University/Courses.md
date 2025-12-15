@@ -1570,7 +1570,7 @@ https://foet.tarc.edu.my/programmes/bachelor-degree/bachelor-of-electronics-engi
 ### Fee
 
 Estimated Total Fees:
-(RM) 44,300 (Malaysian Students),
+(RM) 44,200 (Malaysian Students),
 (RM) 85,900 (International Students)
 *The estimated total fees may vary by 10%
 

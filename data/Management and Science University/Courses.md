@@ -10,25 +10,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -44,25 +44,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -78,25 +78,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -110,25 +110,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -142,25 +142,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -174,25 +174,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -208,25 +208,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -240,25 +240,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -272,25 +272,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -304,25 +304,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -336,25 +336,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -370,25 +370,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -402,25 +402,25 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---
 
@@ -434,24 +434,24 @@ https://www.msucollege.edu.my/branches/msu-college-penang.php
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Fee
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Duration
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ### Entry Requirements
 
 Detailed information (fees, duration, entry requirements and programme structure) is not listed separately for this programme on the MSU College Penang page.
 
-For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/ 
+For enquiries, please use the online form: https://www2.msu.edu.my/msuc-enquiry/msuc-penang/
 
 ---

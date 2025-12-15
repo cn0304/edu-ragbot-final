@@ -1,5 +1,56 @@
 # Diploma
 
+## diploma-in-business-management
+
+
+### URL
+
+https://www.unitar.my/programme/diploma-in-business-management/
+
+
+### Programme Structure
+
+- Bahasa Kebangsaan
+- Basic Academic Reading and Writing
+- Business Law
+- Business Mathematics
+- Business Negotiations
+- Business Statistics
+- Computers in Business
+- Consumer Behavior
+- Contemporary Business
+- Critical and Creative Thinking
+- Customer Relationship Management
+- Drama and Role Play in English
+- Effective Communication Skills/Principles of Moral & Ethics
+- E-Marketing
+- English for Specific Purposes
+- Essentials of Business Communication Skills
+- Event Management and Planning
+
+### Fee
+
+RM 22,500.00 Total Tuition Fee
+
+### Duration
+
+8 Semesters
+
+### Intakes
+
+result not found in online
+
+### Entry Requirements
+
+- Possesses SPM with at least credit in THREE subjects; OR
+- Possesses SKM Level 3 in the related field; OR
+- A Certificate (Level 3, MQF) in the related field with at least CGPA of 2.00; OR
+- A pass in Sijil Tinggi Pelajaran Malaysia (STPM) with at least Grade C (GP 2.0) in any subject; OR
+- A pass in Sijil Tinggi Agama Malaysia (STAM) with at least Grade Maqbul; OR
+- Other equivalent qualifications recognised by the Malaysian Government
+
+---
+
 ## diploma-in-computer-graphic-design
 
 
@@ -393,71 +444,6 @@ result not found in online
 - A pass in Sijil Tinggi Agama Malaysia (STAM) with at least Grade Maqbul; OR
 - Other relevant equivalent qualifications recognised by the Malaysian Government. AND
 - Pass an interview (online / virtual / conventional) OR submission of student’s portfolio, to be determined by the HEP as required.
-
----
-
-## diploma-in-tourism-management-college
-
-
-### URL
-
-https://www.unitar.my/programme/diploma-in-tourism-management-college/
-
-
-### Programme Structure
-
-- Bahasa Kebangsaan
-- Airlines, Fares & Ticketing
-- Basic Academic Reading & Writing
-- Concepts of Eco-Tourism
-- Concepts of Leisure & Recreation
-- Contemporary Issues in Tourism
-- Customer Service in Hospitality
-- Domestic Tourism
-- Effective Communication
-- Skills/Principles of Morals & Ethics
-- Essential Business Communication Skills
-- Event Management
-- Family Institution/The Precepts of Islam/ Creative & Problem Solving
-- Financial Accounting
-- Homestay Concepts
-- Hospitality & Tourism Marketing
-- Industrial Training
-- Introduction to Hospitality & Tourism
-- Meeting, Incentives, Conventions & Exhibitions
-- PC Competency
-- Pengajian Malaysia 2 (For Malaysian)/ Bahasa Melayu Komunikasi 2 (For International)
-- Principles of Management
-- Principles of Marketing
-- Principles of Tourism
-- Reading, Vocabulary & Grammar
-- Social & Human Skills Project
-- Tour Guiding
-- Tour Planning & Design
-- Tourism Geography
-- Transportation for Tourism
-- Travel & Hospitality Sales
-- Travel & Tour Operation
-
-### Fee
-
-RM 22,500.00 Total Tuition Fee
-
-### Duration
-
-8 Semesters
-
-### Intakes
-
-result not found in online
-
-### Entry Requirements
-
-- A pass in SPM with a minimum of three (3) credits in any subject, or its equivalent; OR
-- A pass in Sijil Tinggi Persekolahan Malaysia (STPM) with a minimum of Grade C (GP 2.00) in any subject, or its equivalent; OR
-- A pass in Sijil Tinggi Agama Malaysia (STAM) with a minimum grade of Maqbul in any subject, or its equivalent; OR
-- A pass in SKM level 3 in a related field; OR
-- A Certificate (Level 3, MQF) in a related field or its equivalent.
 
 ---
 
