@@ -1,0 +1,33 @@
+{
+  "timestamp": 1760332019,
+  "model": "llama3.2",
+  "per_query": [
+    {
+      "query": "How to apply INTI?",
+      "accuracy": 1.0,
+      "latency_sec": 99.19841470000392
+    },
+    {
+      "query": "Where is ATC campus located?",
+      "accuracy": 1.0,
+      "latency_sec": 47.169315500002995
+    },
+    {
+      "query": "List scholarships for UOW",
+      "accuracy": 1.0,
+      "latency_sec": 132.2402218999996
+    },
+    {
+      "query": "What is the MSU bachelor-information-technology-mobile-wireless fees?",
+      "accuracy": 1.0,
+      "latency_sec": 10.367150699996273
+    }
+  ],
+  "scalability": {
+    "concurrency": 8,
+    "avg_latency_sec": 53.30750918749982,
+    "p95_latency_sec": 60.66426700000011,
+    "min_latency_sec": 19.624221199999738,
+    "max_latency_sec": 100.15716090000205
+  }
+}
