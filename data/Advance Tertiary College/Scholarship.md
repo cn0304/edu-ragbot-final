@@ -18,7 +18,7 @@ https://www.atc2u.edu.my/scholarship/
 - Bachelor of Laws (UoL)
 - Bachelor of Laws (UKT)
 
-#### Year 1 Only
+**Year 1 Only**
 
 - 3 A's = RM8,000
 - 2 A's = RM5,000
@@ -30,7 +30,7 @@ https://www.atc2u.edu.my/scholarship/
 - Bachelor of Laws (UoL)
 - Bachelor of Laws (UKT)
 
-#### Year 1 Only
+**Year 1 Only**
 
 - CGPA ≥ 3.5 = RM8,000
 - CGPA ≥ 3.3 = RM5,000
@@ -43,7 +43,7 @@ https://www.atc2u.edu.my/scholarship/
 - Bachelor of Laws (UoL)
 - Bachelor of Laws (UKT)
 
-#### Year 1 Only
+**Year 1 Only**
 
 - 7 A's = RM8,000
 - 6 A's = RM5,000
@@ -56,7 +56,7 @@ https://www.atc2u.edu.my/scholarship/
 - Bachelor of Laws (UoL)
 - Bachelor of Laws (UKT)
 
-#### Year 1 Only
+**Year 1 Only**
 
 - CGPA ≥ 3.8 = RM8,000
 - Sports Achievement Scholarship, 50% at State Level & 100% at National Representation Scholarship on tuition fee
@@ -67,7 +67,7 @@ https://www.atc2u.edu.my/scholarship/
 - Bachelor of Laws (UoL)
 - Bachelor of Laws (UKT)
 
-#### Year 1 Only
+**Year 1 Only**
 
 - ≥ 90% = RM8,000
 - Sports Achievement Scholarship, 50% at State Level & 100% at National Representation Scholarship on tuition fee
@@ -78,7 +78,7 @@ https://www.atc2u.edu.my/scholarship/
 - Bachelor of Laws (UoL)
 - Bachelor of Laws (UKT)
 
-#### Year 1 Only
+**Year 1 Only**
 
 - ≥ 35 = RM8,000
 - Sports Achievement Scholarship, 50% at State Level & 100% at National Representation Scholarship on tuition fee

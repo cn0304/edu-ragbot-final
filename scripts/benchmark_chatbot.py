@@ -48,8 +48,11 @@ def check_accuracy(rag: SmartRAGEngine, q: str, expect: Dict[str, Any]) -> bool:
         if info.get(k) != v:
             ok = False
             break
+
     # light retrieval check: ensure at least one source returned
-    srcs = rag.get_sources()
+    uni = expect.get("university")
+    srcs = rag.get_sources(q, university_filter=uni)
+
     return ok and len(srcs) > 0
 
 
@@ -109,7 +112,7 @@ def main() -> None:
     }
 
     root = os.path.dirname(os.path.dirname(__file__))
-    out = os.path.join(root, 'metrics', f'benchmark_{BACKEND}.json')
+    out = os.path.join(root, 'metrics', f'benchmark.json')
     os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2)

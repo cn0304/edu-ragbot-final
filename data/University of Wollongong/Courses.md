@@ -1771,7 +1771,7 @@ Local students RM64,030 | International students RM78,950
 
 ---
 
-## bachelor-of-computer-science-hons-3
+## bachelor-of-computer-science-hons
 
 ### URL
 

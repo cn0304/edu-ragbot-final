@@ -396,11 +396,20 @@ def extract_course_info(url):
         traceback.print_exc()
         return None
 
+def normalize_program_slug(program_slug: str) -> str:
+    m = re.match(r'^(.*-hons)-\d+$', program_slug, re.IGNORECASE)
+    if m:
+        # Keep the part up to '-hons', drop the final '-<digit>'
+        return m.group(1)
+    return program_slug
 
 def get_program_type_and_name(url):
     """Extract program type and name from URL."""
     path = urlparse(url).path
     program_slug = path.rstrip('/').split('/')[-1]
+
+    # NEW: normalise slug so that '-hons-3' style suffixes are cleaned
+    program_slug = normalize_program_slug(program_slug)
 
     slug_lower = program_slug.lower()
 

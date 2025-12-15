@@ -10,6 +10,8 @@ services:
     environment:
       - VECTOR_DB_PATH=/app/vector_db
       - USE_RERANKER=0
+      - OLLAMA_URL=http://host.docker.internal:11434
+      - LLM_MODEL=llama3.2:3b
     volumes:
         - ./vector_db:/app/vector_db
         - ./data:/app/data

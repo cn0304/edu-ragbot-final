@@ -845,6 +845,10 @@ class SmartRAGEngine:
         )
 
         # Ollama settings
+        env_ollama = os.getenv("OLLAMA_URL")
+        if env_ollama:
+            ollama_url = env_ollama
+
         self.ollama_url = ollama_url
         self.model_name = model_name
 
@@ -1006,6 +1010,36 @@ class SmartRAGEngine:
         prog = title or None
         uni_disp = _canonical_uni_display(uni_short) if uni_short else None
         return prog, uni_short, uni_disp
+
+    def _build_simple_doc_body(self, context_chunks: List[Dict]) -> str:
+
+        parts: List[str] = []
+        for ch in context_chunks or []:
+            meta = ch.get("metadata") or {}
+            txt = ch.get("content") or ch.get("text") or ch.get("document") or ""
+
+            # For these simple docs we don't want raw '### URL' sections in the answer
+            if (meta.get("document_type") in ("how_to_apply", "scholarship", "campus")):
+                txt = _strip_heading_url_blocks(txt)
+
+            txt = (txt or "").strip()
+            if not txt:
+                continue
+
+            # Optional: tiny header per uni/doc when mixing multiple
+            uni = meta.get("university_short")
+            doc = meta.get("document_type")
+            header_bits = []
+            if uni:
+                header_bits.append(_canonical_uni_display(uni))
+            if doc:
+                header_bits.append(doc.replace("_", " ").title())
+            if header_bits:
+                parts.append("**" + " — ".join(header_bits) + "**")
+
+            parts.append(txt)
+
+        return "\n\n".join(p for p in parts if p).strip()
 
     def _build_title(
         self,
@@ -2774,6 +2808,41 @@ class SmartRAGEngine:
             except Exception:
                 return {'documents': [], 'metadatas': []}
 
+        # NEW: helper to recover a good URL for a given course
+        def _salvage_url_for_course(uni_short: str, course_id: Optional[str]) -> Optional[str]:
+            if not uni_short or not course_id:
+                return None
+            try:
+                where_clause = {
+                    "$and": [
+                        {"document_type": "courses"},
+                        {"course_id": course_id},
+                        {"university_short": uni_short},
+                    ]
+                }
+                it = self.collection.get(where=where_clause, include=["documents", "metadatas"])
+                docs_s = it.get("documents") or []
+                metas_s = it.get("metadatas") or []
+
+                chunks = [
+                    {"content": d, "metadata": (m or {})}
+                    for d, m in zip(docs_s, metas_s)
+                    if d
+                ]
+
+                query_info_small = {
+                    "doc_type": "courses",
+                    "course_id_filter": course_id,
+                    "university": uni_short,
+                }
+
+                urls = _best_course_urls_from_chunks(chunks, query_info_small, limit=1)
+                if urls:
+                    return urls[0].get("url")
+            except Exception:
+                pass
+            return None
+
         # Normalise course_type to a level and collect synonyms if available
         type_syns = None
         if course_type:
@@ -2827,12 +2896,11 @@ class SmartRAGEngine:
             if not self._program_gate(title, program_query, min_score=0.55):
                 continue
 
-            # ✅ Extract fees BEFORE using them
+            # Extract fees BEFORE using them
             fees = _extract_fees_from_text(d)
             local_fee = fees.get('local')
 
             if local_fee is None:
-                # no usable fee at all → skip
                 continue
 
             block_low = (d or "").lower()
@@ -2873,7 +2941,6 @@ class SmartRAGEngine:
 
         # ----- PASS 2 (SALVAGE): if we still have few matches, search any chunk of matching courses for RM -----
         if len(per_uni) < 3:
-            # Salvage pass: drop course_type from the DB filter and enforce level in Python.
             salvage_where = {'$and': [{'document_type': 'courses'}]}
             if uni_whitelist:
                 salvage_where['$and'].append(
@@ -2898,11 +2965,10 @@ class SmartRAGEngine:
                 if not self._program_gate(title, program_query, min_score=0.52):
                     continue
 
-                # If a level (course_type) was requested, enforce it using metadata + title.
+                # If a level (course_type) was requested, enforce it
                 if course_type:
                     meta_ct = m.get('course_type')
                     if meta_ct and not self._course_type_matches(meta_ct, course_type):
-                        # Metadata clearly says it's a different level
                         continue
 
                     inferred_level = self._infer_course_type_from_title(title)
@@ -2952,6 +3018,14 @@ class SmartRAGEngine:
         if not per_uni:
             return ("I couldn't find fee data for that program.", [])
 
+        # NEW: try to guarantee URLs for all entries
+        for v in per_uni.values():
+            if v.get("url"):
+                continue
+            recovered = _salvage_url_for_course(v["uni"], v.get("course_id"))
+            if recovered:
+                v["url"] = recovered
+
         # Build Top 3 (LOCAL only)
         top3 = sorted(per_uni.values(), key=lambda x: x['local'])[:3]
 
@@ -2966,16 +3040,18 @@ class SmartRAGEngine:
         lines.append("")
         text = "\n".join(lines).strip()
 
-        # Sources for the UI
-        sources = []
+        # Sources for the UI – same shape as other course answers
+        sources: List[Dict] = []
         for v in per_uni.values():
-            sources.append({
-                "university": v['uni'],
-                "document": "courses",
-                "course": v.get("course_id"),
-                "section": "Fees",
-                "url": v.get("url")
-            })
+            sources.append(
+                {
+                    "university": v["uni"],
+                    "document": "courses",
+                    "course": v.get("course_id"),
+                    "section": "Fees",
+                    "url": v.get("url"),
+                }
+            )
 
         return text, sources
 
@@ -3621,19 +3697,35 @@ class SmartRAGEngine:
             # Stitch everything and remove just the "### URL" section
             stitched = self._stitch_markdown(context_chunks)
             stitched = _strip_heading_url_blocks(stitched)
+
+            # if not stitched:
+            #     for out in self._emit_via_llm(
+            #             f"No {simple_doc.replace('_', ' ')} information found for {uni_short}.",
+            #                                   stream):
+            #         yield out
+            #     _summ(f"{simple_doc}_empty")
+            #     return
+            #
+            # title = self._build_title(query_info, context_chunks)
+            # for out in self._echo_via_llm_segmented(stitched, title=title, stream=True):
+            #     yield out
+            # _summ(f"ok_{simple_doc}_echo")
+            # return
+
             if not stitched:
-                for out in self._emit_via_llm(
-                        f"No {simple_doc.replace('_', ' ')} information found for {uni_short}.",
-                                              stream):
-                    yield out
+                # No content found -> simple fallback, still without LLM
+                title = self._build_title(query_info)
+                msg = f"No {simple_doc.replace('_', ' ')} information found for {uni_short}."
+                yield f"# {title}\n\n{msg}"
                 _summ(f"{simple_doc}_empty")
                 return
 
+                # 4) Direct echo (no LLM involved) so it is as fast as programme structure
             title = self._build_title(query_info, context_chunks)
-            for out in self._echo_via_llm_segmented(stitched, title=title, stream=True):
-                yield out
+            yield f"# {title}\n\n{stitched}"
             _summ(f"ok_{simple_doc}_echo")
             return
+
 
         # Fallback to normal retrieval for everything else
         n_results = 12 if is_structure_q else (
@@ -3896,6 +3988,7 @@ class SmartRAGEngine:
                 yield out
 
             return
+
 
         prompt = self.build_prompt(query, context_chunks, query_info)
 
